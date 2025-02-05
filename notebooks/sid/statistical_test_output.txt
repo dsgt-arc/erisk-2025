@@ -1,0 +1,35 @@
+
+post_frequency:
+T-statistic: 2.5895
+P-value: 0.0097
+Statistically significant difference: Yes
+
+late_night_posts:
+T-statistic: 1.6488
+P-value: 0.0993
+Statistically significant difference: No
+
+ling_first_person_count:
+T-statistic: -9.1559
+P-value: 0.0000
+Statistically significant difference: Yes
+
+ling_negative_emotion_count:
+T-statistic: -9.5875
+P-value: 0.0000
+Statistically significant difference: Yes
+
+ling_absolutist_count:
+T-statistic: -5.5614
+P-value: 0.0000
+Statistically significant difference: Yes
+
+ling_self_harm_count:
+T-statistic: -4.3613
+P-value: 0.0000
+Statistically significant difference: Yes
+
+ling_drug_count:
+T-statistic: -3.9030
+P-value: 0.0001
+Statistically significant difference: Yes
