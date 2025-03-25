@@ -1,5 +1,6 @@
 import pandas as pd
 import pyarrow.parquet as pq
+import pyarrow as pa
 import glob
 import os
 import re
@@ -44,7 +45,10 @@ class ParquetPipeline:
 
         print(f"Found {len(all_files)} TREC files to process...")
         saved = 0
-        for file_path in all_files:
+
+        for file_path in tqdm(
+            all_files, desc="Converting .trec → .parquet", unit="file"
+        ):
             try:
                 with open(file_path, "r", encoding="utf8") as f:
                     xml = f.read()
@@ -59,7 +63,6 @@ class ParquetPipeline:
                         self.intermediate_dir, f"{filename}.parquet"
                     )
                     df.to_parquet(output_path, index=False)
-                    print(f"✓ Saved: {output_path}")
                     saved += 1
             except Exception as e:
                 print(f"✗ Error processing {file_path}: {e}")
@@ -72,17 +75,28 @@ class ParquetPipeline:
             print("No Parquet files found for merging.")
             return False
 
-        df_list = []
+        writer = None
         for file in tqdm(parquet_files, desc="Merging", unit="file"):
-            df = pd.read_parquet(file)
-            for col in df.select_dtypes(include=["object"]).columns:
-                df[col] = df[col].astype("category")
-            df_list.append(df)
+            try:
+                df = pd.read_parquet(file)
+                for col in df.select_dtypes(include=["object"]).columns:
+                    df[col] = df[col].astype("category")
+                table = pa.Table.from_pandas(df)
+                if writer is None:
+                    writer = pq.ParquetWriter(
+                        self.merged_file, table.schema, compression="snappy"
+                    )
+                writer.write_table(table)
+            except Exception as e:
+                print(f"✗ Error processing {file}: {e}")
 
-        merged_df = pd.concat(df_list, ignore_index=True)
-        merged_df.to_parquet(self.merged_file, index=False, compression="snappy")
-        print(f"✓ Merged file saved: {self.merged_file}")
-        return True
+        if writer:
+            writer.close()
+            print(f"✓ Merged file saved: {self.merged_file}")
+            return True
+        else:
+            print("Merge failed: No valid data written.")
+            return False
 
     def split_parquet_file(self):
         print(f"Splitting merged Parquet: {self.merged_file}")
