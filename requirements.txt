@@ -1,5 +1,6 @@
 numpy
 pandas
+nltk
 matplotlib
 scikit-learn
 tqdm
@@ -13,3 +14,4 @@ jupyterlab
 ruff
 pre-commit
 pytest
+ipykernel

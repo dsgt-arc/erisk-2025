@@ -151,6 +151,7 @@ if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.abspath(os.path.join(script_dir, "..", "..", ".."))
     data_root = os.path.abspath(os.path.join(project_root, "..", "..", "erisk_shared"))
+
     year = "2024"
 
     # Uncomment to debug
@@ -158,17 +159,30 @@ if __name__ == "__main__":
     # print(project_root,"\n")
     # print(data_root)
 
+    # pipeline = ParquetPipeline(
+    #     trec_input_dir=os.path.join(
+    #         data_root, "raw", "training_data", year, "new_data"
+    #     ),
+    #     intermediate_dir=os.path.join(data_root, "parquet", "training_data", year),
+    #     merged_file=os.path.join(
+    #         data_root, "parquet", "training_data", year, f"merged_output_{year}.parquet"
+    #     ),
+    #     final_output_dir=os.path.join(
+    #         data_root, "parquet", "training_data", year, "partitions"
+    #     ),
+    #     partition_size_mb=256,
+    # )
+
+    # For testing data
+    trec_input_dir = os.path.join(data_root, "raw", "erisk25-t1-dataset")
+    output_base = os.path.join(data_root, "parquet", "testing")
+
     pipeline = ParquetPipeline(
-        trec_input_dir=os.path.join(
-            data_root, "raw", "training_data", year, "new_data"
-        ),
-        intermediate_dir=os.path.join(data_root, "parquet", "training_data", year),
-        merged_file=os.path.join(
-            data_root, "parquet", "training_data", year, f"merged_output_{year}.parquet"
-        ),
-        final_output_dir=os.path.join(
-            data_root, "parquet", "training_data", year, "partitions"
-        ),
+        trec_input_dir=trec_input_dir,
+        intermediate_dir=output_base,
+        merged_file=os.path.join(output_base, "merged_output_testing.parquet"),
+        final_output_dir=os.path.join(output_base, "partitions"),
         partition_size_mb=256,
     )
+
     pipeline.run_all()
