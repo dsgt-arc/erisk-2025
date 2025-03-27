@@ -1,6 +1,7 @@
 numpy
 pandas
 nltk
+spacy
 matplotlib
 scikit-learn
 tqdm
