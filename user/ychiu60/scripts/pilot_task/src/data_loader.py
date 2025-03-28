@@ -11,22 +11,76 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 from typing import List, Optional
 
-def load_and_process_data(file_path: str, 
-                          chunk_size: int = 1000, 
-                          chunk_overlap: int = 200) -> List[Document]:
+import os
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, udf
+from pyspark.sql.types import StringType, ArrayType
+from langchain_core.documents import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from typing import List, Optional
+
+def load_and_process_data_spark(file_path: str, 
+                              chunk_size: int = 1000, 
+                              chunk_overlap: int = 200,
+                              spark: SparkSession = None) -> List[Document]:
     """
-    Load data from MentalChat16K CSV file, convert to documents and split into chunks.
+    Load data from MentalChat16K CSV file using PySpark, convert to documents and split into chunks.
     
     Args:
         file_path: Path to the CSV file
         chunk_size: Size of document chunks
         chunk_overlap: Overlap between chunks
+        spark: SparkSession object
         
     Returns:
         List of document chunks ready for embedding
     """
-    # Load raw documents
-    raw_documents = load_csv_documents(file_path)
+    # Create SparkSession if not provided
+    if not spark:
+        from src.utils import create_spark_session
+        spark = create_spark_session()
+    
+    # Load CSV data into a DataFrame
+    df = spark.read.csv(file_path, header=True, inferSchema=True)
+    
+    # Ensure required columns exist
+    if "input" in df.columns and "output" in df.columns:
+        # Create document text by combining input and output
+        df = df.withColumn("content", 
+                         spark.sql.functions.concat(
+                             spark.sql.functions.lit("Input: "), 
+                             col("input"), 
+                             spark.sql.functions.lit("\nOutput: "), 
+                             col("output")
+                         ))
+        
+        # Define UDF to create Document objects
+        @udf(returnType=StringType())
+        def create_document_content(content, depression_indicators=None, severity=None):
+            return content
+        
+        # Apply UDF
+        df = df.withColumn("document_content", 
+                         create_document_content(col("content"), 
+                                              col("depression_indicators") if "depression_indicators" in df.columns else None,
+                                              col("severity") if "severity" in df.columns else None))
+        
+        # Collect results
+        rows = df.select("document_content", "depression_indicators", "severity").collect()
+        
+        # Convert to Document objects
+        raw_documents = []
+        for row in rows:
+            metadata = {}
+            if hasattr(row, "depression_indicators") and row.depression_indicators:
+                metadata['depression_indicators'] = row.depression_indicators
+            if hasattr(row, "severity") and row.severity:
+                metadata['severity'] = row.severity
+                
+            raw_documents.append(Document(page_content=row.document_content, metadata=metadata))
+    else:
+        print("Error: CSV file must contain 'input' and 'output' columns.")
+        raw_documents = []
     
     # Define text splitting configuration
     text_splitter = RecursiveCharacterTextSplitter(
@@ -39,6 +93,7 @@ def load_and_process_data(file_path: str,
     splits = text_splitter.split_documents(raw_documents)
     
     return splits
+
 
 def load_csv_documents(file_path: str) -> List[Document]:
     """
@@ -106,45 +161,3 @@ def load_document_from_file(file_path: str) -> Optional[List[Document]]:
         print(f"Error loading document {file_path}: {str(e)}")
         return None
 
-# import pandas as pd
-# from langchain_community.document_loaders import DataFrameLoader
-
-# # # Load the synthetic dataset
-# # df = pd.read_csv('data/MentalChat16K/Synthetic_Data_10K.csv')
-
-# import pandas as pd
-# from langchain_text_splitters import RecursiveCharacterTextSplitter
-# from langchain_core.documents import Document
-# from typing import List
-
-# # Define text splitting configuration
-# text_splitter = RecursiveCharacterTextSplitter(
-#     chunk_size=1000,
-#     chunk_overlap=200,
-#     length_function=len
-# )
-
-# # Load CSV file and extract relevant columns
-# def load_csv_documents(file_path: str) -> List[Document]:
-#     documents = []
-#     df = pd.read_csv(file_path)  # Load CSV into DataFrame
-    
-#     # Ensure required columns exist
-#     if 'input' in df.columns and 'output' in df.columns:
-#         for _, row in df.iterrows():
-#             content = f"Input: {row['input']}\nOutput: {row['output']}"
-#             documents.append(Document(page_content=content))
-#     else:
-#         print("Error: CSV file must contain 'input' and 'output' columns.")
-    
-#     return documents
-
-# # File path
-# file_path = "data/MentalChat16K/Synthetic_Data_10K.csv"
-# documents = load_csv_documents(file_path)
-
-# print(f"Loaded {len(documents)} documents.")
-
-# # Split documents into chunks
-# splits = text_splitter.split_documents(documents)
-# print(f"Split the documents into {len(splits)} chunks.")
