@@ -3,24 +3,6 @@ import re
 from datetime import datetime
 from typing import Dict, Any, List
 
-from pyspark.sql import SparkSession
-
-def create_spark_session(app_name="Depression_Detection"):
-    """
-    Create and return a SparkSession.
-    
-    Args:
-        app_name: Name of the Spark application
-        
-    Returns:
-        SparkSession object
-    """
-    return SparkSession.builder \
-        .appName(app_name) \
-        .config("spark.driver.memory", "4g") \
-        .config("spark.executor.memory", "4g") \
-        .getOrCreate()
-
 def clear_screen():
     """Clear the terminal screen."""
     os.system('cls' if os.name == 'nt' else 'clear')

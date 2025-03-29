@@ -1,16 +1,13 @@
 import os
 import argparse
-# from src.data_loader import load_and_process_data
-from src.data_loader import load_and_process_data_spark
-# from src.vector_store import setup_vector_store
-from src.vector_store import setup_vector_store_spark
+from src.data_loader import load_and_process_data
+from src.vector_store import setup_vector_store
 from src.rag_chain import create_rag_chain
 from src.session_manager import UserSessionManager
 from src.depression_detector import DepressionDetector
 
 # API_KEY = os.getenv("OPENAI_API_KEY")
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE" 
-
 
 def main():
     parser = argparse.ArgumentParser(description='Depression Detection Chatbot')
@@ -20,35 +17,18 @@ def main():
                       help='Path to the MentalChat16K dataset')
     parser.add_argument('--vector_db_path', type=str, default='./chroma_db',
                       help='Path to store the vector database')
-    parser.add_argument('--use_spark', action='store_true',
-                      help='Use PySpark for data processing')
     
     args = parser.parse_args()
     
-    # Initialize Spark if needed
-    if args.use_spark:
-        from src.utils import create_spark_session
-        spark = create_spark_session()
-    else:
-        spark = None
-    
     # Load and process data
-    if args.use_spark:
-        from src.data_loader import load_and_process_data_spark
-        documents = load_and_process_data_spark(args.data_path, spark=spark)
-    else:
-        from src.data_loader import load_and_process_data
-        documents = load_and_process_data(args.data_path)
+    from src.data_loader import load_and_process_data
+    documents = load_and_process_data(args.data_path)
     
     print(f"Loaded and processed {len(documents)} documents")
     
     # Setup vector store
-    if args.use_spark:
-        from src.vector_store import setup_vector_store_spark
-        vectorstore = setup_vector_store_spark(spark, documents, persist_directory=args.vector_db_path)
-    else:
-        from src.vector_store import setup_vector_store
-        vectorstore = setup_vector_store(documents, persist_directory=args.vector_db_path)
+    from src.vector_store import setup_vector_store
+    vectorstore = setup_vector_store(documents, persist_directory=args.vector_db_path)
     
     print(f"Vector store setup complete at {args.vector_db_path}")
     

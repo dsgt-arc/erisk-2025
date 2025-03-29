@@ -13,3 +13,4 @@ docx2txt>=0.8
 pypdf>=3.17.0
 python-multipart>=0.0.7
 plotly>=5.15.0
+langchain-huggingface

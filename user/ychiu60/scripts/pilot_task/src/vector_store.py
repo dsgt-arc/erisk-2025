@@ -1,20 +1,17 @@
 from langchain_openai import OpenAIEmbeddings
-# from langchain_community.vectorstores import Chroma
-# from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from typing import List, Optional
-import os 
+import os
 
-def setup_vector_store_spark(spark, documents: List[Document], 
-                           persist_directory: str = "./chroma_db",
-                           embedding_model: str = "all-MiniLM-L6-v2") -> Chroma:
+def setup_vector_store(documents: List[Document], 
+                     persist_directory: str = "./chroma_db",
+                     embedding_model: str = "all-MiniLM-L6-v2") -> Chroma:
     """
-    Set up a Chroma vector store with the provided documents using PySpark.
+    Set up a Chroma vector store with the provided documents.
     
     Args:
-        spark: SparkSession object
         documents: List of documents to store
         persist_directory: Directory to persist the vector store
         embedding_model: HuggingFaceEmbeddings embedding model to use
@@ -23,7 +20,7 @@ def setup_vector_store_spark(spark, documents: List[Document],
         Chroma vector store
     """
     # Initialize embeddings
-    embeddings = HuggingFaceEmbeddings(model=embedding_model)
+    embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
     
     # Check if vector store already exists
     if os.path.exists(persist_directory) and len(os.listdir(persist_directory)) > 0:
@@ -35,19 +32,7 @@ def setup_vector_store_spark(spark, documents: List[Document],
         
         # Add new documents if provided
         if documents:
-            # Convert Documents to DataFrame for parallel processing
-            doc_data = [(doc.page_content, str(doc.metadata)) for doc in documents]
-            doc_df = spark.createDataFrame(doc_data, ["content", "metadata"])
-            
-            # Process in parallel
-            # (Note: This is a simplified example - actual implementation would need 
-            # more work to handle the embedding process properly in Spark)
-            doc_df.foreachPartition(lambda partition: 
-                vectorstore.add_documents([Document(page_content=row.content, 
-                                                 metadata=eval(row.metadata)) 
-                                        for row in partition])
-            )
-            
+            vectorstore.add_documents(documents)
             vectorstore.persist()
     else:
         # Create new vector store if it doesn't exist
@@ -58,7 +43,6 @@ def setup_vector_store_spark(spark, documents: List[Document],
         )
     
     return vectorstore
- 
 
 def add_document_to_vectorstore(vectorstore: Chroma, 
                               document: List[Document], 
