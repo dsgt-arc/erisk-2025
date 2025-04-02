@@ -1,8 +1,14 @@
-import pandas as pd
+import os
+from typing import List, Optional
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
-from typing import List, Optional
-import os
+import pandas as pd
+from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, TextLoader
+import logging
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def load_and_process_data(file_path: str, 
                         chunk_size: int = 1000, 
@@ -20,7 +26,7 @@ def load_and_process_data(file_path: str,
     """
     # Load documents from CSV
     raw_documents = load_csv_documents(file_path)
-    print(f"Loaded {len(raw_documents)} documents from CSV")
+    logger.info(f"Loaded {len(raw_documents)} documents from CSV")
     
     # Define text splitting configuration
     text_splitter = RecursiveCharacterTextSplitter(
@@ -31,7 +37,7 @@ def load_and_process_data(file_path: str,
     
     # Split documents into chunks
     splits = text_splitter.split_documents(raw_documents)
-    print(f"Split into {len(splits)} chunks")
+    logger.info(f"Split into {len(splits)} chunks")
     
     return splits
 
@@ -62,7 +68,7 @@ def load_csv_documents(file_path: str) -> List[Document]:
                 
             documents.append(Document(page_content=content, metadata=metadata))
     else:
-        print("Error: CSV file must contain 'input' and 'output' columns.")
+        logger.error("Error: CSV file must contain 'input' and 'output' columns.")
     
     return documents
 
@@ -77,7 +83,6 @@ def load_document_from_file(file_path: str) -> Optional[List[Document]]:
         List of Document objects or None if loading fails
     """
     import os
-    from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, TextLoader
     
     try:
         # Get file extension
@@ -92,11 +97,11 @@ def load_document_from_file(file_path: str) -> Optional[List[Document]]:
         elif ext in ['.txt', '.md']:
             loader = TextLoader(file_path)
         else:
-            print(f"Unsupported file format: {ext}")
+            logger.error(f"Unsupported file format: {ext}")
             return None
             
         # Load document
         return loader.load()
     except Exception as e:
-        print(f"Error loading document {file_path}: {str(e)}")
+        logger.error(f"Error loading document {file_path}: {str(e)}")
         return None

@@ -1,16 +1,38 @@
+# Core dependencies
+pandas>=2.0.0
+streamlit>=1.29.0
+plotly>=5.15.0
+
+# LangChain and NLP
 langchain>=0.1.0
-langchain-openai>=0.0.2
 langchain-core>=0.1.0
-langchain-community>=0.0.10
 langchain-text-splitters>=0.0.1
-langchain-chroma>=0.0.1
+langchain-chroma>=0.0.3
+langchain-huggingface>=0.0.7
+langchain-community>=0.0.10  # Required for document loaders
 sentence-transformers>=2.2.2
+
+# Storage and embeddings
+chromadb>=0.4.22
+torch>=2.0.0
+transformers>=4.37.0
+
+# Web frameworks
 fastapi>=0.110.0
 uvicorn>=0.24.0
-streamlit>=1.29.0
-pandas>=2.0.0
-docx2txt>=0.8
-pypdf>=3.17.0
-python-multipart>=0.0.7
-plotly>=5.15.0
-langchain-huggingface
+
+# ML and data processing
+tensorflow-cpu>=2.15.0
+scikit-learn>=1.3.0
+tf-keras>=2.15.0
+
+# Colab and GPU support
+pyngrok>=7.0.0
+numpy>=1.24.0
+
+# Utils
+pyyaml>=6.0
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+tenacity>=8.0.0
+dataclasses-json>=0.5.0

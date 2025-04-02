@@ -1,7 +1,12 @@
 import os
 import re
 from datetime import datetime
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Protocol
+
+ASSESSMENT_PATTERN = r'<assessment>(.*?)</assessment>'
+INDICATORS_PATTERN = r'Depression indicators:\s*\[(.*?)\]'
+SEVERITY_PATTERN = r'Severity estimate:\s*(\w+)'
+RECOMMENDATION_PATTERN = r'Recommended action:\s*(.*?)(?:\n|$)'
 
 def clear_screen():
     """Clear the terminal screen."""
@@ -16,9 +21,15 @@ def extract_assessment(response: str) -> Dict[str, Any]:
         
     Returns:
         Dictionary with assessment details
+        
+    Raises:
+        ValueError: If response is empty or None
     """
+    if not response:
+        raise ValueError("Response text cannot be empty")
+    
     # Extract assessment section
-    assessment_pattern = r'<assessment>(.*?)</assessment>'
+    assessment_pattern = ASSESSMENT_PATTERN
     assessment_match = re.search(assessment_pattern, response, re.DOTALL)
     
     if not assessment_match:
@@ -27,19 +38,19 @@ def extract_assessment(response: str) -> Dict[str, Any]:
     assessment_text = assessment_match.group(1).strip()
     
     # Extract indicators
-    indicators_pattern = r'Depression indicators:\s*\[(.*?)\]'
+    indicators_pattern = INDICATORS_PATTERN
     indicators_match = re.search(indicators_pattern, assessment_text, re.DOTALL)
     indicators = []
     if indicators_match:
         indicators = [i.strip() for i in indicators_match.group(1).split(',') if i.strip()]
     
     # Extract severity
-    severity_pattern = r'Severity estimate:\s*(\w+)'
+    severity_pattern = SEVERITY_PATTERN
     severity_match = re.search(severity_pattern, assessment_text, re.DOTALL)
     severity = severity_match.group(1).strip() if severity_match else "unknown"
     
     # Extract recommendation
-    recommendation_pattern = r'Recommended action:\s*(.*?)(?:\n|$)'
+    recommendation_pattern = RECOMMENDATION_PATTERN
     recommendation_match = re.search(recommendation_pattern, assessment_text, re.DOTALL)
     recommendation = recommendation_match.group(1).strip() if recommendation_match else ""
     
@@ -50,7 +61,11 @@ def extract_assessment(response: str) -> Dict[str, Any]:
         "timestamp": datetime.now().isoformat()
     }
 
-def format_chat_history(messages: List) -> str:
+class Message(Protocol):
+    type: str
+    content: str
+
+def format_chat_history(messages: List[Message]) -> str:
     """
     Format chat history for display.
     
