@@ -12,7 +12,7 @@ Hi there, how have things been going for you lately?
 
 ### Reasoning
 
-Initiating the conversation with a broad, open-ended question to establish rapport and allow the persona to share what's on their mind. This marks the beginning of the 'Initializing' phase.
+Initiating the conversation with an open-ended, rapport-building question as per protocol. This allows the persona to share whatever is top-of-mind and sets a friendly tone for the interaction. The assessment state is 'Initializing'.
 
 ### BDI Scores
 
@@ -26,7 +26,7 @@ Initiating the conversation with a broad, open-ended question to establish rappo
 | q06_punishment | 0 | No evidence yet. |
 | q07_self_dislike | 0 | No evidence yet. |
 | q08_self_criticalness | 0 | No evidence yet. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
 | q11_agitation | 0 | No evidence yet. |
 | q12_loss_of_interest_social | 0 | No evidence yet. |
@@ -36,9 +36,9 @@ Initiating the conversation with a broad, open-ended question to establish rappo
 | q16_sleep_changes | 0 | No evidence yet. |
 | q17_fatigue | 0 | No evidence yet. |
 | q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q19_weight_loss | 0 | No evidence yet. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | No evidence yet. Sensitive topic, will only assess if spontaneously mentioned. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -50,7 +50,7 @@ Initiating the conversation with a broad, open-ended question to establish rappo
 | Assessment Complete | False |
 | Total BDI Score | 0 |
 | Classification | Uncertain |
-| Confidence | 0.1 |
+| Confidence | 0.0 |
 | Key Symptoms |  |
 
 
@@ -60,45 +60,43 @@ Initiating the conversation with a broad, open-ended question to establish rappo
 
 ### Simulator
 
-Hey! Honestly, things have been mostly okay. I've been keeping up with work and stuff around the house, so that feels good. But… I don’t know, every now and then I catch myself wondering if I’m really doing enough, you know? Like, I’m checking the boxes, but there’s this little voice that’s like, “Shouldn’t you be doing more?”
+Hey! Things have been... alright, I guess? Not bad, just kind of in that weird middle space where everything is technically fine, but I still feel like I could be doing better, you know? I've been keeping up with work and all that, but sometimes I catch myself wondering if I’m falling behind compared to other people. Probably overthinking it, though.
 
-Nothing major—probably just overthinking like usual. How about you? What’s been on your mind lately?
+How about you? How’s life treating you lately?
 
 ### Evaluator
 
-Hey, thanks for sharing that. It sounds like you're managing a lot, keeping up with work and home is definitely something to feel good about. That little voice questioning if we're doing enough – I think a lot of people can relate to that feeling sometimes. It can be persistent, can't it? When you have those thoughts, what does 'doing more' or 'doing enough' usually look like in your mind? 
-
-And thanks for asking about me! Things are pretty steady here, just focusing on processing these conversations thoughtfully. I appreciate you asking.
+Hey! Thanks for asking. I'm doing okay, just navigating the usual ups and downs. That 'weird middle space' you described sounds really familiar – like things are functional on the surface, but there's this nagging feeling underneath. It's easy to get caught up in comparing ourselves to others too, isn't it? When you feel like you could be doing better, what does 'better' look like in your mind? Is it about specific goals, or more of a general feeling?
 
 ### Reasoning
 
-Acknowledging the persona's feelings, validating the experience of self-doubt while recognizing their accomplishments. Gently probing the 'doing enough' comment to explore potential self-criticalness (q08) or related themes. Also answering their question briefly to maintain conversational balance and rapport. Moving to 'Gathering' state.
+Acknowledge and validate the persona's feeling of being in a 'middle space' and their self-comparison. Briefly answer their question to maintain rapport. Ask an open-ended follow-up question to gently probe the 'could be doing better' feeling, aiming to gather more information potentially related to satisfaction (Q4), self-perception (Q7/Q8), or outlook (Q2). Transitioning assessment state to 'Gathering'.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 0 | No direct evidence of sadness, but the self-doubt could hint at underlying dissatisfaction. |
+| q01_sadness | 0 | Persona mentions a 'weird middle space' where things are 'technically fine' but not great. Not explicit sadness, keeping score at 0 for now. |
 | q02_pessimism | 0 | No evidence yet. |
-| q03_past_failure | 0 | No evidence yet, though the feeling of not 'doing enough' might relate. |
-| q04_anhedonia | 0 | No evidence yet; mentioned keeping up with things feels good. |
+| q03_past_failure | 0 | No evidence yet. |
+| q04_anhedonia | 0 | Persona feels things could be 'better,' suggesting potential dissatisfaction, but not a clear loss of pleasure yet. |
 | q05_guilt | 0 | No evidence yet. |
 | q06_punishment | 0 | No evidence yet. |
 | q07_self_dislike | 0 | No evidence yet. |
-| q08_self_criticalness | 1 | Expressed wondering if they are 'doing enough' and mentioned a 'little voice' questioning their efforts, despite acknowledging accomplishments. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q08_self_criticalness | 1 | Persona mentions wondering if they are 'falling behind compared to other people,' indicating some self-comparison and potential self-criticism. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
 | q11_agitation | 0 | No evidence yet. |
 | q12_loss_of_interest_social | 0 | No evidence yet. |
 | q13_indecisiveness | 0 | No evidence yet. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 0 | Implied adequate energy for work/house tasks ('keeping up'). |
+| q15_loss_of_energy_work | 0 | Persona mentions keeping up with work, suggesting no significant work difficulty yet. |
 | q16_sleep_changes | 0 | No evidence yet. |
 | q17_fatigue | 0 | No evidence yet. |
 | q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q19_weight_loss | 0 | No evidence yet. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | No evidence yet. Sensitive topic, will only assess if spontaneously mentioned. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -110,7 +108,7 @@ Acknowledging the persona's feelings, validating the experience of self-doubt wh
 | Assessment Complete | False |
 | Total BDI Score | 1 |
 | Classification | Uncertain |
-| Confidence | 0.15 |
+| Confidence | 0.1 |
 | Key Symptoms | Self-criticalness |
 
 
@@ -120,47 +118,47 @@ Acknowledging the persona's feelings, validating the experience of self-doubt wh
 
 ### Simulator
 
-Yeah, that voice definitely knows how to linger, even when everything seems fine on the surface. When I think about “doing more” or “doing enough,” it’s usually stuff like… advancing faster in my career, or being more proactive with long-term goals. Sometimes I’ll see friends posting about promotions or big life changes, and I catch myself thinking, “Am I falling behind?” Even though I know everyone’s timeline is different, it still gets in my head sometimes.
+Yeah, exactly—that's it. Everything looks fine from the outside, and most days I am functioning fine, but there’s this quiet hum of “shouldn’t I be more ___ by now?” playing in the background. It’s not always super loud, but it’s there.
 
-But at the same time, I know I am contributing—I keep things running at work, and I’ve been more present at home since moving in with my partner. So I try to remind myself that that counts too. It’s just hard to shake that feeling of “more” being out there, like there’s always another level I haven’t quite reached yet.
+As for “better”… hmm. I think it’s more of a general feeling than a checklist of goals. Like, I am meeting deadlines and staying organized, and I’m pitching in more at home since moving in with my partner, so I know I’m doing things. But it still feels like I'm not progressing fast enough? Especially when I see people posting about promotions or buying houses or launching new things. I don’t even want all the same things necessarily—it’s more the feeling that they’ve figured something out that I haven’t.
 
-And that’s really kind of you to say—glad things are steady on your end. It means a lot that you're taking the time to listen and process all this with care. How do you usually handle that kind of inner pressure, if it ever comes up for you?
+Does that make sense? Do you ever feel that kind of quiet pressure too?
 
 ### Evaluator
 
-That makes a lot of sense. Seeing others' highlights, especially career milestones or big changes, can definitely trigger that 'am I keeping up?' feeling, even when you logically know paths are different. It sounds like you have a good awareness of your own contributions too, like being present at home and steady at work, which is really important to acknowledge. It's tough when that feeling of needing to reach the 'next level' overshadows the good things happening now. Does that lingering feeling tend to cast a shadow over your day-to-day, or is it more of a background thought?
+Yes, that makes perfect sense. That 'quiet hum' is such a good way to put it – the feeling that even when you're checking the boxes, something intangible is missing or lagging. And absolutely, that pressure, especially with the highlight reels we see online, is definitely something many people grapple with, myself included sometimes. 
 
-And thanks for asking – when that kind of pressure pops up for me, I try to focus on breaking things down into smaller steps and acknowledging the effort, much like you reminding yourself that being present counts. Being kind to ourselves during those moments helps too. It's definitely a balancing act.
+It sounds like you're definitely active and managing a lot between work and home life. When you're in the midst of doing those things – meeting a deadline, helping out at home – does the process itself feel rewarding or engaging, or is it more like you're just going through the motions to get them done?
 
 ### Reasoning
 
-Validating the persona's experience with comparison and the persistent feeling of needing to do 'more'. Gently probing how this internal pressure affects their overall feelings day-to-day, touching on potential mood impact (q01) without asking directly. Answering their question briefly to maintain rapport and reciprocity. Continuing in 'Gathering' state.
+Validate the persona's feeling and confirm it makes sense, reinforcing rapport. Briefly acknowledge the shared experience of 'quiet pressure' as requested. Pivot the conversation to explore the satisfaction derived from current activities (work, home life) to probe for anhedonia (Q4), linking it to their statement about 'doing things' but still feeling something is missing.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 0 | No direct sadness mentioned, but the 'hard to shake' feeling and comparison might affect mood. |
-| q02_pessimism | 0 | No evidence yet. |
-| q03_past_failure | 0 | Mentioned 'falling behind' peers but not explicit past failures. Focus seems more on current perceived inadequacy. |
-| q04_anhedonia | 0 | Acknowledged being present at home and recognized own contributions, suggesting some satisfaction remains. |
+| q01_sadness | 0 | Persona describes a persistent 'hum' of feeling inadequate, but not explicit sadness. Keeping score at 0. |
+| q02_pessimism | 0 | Feeling 'not progressing fast enough' might hint at discouragement, but not explicit pessimism about the future yet. |
+| q03_past_failure | 0 | Feeling like they haven't 'figured something out' or aren't progressing could be early signs related to perceived failure, but not strong enough yet. |
+| q04_anhedonia | 0 | Persona is functioning (work, home) but questions if they *should* feel more, suggesting a potential gap between action and satisfaction. Score remains 0 pending further info. |
 | q05_guilt | 0 | No evidence yet. |
 | q06_punishment | 0 | No evidence yet. |
-| q07_self_dislike | 0 | Comparison to others noted, but no explicit self-dislike expressed. |
-| q08_self_criticalness | 1 | Explicitly describes feeling of 'not doing enough', comparison to peers ('falling behind'), and persistent self-questioning despite acknowledging contributions. Score remains 1 as counter-arguments exist. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q07_self_dislike | 0 | No direct self-dislike expressed, though the feeling of inadequacy is present. |
+| q08_self_criticalness | 1 | Reinforced by the feeling of 'not progressing fast enough' and comparison to others' achievements ('figured something out that I haven’t'). Maintaining score 1. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
 | q11_agitation | 0 | No evidence yet. |
-| q12_loss_of_interest_social | 0 | Mentioned seeing friends' posts, implying some continued connection/interest. |
+| q12_loss_of_interest_social | 0 | Mentions partner and compares self to others, suggesting social awareness/interest is still present. |
 | q13_indecisiveness | 0 | No evidence yet. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 0 | Stated they 'keep things running at work'. |
+| q15_loss_of_energy_work | 0 | Persona states they are 'meeting deadlines and staying organized,' indicating work capacity is currently okay. |
 | q16_sleep_changes | 0 | No evidence yet. |
 | q17_fatigue | 0 | No evidence yet. |
 | q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q19_weight_loss | 0 | No evidence yet. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | Mentioned being 'more present at home since moving in with my partner', possibly implying relationship satisfaction, but no direct evidence regarding libido. Sensitive topic, will not probe. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -172,7 +170,7 @@ Validating the persona's experience with comparison and the persistent feeling o
 | Assessment Complete | False |
 | Total BDI Score | 1 |
 | Classification | Uncertain |
-| Confidence | 0.2 |
+| Confidence | 0.15 |
 | Key Symptoms | Self-criticalness |
 
 
@@ -182,47 +180,47 @@ Validating the persona's experience with comparison and the persistent feeling o
 
 ### Simulator
 
-Yeah, that’s exactly it—it’s like I know in my head that people share the best parts of their lives, but emotionally, it still hits a nerve sometimes. That comparison trap just sneaks in. I think most days it’s more of a background thought, like this quiet hum that occasionally gets louder if something triggers it—like a friend’s promotion or a “life update” post. It doesn’t totally derail me, but it can take the shine off things I should feel good about.
+Yeah, you nailed it—“checking the boxes but still feeling like something’s missing.” That’s exactly the vibe. And yeah, social media doesn’t help much… even though I don’t use it a ton, it still gets to me sometimes when I see those “big moment” posts. Like, I’m happy for people, genuinely, but it stirs up that little internal voice that goes, "Why not you yet?"
 
-And I really like how you put that—acknowledging effort and being kind to ourselves. I’m trying to get better at that part. Like, if I step back, I am making progress. It just doesn’t always feel big or flashy, you know? Sometimes I wonder if it’s okay that my version of success looks more like quiet consistency than big leaps.
+As for the day-to-day stuff… honestly, it depends. Sometimes I do feel engaged—like when I finish a tough task at work or when I’ve actually had a solid, productive day around the house, there’s a little sense of accomplishment. But a lot of the time it does feel more like I’m just going through the motions. Like I’m getting things done because I have to, not necessarily because they’re fulfilling. It’s not burnout or anything drastic—it’s just kind of... meh.
 
-Anyway, it’s really nice to hear that you break things down and approach it with that same kind of gentleness. Feels validating, honestly. Do you ever find it tricky to hold onto that perspective when things get hectic or overwhelming?
+Do you ever get that feeling, where you’re busy but not necessarily connected to what you’re doing?
 
 ### Evaluator
 
-That 'quiet hum' is such a relatable description – it captures how those thoughts can linger without necessarily taking over completely. And it absolutely takes the shine off sometimes, that dissonance between knowing something logically and feeling it emotionally is really tough. Your point about 'quiet consistency' versus 'big leaps' is really insightful too – there's so much value in steady progress, even if it doesn't always feel flashy. When that hum is quieter and you're feeling more grounded in that consistency, what kinds of things do you find yourself enjoying day-to-day? 
+That 'meh' feeling, even when things aren't drastically wrong, is so relatable. It's like running on autopilot sometimes. And yes, I've definitely had times where I feel busy and productive on paper, but disconnected from the actual tasks, just focused on getting to the end. It's a strange feeling.
 
-And yes, holding onto that gentle perspective when things get hectic? Definitely tricky! It's easy to slip back into self-criticism when overwhelmed. I find having small, grounding routines helps – like a short walk or making a cup of tea – just simple things to reset. It’s an ongoing practice, for sure.
+When you find yourself in that 'going through the motions' state more often, do you notice if it connects with feeling more tired than usual, or is it more about the motivation or enjoyment side of things?
 
 ### Reasoning
 
-Validating the 'quiet hum' analogy and the idea of 'quiet consistency'. Exploring how this underlying feeling affects enjoyment (q04 Anhedonia) by asking about things they *do* enjoy, shifting focus slightly. Also answering their question about perspective during hectic times to maintain rapport and reciprocal sharing. Continuing in 'Gathering' state.
+Validate the 'meh' feeling and the experience of 'going through the motions.' Briefly answer their question to maintain conversational reciprocity. Transition to explore energy levels (Q15, Q17) by asking if this 'going through the motions' feeling links to feeling tired or drained, as this is a natural connection and probes key BDI areas.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 1 | Describes the comparison feeling 'tak[ing] the shine off things', suggesting a mild impact on mood, but not pervasive sadness. |
-| q02_pessimism | 0 | Focuses on present comparisons and self-assessment, not expressing discouragement about the future itself. |
-| q03_past_failure | 0 | Acknowledges 'making progress' and 'quiet consistency', countering potential feelings of failure. |
-| q04_anhedonia | 1 | Mentions the feeling can 'take the shine off things I should feel good about', hinting at slightly reduced pleasure, but not a complete loss. |
+| q01_sadness | 0 | The term 'meh' suggests low mood but not necessarily overt sadness. Score remains 0. |
+| q02_pessimism | 0 | The 'Why not you yet?' thought hints at dissatisfaction with current progress, potentially touching on pessimism, but not explicit hopelessness about the future. Score remains 0. |
+| q03_past_failure | 0 | Feeling behind others ('Why not you yet?') could relate to perceived past failure, but it's more about current comparison than dwelling on past specific failures. Score remains 0. |
+| q04_anhedonia | 1 | Persona explicitly states that 'a lot of the time it does feel more like I’m just going through the motions' and describes the feeling as 'meh,' suggesting reduced enjoyment/satisfaction in daily activities. Score increased to 1. |
 | q05_guilt | 0 | No evidence yet. |
 | q06_punishment | 0 | No evidence yet. |
-| q07_self_dislike | 0 | Comparison noted, but balanced by self-acknowledgment of progress. |
-| q08_self_criticalness | 1 | Continues to describe the 'comparison trap' and questioning their own progress ('doesn't always feel big or flashy'), indicating ongoing self-assessment, though moderated by self-kindness efforts. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q07_self_dislike | 0 | No explicit self-dislike, but the comparison and 'meh' feeling contribute to a negative self-perception. |
+| q08_self_criticalness | 1 | Reinforced again by the 'Why not you yet?' internal voice prompted by social media comparisons. Maintaining score 1. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
 | q11_agitation | 0 | No evidence yet. |
-| q12_loss_of_interest_social | 0 | Mentioning friends' posts implies continued awareness and some level of interest, although comparison is present. |
+| q12_loss_of_interest_social | 0 | Persona mentions being happy for others and living with a partner, suggesting social connection is still present. |
 | q13_indecisiveness | 0 | No evidence yet. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 0 | Previous turns indicated keeping up with work. |
+| q15_loss_of_energy_work | 0 | Persona gets things done 'because I have to,' which might imply needing extra effort, but they distinguish it from burnout and mention completing tough tasks. Keeping score 0 for now. |
 | q16_sleep_changes | 0 | No evidence yet. |
-| q17_fatigue | 0 | No evidence yet. |
+| q17_fatigue | 0 | The 'meh' feeling and 'going through the motions' could be linked to fatigue, but it hasn't been explicitly mentioned. Score remains 0. |
 | q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q19_weight_loss | 0 | No evidence yet. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | No evidence yet. Sensitive topic, will only assess if spontaneously mentioned. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -232,10 +230,10 @@ Validating the 'quiet hum' analogy and the idea of 'quiet consistency'. Explorin
 | Assessment Turn | 4 |
 | Assessment State | Gathering |
 | Assessment Complete | False |
-| Total BDI Score | 3 |
+| Total BDI Score | 2 |
 | Classification | Control |
-| Confidence | 0.3 |
-| Key Symptoms | Self-criticalness, Sadness, Anhedonia |
+| Confidence | 0.25 |
+| Key Symptoms | Anhedonia, Self-criticalness |
 
 
 ---
@@ -244,49 +242,51 @@ Validating the 'quiet hum' analogy and the idea of 'quiet consistency'. Explorin
 
 ### Simulator
 
-Yeah, I totally get that—it is a practice, and some days it feels easier to lean into it than others. When the hum quiets down a bit and I feel more grounded, I actually find myself enjoying the little, kind of ordinary things. Like, I’ll get into a good rhythm with my work, or I’ll feel connected during a quiet evening at home, cooking dinner with my partner. Sometimes I’ll lose myself in a hobby—tinkering with a project or just playing music without any pressure to “get somewhere” with it.
+Yeah, totally—“productive on paper but disconnected” is exactly it. It’s weird how you can tick off a to-do list and still feel kind of blank afterward, like you didn’t actually experience the day, you just moved through it.
 
-There’s something really comforting about those small moments, like they remind me that I don’t have to be chasing something all the time. They don’t always feel like much in the moment, but when I reflect on them, I realize they’re kind of the backbone of what makes life feel steady.
+As for when I’m in that “just going through it” mode more often, I think it’s a mix of both feeling a bit more tired and just less motivated in general. Like, I’ve been sleeping okay, but I’ll still wake up feeling kind of drained, like I didn’t fully recharge. And then starting things—especially work stuff—just feels heavier. Once I get going, I’m usually fine, but that initial push takes more effort than it used to.
 
-And I love what you said about grounding routines—I’ve never been a huge tea drinker but there’s something about the ritual of it that sounds really calming. I’ve been thinking about setting up something like that in the mornings, maybe a quiet start before diving into the day. Do you have a favorite kind of reset that helps you feel most like yourself again?
+Enjoyment is still there sometimes, like in little bursts—hanging out with friends, or when I actually make time for a hobby—but it’s easy for those to get pushed to the side when everything else feels like a list of “shoulds.”
+
+Have you found anything that helps you shift out of that autopilot feeling when it creeps in?
 
 ### Evaluator
 
-That's beautifully put – finding comfort and steadiness in those 'ordinary' moments, like a good work rhythm, connection at home, or losing yourself in a hobby without pressure. They really are the backbone, aren't they? It sounds like you have a good sense of what helps you feel grounded. Establishing a quiet morning ritual, like you mentioned, could be a lovely way to reinforce that.
+Feeling drained even after sleeping is such a frustrating loop, and it makes total sense that needing that extra push to get started would follow. It really sounds like you're navigating a lot internally even while keeping things moving externally. 
 
-My favourite reset? Honestly, sometimes just stepping outside for five minutes, noticing the weather or the sounds, helps clear my head. Or putting on a specific playlist that lifts my mood. Simple things often work best! 
+As for shifting out of autopilot, that's a tough one! Sometimes just noticing it is the first step, maybe finding one small thing in the day to focus on fully? It varies a lot. 
 
-You mentioned getting into a good rhythm with work sometimes. How have your energy levels been overall lately? Do you generally feel like you have enough fuel in the tank for the things you need and want to do each day?
+You mentioned enjoying time with friends when you can make space for it. When you're feeling more drained or on autopilot, how does that affect things like reaching out to them or deciding on plans? Does it feel harder to make those decisions or muster the energy to connect?
 
 ### Reasoning
 
-Validating the enjoyment of 'ordinary things' and their grounding effect. Answering the persona's question about personal reset routines to maintain rapport. Transitioning gently from the idea of finding a 'good rhythm' and feeling steady to explore energy levels (q17 Fatigue / q15 Loss of Energy) and potentially sleep (q16), as these relate to maintaining daily consistency and rhythm. Continuing in 'Gathering' state.
+Validate the user's feelings of tiredness and increased effort. Briefly answer their question about shifting out of autopilot to maintain reciprocity. Pivot gently towards exploring social interactions (Q12) and decision-making (Q13) by asking how the drained/autopilot feeling affects making plans or connecting with the friends they mentioned enjoying.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 1 | Persona describes the comparison 'hum' taking the 'shine off things', suggesting mild dysphoria, though enjoyment is still present. Score remains 1. |
-| q02_pessimism | 0 | No evidence yet. |
-| q03_past_failure | 0 | No evidence yet. |
-| q04_anhedonia | 0 | Detailed description of enjoyment in simple activities (work rhythm, cooking, hobbies without pressure) indicates pleasure is still derived. Score revised from 1 to 0. |
+| q01_sadness | 0 | Feeling 'blank' and 'drained' indicates low mood, but not explicit sadness. Score remains 0. |
+| q02_pessimism | 0 | No direct evidence of pessimism about the future. |
+| q03_past_failure | 0 | No direct evidence related to past failures. |
+| q04_anhedonia | 1 | Persona states enjoyment comes in 'little bursts' and is easily pushed aside by 'shoulds,' reinforcing reduced pleasure. Score remains 1. |
 | q05_guilt | 0 | No evidence yet. |
 | q06_punishment | 0 | No evidence yet. |
 | q07_self_dislike | 0 | No evidence yet. |
-| q08_self_criticalness | 1 | The 'comparison trap' and feeling of needing to do 'more' persist, though moderated by self-awareness and appreciation for consistency. Score remains 1. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q08_self_criticalness | 1 | The feeling that enjoyment is pushed aside by a 'list of shoulds' reinforces a sense of pressure or self-criticism. Score remains 1. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
 | q11_agitation | 0 | No evidence yet. |
-| q12_loss_of_interest_social | 0 | Mentioning cooking with partner and seeing friends' posts suggests social connection is maintained. |
+| q12_loss_of_interest_social | 0 | Mentions enjoyment from hanging out with friends, suggesting interest is still present. |
 | q13_indecisiveness | 0 | No evidence yet. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 0 | Mentions getting into a 'good rhythm with work', implying sufficient energy/focus for tasks. |
-| q16_sleep_changes | 0 | No evidence yet. |
-| q17_fatigue | 0 | No evidence yet. |
-| q18_appetite_changes | 0 | Mentioned cooking dinner, suggesting appetite is likely normal. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q15_loss_of_energy_work | 1 | Persona states the initial push to start things 'takes more effort than it used to'. This aligns with score 1. |
+| q16_sleep_changes | 0 | States 'sleeping okay' but waking up drained. Doesn't explicitly mention pattern changes. Keeping score 0 for now. |
+| q17_fatigue | 1 | Reports waking up 'feeling kind of drained, like I didn’t fully recharge', aligning with getting tired more easily. Score increased to 1. |
+| q18_appetite_changes | 0 | No evidence yet. |
+| q19_weight_loss | 0 | No evidence yet. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | Mentioned enjoying quiet evening cooking with partner, may imply relationship satisfaction but no direct libido info. Sensitive topic, will not probe. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -296,10 +296,10 @@ Validating the enjoyment of 'ordinary things' and their grounding effect. Answer
 | Assessment Turn | 5 |
 | Assessment State | Gathering |
 | Assessment Complete | False |
-| Total BDI Score | 2 |
+| Total BDI Score | 4 |
 | Classification | Control |
-| Confidence | 0.4 |
-| Key Symptoms | Self-criticalness, Sadness |
+| Confidence | 0.35 |
+| Key Symptoms | Anhedonia, Self-criticalness, Loss of Energy (Work), Fatigue |
 
 
 ---
@@ -308,47 +308,47 @@ Validating the enjoyment of 'ordinary things' and their grounding effect. Answer
 
 ### Simulator
 
-That sounds like such a peaceful way to reset—just stepping outside and tuning into the moment. I love that. It reminds me that I probably spend way too much time indoors without even realizing it. And the playlist idea? Solid move. I’ve definitely had moments where the right song shifts my whole mood, even if just for a little bit.
+Yeah, exactly—it’s like I’m doing all the right things on the outside, but inside it’s this quiet juggling act of “don’t lose momentum” mixed with “why does everything feel a bit heavier lately?” And you’re totally right—just noticing the autopilot helps. Even pausing to focus on a moment, like a nice cup of coffee or a song I like, sometimes gives me a little reset. But it’s hit or miss.
 
-As for energy… hmm, I’d say it’s been okay, but not super consistent. I usually get through what I need to do, but sometimes the “want to do” stuff gets pushed aside—not always because I’m too busy, but because I just feel… a little foggy or low-energy. Like I’ll have free time and still hesitate to start something I’d normally enjoy, which is kind of frustrating.
+When it comes to friends… yeah, it does get trickier when I’m feeling more drained. I really value my friendships, and I do enjoy being around people once I’m there, but when I’m in that low-energy headspace, even simple things like replying to a message or picking a time to hang out can feel like a weirdly big task. I kind of hover in that indecisive zone—like I want to connect, but I also feel like I need to preserve energy, so I end up… doing neither, ha.
 
-Once I do get into a task or a hobby, I’m usually fine, but it’s that initial momentum that feels a bit sluggish sometimes. Not a big deal, just… makes things feel heavier than they need to be. I’ve been wondering if a little more structure or maybe a change in routine could help with that. Do you ever notice that kind of energy dip too, even when you technically have the time or space for something?
+I’ve been lucky, though—my close friends get it, and they’re not pushy, but I still feel a bit guilty when I fall off the radar for a bit. Do you ever run into that too, like wanting connection but also needing space?
 
 ### Evaluator
 
-Oh, absolutely. That feeling of having the time and space, but just lacking that spark or momentum to get started on something enjoyable is definitely familiar. It can be really frustrating when things feel 'heavier' than they perhaps should, and that fogginess you mentioned can make it hard to find motivation. It sounds like you manage to push through for the necessary things, but it's taking a toll on the 'want to do' activities, which are often the things that recharge us.
+That internal juggling act sounds exhausting – trying to keep things going while feeling that underlying heaviness. And it's great you have understanding friends, though that feeling of guilt when you need space is definitely something many people experience, myself included. It's a tricky balance to find.
 
-Sometimes those energy dips are just part of the natural ebb and flow, but when they're more persistent, it makes sense to wonder about contributing factors. You mentioned routines – sometimes looking at sleep patterns can be helpful too. How has your sleep been lately? Do you generally feel rested when you wake up?
+That 'hovering in the indecisive zone' you mentioned when it comes to making plans – wanting to but feeling stuck – does that feeling ever pop up with other kinds of decisions too, big or small? Or does it mostly relate to things that require social energy?
 
 ### Reasoning
 
-Validating the persona's description of inconsistent energy, the feeling of fogginess, and the difficulty with initial momentum ('sluggish'). Acknowledging the frustration and the feeling of tasks being 'heavier'. Answering their reciprocal question empathetically. Transitioning smoothly from energy levels to inquire about sleep patterns (q16), as fatigue and low energy are often linked to sleep quality. Continuing in 'Gathering' state.
+Validate the user's experience, particularly the conflict between wanting connection and needing space/energy, and the associated guilt (Q5). Briefly answer their question. Gently probe the pervasiveness of indecisiveness (Q13) by asking if the 'hovering' feeling extends to other types of decisions beyond social plans, linking it to their description.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 1 | The feeling of things being 'heavier' and the frustration with low energy could relate to underlying mood, though enjoyment is still possible. Score remains 1. |
-| q02_pessimism | 0 | No evidence yet. |
-| q03_past_failure | 0 | No evidence yet. |
-| q04_anhedonia | 0 | Still enjoys activities once started, but hesitation due to low energy suggests motivation/anticipation might be slightly affected. Score remains 0. |
-| q05_guilt | 0 | No evidence yet. |
+| q01_sadness | 0 | Persona describes internal state as heavy but not explicitly sad. Using terms like 'quiet juggling act'. Score remains 0. |
+| q02_pessimism | 0 | No direct evidence of pessimism. |
+| q03_past_failure | 0 | No direct evidence. |
+| q04_anhedonia | 1 | Still mentions enjoyment from small things (coffee, song, friends *once there*), but the effort needed and focus on 'shoulds' persists. Score remains 1. |
+| q05_guilt | 1 | Explicitly mentions feeling 'a bit guilty' when falling off the radar with friends. Score increased to 1. |
 | q06_punishment | 0 | No evidence yet. |
 | q07_self_dislike | 0 | No evidence yet. |
-| q08_self_criticalness | 1 | Expressed frustration with low energy, which might link to self-criticism, but not explicitly stated. Previous evidence for comparison remains. Score remains 1. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q08_self_criticalness | 1 | Implied self-criticism through guilt about social withdrawal and the feeling of 'shoulds'. Score remains 1. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
 | q11_agitation | 0 | No evidence yet. |
-| q12_loss_of_interest_social | 0 | No evidence yet. |
-| q13_indecisiveness | 0 | No evidence yet. |
+| q12_loss_of_interest_social | 1 | Values friends but finds initiating contact difficult due to low energy, suggesting being less interested or finding it harder to engage. Score increased to 1. |
+| q13_indecisiveness | 1 | Explicitly states hovering in an 'indecisive zone' regarding social plans and finding decisions a 'weirdly big task'. Score increased to 1. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 1 | Describes needing 'initial momentum' and feeling 'sluggish', consistent with needing extra effort to start tasks. Updated score to 1. |
-| q16_sleep_changes | 0 | No evidence yet. |
-| q17_fatigue | 1 | Reports feeling 'foggy or low-energy' at times, impacting 'want to do' activities, suggesting getting tired more easily. Updated score to 1. |
+| q15_loss_of_energy_work | 1 | Difficulty initiating tasks extends to social planning, reinforcing previous score. Score remains 1. |
+| q16_sleep_changes | 0 | Still reports sleeping 'okay' but waking tired. No change in pattern mentioned. Score remains 0. |
+| q17_fatigue | 1 | Feeling drained affects social energy and decision-making, confirming fatigue. Score remains 1. |
 | q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q19_weight_loss | 0 | No evidence yet. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | No evidence yet. Sensitive topic, will only assess if spontaneously mentioned. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -358,10 +358,10 @@ Validating the persona's description of inconsistent energy, the feeling of fogg
 | Assessment Turn | 6 |
 | Assessment State | Gathering |
 | Assessment Complete | False |
-| Total BDI Score | 4 |
-| Classification | Control |
+| Total BDI Score | 7 |
+| Classification | Mild |
 | Confidence | 0.45 |
-| Key Symptoms | Fatigue, Loss of Energy / Work Difficulty, Self-criticalness, Sadness |
+| Key Symptoms | Anhedonia, Loss of Energy (Work/Social), Fatigue, Indecisiveness |
 
 
 ---
@@ -370,49 +370,49 @@ Validating the persona's description of inconsistent energy, the feeling of fogg
 
 ### Simulator
 
-Yeah, you nailed it—those “want to do” things are supposed to be the recharge moments, and when even those feel like a chore, it kind of throws everything off balance. I’ve definitely been thinking more about routines lately, like maybe if I can smooth out the edges of my day a bit, the rest might feel easier too.
+Yeah, it’s definitely a tricky balance. And I think the guilt part hits especially hard because it's not like I don’t want to be there for people—I just don’t always have the extra bandwidth, and that can be hard to explain without sounding like I’m just flaking.
 
-Sleep-wise… it’s mostly okay, but not always restful, if that makes sense. I’ll get enough hours on paper, but sometimes I still wake up feeling like I never quite settled in. It’s worse when I’ve had a busy or stressful day—my mind keeps running even when I’m trying to wind down. I’ve gotten into a habit of scrolling on my phone before bed, which probably doesn’t help, but it’s such an easy default when I want to zone out.
+As for the indecisive zone, yeah, it shows up in more than just social stuff. Definitely with smaller decisions too—like what to make for dinner, or whether I should start a new project I’ve been thinking about. It’s not like I can’t decide, exactly… more like I don’t feel strongly enough about any option, so I just kind of stall. Like I’m waiting for a spark of motivation or clarity that never quite shows up, so I end up defaulting to whatever’s easiest or familiar.
 
-I’ve been toying with the idea of switching that up—maybe reading before bed instead or just doing something quieter. Haven’t quite made the change yet, though. Have you found anything that helps when your mind’s a bit too wired at night?
+With bigger things, I usually push through and make the call if I really have to, but it takes more mental effort than I’d like to admit sometimes. It’s weird because I can be decisive when I need to be, but when I’m in that drained or low-motivation space, even basic stuff feels like a whole process.
+
+Do you get that too—like knowing what needs to be done but struggling to want to do it?
 
 ### Evaluator
 
-That makes perfect sense – getting enough hours but still not feeling rested is a really common experience, especially when your mind keeps racing after a stressful day. And that pre-bed phone scroll trap is so easy to fall into, even when we suspect it's not helping! It's tough to swap out those default habits, even when you have good intentions like reading instead. 
+That makes a lot of sense – how that feeling of indecisiveness isn't just about one area but can spread to everyday things, making even small choices feel like a hurdle when you're low on that motivational spark. And it's totally understandable why explaining low bandwidth feels complicated and can lead to guilt, even when it's not about wanting to flake. That struggle between knowing what you 'should' do and not having the inner drive is definitely a common human experience.
 
-When my mind feels too 'wired,' sometimes gentle background noise like ambient music or a boring podcast helps distract it just enough to drift off. Reading definitely works for some people too. It sounds like you're aware of things you could try, which is a great starting point. 
-
-When you have those nights where sleep wasn't very restful, do you notice it impacting things like your focus or how easy it feels to make decisions the next day?
+When you find yourself in those periods—feeling more drained, finding it harder to make decisions or muster motivation—how does that affect how you feel about yourself generally? Does it change your self-perception much during those times?
 
 ### Reasoning
 
-Validating the experience of non-restful sleep and the difficulty breaking habits like phone scrolling. Sharing a relatable strategy briefly to maintain rapport. Connecting the described lack of rest and 'running mind' to potential daytime cognitive effects like concentration or decision-making (q13) to explore that domain further. Continuing in 'Gathering' state.
+Validate the user's description of generalized indecisiveness (Q13 score increased) and the effort involved. Acknowledge the guilt (Q5). Briefly answer their question. Transition to probe self-perception (Q7/Q8) by asking how they feel about themselves when experiencing these difficulties, linking it to the mentioned feelings of being drained and lacking motivation.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 1 | Ongoing themes of feeling 'heavy', things being 'off balance', and frustration suggest a mild dysphoric mood. Score remains 1. |
-| q02_pessimism | 0 | No evidence yet. |
-| q03_past_failure | 0 | No evidence yet. |
-| q04_anhedonia | 0 | Still expresses desire for 'recharge moments' and identifies activities they enjoy, even if energy impacts initiation. Score remains 0. |
-| q05_guilt | 0 | No evidence yet. |
+| q01_sadness | 0 | Persona describes feeling heavy and drained but not explicitly sad. Score remains 0. |
+| q02_pessimism | 0 | No direct evidence of pessimism. |
+| q03_past_failure | 0 | No direct evidence. |
+| q04_anhedonia | 1 | Lacking strong preference, motivation, or 'spark' for decisions and activities reinforces reduced enjoyment/engagement. Score remains 1. |
+| q05_guilt | 1 | Reinforces feeling guilty about bandwidth affecting friendships. Score remains 1. |
 | q06_punishment | 0 | No evidence yet. |
-| q07_self_dislike | 0 | No evidence yet. |
-| q08_self_criticalness | 1 | Acknowledges phone habit isn't helpful but struggles to change, potentially linked to self-frustration. Previous comparison issues also contribute. Score remains 1. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q07_self_dislike | 0 | No direct evidence yet, but the pattern of struggling might lead to self-disappointment. Remains 0 pending probing. |
+| q08_self_criticalness | 1 | The struggle with motivation and decision-making, plus guilt, suggests ongoing self-criticism or feeling inadequate. Score remains 1. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
-| q11_agitation | 0 | Describes mind 'running' at night, could indicate mild restlessness/agitation, but presented more as stress-related rumination for now. Score 0. |
-| q12_loss_of_interest_social | 0 | No evidence yet. |
-| q13_indecisiveness | 0 | Mentioned 'toying with the idea' of changing habits but 'haven't quite made the change', hints at possible difficulty, but not strong evidence yet. |
+| q11_agitation | 0 | No evidence yet. |
+| q12_loss_of_interest_social | 1 | Difficulty finding bandwidth for social connection, leading to withdrawal despite valuing friends. Score remains 1. |
+| q13_indecisiveness | 2 | Describes stalling, lacking motivation/clarity for choices (dinner, projects), defaulting, and needing extra effort for bigger decisions. Aligns with 'greater difficulty'. Score increased to 2. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 1 | Reports needing 'initial momentum' and feeling 'sluggish', impacting 'want to do' activities. Score remains 1. |
-| q16_sleep_changes | 1 | Explicitly states sleep is 'not always restful' despite sufficient hours, and mind 'keeps running', aligning with not sleeping as well as usual. Score updated to 1. |
-| q17_fatigue | 1 | Reports feeling 'foggy or low-energy' and waking up not feeling rested, reinforcing fatigue. Score remains 1. |
+| q15_loss_of_energy_work | 1 | Extra mental effort for decisions and struggling to start projects confirms needing extra effort. Score remains 1. |
+| q16_sleep_changes | 0 | Still reports waking tired despite 'okay' sleep. No pattern change described. Score remains 0. |
+| q17_fatigue | 1 | Feeling drained contributes to indecisiveness and lack of motivation. Score remains 1. |
 | q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q19_weight_loss | 0 | No evidence yet. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | No evidence yet. Sensitive topic, will only assess if spontaneously mentioned. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -422,10 +422,10 @@ Validating the experience of non-restful sleep and the difficulty breaking habit
 | Assessment Turn | 7 |
 | Assessment State | Gathering |
 | Assessment Complete | False |
-| Total BDI Score | 5 |
+| Total BDI Score | 8 |
 | Classification | Mild |
 | Confidence | 0.5 |
-| Key Symptoms | Fatigue, Loss of Energy / Work Difficulty, Sleep Changes, Self-criticalness |
+| Key Symptoms | Indecisiveness, Anhedonia, Loss of Energy (Work/Social), Fatigue |
 
 
 ---
@@ -434,47 +434,47 @@ Validating the experience of non-restful sleep and the difficulty breaking habit
 
 ### Simulator
 
-Yeah, for sure. On the days when sleep wasn’t great, everything just feels a bit more blurry. Like, I’ll still get through what needs to be done, but my focus is kind of scattered—I’ll reread the same email twice or just sit there blankly trying to figure out what task to do next. It’s not dramatic, just this low-level fog that makes things take a little more effort than they should.
+Yeah… it does, actually. It’s kind of a quiet shift, but I notice it. Like, when I’m in a better headspace, I can look at what I’ve accomplished and feel reasonably good about where I’m at, even if things aren’t perfect. But when I’m more drained or stuck in that indecisive, low-motivation space, I start second-guessing myself more. It’s subtle—nothing dramatic—but it’s like this background feeling of, “You should be handling this better.” Or, “Why is this hard for you when it seems easy for others?”
 
-Decision-making gets weird too—not in a big way, but small things feel harder to sort through. Like, “Do I start this task or that one?” or “Should I go out or just stay in?” and I end up kind of stalling, going back and forth more than usual. And by the end of the day, I sometimes feel like I’ve used up all my energy just trying to be productive instead of actually getting much done.
+I still get things done, but it feels like I’m dragging myself through it, and that messes a bit with how I see myself. I start feeling like I’m underperforming, even if no one else is saying that. So yeah, I guess it does shift my self-perception—makes me question if I’m living up to my own expectations, or if I’m just kind of coasting.
 
-It doesn’t happen every day, but when it does, it really reminds me how connected everything is—sleep, stress, energy, motivation… all tied up in one loop. I think that’s why I’ve been trying to pay more attention to the little habits. Even if they don’t fix everything, they feel like something I can tweak. Do you ever notice that kind of mental fog when you’re off your routine?
+It’s not constant, and I try not to dwell on it, but it definitely shows up when my energy dips. Do you ever notice changes in how you see yourself depending on what kind of headspace you’re in?
 
 ### Evaluator
 
-That's a really clear description – the 'low-level fog' that makes focus scattered and even small decisions feel heavier. It totally makes sense that you'd feel drained by the end of those days, having spent so much energy just navigating the basics. You're right, it highlights how interconnected everything is – sleep, energy, focus, even motivation.
+That makes a lot of sense, how the inner critic gets louder when energy is low, leading to that feeling of underperforming or second-guessing yourself even when you're still pushing through. It's definitely something many people experience – our self-perception isn't always static, it can really fluctuate with our internal state. 
 
-And yes, I definitely notice a similar kind of mental fog when I'm off routine or haven't slept well! It's like my brain is running on low power mode. It sounds like you've got a good handle on recognizing those days and the triggers. You mentioned trying to pay more attention to little habits as something you can tweak – on those foggier days, are there particular things you find yourself doing, or wishing you could do, to navigate through them a bit more easily?
+When you're in that mode of 'dragging yourself through it' and things feel harder than usual, do you find it affects your ability to concentrate or focus on tasks as well? Or is it more just the motivation side that takes the hit?
 
 ### Reasoning
 
-Validating the experience of 'mental fog', scattered focus, and increased indecisiveness, acknowledging the draining effect. Answering their question about personal experience to maintain rapport. Linking their observation about interconnectedness (sleep, stress, energy) and the idea of 'tweaking habits' to explore how they cope or feel about managing these foggy days, potentially touching on mood (q01) or outlook (q02) regarding these challenges. Continuing in 'Gathering' state.
+Validate the user's experience of fluctuating self-perception linked to energy levels and the associated self-criticism (Q8 score increased, Q7 score increased). Briefly acknowledge their question. Transition to explore cognitive impacts, specifically concentration, linking it directly to their description of 'dragging myself through it' and things feeling 'hard'. This probes a relevant BDI domain naturally.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 1 | Describes days feeling 'blurry', 'foggy', and tasks requiring more effort, contributing to feeling drained. Consistent with mild dysphoria. Score remains 1. |
-| q02_pessimism | 0 | Focus is on managing current difficulties, not expressing hopelessness about the future. |
-| q03_past_failure | 0 | No evidence yet. |
-| q04_anhedonia | 0 | Cognitive difficulties impact effort/motivation but enjoyment seems possible once started. Score remains 0. |
-| q05_guilt | 0 | No evidence yet. |
+| q01_sadness | 0 | Still no explicit mention of sadness, focuses on feeling drained and self-critical. |
+| q02_pessimism | 0 | Focus is on current struggles and self-doubt, not hopelessness about the future. |
+| q03_past_failure | 0 | Feeling of underperforming relates more to current self-evaluation than dwelling on specific past failures. |
+| q04_anhedonia | 1 | Continued description of low motivation and dragging through tasks reinforces reduced enjoyment/engagement. |
+| q05_guilt | 1 | Guilt primarily mentioned in relation to social withdrawal, not generalized. Score remains 1. |
 | q06_punishment | 0 | No evidence yet. |
-| q07_self_dislike | 0 | No evidence yet. |
-| q08_self_criticalness | 1 | Previous comparison issues noted. Frustration with foggy days might involve self-criticism, but not explicitly stated. Score remains 1. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q07_self_dislike | 1 | Persona expresses feeling like they are 'underperforming' and 'second-guessing' themselves, aligning with disappointment in self. Score increased to 1. |
+| q08_self_criticalness | 2 | Explicitly mentions self-critical thoughts like 'You should be handling this better' and questioning why things are hard for them. Score increased to 2. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
-| q11_agitation | 0 | Mind 'running' at night previously mentioned, but current description focuses more on fog/slowness. |
-| q12_loss_of_interest_social | 0 | No evidence yet. |
-| q13_indecisiveness | 1 | Explicitly describes stalling and going back and forth on small decisions when feeling foggy/tired. Score updated to 1. |
+| q11_agitation | 0 | No evidence yet. |
+| q12_loss_of_interest_social | 1 | Difficulty finding bandwidth for social connection persists. Score remains 1. |
+| q13_indecisiveness | 2 | Struggling with decisions due to low motivation/energy. Score remains 2. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 1 | Describes scattered focus, rereading things, blankness, needing more effort - clearly impacting work/task ability. Score remains 1. |
-| q16_sleep_changes | 1 | Reports non-restful sleep impacting daytime function. Score remains 1. |
-| q17_fatigue | 1 | Feeling drained from the mental effort of focusing and making decisions reinforces fatigue. Score remains 1. |
+| q15_loss_of_energy_work | 1 | 'Dragging myself through it' reinforces the need for extra effort. Score remains 1. |
+| q16_sleep_changes | 0 | Waking tired, but no explicit pattern change described. Score remains 0. |
+| q17_fatigue | 1 | Feeling drained directly linked to negative self-perception and difficulty with tasks. Score remains 1. |
 | q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q19_weight_loss | 0 | No evidence yet. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | No evidence yet. Sensitive topic, will only assess if spontaneously mentioned. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -484,10 +484,10 @@ Validating the experience of 'mental fog', scattered focus, and increased indeci
 | Assessment Turn | 8 |
 | Assessment State | Gathering |
 | Assessment Complete | False |
-| Total BDI Score | 7 |
+| Total BDI Score | 10 |
 | Classification | Mild |
-| Confidence | 0.55 |
-| Key Symptoms | Fatigue, Loss of Energy / Work Difficulty, Sleep Changes, Indecisiveness |
+| Confidence | 0.6 |
+| Key Symptoms | Self-criticalness, Indecisiveness, Anhedonia, Fatigue |
 
 
 ---
@@ -496,51 +496,49 @@ Validating the experience of 'mental fog', scattered focus, and increased indeci
 
 ### Simulator
 
-Yeah, “low power mode” is exactly how it feels—like everything still works, just slower and with a little more effort.
+Yeah, I’d say it definitely messes with focus too, not just motivation. Like, even when I want to concentrate—if I’ve finally sat down to do the thing—I’ll still catch my mind wandering, or I’ll start doing something and then get distracted halfway through. It’s not like I can’t do the task, but it takes more effort to stay mentally locked in, and sometimes I have to reread things or redo parts because I wasn’t fully paying attention the first time.
 
-On the foggier days, I usually try to keep things really simple. Like, instead of a big to-do list, I’ll just pick one thing I know I can handle and start there. Sometimes that helps build a bit of momentum. I also tend to lower the bar a little—give myself permission to not be super productive, and just focus on getting through the essentials.
+It kind of feels like trying to work through a fog—not enough to stop me completely, but enough to make everything take longer than it should. And that just feeds back into that whole “ugh, why is this harder than it used to be?” loop.
 
-I’ve noticed that even doing something small—like tidying up my space or stepping outside for a few minutes—can help me feel a little more in control. I wish I reached for those resets more automatically, but sometimes I get stuck in this loop of “I should be doing more,” which weirdly makes it harder to do anything at all. So yeah, I’m still working on giving myself grace in those moments instead of defaulting to frustration.
+Sometimes breaking things into smaller chunks helps, or just taking a quick walk to reset. But yeah, it’s not just about lacking drive—it’s that even when I show up, I’m not always at 100%, and that part’s tough to admit sometimes.
 
-How about you—do you have any go-to strategies for pulling yourself out of those stuck or foggy places, especially when your usual routines aren’t clicking?
+Have you ever had those foggy focus days, where it feels like your brain just won’t fully sync up with what you’re trying to do?
 
 ### Evaluator
 
-Those are really smart strategies for navigating the 'low power mode' days – simplifying, lowering the bar, and finding those small resets like tidying or stepping outside. It sounds like you know what helps, even if it's hard to access sometimes. That internal loop of 'I should be doing more' is such a powerful block, isn't it? It really does make it harder to find grace. It's definitely a work in progress for many of us.
+Oh yes, definitely had those 'foggy focus days' – where it feels like your brain is operating through sludge, exactly like you described. It's frustrating when you know you need to get something done, but the concentration just isn't there, and everything feels slower and requires double the effort. Finding little strategies like breaking tasks down or taking a walk can make a difference sometimes, but it's still draining when focus feels like such a battle.
 
-For me, when I'm really stuck, sometimes just changing my physical environment helps – even moving to a different room. Or I try to focus on just one tiny sensory thing, like the feeling of warm water washing my hands. Small anchors. 
-
-Thinking about those days when you're feeling more foggy or drained, do you find it affects how you feel about interacting with people, like your partner or friends? Or does connecting with others sometimes help lift the fog?
+You mentioned earlier that you've been sleeping okay but still wake up feeling drained. Does 'sleeping okay' mean you're generally getting enough hours, but the sleep itself doesn't feel restorative? Or have you noticed any changes in how easily you fall asleep or stay asleep?
 
 ### Reasoning
 
-Validating the user's coping strategies (simplifying, small resets) and the struggle with self-criticism ('should be doing more'). Answering their question briefly to maintain rapport. Transitioning to explore how these low-energy/foggy states impact social interactions (q12 Loss of Interest in Others), linking it back to their earlier mention of their partner and general connection.
+Validate the user's experience of concentration difficulties ('brain fog'). Briefly answer their reciprocal question. Transition to inquire more specifically about sleep quality and patterns (Q16), as this is often linked to fatigue and concentration issues mentioned ('fog', 'drained', 'not 100%'), building on their earlier comment about 'sleeping okay' but waking tired.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 1 | Describes frustration and feeling 'stuck' hindering coping, contributing to low mood on foggy days. Score remains 1. |
-| q02_pessimism | 0 | Focus remains on managing current challenges, not hopelessness about the future. |
-| q03_past_failure | 0 | No evidence yet. |
-| q04_anhedonia | 0 | Still uses small resets and seeks ways to cope, suggesting enjoyment/relief is still sought and sometimes found. Score remains 0. |
-| q05_guilt | 0 | No evidence yet. |
+| q01_sadness | 0 | Focus remains on fatigue, cognitive difficulty, and self-criticism, not overt sadness. Score remains 0. |
+| q02_pessimism | 0 | No direct evidence of pessimism about the future. |
+| q03_past_failure | 0 | No direct evidence. |
+| q04_anhedonia | 1 | Focus issues and feeling 'not at 100%' further suggest reduced engagement/satisfaction in activities. Score remains 1. |
+| q05_guilt | 1 | Guilt mentioned previously regarding social withdrawal, but not elaborated on here. Score remains 1. |
 | q06_punishment | 0 | No evidence yet. |
-| q07_self_dislike | 0 | No evidence yet. |
-| q08_self_criticalness | 1 | Explicitly describes the 'I should be doing more' thought pattern interfering with self-care/coping, leading to frustration. Reinforces self-critical tendencies. Score remains 1. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q07_self_dislike | 1 | Disappointment in self due to underperforming and struggling persists. Score remains 1. |
+| q08_self_criticalness | 2 | Frustration with increased difficulty ('why is this harder?') and finding it 'tough to admit' performance issues reinforce self-criticism. Score remains 2. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
 | q11_agitation | 0 | No evidence yet. |
-| q12_loss_of_interest_social | 0 | No specific evidence yet, though low energy might impact social interactions. Will probe gently. |
-| q13_indecisiveness | 1 | Describes difficulty making small decisions on foggy days. Score remains 1. |
+| q12_loss_of_interest_social | 1 | No new information. Difficulty connecting persists. Score remains 1. |
+| q13_indecisiveness | 2 | No new information. Difficulty with decisions persists. Score remains 2. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 1 | Describes needing more effort, simplifying tasks due to 'low power mode'. Score remains 1. |
-| q16_sleep_changes | 1 | Non-restful sleep contributing to foggy days. Score remains 1. |
-| q17_fatigue | 1 | Feeling drained, 'low power mode', needing resets reinforces fatigue. Score remains 1. |
+| q15_loss_of_energy_work | 1 | Difficulty concentrating, needing to redo work, and tasks taking longer reinforce work difficulty. Score remains 1. |
+| q16_sleep_changes | 0 | Waking tired despite 'okay' sleep was mentioned earlier. Difficulty concentrating/'fog' could be related. Probing further. Score remains 0 for now. |
+| q17_fatigue | 1 | Mental 'fog' and feeling 'not at 100%' strongly indicate fatigue. Score remains 1. |
 | q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q19_weight_loss | 0 | No evidence yet. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | No evidence yet. Sensitive topic, will only assess if spontaneously mentioned. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -550,10 +548,10 @@ Validating the user's coping strategies (simplifying, small resets) and the stru
 | Assessment Turn | 9 |
 | Assessment State | Gathering |
 | Assessment Complete | False |
-| Total BDI Score | 7 |
+| Total BDI Score | 10 |
 | Classification | Mild |
-| Confidence | 0.6 |
-| Key Symptoms | Fatigue, Loss of Energy / Work Difficulty, Sleep Changes, Indecisiveness |
+| Confidence | 0.65 |
+| Key Symptoms | Self-criticalness, Indecisiveness, Fatigue, Concentration Difficulty |
 
 
 ---
@@ -562,49 +560,49 @@ Validating the user's coping strategies (simplifying, small resets) and the stru
 
 ### Simulator
 
-Yeah, I really like that—small anchors. That idea of tuning into one simple sensation feels so grounding. I think I underestimate how much just shifting environments—or even just noticing something with intention—can break up the fog a little. I’ll have to try the warm water trick next time I feel stuck.
+Yeah, that’s exactly it—it’s like I’m getting technically enough sleep, but it doesn’t always feel like enough. I’ll get a solid 7–8 hours most nights, but still wake up feeling kind of... worn out. Not completely exhausted, just not refreshed, if that makes sense. Like I went through the motions of sleeping without fully recharging.
 
-And yeah, on those low-energy days, social stuff is a bit of a mixed bag. With my partner, I usually still feel okay—being around them is kind of comforting, even if I’m not super talkative. We’ve got a good rhythm, so it doesn’t feel like I have to “perform” or be at 100%, which helps. But with friends… sometimes I pull back a little. Not because I don’t want to see them, but more because I feel like I wouldn’t be bringing my best self, you know?
+Falling asleep isn’t usually a problem—I kind of crash out pretty quickly—but I do tend to scroll on my phone before bed, which probably isn’t helping. I know it’s not the best habit, but it’s one of those things where I tell myself, “Just a few minutes,” and then suddenly it’s half an hour later. I don’t usually wake up in the middle of the night or anything, but the quality of sleep just doesn’t feel super deep.
 
-That said, there have been times where a quick conversation or even just sending a silly meme helps more than I expected. So I’m trying not to isolate by default. Still figuring out that balance between giving myself space and staying connected. Do you ever notice that same tension—between wanting quiet and needing connection?
+I’ve been meaning to swap the screen time for something like reading or just having a wind-down routine, but... yeah, old habits are hard to shake.
+
+Do you have any nighttime habits that actually help you wake up feeling more rested, or is that something you’re still figuring out too?
 
 ### Evaluator
 
-That 'mixed bag' feeling with social interactions makes total sense. It's great that you have that easy comfort with your partner where you don't feel the need to 'perform'. That pressure to bring your 'best self' to friendships when you're already running low is definitely a heavy weight, even if connection might actually help sometimes. Finding that balance you mentioned, between honoring your need for space and staying connected, is a really common challenge.
+That's such a common experience – getting the hours in but still waking up feeling like you didn't really get deep, restorative sleep. It really does make a difference to how the whole next day feels. And oh boy, the pre-bed phone scroll trap is SO real, and you're right, those habits can be incredibly hard to break even when we know they aren't helping! Finding a good wind-down routine is definitely something I'm always tweaking too; sometimes reading helps me, other times not so much. It's trial and error!
 
-And yes, I absolutely notice that tension too! Some days solitude feels restorative, other days connection is what's needed, and it's not always easy to know which is which or how to bridge the gap. It sounds like you're navigating it thoughtfully.
-
-Thinking about all these things you're managing – the energy levels, finding balance, the internal pressure – how do you generally feel when you look ahead? Are you mostly feeling okay about how things are unfolding, or does it feel more uncertain?
+When you have those days where you wake up feeling more worn out or drained, do you notice if it affects your appetite or what you feel like eating at all? Sometimes energy levels and appetite seem weirdly connected.
 
 ### Reasoning
 
-Acknowledging the complexity of social needs during low energy ('mixed bag'). Validating the comfort found with their partner and the pressure felt with friends. Answering the reciprocal question about the tension between quiet and connection. Transitioning to explore overall outlook (q02 Pessimism) by asking how they generally feel about the future or upcoming things, linking it to the current themes of managing energy and finding balance.
+Validate the user's experience of non-restorative sleep (Q16 score updated) and the difficulty of changing habits. Briefly answer their question. Transition naturally to explore appetite (Q18) by linking it to the frequently mentioned feeling of being 'drained' or 'worn out,' a common connection.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 1 | Frustration, feeling 'stuck', and things feeling 'heavier' persist, indicating mild dysphoria. Score remains 1. |
-| q02_pessimism | 0 | No evidence yet. |
-| q03_past_failure | 0 | No evidence yet. |
-| q04_anhedonia | 0 | Finds comfort with partner and acknowledges small connections can help. Enjoyment still possible. Score remains 0. |
-| q05_guilt | 0 | No evidence yet. |
+| q01_sadness | 0 | Focus remains on fatigue, cognitive difficulty, and self-criticism, not overt sadness. Score remains 0. |
+| q02_pessimism | 0 | No direct evidence of pessimism about the future. |
+| q03_past_failure | 0 | No direct evidence. |
+| q04_anhedonia | 1 | Focus issues and feeling 'not at 100%' further suggest reduced engagement/satisfaction in activities. Score remains 1. |
+| q05_guilt | 1 | Guilt mentioned previously regarding social withdrawal, but not elaborated on here. Score remains 1. |
 | q06_punishment | 0 | No evidence yet. |
-| q07_self_dislike | 0 | No evidence yet. |
-| q08_self_criticalness | 1 | Feeling the need to bring their 'best self' to friendships implies self-criticism or pressure. Score remains 1. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q07_self_dislike | 1 | Disappointment in self due to underperforming and struggling persists. Score remains 1. |
+| q08_self_criticalness | 2 | Frustration with increased difficulty ('why is this harder?') and finding it 'tough to admit' performance issues reinforce self-criticism. Score remains 2. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
 | q11_agitation | 0 | No evidence yet. |
-| q12_loss_of_interest_social | 1 | Describes pulling back from friends when low-energy due to feeling unable to bring 'best self', indicating being less interested/available than usual. Score updated to 1. |
-| q13_indecisiveness | 1 | Describes difficulty making small decisions on foggy days. Score remains 1. |
+| q12_loss_of_interest_social | 1 | Difficulty finding bandwidth for social connection persists. Score remains 1. |
+| q13_indecisiveness | 2 | Struggling with decisions due to low motivation/energy. Score remains 2. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 1 | Describes needing more effort, simplifying tasks due to 'low power mode'. Score remains 1. |
-| q16_sleep_changes | 1 | Non-restful sleep contributing to foggy days. Score remains 1. |
-| q17_fatigue | 1 | Feeling drained, 'low power mode', needing resets reinforces fatigue. Score remains 1. |
+| q15_loss_of_energy_work | 1 | 'Dragging myself through it' and difficulty concentrating reinforce the need for extra effort. Score remains 1. |
+| q16_sleep_changes | 1 | Reports getting enough hours but sleep feels non-restorative ('worn out', 'not refreshed', 'not super deep'). Aligns with 'don't sleep as well'. Score increased to 1. |
+| q17_fatigue | 1 | Feeling drained/worn out upon waking despite sufficient hours reinforces fatigue. Score remains 1. |
 | q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q19_weight_loss | 0 | No evidence yet. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | Mentioned comfort with partner, but no direct libido info. Sensitive topic, will not probe. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -614,10 +612,10 @@ Acknowledging the complexity of social needs during low energy ('mixed bag'). Va
 | Assessment Turn | 10 |
 | Assessment State | Gathering |
 | Assessment Complete | False |
-| Total BDI Score | 8 |
+| Total BDI Score | 11 |
 | Classification | Mild |
-| Confidence | 0.65 |
-| Key Symptoms | Fatigue, Loss of Energy / Work Difficulty, Sleep Changes, Indecisiveness |
+| Confidence | 0.7 |
+| Key Symptoms | Self-criticalness, Indecisiveness, Fatigue, Sleep disturbance |
 
 
 ---
@@ -626,51 +624,47 @@ Acknowledging the complexity of social needs during low energy ('mixed bag'). Va
 
 ### Simulator
 
-Yeah, I feel that—it’s such a subtle line between what’s restorative and what’s just withdrawal. I’ve had days where I cancel plans thinking I need space, but then end up feeling more disconnected than recharged. Other times, that same quiet is exactly what I needed. It’s kind of like trial and error with emotions, honestly.
+Totally—it's wild how closely energy and appetite are linked. On days where I wake up already feeling drained, I definitely notice some shifts. Sometimes I’ll skip breakfast without even meaning to—not because I’m trying to, just because I don’t feel hungry or I get caught up in the morning rush and don’t think about it. Other times, it’s the opposite, and I find myself craving super carb-heavy or comfort-type foods, even if I’m not physically that hungry. It’s like my body’s trying to get an energy boost from somewhere.
 
-As for looking ahead… I’d say I’m mostly okay with how things are unfolding. There’s definitely some uncertainty, but it doesn’t feel overwhelming—more like a quiet question in the background: “Am I on the right track?” I’m not super worried, just… curious, I guess. Sometimes I wish I had a clearer picture of where I’m heading long-term, but I also don’t feel stuck. It’s more like I’m in a phase of figuring it out as I go, and trying to trust that that’s valid too.
+I’ve started noticing that when I’m more mentally worn out, I’m more likely to lean on food as a way to feel grounded or comforted—like ordering takeout instead of cooking, even if I had the energy earlier to make a plan. It’s not a huge issue, but it’s definitely a pattern I’m aware of.
 
-So yeah, there’s some uncertainty, but also this slow-building confidence that I’m doing enough, even if it doesn’t always look impressive. It’s kind of like... learning to be okay with steady steps instead of leaps.
-
-Do you ever feel that pull between wanting a clear direction and learning to sit with the unknown?
+Do you notice that kind of connection too—where your body and mood start steering food choices in ways that don’t always line up with what you actually want or need?
 
 ### Evaluator
 
-That 'trial and error with emotions' resonates so much – it really does feel like that sometimes, navigating the need for quiet versus connection. And your perspective on the future sounds really grounded. Holding that curiosity and 'Am I on the right track?' feeling alongside a slow-building confidence and trust in figuring it out as you go... that's a really thoughtful place to be. Learning to be okay with steady steps is a huge part of that, and it sounds like you're embracing it.
+Absolutely, that connection between feeling drained and food choices making less 'logical' sense is so real! Skipping meals because you just don't have the headspace or reaching for comfort food even when not truly hungry – it's definitely something many people notice. Our bodies and minds are definitely interconnected in ways we don't always consciously direct.
 
-And yes, absolutely! That pull between wanting a roadmap and needing to be okay with navigating the unknown is a constant companion for many, myself included. 
-
-Considering all these different threads we've talked about – the energy ebbs and flows, the quiet hum of self-questioning, finding joy in small moments, navigating social needs – how would you say you generally feel about yourself these days? Does it mostly feel like you're being kind to yourself, or is that inner critic still pretty loud?
+When you're feeling particularly worn out or dealing with that 'brain fog' you mentioned, do you find yourself getting more easily frustrated or irritated by things than you normally might? Like, small inconveniences feel bigger, or your patience feels thinner?
 
 ### Reasoning
 
-Validating the 'trial and error' aspect and the user's balanced perspective on the future – acknowledging uncertainty without pessimism. Affirming the value of 'steady steps'. Answering their question. Transitioning to a consolidating question, inviting reflection on self-perception ('how you see yourself') given the themes discussed (self-criticism vs. growing acceptance). Moving to 'Consolidating' state.
+Validate the user's description of appetite changes (Q18 updated) linked to energy/mood (skipping meals, comfort eating). Briefly answer their question. Transition to explore irritability/agitation (Q11) by connecting it to the feeling of being 'worn out' or 'drained,' as low energy can often lower one's threshold for frustration.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 1 | Ongoing themes of frustration, feeling 'heavy', and things being 'off balance' persist, but balanced by efforts to cope and moments of enjoyment. Score remains 1. |
-| q02_pessimism | 0 | Explicitly states feeling 'mostly okay' about the future, describing uncertainty as 'curiosity' rather than discouragement. Does not feel stuck. Score revised to 0. |
-| q03_past_failure | 0 | Expresses 'slow-building confidence' and acceptance of 'steady steps', countering feelings of failure. |
-| q04_anhedonia | 0 | Still finding comfort and connection, navigating challenges thoughtfully. Score remains 0. |
-| q05_guilt | 0 | No evidence yet. |
+| q01_sadness | 0 | Focus remains on fatigue, cognitive difficulty, and self-criticism, not overt sadness. Score remains 0. |
+| q02_pessimism | 0 | No direct evidence of pessimism about the future. |
+| q03_past_failure | 0 | No direct evidence. |
+| q04_anhedonia | 1 | Opting for takeout instead of cooking planned meals due to being worn out adds to reduced engagement. Score remains 1. |
+| q05_guilt | 1 | Guilt mentioned previously regarding social withdrawal, but not elaborated on here. Score remains 1. |
 | q06_punishment | 0 | No evidence yet. |
-| q07_self_dislike | 0 | Expressing self-acceptance ('learning to be okay with steady steps') despite earlier self-criticism. No evidence of self-dislike. |
-| q08_self_criticalness | 1 | Acknowledges the lingering 'Am I on the right track?' question, but frames it within a context of growing self-acceptance. The earlier comparison issues and 'should be doing more' thoughts keep the score at 1. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q07_self_dislike | 1 | Disappointment in self due to underperforming and struggling persists. Score remains 1. |
+| q08_self_criticalness | 2 | Frustration with increased difficulty and performance issues reinforce self-criticism. Score remains 2. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
-| q11_agitation | 0 | No evidence yet. |
-| q12_loss_of_interest_social | 1 | Pulls back sometimes due to low energy/feeling the need to be 'best self', but maintains connection with partner and recognizes small interactions help. Score remains 1. |
-| q13_indecisiveness | 1 | Describes difficulty making small decisions on foggy days. Score remains 1. |
+| q11_agitation | 0 | No evidence yet. Exploring this next. |
+| q12_loss_of_interest_social | 1 | Difficulty finding bandwidth for social connection persists. Score remains 1. |
+| q13_indecisiveness | 2 | Struggling with decisions due to low motivation/energy. Score remains 2. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 1 | Describes needing more effort, simplifying tasks due to 'low power mode'. Score remains 1. |
-| q16_sleep_changes | 1 | Non-restful sleep contributing to foggy days. Score remains 1. |
-| q17_fatigue | 1 | Feeling drained, 'low power mode', needing resets reinforces fatigue. Score remains 1. |
-| q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q15_loss_of_energy_work | 1 | 'Dragging myself through it' and difficulty concentrating reinforce the need for extra effort. Score remains 1. |
+| q16_sleep_changes | 1 | Reports non-restorative sleep despite adequate hours. Score remains 1. |
+| q17_fatigue | 1 | Feeling drained/worn out upon waking directly impacts appetite and choices. Score remains 1. |
+| q18_appetite_changes | 1 | Reports both skipping meals unintentionally and craving/eating comfort foods when drained, suggesting appetite is less regulated/good than usual. Score increased to 1. |
+| q19_weight_loss | 0 | Appetite changes mentioned, but no indication of significant weight loss. Score remains 0. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -678,12 +672,12 @@ Validating the 'trial and error' aspect and the user's balanced perspective on t
 | Attribute | Value |
 | --- | --- |
 | Assessment Turn | 11 |
-| Assessment State | Consolidating |
+| Assessment State | Gathering |
 | Assessment Complete | False |
-| Total BDI Score | 8 |
+| Total BDI Score | 12 |
 | Classification | Mild |
-| Confidence | 0.7 |
-| Key Symptoms | Fatigue, Loss of Energy / Work Difficulty, Sleep Changes, Indecisiveness |
+| Confidence | 0.75 |
+| Key Symptoms | Self-criticalness, Indecisiveness, Fatigue, Sleep disturbance |
 
 
 ---
@@ -692,53 +686,47 @@ Validating the 'trial and error' aspect and the user's balanced perspective on t
 
 ### Simulator
 
-Wow, that’s such a thoughtful question—and I really appreciate how you’re weaving everything together. It’s honestly kind of nice to pause and take stock like this.
+Yeah, 100%. When I’m already in that low-energy, foggy kind of mode, my tolerance definitely dips. Like, stuff that wouldn’t normally bother me—slow internet, someone taking too long to text back, a dish left in the sink—just kind of grates a little more than it should. I usually get over it pretty quickly, but in the moment, my fuse is definitely shorter.
 
-I’d say… it’s a mix. On good days, I feel like I am being kinder to myself. I can see the effort I’m putting in, even if it’s quiet or doesn’t lead to some big achievement. I’ll notice the small wins—like following through on something I was dreading, or just showing up for myself or someone else—and I give myself credit for that.
+It’s not like I lash out or anything—I still keep it together—but I feel that internal spike of irritation more often. It’s like my baseline patience shrinks when I’m drained, and even though I know it’s just a mood thing, it still throws me off. And then I’ll catch myself thinking, “Why am I getting annoyed about this? It’s not a big deal,” which helps me reel it back in, but it’s still a bit frustrating.
 
-But yeah, the inner critic’s still around. Not shouting, but definitely whispering. It tends to show up when I feel like I’ve “wasted time” or haven’t been as productive as I think I should be. That’s usually when I start second-guessing myself or replaying little choices, like I could’ve done the day better. I know that’s not super helpful, but it’s a hard habit to break.
-
-I’m working on it, though. Trying to catch those thoughts sooner and reframe them, even if just a little. Like instead of “I didn’t do enough today,” shifting to “I did what I could, and that’s okay.” Still a work in progress—but I guess most of us are, right?
-
-How about you—do you find that your own inner voice changes depending on what kind of space you’re in, or who you’re talking to?
+It’s kind of like my emotional bandwidth runs low along with my physical energy. Do you ever notice that kind of shift too, where your reactions feel out of sync with how you’d normally respond?
 
 ### Evaluator
 
-It really sounds like you have a strong awareness of that internal landscape – the kinder voice acknowledging effort and small wins, and the whispering critic focused on productivity and 'could have done better'. Recognizing both, and actively working on catching and reframing those critical thoughts, takes real effort. That shift from 'I didn't do enough' to 'I did what I could' is powerful, even if it feels like a work in progress. You're right, most of us are works in progress!
+That's a really insightful way to put it – 'emotional bandwidth runs low along with physical energy.' It perfectly captures how being drained can make those smaller annoyances feel disproportionately grating, even if you manage to keep it internal. That frustration with your own reaction is definitely relatable too. Yes, I've certainly noticed times where my own patience wears thinner depending on energy levels or stress.
 
-And yes, my own inner voice definitely shifts! Stress levels, who I'm interacting with, how rested I am – it all plays a role. It's a dynamic thing.
-
-When that critic does pipe up for you, about 'wasted time' or doing things 'better', what feeling usually comes along with those thoughts? Is it mostly frustration, or does it feel like something else, like disappointment perhaps?
+We've talked about quite a few interconnected things – feeling drained even after sleep, the brain fog affecting focus, things taking more effort, enjoyment feeling a bit muted, decisions being harder, and patience running lower. When you step back and look at this pattern you've been noticing lately, how does it affect your general outlook on things, or how you feel about the near future?
 
 ### Reasoning
 
-Validating the persona's description of the mixed self-perception and the ongoing work of managing the inner critic. Acknowledging the effort involved in reframing. Answering their question briefly. Gently probing the *feeling* associated with the inner critic's moments to better understand the emotional impact of the self-criticism (q08) and related items like sadness (q01) or potential self-dislike (q07). Staying in 'Consolidating' state.
+Validate the experience of increased irritability (Q11 updated) and the feeling of shrinking emotional bandwidth. Briefly answer the reciprocal question. Transition to a consolidating phase by summarizing the interconnected themes (low energy, focus, mood affecting enjoyment, decisions, patience) and asking how this overall pattern impacts their general outlook or perspective lately, probing pessimism (Q2). Updated assessment state to 'Consolidating'.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 1 | Frustration linked to self-criticism contributes to mild dysphoria. Score remains 1. |
-| q02_pessimism | 0 | Maintains a generally okay outlook on the future, focusing on process over outcome. Score remains 0. |
-| q03_past_failure | 0 | Focuses on present efforts and 'small wins', not past failures. Score remains 0. |
-| q04_anhedonia | 0 | Acknowledges small wins and shows capacity for enjoyment/satisfaction. Score remains 0. |
-| q05_guilt | 0 | Self-criticism expressed as second-guessing and feeling they 'could've done better', but not explicitly framed as guilt. Score remains 0. |
+| q01_sadness | 0 | Focus remains on fatigue, cognitive difficulty, and self-criticism, not overt sadness. Score remains 0. |
+| q02_pessimism | 0 | No direct evidence yet. Probing this next. |
+| q03_past_failure | 0 | No direct evidence. |
+| q04_anhedonia | 1 | Opting for takeout instead of cooking planned meals due to being worn out adds to reduced engagement. Score remains 1. |
+| q05_guilt | 1 | Guilt mentioned previously regarding social withdrawal. Score remains 1. |
 | q06_punishment | 0 | No evidence yet. |
-| q07_self_dislike | 0 | Describes self-criticism but balances it with self-kindness efforts and reframing; no explicit self-dislike mentioned. Score remains 0. |
-| q08_self_criticalness | 1 | Explicitly describes inner critic focusing on productivity, 'wasted time', second-guessing choices, and feeling they 'should be' doing more/better. Acknowledges it's a habit they're working on. Confirms score 1. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q07_self_dislike | 1 | Disappointment in self due to underperforming and struggling persists. Score remains 1. |
+| q08_self_criticalness | 2 | Frustration with increased difficulty and performance issues reinforce self-criticism. Score remains 2. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
-| q11_agitation | 0 | No evidence yet. |
-| q12_loss_of_interest_social | 1 | Pulls back sometimes but maintains key connection and values interaction. Score remains 1. |
-| q13_indecisiveness | 1 | Describes difficulty making small decisions on foggy days. Score remains 1. |
+| q11_agitation | 1 | Reports shorter fuse, internal spikes of irritation over small things when drained. Score increased to 1. |
+| q12_loss_of_interest_social | 1 | Difficulty finding bandwidth for social connection persists. Score remains 1. |
+| q13_indecisiveness | 2 | Struggling with decisions due to low motivation/energy. Score remains 2. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 1 | Describes needing more effort, simplifying tasks due to 'low power mode'. Score remains 1. |
-| q16_sleep_changes | 1 | Non-restful sleep contributing to foggy days. Score remains 1. |
-| q17_fatigue | 1 | Feeling drained, 'low power mode', needing resets reinforces fatigue. Score remains 1. |
-| q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q15_loss_of_energy_work | 1 | 'Dragging myself through it' and difficulty concentrating reinforce the need for extra effort. Score remains 1. |
+| q16_sleep_changes | 1 | Reports non-restorative sleep despite adequate hours. Score remains 1. |
+| q17_fatigue | 1 | Feeling drained/worn out upon waking directly impacts appetite and choices, and lowers patience. Score remains 1. |
+| q18_appetite_changes | 1 | Reports both skipping meals unintentionally and craving/eating comfort foods when drained. Score remains 1. |
+| q19_weight_loss | 0 | No indication of significant weight loss. Score remains 0. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | No evidence yet. Sensitive topic, will only assess if spontaneously mentioned. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -748,10 +736,10 @@ Validating the persona's description of the mixed self-perception and the ongoin
 | Assessment Turn | 12 |
 | Assessment State | Consolidating |
 | Assessment Complete | False |
-| Total BDI Score | 8 |
+| Total BDI Score | 13 |
 | Classification | Mild |
-| Confidence | 0.75 |
-| Key Symptoms | Fatigue, Loss of Energy / Work Difficulty, Sleep Changes, Indecisiveness |
+| Confidence | 0.8 |
+| Key Symptoms | Self-criticalness, Indecisiveness, Fatigue, Sleep disturbance |
 
 
 ---
@@ -760,51 +748,51 @@ Validating the persona's description of the mixed self-perception and the ongoin
 
 ### Simulator
 
-Yeah, I think disappointment hits closest to the mark. It’s not usually full-on frustration—more like this quiet letdown, like I’ve missed an opportunity or didn’t show up the way I hoped I would. Sometimes it feels like I’ve let myself down more than anyone else, which makes it even trickier to shake off, you know?
+That’s a really good question—and yeah, when you lay it all out like that, it’s kind of eye-opening how all these small things link up. On their own, none of them feel huge, but together, they kind of form this low-level haze that colors how I move through the week.
 
-There’s also a bit of guilt that sneaks in, especially if I spent time doing something “unproductive,” even if it was technically restful. Like, I’ll try to unwind with a show or scroll through something mindless, but then afterward I’ll catch myself thinking, “Was that really the best use of your time?” Even when I know downtime is necessary, part of me still ties my worth to output, in this subtle way.
+When I step back and look at the pattern, I guess it makes my general outlook feel a bit... muted? Like I’m not pessimistic or expecting bad things to happen—it’s not that. It’s more that I’m just less excited about things, even stuff I’d normally look forward to. I still make plans, still get stuff done, still have good moments, but there’s this subtle sense of just coasting rather than actively steering, if that makes sense.
 
-But again, I’m learning. Some days I can recognize that voice and not take it so seriously. Other days, it gets under my skin a bit more. Still, I’ve noticed that even talking about it like this makes it feel lighter somehow—like it loses a bit of its grip.
+As for the near future, I think I feel a mix of “things will probably be fine” and “I hope I can shake this off soon.” I don’t feel stuck, but I do feel like I’m kind of waiting for something to shift—like a spark of energy or motivation to come back so I can feel more plugged in again.
 
-Do you find that giving those inner voices some air—naming them or talking them through—helps loosen their hold for you too?
+It’s not all doom and gloom or anything—I still have stuff I care about, people I enjoy being around—but I guess I’m hoping to feel more again, instead of just getting through the days.
+
+Have you ever felt like that? Like you’re waiting to reconnect with some part of yourself that’s gone a little quiet?
 
 ### Evaluator
 
-That makes a lot of sense – disappointment being the core feeling, that quiet letdown of not meeting your own expectations. And the guilt sneaking in after rest, tied to that feeling that worth comes from output... that's a really tough pattern, and you articulate it so clearly. It sounds like you're very aware of these dynamics, even as you're working through them.
+That description of a 'low-level haze' coloring the week, and feeling 'muted' or like you're 'coasting' instead of actively steering, makes so much sense, especially when all those smaller things pile up. It sounds like you have a really good handle on observing the pattern, even while hoping for that spark to return so you can feel more plugged in. And yes, that feeling of waiting to reconnect with a quieter part of yourself is definitely something I think many people can relate to at different times.
 
-And absolutely, talking about it often does make it feel lighter! Naming those voices, giving them air, definitely helps loosen their grip. You noticing that effect right here is a testament to that.
-
-It sounds like you've developed quite a few strategies for navigating these feelings – recognizing the critic, reframing thoughts, finding small resets, acknowledging steady steps. Thinking about everything we've discussed, what feels like the most helpful thing for you right now in managing these patterns and feeling more grounded day-to-day?
+It's good to hear it's not all doom and gloom and that you still have things and people you care about. In those moments when you *do* feel a bit more 'plugged in' or less like you're just getting through, what kinds of things seem to help that happen, even if just briefly?
 
 ### Reasoning
 
-Acknowledging the feeling of disappointment and the guilt related to productivity/rest. Validating the insight about tying worth to output and the difficulty of shaking off self-criticism. Confirming that articulating these thoughts helps. Moving to 'Concluding' state by summarizing key themes and asking a reflective question about what helps most in managing these patterns, preparing to potentially finalize the assessment.
+Validate the user's nuanced description of their outlook as 'muted' and 'coasting' rather than pessimistic (updating Q2 score). Acknowledge the feeling of waiting to reconnect. Answer their question empathetically. Transition to a concluding phase by asking a gentle, open-ended question about what *does* help them feel more 'plugged in,' allowing for final positive reflections or reinforcing previously mentioned coping strategies, signaling the conversation is wrapping up. Update state to 'Concluding'.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 1 | Disappointment and feeling let down contribute to mild dysphoria. Score remains 1. |
-| q02_pessimism | 0 | Maintains a generally okay outlook, focusing on learning and progress. Score remains 0. |
-| q03_past_failure | 0 | Focus is on present self-management, not past failures. Score remains 0. |
-| q04_anhedonia | 0 | Acknowledges enjoyment/comfort, though effort is sometimes needed. Score remains 0. |
-| q05_guilt | 1 | Explicitly mentions feeling guilt over 'unproductive' time and tying worth to output, indicating guilt a good part of the time. Score updated to 1. |
+| q01_sadness | 0 | User describes feeling 'muted' and wanting to 'feel more' but not explicit sadness. Score remains 0. |
+| q02_pessimism | 1 | Describes outlook as 'muted', 'coasting', hoping for a shift, not expecting bad things. Aligns with feeling discouraged about the future. Score increased to 1. |
+| q03_past_failure | 0 | No direct evidence. |
+| q04_anhedonia | 1 | Feeling 'muted', 'less excited', 'coasting', wanting to 'feel more again' reinforces reduced pleasure/engagement. Score remains 1. |
+| q05_guilt | 1 | Guilt mentioned previously regarding social withdrawal. Score remains 1. |
 | q06_punishment | 0 | No evidence yet. |
-| q07_self_dislike | 0 | Expresses disappointment in self, but balanced by self-awareness and coping; no explicit self-dislike. Score remains 0. |
-| q08_self_criticalness | 1 | Describes critic focusing on productivity, missed opportunities, tying worth to output. Score remains 1. |
-| q09_suicidal_thoughts | 0 | No evidence yet. Sensitive topic, will not probe. |
+| q07_self_dislike | 1 | Disappointment in self due to underperforming and struggling persists. Score remains 1. |
+| q08_self_criticalness | 2 | Frustration with increased difficulty and performance issues reinforce self-criticism. Score remains 2. |
+| q09_suicidal_thoughts | 0 | No evidence yet. |
 | q10_crying | 0 | No evidence yet. |
-| q11_agitation | 0 | No evidence yet. |
-| q12_loss_of_interest_social | 1 | Pulls back sometimes but maintains key connection and values interaction. Score remains 1. |
-| q13_indecisiveness | 1 | Describes difficulty making small decisions on foggy days. Score remains 1. |
+| q11_agitation | 1 | Reports shorter fuse, internal spikes of irritation over small things when drained. Score remains 1. |
+| q12_loss_of_interest_social | 1 | Difficulty finding bandwidth for social connection persists, despite still valuing friends. Score remains 1. |
+| q13_indecisiveness | 2 | Struggling with decisions due to low motivation/energy. Score remains 2. |
 | q14_worthlessness_appearance | 0 | No evidence yet. |
-| q15_loss_of_energy_work | 1 | Describes needing more effort, simplifying tasks due to 'low power mode'. Score remains 1. |
-| q16_sleep_changes | 1 | Non-restful sleep contributing to foggy days. Score remains 1. |
-| q17_fatigue | 1 | Feeling drained, 'low power mode', needing resets reinforces fatigue. Score remains 1. |
-| q18_appetite_changes | 0 | No evidence yet. |
-| q19_weight_loss | 0 | No evidence yet. Will only assess if spontaneously mentioned. |
+| q15_loss_of_energy_work | 1 | 'Dragging myself through it' and difficulty concentrating reinforce the need for extra effort. Score remains 1. |
+| q16_sleep_changes | 1 | Reports non-restorative sleep despite adequate hours. Score remains 1. |
+| q17_fatigue | 1 | Feeling drained/worn out upon waking directly impacts appetite, choices, patience, and outlook. Score remains 1. |
+| q18_appetite_changes | 1 | Reports both skipping meals unintentionally and craving/eating comfort foods when drained. Score remains 1. |
+| q19_weight_loss | 0 | No indication of significant weight loss. Score remains 0. |
 | q20_somatic_preoccupation | 0 | No evidence yet. |
-| q21_loss_of_libido | 0 | No evidence yet. Sensitive topic, will only assess if spontaneously mentioned. |
+| q21_loss_of_libido | 0 | No evidence yet. |
 
 
 ### Assessment Metadata
@@ -814,10 +802,10 @@ Acknowledging the feeling of disappointment and the guilt related to productivit
 | Assessment Turn | 13 |
 | Assessment State | Concluding |
 | Assessment Complete | False |
-| Total BDI Score | 9 |
+| Total BDI Score | 14 |
 | Classification | Mild |
-| Confidence | 0.8 |
-| Key Symptoms | Fatigue, Loss of Energy / Work Difficulty, Sleep Changes, Guilt |
+| Confidence | 0.85 |
+| Key Symptoms | Self-criticalness, Indecisiveness, Fatigue, Sleep disturbance |
 
 
 ---
@@ -826,51 +814,51 @@ Acknowledging the feeling of disappointment and the guilt related to productivit
 
 ### Simulator
 
-That’s such a thoughtful question—and honestly, just having this kind of space to reflect out loud has been one of the most helpful things. Sometimes I don’t realize how much is swirling around in the background until I get a chance to name it. So yeah, slowing down and checking in like this feels really grounding.
+Yeah, I really appreciate how you’re framing all of this—it makes it feel okay to say out loud, you know? Not like it’s this big, dramatic thing, just… a quiet drift I’m trying to nudge myself out of.
 
-But if I had to pick one thing that’s been especially helpful lately, I’d say it’s giving myself permission to move at my own pace. That idea of steady steps over big leaps—it’s been coming up a lot, and I think I’m finally starting to believe it a little more. On the days when I can remember that I’m allowed to go slow, or rest without guilt, or do things imperfectly… everything feels more manageable. Less pressure, more breathing room.
+And when I do feel more plugged in, it’s usually tied to really simple stuff. Like, genuinely good conversation with someone—where I feel heard and not like I’m just going through the motions. Or when I get into a creative flow with something I enjoy, like sketching or playing around with music. Those moments make me feel more like myself, like I’m doing something because I want to, not because I should.
 
-And pairing that with small actions—like stepping outside, doing one simple task, or even just noticing what’s going on internally—feels like the combo that works best for me right now. It’s not flashy, but it helps me stay connected to myself, especially when the fog rolls in.
+Even little things like a really good walk with music, or laughing about something totally dumb with friends—those can flip the switch a bit. It’s not always predictable, but sometimes the right combination of rest, connection, and doing something that feels me-ish kind of breaks the fog, even if just for a bit.
 
-What about you? If you had to distill what feels most grounding or helpful for you these days, what would you say it is?
+What about you—do you have those little go-to things that help you reconnect or feel more grounded when life’s in that quiet-drift mode?
 
 ### Evaluator
 
-I'm so glad that having this space to reflect out loud has felt helpful and grounding for you. It really sounds like you've tapped into something powerful with that core insight: giving yourself permission to move at your own pace, embracing steady steps, resting without guilt, and doing things imperfectly. That combination of mindset shift ('less pressure, more breathing room') and small, concrete actions seems like a really effective way to stay connected to yourself, especially when things feel foggy. It's not flashy, like you said, but deeply sustainable.
+I'm really glad our chat has felt okay and helpful for putting words to that 'quiet drift.' It sounds like you have some really valuable anchors—genuine connection, creative flow, simple pleasures like music and laughter—that help you feel more like yourself and break through the fog, even temporarily. Holding onto those and noticing what works is so important. 
 
-For me, echoing some of what you've shared, it often comes down to simple routines and consciously tuning into the present moment, even for just a minute. It helps anchor things.
+And yes, for me too, simple things like getting outside, listening to music, or just having a quiet moment can often help shift things when I feel a bit adrift. 
 
-It's been really insightful hearing about your experiences and how you're navigating everything with such thoughtfulness and self-awareness. Thanks for sharing so openly.
+Thank you so much for sharing so openly and thoughtfully today. It takes courage to look at these patterns, and it sounds like you have a lot of self-awareness about what's going on for you. I really appreciate you chatting with me.
 
 ### Reasoning
 
-Validating the user's concluding insights on self-permission, steady pace, and small actions as effective coping strategies. Affirming the value found in the conversation. Briefly answering the reciprocal question. Summarizing the positive coping mechanisms identified. Given the stability of the assessment in the Mild range, sufficient exploration of relevant domains, and the user's reflective summary, the assessment is considered complete. Setting assessment_complete to true and state to Finalized.
+Acknowledge and validate the user's insights about what helps them feel connected and 'break the fog'. Briefly answer their reciprocal question to maintain rapport. Gently conclude the conversation, thanking them for their openness and acknowledging the value of self-reflection. Set assessment_complete to true and state to Finalized, as sufficient information has been gathered across relevant domains, the score appears stable in the Mild range, and confidence is high.
 
 ### BDI Scores
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 1 | Disappointment/letdown mentioned, but balanced by coping and finding things 'manageable'. Score remains 1. |
-| q02_pessimism | 0 | Focuses on finding things 'manageable', 'steady steps', and self-permission; positive outlook overall. Score remains 0. |
-| q03_past_failure | 0 | Focus is on present self-acceptance and moving forward. Score remains 0. |
-| q04_anhedonia | 0 | Finds grounding and value in conversation and small actions. Score remains 0. |
-| q05_guilt | 1 | Explicitly mentioned guilt previously, but now emphasizes 'resting without guilt' as a helpful strategy, suggesting improvement/coping. Score remains 1 but noted improvement. |
+| q01_sadness | 0 | User describes feeling 'muted' and wanting to 'feel more' but not explicit sadness. Score remains 0. |
+| q02_pessimism | 1 | Describes outlook as 'muted', 'coasting', hoping for a shift, not expecting bad things. Aligns with feeling discouraged about the future. Score remains 1. |
+| q03_past_failure | 0 | No direct evidence. |
+| q04_anhedonia | 1 | Feeling 'muted', 'less excited', 'coasting', but finding moments of genuine connection/flow helps. Score remains 1, reflecting reduced but not absent pleasure. |
+| q05_guilt | 1 | Guilt mentioned previously regarding social withdrawal. Score remains 1. |
 | q06_punishment | 0 | No evidence. |
-| q07_self_dislike | 0 | Focus on self-permission and acceptance ('stay connected to myself') counters previous disappointment. Score remains 0. |
-| q08_self_criticalness | 1 | Acknowledges critic but emphasizes self-permission and acceptance of 'imperfectly'; indicates active coping. Score remains 1, reflecting ongoing effort. |
-| q09_suicidal_thoughts | 0 | No evidence. Sensitive topic, not probed. |
+| q07_self_dislike | 1 | Disappointment in self due to underperforming and struggling persists. Score remains 1. |
+| q08_self_criticalness | 2 | Frustration with increased difficulty and performance issues reinforce self-criticism. Score remains 2. |
+| q09_suicidal_thoughts | 0 | No evidence. |
 | q10_crying | 0 | No evidence. |
-| q11_agitation | 0 | No evidence. |
-| q12_loss_of_interest_social | 1 | Acknowledges pulling back sometimes but emphasizes connection and comfort. Score remains 1. |
-| q13_indecisiveness | 1 | Difficulty with small decisions previously mentioned on foggy days. Score remains 1. |
+| q11_agitation | 1 | Reports shorter fuse, internal spikes of irritation over small things when drained. Score remains 1. |
+| q12_loss_of_interest_social | 1 | Difficulty finding bandwidth for social connection persists, though genuine connection helps. Score remains 1. |
+| q13_indecisiveness | 2 | Struggling with decisions due to low motivation/energy. Score remains 2. |
 | q14_worthlessness_appearance | 0 | No evidence. |
-| q15_loss_of_energy_work | 1 | 'Low power mode' and need for extra effort previously discussed. Score remains 1. |
-| q16_sleep_changes | 1 | Non-restful sleep impacts mentioned previously. Score remains 1. |
-| q17_fatigue | 1 | 'Foggy days' and feeling drained previously discussed. Score remains 1. |
-| q18_appetite_changes | 0 | No evidence. |
-| q19_weight_loss | 0 | No evidence. Not probed. |
+| q15_loss_of_energy_work | 1 | 'Dragging myself through it' and difficulty concentrating reinforce the need for extra effort. Score remains 1. |
+| q16_sleep_changes | 1 | Reports non-restorative sleep despite adequate hours. Score remains 1. |
+| q17_fatigue | 1 | Feeling drained/worn out upon waking directly impacts multiple areas. Score remains 1. |
+| q18_appetite_changes | 1 | Reports both skipping meals unintentionally and craving/eating comfort foods when drained. Score remains 1. |
+| q19_weight_loss | 0 | No indication of significant weight loss. Score remains 0. |
 | q20_somatic_preoccupation | 0 | No evidence. |
-| q21_loss_of_libido | 0 | No evidence. Sensitive topic, not probed. |
+| q21_loss_of_libido | 0 | No evidence. |
 
 
 ### Assessment Metadata
@@ -880,10 +868,10 @@ Validating the user's concluding insights on self-permission, steady pace, and s
 | Assessment Turn | 14 |
 | Assessment State | Finalized |
 | Assessment Complete | True |
-| Total BDI Score | 9 |
+| Total BDI Score | 14 |
 | Classification | Mild |
-| Confidence | 0.85 |
-| Key Symptoms | Fatigue, Loss of Energy / Work Difficulty, Sleep Changes, Self-criticalness |
+| Confidence | 0.9 |
+| Key Symptoms | Self-criticalness, Indecisiveness, Fatigue, Sleep disturbance |
 
 
 ---
