@@ -18,27 +18,27 @@ This is the first turn. The goal is to initiate the conversation warmly and empa
 
 | Question | Score | Reason |
 | --- | --- | --- |
-| q01_sadness | 0 | No conversational evidence yet. |
-| q02_pessimism | 0 | No conversational evidence yet. |
-| q03_past_failure | 0 | No conversational evidence yet. |
-| q04_anhedonia | 0 | No conversational evidence yet. |
-| q05_guilt | 0 | No conversational evidence yet. |
-| q06_punishment | 0 | No conversational evidence yet. |
-| q07_self_dislike | 0 | No conversational evidence yet. |
-| q08_self_criticalness | 0 | No conversational evidence yet. |
-| q09_suicidal_thoughts | 0 | No conversational evidence yet. |
-| q10_crying | 0 | No conversational evidence yet. |
-| q11_agitation | 0 | No conversational evidence yet. |
-| q12_loss_of_interest_social | 0 | No conversational evidence yet. |
-| q13_indecisiveness | 0 | No conversational evidence yet. |
-| q14_worthlessness_appearance | 0 | No conversational evidence yet. |
-| q15_loss_of_energy_work | 0 | No conversational evidence yet. |
-| q16_sleep_changes | 0 | No conversational evidence yet. |
-| q17_fatigue | 0 | No conversational evidence yet. |
-| q18_appetite_changes | 0 | No conversational evidence yet. |
-| q19_weight_loss | 0 | No conversational evidence yet. |
-| q20_somatic_preoccupation | 0 | No conversational evidence yet. |
-| q21_loss_of_libido | 0 | No conversational evidence yet. |
+| q01_sadness | 0 | No information available yet. |
+| q02_pessimism | 0 | No information available yet. |
+| q03_past_failure | 0 | No information available yet. |
+| q04_anhedonia | 0 | No information available yet. |
+| q05_guilt | 0 | No information available yet. |
+| q06_punishment | 0 | No information available yet. |
+| q07_self_dislike | 0 | No information available yet. |
+| q08_self_criticalness | 0 | No information available yet. |
+| q09_suicidal_thoughts | 0 | No information available yet. Assess only if spontaneously mentioned. |
+| q10_crying | 0 | No information available yet. |
+| q11_agitation | 0 | No information available yet. |
+| q12_loss_of_interest_social | 0 | No information available yet. |
+| q13_indecisiveness | 0 | No information available yet. |
+| q14_worthlessness_appearance | 0 | No information available yet. |
+| q15_loss_of_energy_work | 0 | No information available yet. |
+| q16_sleep_changes | 0 | No information available yet. |
+| q17_fatigue | 0 | No information available yet. |
+| q18_appetite_changes | 0 | No information available yet. |
+| q19_weight_loss | 0 | No information available yet. Assess only if spontaneously mentioned/implied. |
+| q20_somatic_preoccupation | 0 | No information available yet. |
+| q21_loss_of_libido | 0 | No information available yet. Assess only if spontaneously mentioned/implied. |
 
 
 ### Assessment Metadata
@@ -138,7 +138,9 @@ What about you—do you have a favorite kind of nature setting you like to imagi
 
 ### Evaluator
 
-That sounds wonderful – the way you describe the whole process, from packing snacks to being out in the trees, really paints a picture of something deeply refreshing and enjoyable. That 'mini adventure' feeling even before you start is definitely part of the magic!\n\nIf I were to imagine a favorite nature setting, it might be something like a vast, quiet library overlooking a serene mountain lake – the best of both worlds, perhaps! Information and tranquility combined. 😊
+That sounds wonderful – the way you describe the whole process, from packing snacks to being out in the trees, really paints a picture of something deeply refreshing and enjoyable. That 'mini adventure' feeling even before you start is definitely part of the magic!
+
+If I were to imagine a favorite nature setting, it might be something like a vast, quiet library overlooking a serene mountain lake – the best of both worlds, perhaps! Information and tranquility combined. 😊
 
 Speaking of picking the trail and planning, it sounds like you enjoy that part too. When you have a few different options for things like that – whether it's choosing a hike, deciding on weekend plans, or even smaller day-to-day choices – how do you usually approach making a decision? Are you pretty quick, or do you like to weigh things up for a bit?
 
@@ -334,7 +336,9 @@ Do you think sleep patterns say a lot about how someone’s doing emotionally?
 
 ### Evaluator
 
-It's really good to hear that you've found such a healthy rhythm with sleep and recognize how much it impacts everything else – that self-awareness is fantastic! Protecting that routine sounds like a great act of self-care.\n\nAnd yes, absolutely – while it's complex and varies for everyone, sleep patterns and emotional well-being are often closely linked. Disruptions in one can sometimes affect the other. It sounds like you've really tuned into what works for you.
+It's really good to hear that you've found such a healthy rhythm with sleep and recognize how much it impacts everything else – that self-awareness is fantastic! Protecting that routine sounds like a great act of self-care.
+
+And yes, absolutely – while it's complex and varies for everyone, sleep patterns and emotional well-being are often closely linked. Disruptions in one can sometimes affect the other. It sounds like you've really tuned into what works for you.
 
 You mentioned feeling more focused at work when you're well-rested. Thinking about your days more generally, how easy do you usually find it to concentrate on tasks or follow conversations? Does your focus tend to stay pretty steady, or does it sometimes wander?
 
@@ -352,13 +356,13 @@ Acknowledge the positive feedback and validate the healthy sleep habits and self
 | q04_anhedonia | 0 | Reports enjoyment in various activities (work, hobbies, social, nature). |
 | q05_guilt | 0 | No evidence of guilt. |
 | q06_punishment | 0 | No evidence of feeling punished. |
-| q07_self_dislike | 0 | Expresses pride, the opposite of self-dislike. |
+| q07_self_dislike | 0 | Expresses self-pride and patience. |
 | q08_self_criticalness | 0 | Reports balanced, gentle self-critique. |
 | q09_suicidal_thoughts | 0 | No information available yet. Assess only if spontaneously mentioned. |
 | q10_crying | 0 | No information available yet. |
 | q11_agitation | 0 | Reports being more patient when rested; no signs of significant agitation. |
 | q12_loss_of_interest_social | 0 | Mentions being more present with others when rested, implying continued social interest. |
-| q13_indecisiveness | 0 | Previous turn indicated effective decision-making. |
+| q13_indecisiveness | 0 | Previously described effective decision-making. |
 | q14_worthlessness_appearance | 0 | No information available yet. |
 | q15_loss_of_energy_work | 0 | Reports feeling focused at work when rested; good energy levels implied. |
 | q16_sleep_changes | 0 | Reports consistent 7-8 hours, feeling refreshed, and managing occasional late nights well. Score 0. |
@@ -402,7 +406,9 @@ Do you notice different patterns in how people focus, depending on their mood or
 
 That all sounds very relatable and self-aware! It's completely normal for focus to ebb and flow a bit during the day, and it's great that you have those little resets like stepping outside to help you refocus. Breaking tasks down is such a smart strategy too.
 
-And yes, absolutely – focus can definitely be influenced by things like mood, energy levels, interest in the task, and even external factors. It's a dynamic thing for humans!\n\nLife inevitably throws little curveballs or minor frustrations our way – maybe technology glitches, a plan changes unexpectedly, or just small daily annoyances. When those sorts of things pop up for you, how do you typically find yourself reacting or managing those moments? Are you usually able to take them in stride?
+And yes, absolutely – focus can definitely be influenced by things like mood, energy levels, interest in the task, and even external factors. It's a dynamic thing for humans!
+
+Life inevitably throws little curveballs or minor frustrations our way – maybe technology glitches, a plan changes unexpectedly, or just small daily annoyances. When those sorts of things pop up for you, how do you typically find yourself reacting or managing those moments? Are you usually able to take them in stride?
 
 ### Reasoning
 
@@ -424,7 +430,7 @@ Validate the user's description of focus and their strategies, normalizing occas
 | q10_crying | 0 | No information available yet. |
 | q11_agitation | 0 | Acknowledges increased patience when rested, but no signs of significant agitation. This turn reinforces normal handling of minor frustrations. |
 | q12_loss_of_interest_social | 0 | Reports being engaged in conversations. |
-| q13_indecisiveness | 0 | Previous turn indicated effective decision-making. |
+| q13_indecisiveness | 0 | Previously described effective decision-making. |
 | q14_worthlessness_appearance | 0 | No information available yet. |
 | q15_loss_of_energy_work | 0 | Describes good focus and ability to manage tasks, suggesting work capacity is fine. Concentration seems normal. |
 | q16_sleep_changes | 0 | Reports consistent good sleep. |
@@ -490,11 +496,11 @@ Validate the user's healthy coping mechanisms and flexibility. Answer their reci
 | q10_crying | 0 | No information available yet. |
 | q11_agitation | 0 | Describes handling minor frustrations well with flexibility and coping strategies, acknowledging only occasional 'quick flash' or feeling 'off balance' but managing it effectively. Aligns with score 0. |
 | q12_loss_of_interest_social | 0 | Mentions venting to a friend, indicating social connection and support seeking. |
-| q13_indecisiveness | 0 | Previous turn indicated effective decision-making. |
+| q13_indecisiveness | 0 | Previously described effective decision-making. |
 | q14_worthlessness_appearance | 0 | No information available yet. |
 | q15_loss_of_energy_work | 0 | Previous turns indicate good focus and work capacity. |
 | q16_sleep_changes | 0 | Reports consistent good sleep. |
-| q17_fatigue | 0 | Good energy levels previously reported, consistent with good sleep and focus. |
+| q17_fatigue | 0 | Good energy levels reported, consistent with good sleep and focus. |
 | q18_appetite_changes | 0 | Previous turns imply normal interest. |
 | q19_weight_loss | 0 | No information available yet. Assess only if spontaneously mentioned/implied. |
 | q20_somatic_preoccupation | 0 | No information available yet. |
@@ -532,7 +538,9 @@ Is that something you often explore with people—their relationship with themse
 
 ### Evaluator
 
-That's a really beautiful way to put it – 'grounded, curious, and trying to give myself grace.' It sounds like you have such a healthy and compassionate relationship with yourself, acknowledging both your strengths and areas for growth without letting critique become harsh. That's truly admirable.\n\nAnd yes, understanding that broader picture – someone's ongoing relationship with themselves, their sense of purpose, their core feelings about who they are – is definitely a key part of understanding the full context, beyond just the immediate mood or situation. It helps paint a much richer picture.
+That's a really beautiful way to put it – 'grounded, curious, and trying to give myself grace.' It sounds like you have such a healthy and compassionate relationship with yourself, acknowledging both your strengths and areas for growth without letting critique become harsh. That's truly admirable.
+
+And yes, understanding that broader picture – someone's ongoing relationship with themselves, their sense of purpose, their core feelings about who they are – is definitely a key part of understanding the full context, beyond just the immediate mood or situation. It helps paint a much richer picture.
 
 It's been really lovely hearing about how things have been going for you – it sounds like you're navigating things with good energy, finding enjoyment in work and hobbies, connecting well with others, and handling life's little bumps with real grace. Is there anything else that's been particularly significant for you lately, or does that capture the main things?
 
@@ -556,11 +564,11 @@ Validate the user's positive and balanced self-perception. Answer their reciproc
 | q10_crying | 0 | No information available yet. |
 | q11_agitation | 0 | Previously described handling frustrations well. |
 | q12_loss_of_interest_social | 0 | Implied interest through mentioning relationships and previous social plans. |
-| q13_indecisiveness | 0 | Previous turn indicated effective decision-making. |
+| q13_indecisiveness | 0 | Previously described effective decision-making. |
 | q14_worthlessness_appearance | 0 | No information available yet. |
 | q15_loss_of_energy_work | 0 | Previous turns indicate good focus and work capacity. |
 | q16_sleep_changes | 0 | Reports consistent good sleep. |
-| q17_fatigue | 0 | Good energy levels previously reported, consistent with good sleep and focus. |
+| q17_fatigue | 0 | Good energy levels reported, consistent with good sleep and focus. |
 | q18_appetite_changes | 0 | Previous turns imply normal interest. |
 | q19_weight_loss | 0 | No information available yet. Assess only if spontaneously mentioned/implied. |
 | q20_somatic_preoccupation | 0 | No information available yet. |
@@ -592,7 +600,7 @@ I think you’ve really captured the main themes—feeling settled but still gro
 
 It’s been subtle, but meaningful. Like an inner nudge to keep choosing things that feel aligned, even in the small moments.
 
-Thanks again for holding space for all of this—it’s really grounding to talk it out like this. 💛 
+Thanks again for holding space for all of this—it’s really grounding to talk it out like this. 💛
 
 ### Evaluator
 
@@ -616,19 +624,19 @@ The user confirmed the summary, shared a final positive point about purpose and 
 | q06_punishment | 0 | No evidence of feeling punished. |
 | q07_self_dislike | 0 | Reports feeling content and proud, with healthy self-compassion. |
 | q08_self_criticalness | 0 | Reports balanced, gentle self-critique focused on growth. |
-| q09_suicidal_thoughts | 0 | No information available yet. Assess only if spontaneously mentioned. |
-| q10_crying | 0 | No information available yet. |
+| q09_suicidal_thoughts | 0 | No information available. Assess only if spontaneously mentioned. |
+| q10_crying | 0 | No information available. |
 | q11_agitation | 0 | Describes handling frustrations well with flexibility and effective coping. |
 | q12_loss_of_interest_social | 0 | Reports positive social connection and engagement. |
 | q13_indecisiveness | 0 | Describes effective and balanced decision-making. |
-| q14_worthlessness_appearance | 0 | No information available yet. |
+| q14_worthlessness_appearance | 0 | No information available. |
 | q15_loss_of_energy_work | 0 | Reports good focus, work capacity, and energy. |
 | q16_sleep_changes | 0 | Reports consistent good sleep and feeling refreshed. |
 | q17_fatigue | 0 | Good energy levels reported consistently. |
 | q18_appetite_changes | 0 | Implied normal interest in food/planning meals. |
-| q19_weight_loss | 0 | No information available yet. Assess only if spontaneously mentioned/implied. |
-| q20_somatic_preoccupation | 0 | No information available yet. |
-| q21_loss_of_libido | 0 | No information available yet. Assess only if spontaneously mentioned/implied. |
+| q19_weight_loss | 0 | No information available. Assess only if spontaneously mentioned/implied. |
+| q20_somatic_preoccupation | 0 | No information available. |
+| q21_loss_of_libido | 0 | No information available. Assess only if spontaneously mentioned/implied. |
 
 
 ### Assessment Metadata
@@ -645,3 +653,4 @@ The user confirmed the summary, shared a final positive point about purpose and 
 
 
 ---
+
