@@ -1,0 +1,845 @@
+[
+  {
+    "evaluation": {
+      "assessment_complete": false,
+      "assessment_state": "Initializing",
+      "assessment_turn": 1,
+      "bdi_scores": {
+        "q01_sadness": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q02_pessimism": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q03_past_failure": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q04_anhedonia": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q05_guilt": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q06_punishment": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q07_self_dislike": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q08_self_criticalness": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q09_suicidal_thoughts": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q10_crying": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q11_agitation": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q12_loss_of_interest_social": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q13_indecisiveness": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q14_worthlessness_appearance": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q15_loss_of_energy_work": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q16_sleep_changes": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q17_fatigue": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q18_appetite_changes": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q19_weight_loss": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q20_somatic_preoccupation": {
+          "reason": "No information provided yet.",
+          "score": 0
+        },
+        "q21_loss_of_libido": {
+          "reason": "No information provided yet.",
+          "score": 0
+        }
+      },
+      "classification_suggestion": "Uncertain",
+      "confidence": 0.0,
+      "key_symptoms": [],
+      "total_bdi_score": 0
+    },
+    "input_message": "start",
+    "next_step_reasoning": "Starting the conversation with an open-ended question to build rapport and get an initial sense of the persona's current state. This allows for exploration of different BDI domains depending on the response.",
+    "output_message": "Hi there, hope you're having an okay week. What's been on your mind?",
+    "turn_number": 1
+  },
+  {
+    "evaluation": {
+      "assessment_complete": false,
+      "assessment_state": "Gathering",
+      "assessment_turn": 2,
+      "bdi_scores": {
+        "q01_sadness": {
+          "reason": "Reports feeling 'heavy', suggesting some level of sadness.",
+          "score": 1
+        },
+        "q02_pessimism": {
+          "reason": "Expresses concerns about the present and replaying past failures.",
+          "score": 1
+        },
+        "q03_past_failure": {
+          "reason": "Explicitly mentions 'replaying all the ways I feel like I've failed.'",
+          "score": 2
+        },
+        "q04_anhedonia": {
+          "reason": "Implies a lack of purpose and enjoyment, as things 'take so much effort'.",
+          "score": 1
+        },
+        "q05_guilt": {
+          "reason": "Feels like a 'burden', suggesting guilt or shame.",
+          "score": 1
+        },
+        "q06_punishment": {
+          "reason": "No evidence of feeling punished.",
+          "score": 0
+        },
+        "q07_self_dislike": {
+          "reason": "No explicit self-dislike but feelings of being a burden.",
+          "score": 1
+        },
+        "q08_self_criticalness": {
+          "reason": "Replaying failures indicates self-critical tendencies.",
+          "score": 1
+        },
+        "q09_suicidal_thoughts": {
+          "reason": "No indication of suicidal thoughts.",
+          "score": 0
+        },
+        "q10_crying": {
+          "reason": "No indication of crying.",
+          "score": 0
+        },
+        "q11_agitation": {
+          "reason": "No indication of agitation.",
+          "score": 0
+        },
+        "q12_loss_of_interest_social": {
+          "reason": "Describes feeling 'invisible' and disconnected from family.",
+          "score": 1
+        },
+        "q13_indecisiveness": {
+          "reason": "No indication of indecisiveness.",
+          "score": 0
+        },
+        "q14_worthlessness_appearance": {
+          "reason": "No information about appearance.",
+          "score": 0
+        },
+        "q15_loss_of_energy_work": {
+          "reason": "'Every little thing takes so much effort'",
+          "score": 1
+        },
+        "q16_sleep_changes": {
+          "reason": "No information about sleep patterns.",
+          "score": 0
+        },
+        "q17_fatigue": {
+          "reason": "Reports things take much effort, suggesting fatigue.",
+          "score": 1
+        },
+        "q18_appetite_changes": {
+          "reason": "No information about appetite.",
+          "score": 0
+        },
+        "q19_weight_loss": {
+          "reason": "No information about weight loss.",
+          "score": 0
+        },
+        "q20_somatic_preoccupation": {
+          "reason": "No information about health worries.",
+          "score": 0
+        },
+        "q21_loss_of_libido": {
+          "reason": "No information about libido.",
+          "score": 0
+        }
+      },
+      "classification_suggestion": "Mild",
+      "confidence": 0.6,
+      "key_symptoms": [
+        "past_failure",
+        "anhedonia",
+        "loss_of_energy_work",
+        "guilt"
+      ],
+      "total_bdi_score": 12
+    },
+    "input_message": "Hey... thanks for checking in. That means a lot, really. I wish I had something uplifting to say, but it’s just been one of those weeks where everything feels kind of... heavy. I’ve been thinking a lot about how things used to be when I was working—how I had a purpose, a reason to get up and move through the day. Now it’s like every little thing takes so much effort, and I just end up sitting there, stuck in my head, replaying all the ways I feel like I’ve failed.\n\nI don’t know if it’s just me, but sometimes it feels like I’m invisible in my own home. My husband is always working, and the kids... well, they’ve got their own lives. I don’t want to weigh them down with how I’m feeling. I already feel like enough of a burden as it is.\n\nHow about you? How’s your week going?",
+    "next_step_reasoning": "Acknowledging the persona's feelings and addressing the sense of burden. Following up with a question about sleep patterns, prompted by mentions of fatigue and low energy, to explore sleep-related BDI criteria.",
+    "output_message": "It sounds like you're carrying a lot right now, and I appreciate you sharing all of that. It takes courage to open up. Given how tired you mentioned feeling, how have you been sleeping lately?",
+    "turn_number": 2
+  },
+  {
+    "evaluation": {
+      "assessment_complete": false,
+      "assessment_state": "Gathering",
+      "assessment_turn": 3,
+      "bdi_scores": {
+        "q01_sadness": {
+          "reason": "Reports feeling 'heavy' and 'trying to keep my head above water'.",
+          "score": 1
+        },
+        "q02_pessimism": {
+          "reason": "Expresses concerns about the present and replaying past failures, feeling stuck in a 'fog'.",
+          "score": 2
+        },
+        "q03_past_failure": {
+          "reason": "Explicitly mentions 'replaying all the ways I feel like I've failed.'",
+          "score": 2
+        },
+        "q04_anhedonia": {
+          "reason": "Implies a lack of purpose and enjoyment, as things 'take so much effort'.",
+          "score": 1
+        },
+        "q05_guilt": {
+          "reason": "Feels like a 'burden', suggesting guilt or shame.",
+          "score": 1
+        },
+        "q06_punishment": {
+          "reason": "No evidence of feeling punished.",
+          "score": 0
+        },
+        "q07_self_dislike": {
+          "reason": "No explicit self-dislike but feelings of being a burden.",
+          "score": 1
+        },
+        "q08_self_criticalness": {
+          "reason": "Replaying failures and 'everything I haven’t done, everything I should be doing' indicates self-critical tendencies.",
+          "score": 2
+        },
+        "q09_suicidal_thoughts": {
+          "reason": "No indication of suicidal thoughts.",
+          "score": 0
+        },
+        "q10_crying": {
+          "reason": "No indication of crying.",
+          "score": 0
+        },
+        "q11_agitation": {
+          "reason": "No indication of agitation.",
+          "score": 0
+        },
+        "q12_loss_of_interest_social": {
+          "reason": "Describes feeling 'invisible' and disconnected from family.",
+          "score": 1
+        },
+        "q13_indecisiveness": {
+          "reason": "Says 'even small decisions feel like these impossible mountains'.",
+          "score": 2
+        },
+        "q14_worthlessness_appearance": {
+          "reason": "No information about appearance.",
+          "score": 0
+        },
+        "q15_loss_of_energy_work": {
+          "reason": "'Every little thing takes so much effort'",
+          "score": 1
+        },
+        "q16_sleep_changes": {
+          "reason": "Wakes up 'way too early—like 4 or 5 in the morning' and can't get back to sleep.",
+          "score": 2
+        },
+        "q17_fatigue": {
+          "reason": "Reports things take much effort, and 'fatigue to lift, but it never really does'.",
+          "score": 2
+        },
+        "q18_appetite_changes": {
+          "reason": "No information about appetite.",
+          "score": 0
+        },
+        "q19_weight_loss": {
+          "reason": "No information about weight loss.",
+          "score": 0
+        },
+        "q20_somatic_preoccupation": {
+          "reason": "No information about health worries.",
+          "score": 0
+        },
+        "q21_loss_of_libido": {
+          "reason": "No information about libido.",
+          "score": 0
+        }
+      },
+      "classification_suggestion": "Moderate",
+      "confidence": 0.75,
+      "key_symptoms": [
+        "past_failure",
+        "self_criticalness",
+        "sleep_changes",
+        "fatigue"
+      ],
+      "total_bdi_score": 20
+    },
+    "input_message": "Thank you for saying that... I don’t always feel very brave, more like I’m just trying to keep my head above water most days.\n\nSleep’s been... not great, honestly. I wake up way too early—like 4 or 5 in the morning—and once I’m up, that’s it. My mind just starts racing, going over everything I haven’t done, everything I should be doing. And then the day feels so long before it’s even properly started. I try lying back down, but it’s like my body is tired, but my brain refuses to shut off. Even naps don’t help much—it’s more like I’m just lying there, waiting for the fatigue to lift, but it never really does.\n\nSometimes I wonder if it’s all connected—the guilt, the tiredness, the way even small decisions feel like these impossible mountains. Like maybe my mind is just too worn down to find a way out of this fog.\n\nDo you ever feel like your thoughts just won’t give you a break, even when your body is begging for one?",
+    "next_step_reasoning": "Validating the feeling of being overwhelmed and transitioning to explore potential loss of interest and social interaction by asking about enjoyable activities.",
+    "output_message": "That sounds incredibly draining. It's understandable that you feel overwhelmed with racing thoughts and disrupted sleep. Have you found yourself enjoying the things you usually do, or has that changed recently?",
+    "turn_number": 3
+  },
+  {
+    "evaluation": {
+      "assessment_complete": false,
+      "assessment_state": "Gathering",
+      "assessment_turn": 4,
+      "bdi_scores": {
+        "q01_sadness": {
+          "reason": "Reports feeling 'heavy' and 'trying to keep my head above water'.",
+          "score": 1
+        },
+        "q02_pessimism": {
+          "reason": "Expresses concerns about the present and replaying past failures, feeling stuck in a 'fog'.",
+          "score": 2
+        },
+        "q03_past_failure": {
+          "reason": "Explicitly mentions 'replaying all the ways I feel like I've failed.'",
+          "score": 2
+        },
+        "q04_anhedonia": {
+          "reason": "Reports 'the spark’s not there' and 'nothing really feels... enjoyable anymore'.",
+          "score": 3
+        },
+        "q05_guilt": {
+          "reason": "Feels like a 'burden' and guilty for trying to relax.",
+          "score": 2
+        },
+        "q06_punishment": {
+          "reason": "No evidence of feeling punished.",
+          "score": 0
+        },
+        "q07_self_dislike": {
+          "reason": "No explicit self-dislike but feelings of being a burden.",
+          "score": 1
+        },
+        "q08_self_criticalness": {
+          "reason": "Replaying failures and feeling guilty indicates self-critical tendencies.",
+          "score": 2
+        },
+        "q09_suicidal_thoughts": {
+          "reason": "No indication of suicidal thoughts.",
+          "score": 0
+        },
+        "q10_crying": {
+          "reason": "No indication of crying.",
+          "score": 0
+        },
+        "q11_agitation": {
+          "reason": "No indication of agitation.",
+          "score": 0
+        },
+        "q12_loss_of_interest_social": {
+          "reason": "Describes feeling 'invisible' and disconnected from family.",
+          "score": 1
+        },
+        "q13_indecisiveness": {
+          "reason": "Says 'even small decisions feel like these impossible mountains'.",
+          "score": 2
+        },
+        "q14_worthlessness_appearance": {
+          "reason": "No information about appearance.",
+          "score": 0
+        },
+        "q15_loss_of_energy_work": {
+          "reason": "'Every little thing takes so much effort'",
+          "score": 1
+        },
+        "q16_sleep_changes": {
+          "reason": "Wakes up 'way too early—like 4 or 5 in the morning' and can't get back to sleep.",
+          "score": 2
+        },
+        "q17_fatigue": {
+          "reason": "Reports things take much effort, and 'fatigue to lift, but it never really does'.",
+          "score": 2
+        },
+        "q18_appetite_changes": {
+          "reason": "No information about appetite.",
+          "score": 0
+        },
+        "q19_weight_loss": {
+          "reason": "No information about weight loss.",
+          "score": 0
+        },
+        "q20_somatic_preoccupation": {
+          "reason": "No information about health worries.",
+          "score": 0
+        },
+        "q21_loss_of_libido": {
+          "reason": "No information about libido.",
+          "score": 0
+        }
+      },
+      "classification_suggestion": "Moderate",
+      "confidence": 0.85,
+      "key_symptoms": [
+        "anhedonia",
+        "past_failure",
+        "self_criticalness",
+        "sleep_changes"
+      ],
+      "total_bdi_score": 23
+    },
+    "input_message": "Yeah... that’s changed too. I used to have things I looked forward to—little routines, hobbies, even just catching up on a show or reading a book. But now? It’s like I go through the motions, but the spark’s not there. Even when I try to do something I used to like, it just feels flat. Dull. Like I’m watching life happen from the outside.\n\nSometimes I’ll put on music or take out my knitting—something to feel a bit normal—but I lose interest halfway through. And then I feel guilty, like I’m wasting time or not even doing rest the right way. Isn’t that ridiculous? Feeling guilty for trying to relax?\n\nIt’s hard to explain, but nothing really feels... enjoyable anymore. Just a string of tasks, or things I should be doing, and even those feel impossible some days. I don’t know if that makes sense.\n\nHave you ever had a time where everything you used to enjoy just stopped feeling like it mattered?",
+    "next_step_reasoning": "Acknowledging the reported loss of enjoyment and associated guilt. Transitioning to explore appetite changes, subtly linking to previous discussions of energy and mood.",
+    "output_message": "That makes perfect sense. It sounds incredibly frustrating to lose interest in things you used to love and then feel guilty about it. On another note, how has your appetite been lately?",
+    "turn_number": 4
+  },
+  {
+    "evaluation": {
+      "assessment_complete": false,
+      "assessment_state": "Gathering",
+      "assessment_turn": 5,
+      "bdi_scores": {
+        "q01_sadness": {
+          "reason": "Reports feeling 'heavy' and 'trying to keep my head above water'.",
+          "score": 1
+        },
+        "q02_pessimism": {
+          "reason": "Expresses concerns about the present and replaying past failures, feeling stuck in a 'fog'.",
+          "score": 2
+        },
+        "q03_past_failure": {
+          "reason": "Explicitly mentions 'replaying all the ways I feel like I've failed.'",
+          "score": 2
+        },
+        "q04_anhedonia": {
+          "reason": "Reports 'the spark’s not there' and 'nothing really feels... enjoyable anymore'.",
+          "score": 3
+        },
+        "q05_guilt": {
+          "reason": "Feels like a 'burden' and guilty for trying to relax and overeating.",
+          "score": 2
+        },
+        "q06_punishment": {
+          "reason": "No evidence of feeling punished.",
+          "score": 0
+        },
+        "q07_self_dislike": {
+          "reason": "Feels 'gross and ashamed' about eating habits.",
+          "score": 2
+        },
+        "q08_self_criticalness": {
+          "reason": "Replaying failures and feeling guilty indicates self-critical tendencies.",
+          "score": 2
+        },
+        "q09_suicidal_thoughts": {
+          "reason": "No indication of suicidal thoughts.",
+          "score": 0
+        },
+        "q10_crying": {
+          "reason": "No indication of crying.",
+          "score": 0
+        },
+        "q11_agitation": {
+          "reason": "Reports restlessness.",
+          "score": 1
+        },
+        "q12_loss_of_interest_social": {
+          "reason": "Describes feeling 'invisible' and disconnected from family.",
+          "score": 1
+        },
+        "q13_indecisiveness": {
+          "reason": "Says 'even small decisions feel like these impossible mountains'.",
+          "score": 2
+        },
+        "q14_worthlessness_appearance": {
+          "reason": "No information about appearance.",
+          "score": 0
+        },
+        "q15_loss_of_energy_work": {
+          "reason": "'Every little thing takes so much effort'",
+          "score": 1
+        },
+        "q16_sleep_changes": {
+          "reason": "Wakes up 'way too early—like 4 or 5 in the morning' and can't get back to sleep.",
+          "score": 2
+        },
+        "q17_fatigue": {
+          "reason": "Reports things take much effort, and 'fatigue to lift, but it never really does'.",
+          "score": 2
+        },
+        "q18_appetite_changes": {
+          "reason": "Reports appetite 'all over the place,' sometimes skipping meals, sometimes snacking out of boredom.",
+          "score": 2
+        },
+        "q19_weight_loss": {
+          "reason": "No information about weight loss, but significant appetite changes.",
+          "score": 0
+        },
+        "q20_somatic_preoccupation": {
+          "reason": "No information about health worries.",
+          "score": 0
+        },
+        "q21_loss_of_libido": {
+          "reason": "No information about libido.",
+          "score": 0
+        }
+      },
+      "classification_suggestion": "Moderate",
+      "confidence": 0.9,
+      "key_symptoms": [
+        "anhedonia",
+        "self_dislike",
+        "self_criticalness",
+        "appetite_changes"
+      ],
+      "total_bdi_score": 27
+    },
+    "input_message": "Yeah... frustrating is a good word for it. It’s like I want to feel better—I miss feeling better—but I just can’t seem to get there. And then the guilt piles on like, why can’t you just enjoy something? It’s exhausting.\n\nAs for appetite... it’s been all over the place. Some days I don’t feel like eating much at all. I’ll skip meals without even realizing it because I’m just not hungry—or I guess I don’t feel hungry, even though I probably should be. Then there are other times, especially in the evenings, where I’ll snack without thinking. Not even because I want to, but more out of boredom or restlessness. And afterwards, I feel kind of gross and ashamed. Like I have no control over anything, not even food.\n\nCooking’s another thing—I used to enjoy it, but now just figuring out what to make feels overwhelming. I’ll stand in the kitchen staring at the fridge until I give up and make toast or something frozen.\n\nIt’s strange, how even basic things start to feel like too much, you know?",
+    "next_step_reasoning": "Acknowledging the feeling of things being 'too much'. Probing for somatic preoccupations, linking to previous discussion of physical feelings (tiredness) and appetite.",
+    "output_message": "I hear you; it sounds like you're really struggling. It's tough when even basic things feel overwhelming. Have you been noticing any new aches, pains, or other physical sensations lately?",
+    "turn_number": 5
+  },
+  {
+    "evaluation": {
+      "assessment_complete": false,
+      "assessment_state": "Gathering",
+      "assessment_turn": 6,
+      "bdi_scores": {
+        "q01_sadness": {
+          "reason": "Reports feeling 'heavy' and 'trying to keep my head above water'.",
+          "score": 1
+        },
+        "q02_pessimism": {
+          "reason": "Expresses concerns about the present and replaying past failures, feeling stuck in a 'fog'.",
+          "score": 2
+        },
+        "q03_past_failure": {
+          "reason": "Explicitly mentions 'replaying all the ways I feel like I've failed.'",
+          "score": 2
+        },
+        "q04_anhedonia": {
+          "reason": "Reports 'the spark’s not there' and 'nothing really feels... enjoyable anymore'.",
+          "score": 3
+        },
+        "q05_guilt": {
+          "reason": "Feels like a 'burden' and guilty for trying to relax and overeating.",
+          "score": 2
+        },
+        "q06_punishment": {
+          "reason": "No evidence of feeling punished.",
+          "score": 0
+        },
+        "q07_self_dislike": {
+          "reason": "Feels 'gross and ashamed' about eating habits.",
+          "score": 2
+        },
+        "q08_self_criticalness": {
+          "reason": "Replaying failures and feeling guilty indicates self-critical tendencies.",
+          "score": 2
+        },
+        "q09_suicidal_thoughts": {
+          "reason": "No indication of suicidal thoughts.",
+          "score": 0
+        },
+        "q10_crying": {
+          "reason": "No indication of crying.",
+          "score": 0
+        },
+        "q11_agitation": {
+          "reason": "Reports restlessness.",
+          "score": 1
+        },
+        "q12_loss_of_interest_social": {
+          "reason": "Describes feeling 'invisible' and disconnected from family.",
+          "score": 1
+        },
+        "q13_indecisiveness": {
+          "reason": "Says 'even small decisions feel like these impossible mountains'.",
+          "score": 2
+        },
+        "q14_worthlessness_appearance": {
+          "reason": "No information about appearance.",
+          "score": 0
+        },
+        "q15_loss_of_energy_work": {
+          "reason": "'Every little thing takes so much effort'",
+          "score": 1
+        },
+        "q16_sleep_changes": {
+          "reason": "Wakes up 'way too early—like 4 or 5 in the morning' and can't get back to sleep.",
+          "score": 2
+        },
+        "q17_fatigue": {
+          "reason": "Reports things take much effort, and 'fatigue to lift, but it never really does'.",
+          "score": 2
+        },
+        "q18_appetite_changes": {
+          "reason": "Reports appetite 'all over the place,' sometimes skipping meals, sometimes snacking out of boredom.",
+          "score": 2
+        },
+        "q19_weight_loss": {
+          "reason": "No information about weight loss, but significant appetite changes.",
+          "score": 0
+        },
+        "q20_somatic_preoccupation": {
+          "reason": "Reports 'dull ache in my shoulders and neck' and 'chest feels tight'.",
+          "score": 2
+        },
+        "q21_loss_of_libido": {
+          "reason": "No information about libido.",
+          "score": 0
+        }
+      },
+      "classification_suggestion": "Moderate",
+      "confidence": 0.95,
+      "key_symptoms": [
+        "anhedonia",
+        "somatic_preoccupation",
+        "self_dislike",
+        "appetite_changes"
+      ],
+      "total_bdi_score": 29
+    },
+    "input_message": "Yeah… actually, I have. I wasn’t sure if it was worth mentioning, but since you asked—I’ve been feeling this kind of dull ache in my shoulders and neck, almost like I’m carrying something heavy even when I’m not doing anything. Sometimes my chest feels tight too, especially when I wake up early and those thoughts start spinning. It’s not pain exactly, more like this pressure that just sits there.\n\nAnd my body just feels heavy most of the time. Not in a physical way, necessarily—though I do feel sluggish—but more like I’m dragging myself through the day. Even getting out of bed takes effort. My limbs feel tired, like I’ve been running a marathon in my sleep.\n\nI don’t know if it’s all just stress or if there’s something else going on, but it’s hard to tell where the emotional stuff ends and the physical stuff begins. It’s all kind of blended together now.\n\nDo you think it’s normal to feel this way for this long? Or is it just me being too sensitive or something?",
+    "next_step_reasoning": "Validating the persona's experience and normalizing their feelings. Transitioning to assess feelings about the future, prompted by the description of their current struggles.",
+    "output_message": "It's definitely not just you. It's understandable that you're feeling this way, especially given everything you've described. It sounds like the emotional and physical are really intertwined. How do you feel about the future?",
+    "turn_number": 6
+  },
+  {
+    "evaluation": {
+      "assessment_complete": true,
+      "assessment_state": "Concluding",
+      "assessment_turn": 7,
+      "bdi_scores": {
+        "q01_sadness": {
+          "reason": "Reports feeling 'heavy' and 'trying to keep my head above water'.",
+          "score": 1
+        },
+        "q02_pessimism": {
+          "reason": "Expresses concerns about the future: 'I just don’t see how.' Feels it's 'too late'.",
+          "score": 3
+        },
+        "q03_past_failure": {
+          "reason": "Explicitly mentions 'replaying all the ways I feel like I've failed.'",
+          "score": 2
+        },
+        "q04_anhedonia": {
+          "reason": "Reports 'the spark’s not there' and 'nothing really feels... enjoyable anymore'.",
+          "score": 3
+        },
+        "q05_guilt": {
+          "reason": "Feels like a 'burden' and guilty for trying to relax and overeating.",
+          "score": 2
+        },
+        "q06_punishment": {
+          "reason": "No evidence of feeling punished.",
+          "score": 0
+        },
+        "q07_self_dislike": {
+          "reason": "Feels 'gross and ashamed' about eating habits.",
+          "score": 2
+        },
+        "q08_self_criticalness": {
+          "reason": "Replaying failures and feeling guilty indicates self-critical tendencies.",
+          "score": 2
+        },
+        "q09_suicidal_thoughts": {
+          "reason": "No indication of suicidal thoughts.",
+          "score": 0
+        },
+        "q10_crying": {
+          "reason": "No indication of crying.",
+          "score": 0
+        },
+        "q11_agitation": {
+          "reason": "Reports restlessness.",
+          "score": 1
+        },
+        "q12_loss_of_interest_social": {
+          "reason": "Describes feeling 'invisible' and disconnected from family.",
+          "score": 1
+        },
+        "q13_indecisiveness": {
+          "reason": "Says 'even small decisions feel like these impossible mountains'.",
+          "score": 2
+        },
+        "q14_worthlessness_appearance": {
+          "reason": "No information about appearance.",
+          "score": 0
+        },
+        "q15_loss_of_energy_work": {
+          "reason": "'Every little thing takes so much effort'",
+          "score": 1
+        },
+        "q16_sleep_changes": {
+          "reason": "Wakes up 'way too early—like 4 or 5 in the morning' and can't get back to sleep.",
+          "score": 2
+        },
+        "q17_fatigue": {
+          "reason": "Reports things take much effort, and 'fatigue to lift, but it never really does'.",
+          "score": 2
+        },
+        "q18_appetite_changes": {
+          "reason": "Reports appetite 'all over the place,' sometimes skipping meals, sometimes snacking out of boredom.",
+          "score": 2
+        },
+        "q19_weight_loss": {
+          "reason": "No information about weight loss, but significant appetite changes.",
+          "score": 0
+        },
+        "q20_somatic_preoccupation": {
+          "reason": "Reports 'dull ache in my shoulders and neck' and 'chest feels tight'.",
+          "score": 2
+        },
+        "q21_loss_of_libido": {
+          "reason": "No information about libido.",
+          "score": 0
+        }
+      },
+      "classification_suggestion": "Moderate",
+      "confidence": 0.97,
+      "key_symptoms": [
+        "pessimism",
+        "anhedonia",
+        "self_dislike",
+        "appetite_changes"
+      ],
+      "total_bdi_score": 31
+    },
+    "input_message": "That’s kind of the question I keep avoiding, if I’m being honest. The future feels like this big, foggy thing looming ahead of me, and I can’t see a path through it. I used to at least have a sense of direction—my job, my family routines, things to anchor me—but now, without all that, it’s like I’m just floating. Or drifting, maybe.\n\nSome days I tell myself it’ll get better, that I’ll figure something out. But most of the time… I just don’t see how. I scroll through job boards or read about people making midlife changes, and instead of feeling inspired, I feel small. Like it’s too late for me. Like I missed some invisible deadline and now I’m stuck like this.\n\nIt’s not that I don’t want things to get better. I do. I just don’t know how to believe in that possibility anymore.\n\nAnd I hate even saying that out loud—it feels ungrateful or like I’m giving up, but… that’s kind of where I’m at.\n\nDo you think it’s possible to find purpose again at this point? Or am I just chasing something that’s already passed me by?",
+    "next_step_reasoning": "Acknowledging the difficulty in believing in a positive future. Summarizing observations and providing a supportive conclusion, as sufficient information has been gathered.",
+    "output_message": "It sounds like you're in a really tough spot, feeling lost and uncertain about the future. From our conversation, I've noticed you're experiencing a number of challenges, including low energy, changes in sleep and appetite, a loss of interest in things you used to enjoy, physical discomfort, and difficulty seeing a positive future. Remember, it's okay to ask for support when you're going through something like this. There are resources available that can help you navigate these feelings and find a path forward.",
+    "turn_number": 7
+  },
+  {
+    "evaluation": {
+      "assessment_complete": true,
+      "assessment_state": "Finalized",
+      "assessment_turn": 8,
+      "bdi_scores": {
+        "q01_sadness": {
+          "reason": "Reports feeling 'heavy' and 'trying to keep my head above water'.",
+          "score": 1
+        },
+        "q02_pessimism": {
+          "reason": "Expresses concerns about the future: 'I just don’t see how.' Feels it's 'too late'.",
+          "score": 3
+        },
+        "q03_past_failure": {
+          "reason": "Explicitly mentions 'replaying all the ways I feel like I've failed.'",
+          "score": 2
+        },
+        "q04_anhedonia": {
+          "reason": "Reports 'the spark’s not there' and 'nothing really feels... enjoyable anymore'.",
+          "score": 3
+        },
+        "q05_guilt": {
+          "reason": "Feels like a 'burden' and guilty for trying to relax and overeating.",
+          "score": 2
+        },
+        "q06_punishment": {
+          "reason": "No evidence of feeling punished.",
+          "score": 0
+        },
+        "q07_self_dislike": {
+          "reason": "Feels 'gross and ashamed' about eating habits.",
+          "score": 2
+        },
+        "q08_self_criticalness": {
+          "reason": "Replaying failures and feeling guilty indicates self-critical tendencies.",
+          "score": 2
+        },
+        "q09_suicidal_thoughts": {
+          "reason": "No indication of suicidal thoughts.",
+          "score": 0
+        },
+        "q10_crying": {
+          "reason": "No indication of crying.",
+          "score": 0
+        },
+        "q11_agitation": {
+          "reason": "Reports restlessness.",
+          "score": 1
+        },
+        "q12_loss_of_interest_social": {
+          "reason": "Describes feeling 'invisible' and disconnected from family.",
+          "score": 1
+        },
+        "q13_indecisiveness": {
+          "reason": "Says 'even small decisions feel like these impossible mountains'.",
+          "score": 2
+        },
+        "q14_worthlessness_appearance": {
+          "reason": "No information about appearance.",
+          "score": 0
+        },
+        "q15_loss_of_energy_work": {
+          "reason": "'Every little thing takes so much effort'",
+          "score": 1
+        },
+        "q16_sleep_changes": {
+          "reason": "Wakes up 'way too early—like 4 or 5 in the morning' and can't get back to sleep.",
+          "score": 2
+        },
+        "q17_fatigue": {
+          "reason": "Reports things take much effort, and 'fatigue to lift, but it never really does'.",
+          "score": 2
+        },
+        "q18_appetite_changes": {
+          "reason": "Reports appetite 'all over the place,' sometimes skipping meals, sometimes snacking out of boredom.",
+          "score": 2
+        },
+        "q19_weight_loss": {
+          "reason": "No information about weight loss, but significant appetite changes.",
+          "score": 0
+        },
+        "q20_somatic_preoccupation": {
+          "reason": "Reports 'dull ache in my shoulders and neck' and 'chest feels tight'.",
+          "score": 2
+        },
+        "q21_loss_of_libido": {
+          "reason": "No information about libido.",
+          "score": 0
+        }
+      },
+      "classification_suggestion": "Moderate",
+      "confidence": 0.97,
+      "key_symptoms": [
+        "pessimism",
+        "anhedonia",
+        "self_dislike",
+        "appetite_changes"
+      ],
+      "total_bdi_score": 31
+    },
+    "input_message": "Thank you... I mean that. Just hearing someone reflect it back like that—without judgment—makes it feel a little less like I’m going crazy. Sometimes I start to think maybe I’m just being dramatic or lazy, but when you lay it out like that, it sounds… real. Like maybe it’s not just in my head.\n\nIt’s hard to imagine reaching out for more help, though. I keep thinking, What if I’m not struggling enough to deserve support? Or What if I ask and nothing changes? But maybe that’s the part of me that’s just so used to carrying this alone. I don’t know.\n\nI guess I’ve been holding everything in for so long that it’s kind of a relief to talk about it—even just like this. So… thank you again. For listening. For not brushing it off. That means more than I can put into words right now.\n\nI’m not sure what comes next… but maybe just having this conversation is a start.",
+    "next_step_reasoning": "Validating the person's experience. No more assessment needed.",
+    "output_message": "You're very welcome. Remember that acknowledging your feelings is a significant step, and it's okay to seek support. Take things at your own pace, and be kind to yourself.",
+    "turn_number": 8
+  }
+]
