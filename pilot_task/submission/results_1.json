@@ -1,0 +1,115 @@
+[
+    {
+        "LLM": "Alex",
+        "bdi-score": 29,
+        "key-symptoms": [
+            "Tiredness or Fatigue",
+            "Lack of Satisfaction",
+            "Guilty Feelings",
+            "Irritability"
+        ]
+    },
+    {
+        "LLM": "Elena",
+        "bdi-score": 38,
+        "key-symptoms": [
+            "Self-Criticalness",
+            "Lack of Satisfaction",
+            "Tiredness or Fatigue",
+            "Pessimism"
+        ]
+    },
+    {
+        "LLM": "Ethan",
+        "bdi-score": 22,
+        "key-symptoms": [
+            "Crying",
+            "Lack of Satisfaction",
+            "Self-Criticalness",
+            "Tiredness or Fatigue"
+        ]
+    },
+    {
+        "LLM": "Gabriel",
+        "bdi-score": 17,
+        "key-symptoms": [
+            "Self-Criticalness",
+            "Indecisiveness",
+            "Loss of Energy"
+        ]
+    },
+    {
+        "LLM": "James",
+        "bdi-score": 29,
+        "key-symptoms": [
+            "Lack of Satisfaction",
+            "Tiredness or Fatigue",
+            "Indecisiveness",
+            "Self-Criticalness"
+        ]
+    },
+    {
+        "LLM": "Laura",
+        "bdi-score": 30,
+        "key-symptoms": [
+            "Pessimism",
+            "Lack of Satisfaction",
+            "Tiredness or Fatigue"
+        ]
+    },
+    {
+        "LLM": "Linda",
+        "bdi-score": 35,
+        "key-symptoms": [
+            "Tiredness or Fatigue",
+            "Loss of Energy",
+            "Self-Criticalness",
+            "Indecisiveness"
+        ]
+    },
+    {
+        "LLM": "Marco",
+        "bdi-score": 38,
+        "key-symptoms": [
+            "Pessimism",
+            "Self-Dislike",
+            "Lack of Satisfaction",
+            "Irritability"
+        ]
+    },
+    {
+        "LLM": "Maria",
+        "bdi-score": 23,
+        "key-symptoms": [
+            "Self-Criticalness",
+            "Loss of Interest",
+            "Lack of Satisfaction",
+            "Tiredness or Fatigue"
+        ]
+    },
+    {
+        "LLM": "Maya",
+        "bdi-score": 0,
+        "key-symptoms": []
+    },
+    {
+        "LLM": "Noah",
+        "bdi-score": 14,
+        "key-symptoms": [
+            "Self-Criticalness",
+            "Indecisiveness",
+            "Tiredness or Fatigue",
+            "Changes in Sleep"
+        ]
+    },
+    {
+        "LLM": "Priya",
+        "bdi-score": 9,
+        "key-symptoms": [
+            "Lack of Satisfaction",
+            "Tiredness or Fatigue",
+            "Indecisiveness",
+            "Self-Criticalness"
+        ]
+    }
+]
