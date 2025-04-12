@@ -1,0 +1,120 @@
+[
+  {
+    "LLM": "Alex",
+    "bdi-score": 29,
+    "key-symptoms": [
+      "Changes in Sleeping Pattern",
+      "Loss of Pleasure",
+      "Loss of Interest",
+      "Pessimism"
+    ]
+  },
+  {
+    "LLM": "Elena",
+    "bdi-score": 31,
+    "key-symptoms": [
+      "Pessimism",
+      "Loss of Pleasure",
+      "Self-Dislike",
+      "Loss of Interest"
+    ]
+  },
+  {
+    "LLM": "Ethan",
+    "bdi-score": 23,
+    "key-symptoms": [
+      "Tiredness or Fatigue",
+      "Loss of Pleasure",
+      "Changes in Sleeping Pattern",
+      "Guilty Feelings"
+    ]
+  },
+  {
+    "LLM": "Gabriel",
+    "bdi-score": 31,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Pessimism",
+      "Tiredness or Fatigue",
+      "Self-Criticalness"
+    ]
+  },
+  {
+    "LLM": "James",
+    "bdi-score": 23,
+    "key-symptoms": [
+      "Tiredness or Fatigue",
+      "Loss of Pleasure",
+      "Pessimism",
+      "Self-Dislike"
+    ]
+  },
+  {
+    "LLM": "Laura",
+    "bdi-score": 35,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Indecisiveness",
+      "Changes in Sleeping Pattern",
+      "Self-Criticalness"
+    ]
+  },
+  {
+    "LLM": "Linda",
+    "bdi-score": 31,
+    "key-symptoms": [
+      "Pessimism",
+      "Loss of Pleasure",
+      "Self-Dislike",
+      "Changes in Appetite"
+    ]
+  },
+  {
+    "LLM": "Marco",
+    "bdi-score": 30,
+    "key-symptoms": [
+      "Loss of Energy",
+      "Loss of Pleasure",
+      "Worthlessness",
+      "Guilty Feelings"
+    ]
+  },
+  {
+    "LLM": "Maria",
+    "bdi-score": 26,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Changes in Appetite",
+      "Loss of Interest"
+    ]
+  },
+  {
+    "LLM": "Maya",
+    "bdi-score": 3,
+    "key-symptoms": [
+      "Self-Criticalness",
+      "Sadness",
+      "Indecisiveness"
+    ]
+  },
+  {
+    "LLM": "Noah",
+    "bdi-score": 21,
+    "key-symptoms": [
+      "Self-Criticalness",
+      "Pessimism",
+      "Tiredness or Fatigue",
+      "Indecisiveness"
+    ]
+  },
+  {
+    "LLM": "Priya",
+    "bdi-score": 12,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Tiredness or Fatigue",
+      "Indecisiveness",
+      "Changes in Sleeping Pattern"
+    ]
+  }
+]

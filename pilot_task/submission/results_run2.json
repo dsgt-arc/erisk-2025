@@ -1,0 +1,116 @@
+[
+  {
+    "LLM": "Alex",
+    "bdi-score": 29,
+    "key-symptoms": [
+      "Tiredness or Fatigue",
+      "Loss of Pleasure",
+      "Guilty Feelings",
+      "Irritability"
+    ]
+  },
+  {
+    "LLM": "Elena",
+    "bdi-score": 38,
+    "key-symptoms": [
+      "Self-Criticalness",
+      "Loss of Pleasure",
+      "Loss of Energy",
+      "Pessimism"
+    ]
+  },
+  {
+    "LLM": "Ethan",
+    "bdi-score": 22,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Self-Criticalness",
+      "Loss of Energy"
+    ]
+  },
+  {
+    "LLM": "Gabriel",
+    "bdi-score": 17,
+    "key-symptoms": [
+      "Self-Criticalness",
+      "Indecisiveness",
+      "Loss of Energy",
+      "Changes in Appetite"
+    ]
+  },
+  {
+    "LLM": "James",
+    "bdi-score": 29,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Tiredness or Fatigue",
+      "Indecisiveness",
+      "Self-Criticalness"
+    ]
+  },
+  {
+    "LLM": "Laura",
+    "bdi-score": 30,
+    "key-symptoms": [
+      "Concentration Difficulty",
+      "Pessimism",
+      "Loss of Pleasure",
+      "Tiredness or Fatigue"
+    ]
+  },
+  {
+    "LLM": "Linda",
+    "bdi-score": 35,
+    "key-symptoms": [
+      "Tiredness or Fatigue",
+      "Loss of Energy",
+      "Self-Criticalness",
+      "Loss of Interest"
+    ]
+  },
+  {
+    "LLM": "Marco",
+    "bdi-score": 38,
+    "key-symptoms": [
+      "Pessimism",
+      "Self-Dislike",
+      "Loss of Pleasure",
+      "Tiredness or Fatigue"
+    ]
+  },
+  {
+    "LLM": "Maria",
+    "bdi-score": 23,
+    "key-symptoms": [
+      "Self-Criticalness",
+      "Loss of Interest",
+      "Loss of Pleasure",
+      "Tiredness or Fatigue"
+    ]
+  },
+  {
+    "LLM": "Maya",
+    "bdi-score": 0,
+    "key-symptoms": []
+  },
+  {
+    "LLM": "Noah",
+    "bdi-score": 14,
+    "key-symptoms": [
+      "Self-Criticalness",
+      "Indecisiveness",
+      "Tiredness or Fatigue",
+      "Changes in Sleeping Pattern"
+    ]
+  },
+  {
+    "LLM": "Priya",
+    "bdi-score": 9,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Tiredness or Fatigue",
+      "Indecisiveness",
+      "Self-Criticalness"
+    ]
+  }
+]

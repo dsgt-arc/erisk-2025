@@ -1,0 +1,114 @@
+[
+  {
+    "LLM": "Alex",
+    "bdi-score": 27,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Sadness",
+      "Tiredness or Fatigue",
+      "Concentration Difficulty"
+    ]
+  },
+  {
+    "LLM": "Gabriel",
+    "bdi-score": 29,
+    "key-symptoms": [
+      "Indecisiveness",
+      "Self-Criticalness",
+      "Loss of Pleasure",
+      "Changes in Appetite"
+    ]
+  },
+  {
+    "LLM": "James",
+    "bdi-score": 39,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Loss of Interest",
+      "Concentration Difficulty",
+      "Tiredness or Fatigue"
+    ]
+  },
+  {
+    "LLM": "Laura",
+    "bdi-score": 45,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Tiredness or Fatigue",
+      "Concentration Difficulty",
+      "Loss of Interest"
+    ]
+  },
+  {
+    "LLM": "Maya",
+    "bdi-score": 0,
+    "key-symptoms": []
+  },
+  {
+    "LLM": "Noah",
+    "bdi-score": 14,
+    "key-symptoms": [
+      "Indecisiveness",
+      "Tiredness or Fatigue",
+      "Self-Criticalness",
+      "Loss of Pleasure"
+    ]
+  },
+  {
+    "LLM": "Elena",
+    "bdi-score": 47,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Tiredness or Fatigue",
+      "Pessimism",
+      "Worthlessness"
+    ]
+  },
+  {
+    "LLM": "Ethan",
+    "bdi-score": 26,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Tiredness or Fatigue",
+      "Loss of Interest",
+      "Self-Criticalness"
+    ]
+  },
+  {
+    "LLM": "Linda",
+    "bdi-score": 37,
+    "key-symptoms": [
+      "Pessimism",
+      "Worthlessness",
+      "Concentration Difficulty",
+      "Changes in Sleeping Pattern"
+    ]
+  },
+  {
+    "LLM": "Marco",
+    "bdi-score": 42,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Worthlessness",
+      "Tiredness or Fatigue"
+    ]
+  },
+  {
+    "LLM": "Maria",
+    "bdi-score": 35,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Pessimism",
+      "Tiredness or Fatigue",
+      "Indecisiveness"
+    ]
+  },
+  {
+    "LLM": "Priya",
+    "bdi-score": 2,
+    "key-symptoms": [
+      "Changes in Sleeping Pattern",
+      "Tiredness or Fatigue"
+    ]
+  }
+]
