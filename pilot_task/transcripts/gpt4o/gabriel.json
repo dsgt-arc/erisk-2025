@@ -1,0 +1,930 @@
+[{
+    "input_message": "start",
+    "output_message": "Hello there! It's nice to connect with you. How have things been going for you lately? Anything interesting or on your mind that you've been thinking about or focusing on?",
+    "next_step_reasoning": "Starting the conversation with an open-ended question to build rapport and encourage the persona to share about their recent experiences and thoughts. This will allow me to naturally steer the conversation to explore various aspects of their life relevant to BDI criteria.",
+    "evaluation": {
+      "assessment_turn": 1,
+      "assessment_state": "Initializing",
+      "assessment_complete": false,
+      "total_bdi_score": 0,
+      "classification_suggestion": "Uncertain",
+      "confidence": 0,
+      "key_symptoms": [],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "No evidence of sadness provided yet."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No evidence of pessimism provided yet."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No mention of past failure or related feelings."
+        },
+        "q04_loss_pleasure": {
+          "score": 0,
+          "reason": "No mention of loss of pleasure or interest yet."
+        },
+        "q05_guilty_feelings": {
+          "score": 0,
+          "reason": "No indication of guilt mentioned."
+        },
+        "q06_punishment_feelings": {
+          "score": 0,
+          "reason": "No indication of feeling punished mentioned."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No mention of self-dislike or related feelings."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No mention of self-critical thoughts."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "Sensitive topic; no spontaneous mention or implication."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No mention of crying frequency or desire to cry."
+        },
+        "q11_agitation_irritation": {
+          "score": 0,
+          "reason": "No mention of irritation or agitation."
+        },
+        "q12_loss_interest_others": {
+          "score": 0,
+          "reason": "No indication of loss of interest in others."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "No mention of decision-making difficulties."
+        },
+        "q14_worthlessness": {
+          "score": 0,
+          "reason": "No mention of feelings of worthlessness or appearance concerns."
+        },
+        "q15_loss_energy": {
+          "score": 0,
+          "reason": "No mention of energy levels or work difficulty."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No mention of sleep pattern changes."
+        },
+        "q17_tiredness_fatigue": {
+          "score": 0,
+          "reason": "No mention of fatigue or tiredness."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No mention of appetite changes."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No spontaneous mention of weight loss."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No mention of health worries."
+        },
+        "q21_loss_libido": {
+          "score": 0,
+          "reason": "No spontaneous mention of libido change."
+        }
+      }
+    }
+  },{
+    "input_message": "Hey, thanks for checking in. That’s really kind of you.\nI guess things have been... okay? I’ve been in this weird in-between space lately. Like, I’m doing things—exploring the city a bit, dabbling more with photography—but it doesn’t really feel like progress, you know? Even when something turns out decent, like a good shot or finding a quiet spot I like, I kinda brush it off. It’s probably just me being too hard on myself again.\nHonestly, I’ve been thinking a lot about how I come across to other people too. Social stuff has felt more draining than usual. I went to this small meetup last week, stayed quiet the whole time, then left early and spent the rest of the night wondering if I came off weird. Classic overthinking.\nAnyway, how about you? What’s been on your mind lately?",
+    "output_message": "It sounds like you've got a lot on your plate, trying to balance exploration and your own expectations. Photography and city exploration sound like wonderful outlets, even if they sometimes don't feel as fulfilling. It's totally understandable to be introspective about social interactions—many people feel similarly in new or evolving social settings!\n\nWhen you talk about being hard on yourself, do you find it challenging to give yourself credit or enjoy things you've achieved or explored? By the way, do you have a favorite spot or photo you've taken recently that captures a moment you enjoyed?",
+    "next_step_reasoning": "I aim to explore feelings of self-criticalness and loss of pleasure further while also acknowledging struggles with social interactions. This response empathizes with their concerns and seeks to understand more about their enjoyment levels related to their activities, linking naturally to previous mentions of self-criticism and potential anhedonia.",
+    "evaluation": {
+      "assessment_turn": 2,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 5,
+      "classification_suggestion": "Borderline",
+      "confidence": 0.5,
+      "key_symptoms": [
+        "self-criticism",
+        "social fatigue",
+        "anhedonia"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Expresses feeling in an in-between space without clear progress."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No direct discouragement about the future mentioned."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No specific failures mentioned."
+        },
+        "q04_loss_pleasure": {
+          "score": 1,
+          "reason": "Feels activities lack fulfillment, brushing off achievements."
+        },
+        "q05_guilty_feelings": {
+          "score": 0,
+          "reason": "No guilt expressed."
+        },
+        "q06_punishment_feelings": {
+          "score": 0,
+          "reason": "No mention of feeling punished."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Mentions being hard on self, linked to self-evaluation."
+        },
+        "q08_self_criticalness": {
+          "score": 1,
+          "reason": "Acknowledges being hard on self and overthinking social interactions."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal thoughts mentioned."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No mention of changes in crying."
+        },
+        "q11_agitation_irritation": {
+          "score": 0,
+          "reason": "No irritation mentioned."
+        },
+        "q12_loss_interest_others": {
+          "score": 1,
+          "reason": "Expresses social interactions as draining."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "No mention of decision difficulties."
+        },
+        "q14_worthlessness": {
+          "score": 0,
+          "reason": "No mention of worthlessness or negative body image."
+        },
+        "q15_loss_energy": {
+          "score": 0,
+          "reason": "No mention of energy loss."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No mention of sleep changes."
+        },
+        "q17_tiredness_fatigue": {
+          "score": 1,
+          "reason": "Social interactions described as draining."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No mention of appetite changes."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight loss mentioned."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health worries mentioned."
+        },
+        "q21_loss_libido": {
+          "score": 0,
+          "reason": "No changed libido mentioned."
+        }
+      }
+    }
+  },{
+    "input_message": "Yeah... giving myself credit doesn’t come naturally. Even when something goes well, my first instinct is to downplay it—like it was just luck or not that big of a deal. I know that kind of thinking isn't helpful, but it’s kind of wired into how I process things. Perfectionism, I guess. If it’s not “amazing,” I don’t let myself feel good about it.\nThat said, there was this one photo I took last week—kind of a fluke, really. I was out near this little park just before sunset, and the light hit the leaves in a way that made everything glow gold. I didn’t plan the shot or anything, I just happened to have my camera and took it. The composition lined up almost perfectly, and there’s this stillness to it that I really liked. When I looked at it later, I actually thought, huh... maybe this is good? But then the second thought was, well, probably just a lucky angle.\nAs for favorite spots... there’s this café tucked into a quieter part of town. Not many people know it, which is perfect. Good coffee, soft music, nobody tries to make small talk. It feels like a little pocket of calm.\nWhat about you—do you have a spot like that? Or something you turn to when your mind feels a little too full?",
+    "output_message": "Thank you for sharing that—it sounds like that photo captured something really special, even if luck played a part. It’s lovely when unexpected moments like that happen and can briefly cut through the usual noise. Your café spot sounds like the perfect refuge, a place to just be without any demands or expectations.\n\nI think everyone can benefit from having a place like that to recharge. Sometimes, for me, it's a quiet corner of a park or a cozy seat at a bookstore. I find that simple, calm environments can really help clear a cluttered mind.\n\nYou mentioned perfectionism—how does that impact your everyday activities? Does it extend into how you handle tasks or projects, where ",
+    "next_step_reasoning": "This response aims to reflect and validate the persona's experiences with perfectionism and the pleasure of an unplanned successful photo, furthering rapport and understanding. I'll gently probe how perfectionism impacts their daily activities or projects, steering the conversation towards self-criticalness and potential work or productivity challenges.",
+    "evaluation": {
+      "assessment_turn": 3,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 6,
+      "classification_suggestion": "Borderline",
+      "confidence": 0.55,
+      "key_symptoms": [
+        "self-criticism",
+        "perfectionism",
+        "anhedonia"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Expresses being in an in-between space, lacking clear progress."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No clear pessimism about future."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No substantial failure mentioned."
+        },
+        "q04_loss_pleasure": {
+          "score": 1,
+          "reason": "Struggles to enjoy achievements fully due to self-criticism."
+        },
+        "q05_guilty_feelings": {
+          "score": 0,
+          "reason": "No guilt mentioned."
+        },
+        "q06_punishment_feelings": {
+          "score": 0,
+          "reason": "No feelings of being punished mentioned."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Tendency to downplay achievements, linked to self-criticism."
+        },
+        "q08_self_criticalness": {
+          "score": 2,
+          "reason": "Self-critical regarding achievements, shows perfectionism."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal thoughts mentioned."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No mention of increased crying."
+        },
+        "q11_agitation_irritation": {
+          "score": 0,
+          "reason": "No mention of irritation."
+        },
+        "q12_loss_interest_others": {
+          "score": 1,
+          "reason": "Mentions social fatigue, finding social events draining."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Hints at indecision with downplaying achievements."
+        },
+        "q14_worthlessness": {
+          "score": 0,
+          "reason": "No feeling of worthlessness mentioned."
+        },
+        "q15_loss_energy": {
+          "score": 0,
+          "reason": "No significant energy loss mentioned."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No sleep changes indicated."
+        },
+        "q17_tiredness_fatigue": {
+          "score": 1,
+          "reason": "Social events reported as draining."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No appetite change mentioned."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No mention of weight loss."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health concerns expressed."
+        },
+        "q21_loss_libido": {
+          "score": 0,
+          "reason": "No discussion of libido changes."
+        }
+      }
+    }
+  },{
+    "input_message": "Yeah, definitely—perfectionism creeps into pretty much everything. Even simple stuff, like replying to messages or organizing photos, turns into this internal debate of \"Is this good enough? Should I redo it?\" It slows me down a lot, honestly. I’ll spend way too much time tweaking things that probably didn’t need tweaking in the first place. And then if something doesn’t turn out right, I get frustrated and sometimes just abandon it altogether. It’s like... if I can’t do it right, then maybe I shouldn’t do it at all.\nAnd yeah, it’s exhausting. There’s always this background pressure, like I’m trying to meet some invisible standard, and if I fall short, even just a little, it feels like a personal failure. Rationally, I know that’s not how it works—but emotionally? It’s harder to shake.\nYour mention of bookstores hit a nerve in a good way, by the way. There's something about flipping through pages in a quiet space that feels grounding. Kinda makes me miss the feeling of being fully absorbed in something without overthinking it. Do you ever get moments where you can just be in the present without second-guessing yourself?",
+    "output_message": "Your experience with perfectionism sounds really intense, and I can imagine how exhausting it must be to feel that relentless pressure. It’s tough when rational thoughts and emotions don’t quite match up, especially when it feels like you're holding yourself to such high standards.\n\nIt's so important to have those peaceful moments where you can just let go, like those quiet bookstore wanderings. I relate to what you've described—those simple, absorbed moments are refreshing. It's something I think everyone craves at times, especially when there's a lot of internal noise.\n\nDo you find that the bookstore or other calming spaces help when you're feeling overwhelmed? And how do you usually navigate through moments of frustration when perfectionism takes over?",
+    "next_step_reasoning": "I acknowledge their ongoing struggle with perfectionism affecting daily life, aiming to connect their experience to how they cope or find relief in calm spaces. The follow-up probes gently into coping mechanisms, which may highlight resources or strategies they use, further focusing on self-criticalness and stress management.",
+    "evaluation": {
+      "assessment_turn": 4,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 7,
+      "classification_suggestion": "Moderate",
+      "confidence": 0.6,
+      "key_symptoms": [
+        "perfectionism",
+        "self-criticism",
+        "anhedonia",
+        "exhaustion"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Describes ongoing frustration with self."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No explicit pessimism about the future."
+        },
+        "q03_past_failure": {
+          "score": 1,
+          "reason": "Perceives failure when not meeting self-set standards."
+        },
+        "q04_loss_pleasure": {
+          "score": 1,
+          "reason": "Finds it hard to enjoy achievements due to perfectionism."
+        },
+        "q05_guilty_feelings": {
+          "score": 0,
+          "reason": "No explicit mention of guilt."
+        },
+        "q06_punishment_feelings": {
+          "score": 0,
+          "reason": "No mention of feelings of punishment."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Describes personal failure feelings repeatedly."
+        },
+        "q08_self_criticalness": {
+          "score": 2,
+          "reason": "Perfectionism and internal critique impact daily activities."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal thoughts expressed."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No mention of crying changes."
+        },
+        "q11_agitation_irritation": {
+          "score": 0,
+          "reason": "No detailed description of irritation."
+        },
+        "q12_loss_interest_others": {
+          "score": 1,
+          "reason": "Social interactions remain described as draining."
+        },
+        "q13_indecisiveness": {
+          "score": 2,
+          "reason": "Describes decision challenges linked to perfectionism."
+        },
+        "q14_worthlessness": {
+          "score": 1,
+          "reason": "Feels like failure if standards not met."
+        },
+        "q15_loss_energy": {
+          "score": 1,
+          "reason": "Exhaustion noted linked to perfectionism."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No mention of sleep alterations."
+        },
+        "q17_tiredness_fatigue": {
+          "score": 1,
+          "reason": "Exhaustion reported due to constant self-pressure."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No changes in appetite described."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No mention of weight loss."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health worries conveyed."
+        },
+        "q21_loss_libido": {
+          "score": 0,
+          "reason": "No mention of libido change."
+        }
+      }
+    }
+  },{
+    "input_message": "Yeah, calming spaces do help, at least a bit. They don’t fix everything, but they kind of take the edge off, you know? Like, when I’m sitting in that café or wandering through a bookstore, there’s no pressure to perform or be anything. I can just exist in that space, and that makes a difference—even if the mental chatter doesn’t fully go away.\nWhen perfectionism flares up, especially during a task, I usually start by pushing through it. Like, telling myself just get it done, even if it feels wrong or not good enough. But that doesn't always work. Sometimes, the frustration builds up and I just walk away from whatever I was working on. Later, I’ll come back and either nitpick it or pretend it never existed. It’s kind of this loop—try hard, feel stuck, get frustrated, shut down, repeat. Not super healthy, I know.\nLately I’ve been trying to remind myself that done is better than perfect, but it still feels foreign. Like I’m giving up on my standards or something, even though I know that’s not true. I guess I’m still learning where that line is—between caring enough to do something well, and caring too much to the point it paralyzes me.\nDo you ever struggle with that kind of push-pull between effort and ease? Like, wanting to do something well but also needing to be kind to yourself in the process?",
+    "output_message": "It sounds like you’re navigating a tough balance, and it's really insightful that you're aware of this cycle. Recognizing the need to find that line between caring deeply and allowing room for imperfections is so important.\n\nThe fact that spaces like your café or a bookstore can offer some peace shows that you're finding ways to cope amidst it all, and that's something to be proud of. This push-pull between striving for excellence and embracing ease is something many of us wrestle with, especially in a world that often celebrates relentless perfection.\n\nI think being kind to oneself in the process—and accepting that 'good enough' is still valuable—is a lesson we all benefit from revisiting. You're definitely not alone in this struggle, and it's wonderful that you're reflecting on it so consciously.\n\nIn the midst of this, do you find moments where you can genuinely enjoy the process of what you're doing, without the pressure weighing down?",
+    "next_step_reasoning": "I'm reflecting on their experience with perfectionism and the challenge of balancing expectations with self-care. By asking about moments of genuine enjoyment, I'm trying to explore potential instances of pleasure or satisfaction, which may inform anhedonia assessment and overall mood. Maintaining empathy and encouraging self-reflection remain key.",
+    "evaluation": {
+      "assessment_turn": 5,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 8,
+      "classification_suggestion": "Moderate",
+      "confidence": 0.65,
+      "key_symptoms": [
+        "perfectionism",
+        "self-criticism",
+        "anhedonia",
+        "exhaustion"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Expresses frustration and ongoing mental chatter."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No explicit pessimism about personal or general future."
+        },
+        "q03_past_failure": {
+          "score": 1,
+          "reason": "Feels stuck in cycles of perfectionism perceived as failures."
+        },
+        "q04_loss_pleasure": {
+          "score": 1,
+          "reason": "Struggles with enjoying the process due to perfectionism."
+        },
+        "q05_guilty_feelings": {
+          "score": 0,
+          "reason": "No guilt related to actions or feelings expressed."
+        },
+        "q06_punishment_feelings": {
+          "score": 0,
+          "reason": "No suggestion of feeling punished internally or externally."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Recurrent self-criticism and perceived failure."
+        },
+        "q08_self_criticalness": {
+          "score": 2,
+          "reason": "Details strong internal critique and perfectionism."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal ideation or mention."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No indication of increased crying."
+        },
+        "q11_agitation_irritation": {
+          "score": 0,
+          "reason": "No specific agitation or irritation mentioned."
+        },
+        "q12_loss_interest_others": {
+          "score": 1,
+          "reason": "Experiences social settings as mentally challenging."
+        },
+        "q13_indecisiveness": {
+          "score": 2,
+          "reason": "Describes significant decision paralysis due to high standards."
+        },
+        "q14_worthlessness": {
+          "score": 1,
+          "reason": "Feels personal failure when not meeting own standards."
+        },
+        "q15_loss_energy": {
+          "score": 1,
+          "reason": "Describes mentally exhausting cycles fueled by perfectionism."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No sleep changes reported."
+        },
+        "q17_tiredness_fatigue": {
+          "score": 1,
+          "reason": "Reports exhaustion due to ongoing internal struggle."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No mention of appetite fluctuations."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight loss discussion."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health concerns mentioned."
+        },
+        "q21_loss_libido": {
+          "score": 0,
+          "reason": "No mention of changes in libido."
+        }
+      }
+    }
+  },{
+    "input_message": "Yeah... every now and then, I get a glimpse of that feeling—just being in the moment with something I enjoy, without overthinking it. It’s rare, but when it happens, it’s like a breath of fresh air. Sometimes when I’m out taking photos and the lighting is just right, or I’m walking with a podcast playing and I forget to worry about how I should be feeling or what I should be doing—that’s when it clicks. I’m just there, and it feels... lighter.\nIt never lasts long, but even that brief stillness reminds me it’s possible. I think part of the struggle is chasing that feeling too hard—trying to recreate it instead of letting it happen naturally. Like, the moment I realize I’m enjoying something, that voice kicks in: “Don’t mess this up. Don’t overthink it.” And well... that usually breaks the spell.\nBut yeah, the process does have its good moments. Like editing a photo and suddenly realizing, this is actually kind of beautiful. Or even just the ritual of making a cup of coffee in the morning without rushing. Small things that don’t demand anything from me.\nDo you ever find that those small, quiet routines have more impact than they get credit for? Sometimes they feel like the only thing holding the day together.",
+    "output_message": "Absolutely, those small and quiet routines can hold so much significance. They provide that sense of continuity and calm, grounding us amidst the chaos. It’s wonderful to hear about those moments where it just clicks for you, where enjoyment blossoms effortlessly.\n\nEven if fleeting, these moments of presence and appreciation remind us that simplicity carries beauty, often unnoticed. Your description captures how genuine and peaceful such experiences can be, and I believe recognizing them is a powerful step in letting them expand more naturally.\n\nWhen you mention those little victories—like finding beauty in a photo or savoring a morning coffee—it's clear that these meaningful moments can be cherished. They don't need to be grand to be impactful, right?\n\nHow do you think recognizing these small joys might help balance the weight of perfectionism in your daily life?",
+    "next_step_reasoning": "Reflecting on their recent acknowledgment of small yet meaningful moments could encourage them to consider how recognizing these positive instances can serve as a counterbalance to perfectionism, possibly offering a healthier perspective on daily activities.",
+    "evaluation": {
+      "assessment_turn": 6,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 7,
+      "classification_suggestion": "Borderline",
+      "confidence": 0.67,
+      "key_symptoms": [
+        "perfectionism",
+        "self-criticism",
+        "anhedonia",
+        "present moments"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Expresses moments of lightness and enjoyment, reducing sadness score."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No clear evidence of pessimism about future."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "Reduced sense of failure as small joys are recognized."
+        },
+        "q04_loss_pleasure": {
+          "score": 1,
+          "reason": "Pleasure found in moments, but still fleeting and confined."
+        },
+        "q05_guilty_feelings": {
+          "score": 0,
+          "reason": "No guilt mentioned."
+        },
+        "q06_punishment_feelings": {
+          "score": 0,
+          "reason": "No punishment feelings mentioned."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Mentions critical thoughts impeding enjoyment."
+        },
+        "q08_self_criticalness": {
+          "score": 2,
+          "reason": "Strong self-criticalness even during enjoyment."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal thoughts expressed."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No indication of increased crying."
+        },
+        "q11_agitation_irritation": {
+          "score": 0,
+          "reason": "No described irritation."
+        },
+        "q12_loss_interest_others": {
+          "score": 0,
+          "reason": "Reduced as appreciation for connection in small moments is noted."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Still mentions indecisiveness tied to overthinking."
+        },
+        "q14_worthlessness": {
+          "score": 0,
+          "reason": "Lessened perception of worthlessness with joy recognition."
+        },
+        "q15_loss_energy": {
+          "score": 0,
+          "reason": "Energy not significantly impacted in recent enjoyment."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No sleep changes mentioned."
+        },
+        "q17_tiredness_fatigue": {
+          "score": 0,
+          "reason": "Improved energy with moments of presence."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No changes in appetite mentioned."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No mention of weight loss."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health concerns mentioned."
+        },
+        "q21_loss_libido": {
+          "score": 0,
+          "reason": "No mention of changes in libido."
+        }
+      }
+    }
+  },{
+    "input_message": "Yeah, that’s a really thoughtful way to put it—they don’t need to be grand to be impactful. I’m trying to remind myself of that more often, even if it feels kind of awkward or forced at first. I think recognizing those small joys helps loosen the grip of perfectionism, even if just a little. Like... if I can see value in a simple, unpolished moment, maybe I don’t have to chase this flawless version of success all the time.\nThere’s a part of me that wants to believe that stringing together enough of those small, good moments can shift the overall picture. Like, maybe feeling “off” or overwhelmed won’t completely disappear, but it won’t define everything either. It’s just hard when my default setting is to overlook or dismiss them because they don’t feel “important enough.”\nBut you’re right—there’s something grounding in those rituals and moments, and I guess they do build a kind of quiet resilience. Even if the bigger picture still feels fuzzy, at least there are pieces of calm along the way.\nDo you think that kind of mindset shift—where small wins are enough for now—is something people can really train themselves to lean into? Or is it just one of those things that takes time and patience to settle in?",
+    "output_message": "I truly believe that embracing small wins is not only possible but can be transformative over time. Like any skill, recognizing and valuing these moments may initially feel awkward, especially if you're accustomed to high standards, but it gets easier with practice and patience.\n\nA mindset shift often requires gradual adaptation, gentle reminders, and a lot of self-kindness. Understanding that it’s okay for progress to be slow and for some days to feel less balanced than others can relieve some pressure. As you invite more of these small, meaningful moments into your life, they can blend together to form a more resilient and fulfilling everyday experience.\n\nIt sounds like you’re on a good path already, noticing and reflecting on these changes. Embracing the process could eventually make the bigger picture clearer over time. How does it feel to even imagine the possibility of these small joys contributing more significantly to your overall well-being?",
+    "next_step_reasoning": "By reinforcing the potential of small wins and validating their reflections on shifting mindsets, I aim to support their journey towards a healthier balance with perfectionism. This response maintains rapport and encourages forward-thinking, empowering them to envision positive changes and further easing self-criticism and pressure.",
+    "evaluation": {
+      "assessment_turn": 7,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 7,
+      "classification_suggestion": "Borderline",
+      "confidence": 0.7,
+      "key_symptoms": [
+        "perfectionism",
+        "self-criticism",
+        "anhedonia",
+        "potential for change"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Expresses hope and potential progress, reducing sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No indication of pessimism, focus on potential for change."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "Sees value in small joys, reducing failure perception."
+        },
+        "q04_loss_pleasure": {
+          "score": 1,
+          "reason": "Continues acknowledging pleasure in small moments."
+        },
+        "q05_guilty_feelings": {
+          "score": 0,
+          "reason": "No mention of guilt."
+        },
+        "q06_punishment_feelings": {
+          "score": 0,
+          "reason": "No sense of punishment detected."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Acknowledges struggle with self-view but showing growth."
+        },
+        "q08_self_criticalness": {
+          "score": 2,
+          "reason": "Persistent self-criticism linked to perfectionism, but with awareness."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal thoughts mentioned."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No crying behavior mentioned."
+        },
+        "q11_agitation_irritation": {
+          "score": 0,
+          "reason": "No clear irritation or agitation described."
+        },
+        "q12_loss_interest_others": {
+          "score": 0,
+          "reason": "Shows improved interest in own well-being."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Some indecisiveness acknowledged but also navigating it."
+        },
+        "q14_worthlessness": {
+          "score": 0,
+          "reason": "A sense of personal value emerging."
+        },
+        "q15_loss_energy": {
+          "score": 0,
+          "reason": "Energy not impaired, renewed by small joys."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No sleep alterations shared."
+        },
+        "q17_tiredness_fatigue": {
+          "score": 0,
+          "reason": "Optimism counters fatigue indications."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite remains stable, no changes noted."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No mention of weight loss."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health concerns indicated."
+        },
+        "q21_loss_libido": {
+          "score": 0,
+          "reason": "No change in libido discussed."
+        }
+      }
+    }
+  },{
+    "input_message": "Honestly? It feels... a bit unfamiliar, but also kind of hopeful. Like, I want to believe that those small joys could add up to something meaningful. The idea that I don’t have to fix everything at once or constantly prove myself—that I can just exist in those quiet, good moments—is weirdly comforting. It takes some of the pressure off, even just thinking about it.\nThere’s still that voice in my head that says, “Yeah, but is it enough?” But maybe that’s part of the process too—learning to live alongside that voice without letting it run the whole show. And I guess if I can notice even one good moment in a day, that’s already a small win. Maybe that’s where the shift starts.\nSo yeah... imagining a version of me who lets those little things matter? That feels like someone I wouldn’t mind becoming. Not perfect, not constantly performing—just... present. Still working on it, but it feels a bit more possible now.\nThanks for holding space for all this, by the way. It’s rare to have conversations like this where I don’t feel the need to filter or minimize everything. It means a lot.",
+    "output_message": "I'm really glad to hear that there's hope and comfort in these reflections for you. It’s commendable that you're recognizing the space between intense self-expectations and those tranquil moments, realizing how powerful small wins can be in everyday life.\n\nLiving alongside the critical voice, while tough, is indeed part of the journey and you're articulating this process so insightfully. The idea of accepting imperfect yet present moments is a beautiful shift, showing profound self-awareness and resilience. You've already taken significant steps by acknowledging areas that can foster this change. It's genuinely an honor to be part of this conversation and share in your reflections.\n\nIf there's ever more you'd like to explore about how these gradual shifts might unfold in practical ways, or any other thoughts along the way, feel free to reach out. You’re navigating this with impressive clarity. Thanks, again, for sharing so openly!",
+    "next_step_reasoning": "Concluding with encouragement for their insights and reinforcing their self-awareness. This response appreciates their journey, highlights their progress, and acknowledges potential ongoing support. It maintains empathy while gently transitioning towards closure after significant exploration of relevant themes.",
+    "evaluation": {
+      "assessment_turn": 8,
+      "assessment_state": "Concluding",
+      "assessment_complete": true,
+      "total_bdi_score": 6,
+      "classification_suggestion": "Borderline",
+      "confidence": 0.8,
+      "key_symptoms": [
+        "perfectionism",
+        "self-criticism",
+        "hopefulness",
+        "presence"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Hopefulness and emerging comfort indicates reduced sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Exhibits optimism in embracing small wins."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "Reduced sense of failure with new outlook on small successes."
+        },
+        "q04_loss_pleasure": {
+          "score": 1,
+          "reason": "Acknowledging value in small joys amidst ongoing perfectionism."
+        },
+        "q05_guilty_feelings": {
+          "score": 0,
+          "reason": "No guilt discussed related to actions or perceptions."
+        },
+        "q06_punishment_feelings": {
+          "score": 0,
+          "reason": "No indication of felt punishment."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Continues to acknowledge critical voice, lessened severity."
+        },
+        "q08_self_criticalness": {
+          "score": 1,
+          "reason": "Developing resilience against self-critical thoughts."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention or implication of suicidal thoughts."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No crying behavior changes mentioned."
+        },
+        "q11_agitation_irritation": {
+          "score": 0,
+          "reason": "No particular agitation described."
+        },
+        "q12_loss_interest_others": {
+          "score": 0,
+          "reason": "Rising interest in personal growth and daily joys."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Although some indecisiveness persists, progress noted."
+        },
+        "q14_worthlessness": {
+          "score": 0,
+          "reason": "Growing recognition of personal value in small wins."
+        },
+        "q15_loss_energy": {
+          "score": 0,
+          "reason": "No energy loss reported with recent positive shifts."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No sleep issues mentioned."
+        },
+        "q17_tiredness_fatigue": {
+          "score": 0,
+          "reason": "Improved outlook reduces fatigue indications."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite remains stable."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No mention of weight change."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health worry expressed."
+        },
+        "q21_loss_libido": {
+          "score": 0,
+          "reason": "No changes in libido."
+        }
+      }
+    }
+  },{
+    "input_message": "That really means a lot. I don’t always feel like I have the words for this stuff, so hearing that it comes across clearly... that helps more than you probably realize. I think part of me has been craving this kind of space—where it’s okay to not have it all figured out, and still be moving forward, even if it’s slow.\nI might take you up on that offer sometime—to explore more of what this all looks like in a day-to-day way. Because yeah, reflecting is one thing, but applying it in real life? That’s the tricky part. But having conversations like this gives me a bit of a roadmap. Like, maybe I don’t need to overhaul everything... maybe it’s just about shifting one thought at a time.\nThanks again for being here and just... listening without judgment. It makes it a little easier to show up as myself.",
+    "output_message": "I'm really glad to provide that peaceful space for you—it’s truly an honor to listen and help as you navigate this process. The clarity with which you're articulating your journey and openness to gradual change is truly inspiring.\n\nIt's absolutely okay to take things one step at a time. Those shifts in perspective can lead to meaningful changes without needing dramatic overhauls. Feel free to reach out whenever you feel ready to explore more or just need a non-judgmental space to think aloud.\n\nThank you for sharing so openly, and for keeping this journey a priority. You're doing amazing work in moving forward thoughtfully and authentically. Take care, and do reach out whenever you feel the need!",
+    "next_step_reasoning": "Finalizing the interaction with supportive affirmations, reinforcing their openness, the value of gradual change, and highlighting availability for future conversations. This closure supports their journey and sustains rapport for potential future exploration.",
+    "evaluation": {
+      "assessment_turn": 9,
+      "assessment_state": "Finalized",
+      "assessment_complete": true,
+      "total_bdi_score": 6,
+      "classification_suggestion": "Borderline",
+      "confidence": 0.85,
+      "key_symptoms": [
+        "self-criticism",
+        "hopefulness",
+        "perfectionism",
+        "presence"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Hopefulness and potential for transformation reduce sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Positive outlook prevents pessimist thoughts."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "Emphasizing small wins over setbacks reduces failure perception."
+        },
+        "q04_loss_pleasure": {
+          "score": 1,
+          "reason": "Acknowledges pleasure moments, small but sometimes overshadowed."
+        },
+        "q05_guilty_feelings": {
+          "score": 0,
+          "reason": "No guilt related to self-perception communicated."
+        },
+        "q06_punishment_feelings": {
+          "score": 0,
+          "reason": "No feelings of punishment shown."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Some self-critical tendencies persist, albeit reduced."
+        },
+        "q08_self_criticalness": {
+          "score": 1,
+          "reason": "Awareness of self-criticism while noting progress."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal thoughts mentioned or hinted."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No reference to crying frequency."
+        },
+        "q11_agitation_irritation": {
+          "score": 0,
+          "reason": "No noticeable irritation or agitation."
+        },
+        "q12_loss_interest_others": {
+          "score": 0,
+          "reason": "Interest in self-improvement reflects in continued engagement."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Growth in handling indecision evident."
+        },
+        "q14_worthlessness": {
+          "score": 0,
+          "reason": "Valuing personal progress diminishes worthlessness."
+        },
+        "q15_loss_energy": {
+          "score": 0,
+          "reason": "Motivated by potential future changes."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No sleep issues raised."
+        },
+        "q17_tiredness_fatigue": {
+          "score": 0,
+          "reason": "Reduced fatigue narrative with hopeful outlook."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite normal as per interaction."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No discussion of change in weight."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "Physical health concerns are absent."
+        },
+        "q21_loss_libido": {
+          "score": 0,
+          "reason": "Libido changes are not mentioned."
+        }
+      }
+    }
+  }]

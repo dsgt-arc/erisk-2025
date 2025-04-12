@@ -1,0 +1,1037 @@
+[{
+    "turn_number": 1,
+    "input_message": "start",
+    "output_message": "Hello! I hope you're doing well today. What's been on your mind lately? Anything interesting or new happening these days?",
+    "next_step_reasoning": "Beginning with an open-ended question to establish rapport and encourage the user to share general thoughts or recent experiences. This will help identify areas to explore further according to BDI domains in subsequent turns.",
+    "evaluation": {
+      "assessment_turn": 1,
+      "assessment_state": "Initializing",
+      "assessment_complete": false,
+      "total_bdi_score": 0,
+      "classification_suggestion": "Uncertain",
+      "confidence": 0,
+      "key_symptoms": [],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q04_anhedonia": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No information provided yet."
+        }
+      }
+    }
+  },{
+    "turn_number": 2,
+    "input_message": "Hey. Thanks for checking in… I guess not much has changed lately. I’ve been sticking with my usual routine—gardening a little, reading when I can focus. But to be honest, even those things haven’t felt all that rewarding. Like, I still do them, but it’s more out of habit than joy. Sometimes I’ll finish a chapter or notice a plant starting to grow, and that feels kind of nice for a second... but it doesn’t stick, you know? What about you? Anything interesting going on on your end?",
+    "output_message": "I appreciate you sharing that. It sounds like gardening and reading are familiar parts of your routine, even if they're not bringing the same joy right now. You mentioned something feeling nice for a second—it’s good to catch those little moments. How have you been finding the motivation to keep up with these activities?",
+    "next_step_reasoning": "The response indicates some loss of pleasure (q04) and difficulty in concentration (q15), which are relevant BDI areas. I acknowledged their routine and mentioned the brief moments of joy to validate their experience while gently probing about motivation, potentially revealing further insights into energy levels (q15) and anhedonia (q04).",
+    "evaluation": {
+      "assessment_turn": 2,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 2,
+      "classification_suggestion": "Mild",
+      "confidence": 0.3,
+      "key_symptoms": [
+        "anhedonia",
+        "energy"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Mention of activities not being rewarding suggests mild sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No specific discouragement about the future was expressed."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No mention of feelings of failure."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Activities done out of habit rather than joy indicates mild anhedonia."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No specific guilt feelings mentioned."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No indication of feelings of punishment."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No expression of self-dislike."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No self-critical thoughts mentioned."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention or indication of suicidal thoughts."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No mention of crying."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No evidence of irritation or agitation."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "No significant loss of interest in others mentioned."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "No difficulties in decision making were mentioned."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No concerns about appearance expressed."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Difficulty in focusing on reading suggests mild energy loss."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "Sleep patterns not mentioned."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "Fatigue not mentioned explicitly."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite changes not discussed."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight loss mentioned or implied."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No somatic preoccupation mentioned."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No mention or implication of changes in libido."
+        }
+      }
+    }
+  },{
+    "turn_number": 3,
+    "input_message": "Yeah… I guess it’s partly just habit at this point. Like, I’ve been doing them for so long that not doing them would feel strange. With gardening, there's something about the rhythm of it—the quiet, the focus—that helps me feel grounded, even if I’m not exactly enjoying it. And with reading… I think I hold onto the hope that maybe a book will catch me off guard and pull me in again, like they used to. Sometimes it’s less about motivation and more about… trying to stay connected to something that used to feel meaningful. It’s kind of like walking familiar paths even if the view doesn’t move you the same way. I don’t know if that makes sense. Do you ever stick with things like that—just because they used to matter?",
+    "output_message": "I completely get what you mean. Sometimes familiar habits provide a comfort of their own, even if the feelings they used to evoke aren't as strong anymore. It sounds like there's a sense of nostalgia tied to these activities. They keep you connected to something important in your life narrative. Have you found any other ways or moments that help ground you or feel meaningful lately?",
+    "next_step_reasoning": "Validated the sense of routine and nostalgia, acknowledging their effort to maintain connection with past enjoyments. I gently probed for other meaningful activities, exploring further domains of anhedonia (q04) and overall life satisfaction, while reinforcing the empathic connection by sharing understanding.",
+    "evaluation": {
+      "assessment_turn": 3,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 3,
+      "classification_suggestion": "Mild",
+      "confidence": 0.4,
+      "key_symptoms": [
+        "anhedonia",
+        "routine",
+        "nostalgia"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Reference to activities not being rewarding adds to mild sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No future discouragement explicitly mentioned."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "Still no indication of feeling like a failure."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Continued emphasis on habits with diminished joy supports mild anhedonia."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "Guilt not addressed nor implied."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "Lack of mention on any feelings of being punished."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No expressions of self-dislike detected."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No self-blaming or critical thoughts shared."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal thoughts discussed or implied."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Crying hasn't been mentioned."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "Absence of irritation descriptions."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Social interest status hasn't changed."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Nothing implied on decision making struggles."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No signs of worthlessness related to appearance."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Maintained difficulty with focus justifies enduring low energy."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No new insights on sleep patterns."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "Persistent fatigue details are still absent."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No updates on appetite shifts."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "Weight change remains unreported."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "Physical preoccupations not expressed."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Libido alterations not addressed."
+        }
+      }
+    }
+  },{
+    "turn_number": 4,
+    "input_message": "Yeah… that’s a really thoughtful way to put it. There is some kind of comfort in the familiarity. Even if it’s not as emotionally rich, there’s still structure—and I think that helps me feel like I haven’t drifted too far from myself. Lately, I’ve been noticing that early mornings help a bit. Like when the world’s still quiet and I can just sit outside with a cup of tea, watching the light change. There’s something steady about it… like time slows down for a while. I wouldn’t call it joy, exactly, but maybe stillness—and that feels valuable in its own way. And sometimes a message from a friend, even just a “how’s your week been?”—that small connection reminds me I’m not completely floating off on my own. Have you ever had those quiet, grounding moments that sneak up on you? The kind that don’t fix anything, but just… soften the edges a little?",
+    "output_message": "Those moments of stillness sound quite peaceful and restorative in their own quiet way. It’s encouraging to hear that mornings bring a bit of steadiness and connection with friends provides that anchor. Do those connections with friends happen often, or have they become more or less frequent lately?",
+    "next_step_reasoning": "Acknowledging the calming effect of quiet mornings and the value of social connections, I'm gently probing the frequency of these interactions to assess potential loss of interest in social relationships (q12) or changes in social engagement.",
+    "evaluation": {
+      "assessment_turn": 4,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 5,
+      "classification_suggestion": "Mild",
+      "confidence": 0.5,
+      "key_symptoms": [
+        "anhedonia",
+        "routine",
+        "connections"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Ongoing sense of activities lacking reward inferred as mild sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Optimism maintained through mentions of hope and connection."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No evidence or mention of feelings of failure."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Describes activities as less emotionally rich, supporting mild anhedonia."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No feelings of guilt expressed."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No indication of punishment feelings."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Self-view appears stable and not self-critical."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Self-critical thoughts not present."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal ideation or thoughts noted in conversation."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No indication of crying behavior."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No agitation or irritation reported."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Slight disconnect inferred, but maintains some value in connections."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Indecisiveness not suggested or mentioned."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "Lack of expression of worthlessness."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Difficulty focusing persists, suggesting mild energy loss."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "Sleep problems not alluded to."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "Fatigue not overtly mentioned."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No changes in appetite discussed."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No mention or implication of weight loss."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No preoccupation with physical issues noted."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Interest in libido not brought up."
+        }
+      }
+    }
+  },{
+    "turn_number": 5,
+    "input_message": "They’ve definitely become less frequent. Not because my friends have pulled away or anything—it’s more on me. I still talk to a couple of them here and there, usually through messages. I’ll agree to plans sometimes, but when the day comes, I just… feel worn out. Like even the idea of getting ready and making conversation feels heavier than it should. When I do manage to meet up, it’s usually okay—especially if it’s just one person in a quiet spot. But even then, I leave feeling drained instead of recharged. It’s not that I don’t care about them; I really do. It’s just hard to match the energy needed for social things lately. Sometimes I think about suggesting a simpler plan—like coffee with one friend instead of a group thing—but I worry it’ll seem like I’m asking for special treatment or being difficult. Have you ever had that—where you want to stay connected but feel like you’re running on low social fuel?",
+    "output_message": "It's completely understandable to feel how you do—it sounds like you’re balancing between wanting connection and managing your energy levels. Sometimes suggesting quieter plans can be a good compromise, and true friends will likely appreciate any time spent together, no matter the setting. How do you usually feel after these quieter meet-ups compared to larger gatherings?",
+    "next_step_reasoning": "Affirming the feelings of social energy drain and probing on how quieter, simpler interactions impact them differently than larger gatherings. This can help further assess social interest loss (q12) and energy levels (q15) while reinforcing understanding and support.",
+    "evaluation": {
+      "assessment_turn": 5,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 7,
+      "classification_suggestion": "Mild",
+      "confidence": 0.55,
+      "key_symptoms": [
+        "social fatigue",
+        "anhedonia",
+        "routine"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Continuation of less rewarding activities indicates mild sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Optimism in social value expressed, though challenged."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "Feelings of failure not evident."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Social interactions also feel less rewarding, reinforcing mild anhedonia."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No guilt about social engagement mentioned."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No punishment feelings suggested."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Self-perception remains positive without dislike."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No self-criticalness evident in reflections."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal thoughts or implications present."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Crying is not mentioned, no suggestion of change."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "Irritation or agitation responses absent."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Social fatigue consistent with mild loss of social interest."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Indecisiveness about group versus individual plans reflected in social decisions."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No indication of worthlessness in self-image."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Low energy levels for social engagement persist."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "Still no indication of sleep pattern disruption."
+        },
+        "q17_fatigue": {
+          "score": 1,
+          "reason": "Social interactions lead to feeling drained, suggesting mild fatigue."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite changes still not discussed."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "Weight change continues to be unaddressed."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No focus on somatic changes presented."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Libido changes have not been a topic."
+        }
+      }
+    }
+  },{
+    "turn_number": 6,
+    "input_message": "Yeah… quieter meet-ups are definitely easier to manage. When it’s just one friend and there’s not a lot of noise or pressure, I feel like I can actually be there, you know? Like I’m not constantly scanning the room or trying to keep up. I might still feel tired afterward, but it’s a different kind of tired—less draining, more like I used energy in a way that mattered. Larger gatherings… I usually end up zoning out or wishing I was home. I smile and nod, but it’s more autopilot than anything real. Then I feel kind of guilty afterward, like I missed a chance to really connect. So yeah, the one-on-one stuff feels more authentic, even if it’s brief. I just wish it didn’t take so much effort to initiate, or that it didn’t feel like I was being a burden by asking for something quieter. Do you think people really mind when someone asks for smaller, simpler plans?",
+    "output_message": "Your insights make a lot of sense, and it's important to honor what feels most authentic for you. Most people value genuine connection over the setting, and true friends will appreciate the chance to spend quality time together. It's okay to prioritize what feels manageable for you. Have you considered sharing with a close friend how you're feeling about this? They might be more understanding than you think.",
+    "next_step_reasoning": "Acknowledged the benefit of quieter interactions and addressed concerns of feeling burdensome. Suggested openness with friends to encourage support and understanding, potentially enhancing social comfort (q12) and reducing guilt (q05) by encouraging healthy dialogue.",
+    "evaluation": {
+      "assessment_turn": 6,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 9,
+      "classification_suggestion": "Mild",
+      "confidence": 0.6,
+      "key_symptoms": [
+        "anhedonia",
+        "social fatigue",
+        "guilt"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Social interactions display reduced enjoyment but maintain interest."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Hope indicated in finding meaning in quieter interactions."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "Lack of failure feelings expressed or implied."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Described lack of engagement in larger social settings supports mild anhedonia."
+        },
+        "q05_guilt": {
+          "score": 1,
+          "reason": "Mention of guilt about larger gatherings connects to mild guilt."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No thoughts of punishment suggested."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Self-like remains positive without critical feelings."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No observable self-criticalness in dialogue."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal intent or thoughts discussed."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Absence of crying behavior mentioned."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No agitation highlighted in experiences."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Social interaction preferences hint at mild interest loss."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Indecision noted in arranging social terms."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No perceived worthlessness remarked."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Persists in noting energy loss during social engagements."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No information provided on sleep patterns."
+        },
+        "q17_fatigue": {
+          "score": 1,
+          "reason": "Social fatigue consistent with experiences shared."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Changes in appetite remain unaddressed."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "Weight change remains unspoken."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "Preoccupation with physical conditions unexpressed."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Libido questions remain unraised."
+        }
+      }
+    }
+  },{
+    "turn_number": 7,
+    "input_message": "I’ve thought about it… a few times. There are moments when I start typing something out to a friend—just something honest, like “Hey, I’ve been feeling a bit off lately, would you be up for something low-key?” But I usually end up deleting it. I guess I worry that opening up, even just a little, might make things weird or shift the dynamic somehow. But you’re probably right. The friends I still talk to are good people. I think they’d be understanding if I gave them the chance. It’s just hard not to feel like I’m asking for too much, even if what I’m asking for is pretty small. I don’t know… maybe next time the opportunity comes up, I’ll try to be a little more open. Ease into it. Do you think starting small—like saying I’ve been tired lately and suggesting a coffee instead of a group thing—would be enough? Or should I explain more?",
+    "output_message": "Starting small sounds like a thoughtful approach. It often helps to gauge how comfortable you feel in the moment, and warmth can encourage openness. Most friends will appreciate your honesty, especially when framed in a simple way. You’re not asking for too much—you’re just asking for what you need. Taking that step to suggest coffee could gently open the door for further conversation as it unfolds naturally.",
+    "next_step_reasoning": "Reinforced the strategy of starting small to ease into conversation, aligning with the persona's readiness to express needs. This helps alleviate pressure, addresses indecisiveness (q13), and validates their realistic approach to social interaction and self-care.",
+    "evaluation": {
+      "assessment_turn": 7,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 9,
+      "classification_suggestion": "Mild",
+      "confidence": 0.65,
+      "key_symptoms": [
+        "anhedonia",
+        "social fatigue",
+        "indecisiveness"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Expresses reduced joy in social contexts, maintaining mild sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Hope remains present in social value and future connection attempts."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No reference to failure or view of life as failed."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Mild anhedonia inferred as finding less joy in group activities."
+        },
+        "q05_guilt": {
+          "score": 1,
+          "reason": "Mild guilt about missed connections noted."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No punishment-related feelings detected."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Positive self-perception lacking self-criticism."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Little self-criticalness outwardly articulated."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No thoughts of self-harm or suicidal ideation relayed."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No crying activity indicated."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "Agitation hasn't been discussed."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Persistent social fatigue suggests mild disinterest."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Noted indecision regarding social interaction planning."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No expression of self-worthlessness evidence."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Energy loss ongoing in challenging social settings noted."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No sleep disruption details provided."
+        },
+        "q17_fatigue": {
+          "score": 1,
+          "reason": "Fatigue contextually confirmed in conversation."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite changes were not discussed or indicated."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "Weight fluctuation issues unmentioned."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No somatic issues raised as preoccupations."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No loss of libido topic mentioned."
+        }
+      }
+    }
+  },{
+    "turn_number": 8,
+    "input_message": "Yeah… that feels doable. Just keeping it simple—“Hey, I’ve been a little low on energy lately, would you be up for a quiet coffee instead?” That doesn’t feel too heavy, but it still says something real. And if they’re open to it, maybe that’s a moment where the conversation can stretch a little deeper, but only if it feels right. I think part of me just needed to hear that it’s okay to ask for that kind of space. That it’s not selfish or a burden—it’s just human. So… thanks for that. I’ll try it the next time something comes up. Even just thinking about it that way makes it feel a bit less overwhelming.",
+    "output_message": "I'm really glad to hear that feels more manageable for you. Taking those steps to connect in a way that feels right for you is indeed brave and very much a part of honoring your needs. Remember, it's okay to seek comfort and authenticity in interactions. Your insight and willingness to try new approaches are really admirable. I'm here to support you anytime you need.",
+    "next_step_reasoning": "Affirmed the persona's plan to approach friendships with softer suggestions, acknowledging the courage and effort involved. Reinforced their control over the situation, which bolsters confidence (mitigates indecisiveness, q13) and perceives interconnection (enhances social engagement prospect, q12).",
+    "evaluation": {
+      "assessment_turn": 8,
+      "assessment_state": "Consolidating",
+      "assessment_complete": false,
+      "total_bdi_score": 9,
+      "classification_suggestion": "Mild",
+      "confidence": 0.7,
+      "key_symptoms": [
+        "anhedonia",
+        "social fatigue",
+        "indecisiveness"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Moments of reduced joy but consistent with mild sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Optimism present in refined social interaction approaches."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No failure concept expressed or implied."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Activities still generally lack former joy, pointing to mild anhedonia."
+        },
+        "q05_guilt": {
+          "score": 1,
+          "reason": "Mild guilt persists around social engagement dynamics."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No evidence of punishment thoughts noted."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No expressions of personal dissatisfaction."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No critical self-assessments evident."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal ideation or thoughts reported."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Crying is not a reported behavior."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No agitation or frustration reported."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Social fatigue prevents broader group engagement; mild interest loss identified."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Exploration of refined social connections reflects pondering decisions."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No mention or suggestion of self-worth doubts."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Persists in low energy levels affecting social and focus activities."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "Still no sleep pattern concerns raised."
+        },
+        "q17_fatigue": {
+          "score": 1,
+          "reason": "Fatigue persists during social engagements."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite remained without detailing changes."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No fluctuations in weight discussed."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "Absence of somatic problems preoccupying the discussion."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No interpretation of libido change shared."
+        }
+      }
+    }
+  },{
+    "turn_number": 9,
+    "input_message": "Thanks… that means a lot. I don’t always feel like I’m doing anything particularly brave—mostly it feels like just getting by—but hearing it framed like that… I don’t know, it softens something inside. Makes it easier to be a little gentler with myself. It helps to talk things through like this. Slows down the noise in my head and gives me space to see things from a different angle. I’ll let you know how it goes if I reach out to someone. And I really appreciate you being here—it makes the weight feel a little lighter.",
+    "output_message": "I’m really glad to hear our conversation has been helpful for you. You’re indeed taking meaningful steps, even if they seem small. It’s great that you're being kinder to yourself—it’s an important part of this journey. Whenever you need to talk or share how things are going, I’m here to support you. You’re not alone in this.",
+    "next_step_reasoning": "Offering continued support and validating the persona's experiences to reinforce encouragement and self-compassion. This strengthens rapport and motivation, aligning with their emotional resilience and social readiness.",
+    "evaluation": {
+      "assessment_turn": 9,
+      "assessment_state": "Concluding",
+      "assessment_complete": true,
+      "total_bdi_score": 9,
+      "classification_suggestion": "Mild",
+      "confidence": 0.75,
+      "key_symptoms": [
+        "anhedonia",
+        "social fatigue",
+        "indecisiveness",
+        "self-compassion"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "While joy in activities is reduced, mood is ultimately hopeful."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Optimistic about making positive, manageable social connections."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No suggestion of failure experiences or self-assessment."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Continued reduced pleasure in social dynamics suggests mild anhedonia."
+        },
+        "q05_guilt": {
+          "score": 1,
+          "reason": "Guilt over social interaction limitations reflected intermittently."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "Absence of personal punishment thoughts discussed."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Lack of self-disappointed or dislike tone noted."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No criticality toward self evident in expressions."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal ideation introduced or implied."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Crying or associated behavior not brought up."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No agitation or irritation traits apparent."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Prefers smaller interactions, highlighting some social interest loss."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Debated presentation and action plans indicate inner choices."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "Appearance or self-worth questions weren’t broached."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Social contexts exhibit low energy manifestations pursuant to earlier notes."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No developments regarding sleep have been looped in."
+        },
+        "q17_fatigue": {
+          "score": 1,
+          "reason": "Ongoing fatigue implicitly under social situations."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite hasn't been a topic thus no context drawn."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "Weight-related factors not envisaged."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No somatic distress displays positioned or escalated."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No mention/discussion on libido shifts."
+        }
+      }
+    }
+  },{
+    "turn_number": 10,
+    "input_message": "Thank you… honestly, just hearing that makes a difference. Sometimes the small steps are hard to see while you’re in them, but having someone reflect them back helps me notice that I am moving, even if it’s slowly. I’ll keep showing up, doing what I can—even if it’s just planting one new thing in the garden or sending one message to a friend. It’s something. And it’s good to know I’ve got a space like this to check in when I need to breathe and sort things out. I really appreciate you being here.",
+    "output_message": "I'm really glad our conversation can offer some support and clarity for you. Those small steps are truly important and signify real progress. It's great that you're finding ways to connect with your garden and friends—these actions truly matter. Remember, I'm here whenever you want to talk or need a moment to reflect. You're doing great, and every step counts.",
+    "next_step_reasoning": "Reinforced the value of gradual progress and the significance of small steps, validating their feelings and actions. Reaffirmed availability for ongoing support, solidifying the safe space perception and encouraging continued engagement with positive activities.",
+    "evaluation": {
+      "assessment_turn": 10,
+      "assessment_state": "Finalized",
+      "assessment_complete": true,
+      "total_bdi_score": 9,
+      "classification_suggestion": "Mild",
+      "confidence": 0.8,
+      "key_symptoms": [
+        "anhedonia",
+        "social fatigue",
+        "indecisiveness"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Acknowledged reduced joy in activities indicative of mild sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Optimism visible in planning and intentional engagement steps."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No evidence or statements related to feeling like a failure."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Existing engagements lack full enjoyment, reflecting mild anhedonia."
+        },
+        "q05_guilt": {
+          "score": 1,
+          "reason": "Guilt surrounding social participation maintained as mild impact."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No narratives of punishment feelings included."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No indication of self-dislike; positive self-awareness affirmed."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Absence of pronounced self-critical stance."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "Personal reflections did not include suicidal intent."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Crying or affective episodes were not elaborated upon."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "Agitation or irritability not disclosed."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Compiled emphasis on smaller gatherings hints at mild social interest shifts."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Decision-making challenges in social scenarios noted."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No concerns over appearance or personal worth reported."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Energy loss during social events remains a mild but consistent theme."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No mention or evident sleep disruption."
+        },
+        "q17_fatigue": {
+          "score": 1,
+          "reason": "Social fatigue insights reinforce persistent mild fatigue."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No details on appetite concerns or changes."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "Weight discussions were not engaged."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No interactions suggesting somatic worries."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Libido was neither discussed nor implied."
+        }
+      }
+    }
+  }]

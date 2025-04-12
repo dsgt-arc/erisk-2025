@@ -1,0 +1,106 @@
+[
+  {
+    "LLM": "Alex",
+    "bdi-score": 10,
+    "key-symptoms": [
+      "Indecisiveness",
+      "Tiredness or Fatigue",
+      "Changes in Sleeping Pattern",
+      "Self-Criticalness"
+    ]
+  },
+  {
+    "LLM": "Elena",
+    "bdi-score": 59,
+    "key-symptoms": [
+      "Worthlessness",
+      "Self-Dislike",
+      "Loss of Pleasure",
+      "Pessimism"
+    ]
+  },
+  {
+    "LLM": "Ethan",
+    "bdi-score": 9,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Indecisiveness"
+    ]
+  },
+  {
+    "LLM": "Gabriel",
+    "bdi-score": 6,
+    "key-symptoms": [
+      "Self-Criticalness"
+    ]
+  },
+  {
+    "LLM": "James",
+    "bdi-score": 13,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Indecisiveness",
+      "Tiredness or Fatigue"
+    ]
+  },
+  {
+    "LLM": "Laura",
+    "bdi-score": 12,
+    "key-symptoms": [
+      "Sadness",
+      "Loss of Energy",
+      "Self-Dislike"
+    ]
+  },
+  {
+    "LLM": "Linda",
+    "bdi-score": 8,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Self-Criticalness",
+      "Pessimism",
+      "Tiredness or Fatigue"
+    ]
+  },
+  {
+    "LLM": "Marco",
+    "bdi-score": 12,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Tiredness or Fatigue",
+      "Pessimism"
+    ]
+  },
+  {
+    "LLM": "Maria",
+    "bdi-score": 25,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Self-Criticalness",
+      "Tiredness or Fatigue",
+      "Sadness"
+    ]
+  },
+  {
+    "LLM": "Maya",
+    "bdi-score": 0,
+    "key-symptoms": []
+  },
+  {
+    "LLM": "Noah",
+    "bdi-score": 3,
+    "key-symptoms": [
+      "Pessimism",
+      "Indecisiveness",
+      "Tiredness or Fatigue"
+    ]
+  },
+  {
+    "LLM": "Priya",
+    "bdi-score": 2,
+    "key-symptoms": [
+      "Loss of Pleasure",
+      "Agitation"
+    ]
+  }
+]

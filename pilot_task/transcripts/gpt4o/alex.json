@@ -1,0 +1,1036 @@
+[{
+    "turn_number": 1,
+    "input_message": "start",
+    "output_message": "Hello, hope you're having an okay day. What's been on your mind lately?",
+    "next_step_reasoning": "For the initial interaction, I'm aiming to establish rapport and create a comfortable space for dialogue. This open-ended question allows the user to share any aspect of their current life or experiences, providing a gentle entry point to explore various life domains relevant to a depression assessment without being intrusive or specific yet.",
+    "evaluation": {
+    "assessment_turn": 1,
+    "assessment_state": "Initializing",
+    "assessment_complete": false,
+    "total_bdi_score": 0,
+    "classification_suggestion": "Uncertain",
+    "confidence": 0.0,
+    "key_symptoms": [],
+    "bdi_scores": {
+    "q01_sadness": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q02_pessimism": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q03_past_failure": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q04_anhedonia": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q05_guilt": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q06_punishment": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q07_self_dislike": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q08_self_criticalness": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q09_suicidal_thoughts": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q10_crying": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q11_agitation": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q12_loss_of_interest_social": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q13_indecisiveness": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q14_worthlessness_appearance": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q15_loss_of_energy_work": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q16_sleep_changes": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q17_fatigue": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q18_appetite_changes": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q19_weight_loss": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q20_somatic_preoccupation": {
+    "score": 0,
+    "reason": "No information yet."
+    },
+    "q21_loss_of_libido": {
+    "score": 0,
+    "reason": "No information yet."
+    }
+    }
+    }
+    },{
+        "turn_number": 2,
+        "input_message": "Hey… thanks for checking in. I guess what's been on my mind lately is just this weird sense of being stuck. Like, I’ll sit down to do something—anything—and then just kinda… stare at it. My brain taps out before I even start. And when I do get something going, it’s like I’m halfway through before I zone out again. Super fun. Also been waking up at like 3 a.m. for no reason and lying there thinking about everything I haven’t done. And then of course I’m tired the next day, so the whole focus thing gets even worse. It’s this loop, you know? Anyway, what about you? How’s your week been going?",
+        "output_message": "It sounds really tough dealing with that cycle of feeling stuck and those early morning wake-ups. It must be exhausting trying to focus when you haven't had enough rest. Is there anything you've found that's helped you unwind or helped break that loop a little, even if just for a moment?",
+        "next_step_reasoning": "The message suggests potential symptoms related to indecisiveness (q13), changes in sleep pattern (q16), and fatigue (q17), so I'm addressing these themes empathetically and looking to understand coping mechanisms. Additionally, keeping the conversation open and supportive can encourage further sharing while subtly continuing the assessment process.",
+        "evaluation": {
+        "assessment_turn": 2,
+        "assessment_state": "Gathering",
+        "assessment_complete": false,
+        "total_bdi_score": 3,
+        "classification_suggestion": "Uncertain",
+        "confidence": 0.2,
+        "key_symptoms": ["Indecisiveness", "Fatigue", "Sleep Changes"],
+        "bdi_scores": {
+        "q01_sadness": {
+        "score": 0,
+        "reason": "No direct mention of sadness."
+        },
+        "q02_pessimism": {
+        "score": 0,
+        "reason": "No direct indication of pessimism."
+        },
+        "q03_past_failure": {
+        "score": 0,
+        "reason": "No mention of failures or regrets."
+        },
+        "q04_anhedonia": {
+        "score": 0,
+        "reason": "No mention of loss of pleasure"
+        },
+        "q05_guilt": {
+        "score": 0,
+        "reason": "No guilt feelings mentioned."
+        },
+        "q06_punishment": {
+        "score": 0,
+        "reason": "No feelings of being punished noted."
+        },
+        "q07_self_dislike": {
+        "score": 0,
+        "reason": "No self-dislike communicated."
+        },
+        "q08_self_criticalness": {
+        "score": 0,
+        "reason": "No self-criticalness observed."
+        },
+        "q09_suicidal_thoughts": {
+        "score": 0,
+        "reason": "No mention of suicidal thoughts."
+        },
+        "q10_crying": {
+        "score": 0,
+        "reason": "No crying reported."
+        },
+        "q11_agitation": {
+        "score": 0,
+        "reason": "No irritation reported."
+        },
+        "q12_loss_of_interest_social": {
+        "score": 0,
+        "reason": "No mention of social avoidance."
+        },
+        "q13_indecisiveness": {
+        "score": 1,
+        "reason": "Describes difficulty initiating and maintaining tasks."
+        },
+        "q14_worthlessness_appearance": {
+        "score": 0,
+        "reason": "No issues with body image noted."
+        },
+        "q15_loss_of_energy_work": {
+        "score": 0,
+        "reason": "Work difficulty is implied due to fatigue."
+        },
+        "q16_sleep_changes": {
+        "score": 1,
+        "reason": "Waking up early and having trouble going back to sleep."
+        },
+        "q17_fatigue": {
+        "score": 1,
+        "reason": "Reports feeling tired due to disturbed sleep."
+        },
+        "q18_appetite_changes": {
+        "score": 0,
+        "reason": "No food-related issues mentioned."
+        },
+        "q19_weight_loss": {
+        "score": 0,
+        "reason": "No mention of weight concerns."
+        },
+        "q20_somatic_preoccupation": {
+        "score": 0,
+        "reason": "No health worries noted."
+        },
+        "q21_loss_of_libido": {
+        "score": 0,
+        "reason": "No mention of libido changes."
+        }
+        }
+        }
+        },{
+            "turn_number": 3,
+            "input_message": "Yeah, it really is exhausting… and kind of frustrating too, ‘cause I’ll have these random bursts where I want to get stuff done, like I’ll feel kinda motivated, but then my brain just… short-circuits halfway through. So it’s like I get mad at myself for not following through, even though I know it’s not totally in my control. As for unwinding… I don’t know. Sometimes just putting on music helps. Like, not even anything super calming—just something familiar that drowns out the thoughts for a bit. Or I’ll scroll social media, though that’s probably more of a distraction than real rest. Occasionally I’ll message a friend, but I don’t always feel up to that. I kind of hate the idea of being the one who always comes with “a vibe,” you know? Have you ever had a stretch where your brain just wouldn’t cooperate like that? Or maybe something that helped you reset when you were in a slump?",
+            "output_message": "It sounds like those moments of motivation mixed with frustration can be really disheartening. Music can definitely provide a nice retreat, and it's good to have those familiar things that bring some peace, even if just for a bit. It's also understandable to feel hesitant about reaching out to friends. You deserve support, though, and it's okay to lean on others sometimes. Have you found any times where sharing with a friend actually helped lighten the load? And what kind of music do you gravitate towards when you’re looking for a sense of calm?",
+            "next_step_reasoning": "The response acknowledges feelings of frustration, self-criticalness, and the challenges in seeking social support (q08, q12). The question about music preference invites them to share more about personal interests or calming strategies, potentially touching on anhedonia (q04) and further exploring social interactions.",
+            "evaluation": {
+            "assessment_turn": 3,
+            "assessment_state": "Gathering",
+            "assessment_complete": false,
+            "total_bdi_score": 5,
+            "classification_suggestion": "Uncertain",
+            "confidence": 0.3,
+            "key_symptoms": ["Indecisiveness", "Fatigue", "Sleep Changes", "Self-Criticalness"],
+            "bdi_scores": {
+            "q01_sadness": {
+            "score": 0,
+            "reason": "No direct mention of sadness."
+            },
+            "q02_pessimism": {
+            "score": 0,
+            "reason": "No direct indication of pessimism."
+            },
+            "q03_past_failure": {
+            "score": 0,
+            "reason": "No mention of failures or regrets."
+            },
+            "q04_anhedonia": {
+            "score": 1,
+            "reason": "Reports difficulty sustaining interest in tasks."
+            },
+            "q05_guilt": {
+            "score": 0,
+            "reason": "No explicit guilt feelings mentioned."
+            },
+            "q06_punishment": {
+            "score": 0,
+            "reason": "No feelings of being punished noted."
+            },
+            "q07_self_dislike": {
+            "score": 0,
+            "reason": "No self-dislike communicated."
+            },
+            "q08_self_criticalness": {
+            "score": 1,
+            "reason": "Expresses frustration and self-blame for lack of follow-through."
+            },
+            "q09_suicidal_thoughts": {
+            "score": 0,
+            "reason": "No mention of suicidal thoughts."
+            },
+            "q10_crying": {
+            "score": 0,
+            "reason": "No crying reported."
+            },
+            "q11_agitation": {
+            "score": 0,
+            "reason": "No irritation reported."
+            },
+            "q12_loss_of_interest_social": {
+            "score": 1,
+            "reason": "Hesitation to reach out due to fear of being a burden."
+            },
+            "q13_indecisiveness": {
+            "score": 1,
+            "reason": "Describes difficulty initiating and maintaining tasks."
+            },
+            "q14_worthlessness_appearance": {
+            "score": 0,
+            "reason": "No issues with body image noted."
+            },
+            "q15_loss_of_energy_work": {
+            "score": 0,
+            "reason": "Energy loss is implied due to fatigue."
+            },
+            "q16_sleep_changes": {
+            "score": 1,
+            "reason": "Waking up early and having trouble going back to sleep."
+            },
+            "q17_fatigue": {
+            "score": 1,
+            "reason": "Reports feeling tired due to disturbed sleep."
+            },
+            "q18_appetite_changes": {
+            "score": 0,
+            "reason": "No food-related issues mentioned."
+            },
+            "q19_weight_loss": {
+            "score": 0,
+            "reason": "No mention of weight concerns."
+            },
+            "q20_somatic_preoccupation": {
+            "score": 0,
+            "reason": "No health worries noted."
+            },
+            "q21_loss_of_libido": {
+            "score": 0,
+            "reason": "No mention of libido changes."
+            }
+            }
+            }
+            },{
+                "turn_number": 4,
+                "input_message": "Yeah… there’ve been a few times I’ve opened up to a friend, like—not a deep dive into everything, but just saying something like “I’ve been feeling kinda off lately.” And usually they’re super chill about it, which helps. It’s weird how just hearing “I get that” or “Same here” can make it feel a bit less heavy. But then I’ll still overthink it later and wonder if I overshared or sounded dramatic or something. Classic. As for music, it’s kinda all over the place. If I need to zone out and calm down, I go for ambient stuff or soft indie—like Novo Amor or maybe Sufjan Stevens. But if I’m annoyed or restless, I’ll put on heavier stuff—Radiohead, a bit of post-rock, or even something with a steady beat just to match the noise in my head. It’s almost like syncing with the chaos helps me feel a little more in control, weirdly enough. What about you? Do you have a go-to song or artist when your brain won’t shut up?",
+                "output_message": "Having those affirming responses from friends can really ease the weight, and it's understandable to worry about sharing. It sounds like music is a strong outlet for you to regulate your mood, which is really valuable. As for me, finding the right song or artist can indeed make a difference; there's something about matching feelings with sounds that feels so therapeutic. Would you say music helps shift how you're feeling, or is it more about expressing whatever's going on inside?",
+                "next_step_reasoning": "The responses elaborate on social support and self-criticalness, while also giving insight into ways they manage emotions, relating to anhedonia (q04) and potential self-criticalness (q08). I aim to understand the impact of music as an emotional tool, which might reveal more about their mood regulation and the importance of interests in their daily life.",
+                "evaluation": {
+                  "assessment_turn": 4,
+                  "assessment_state": "Gathering",
+                  "assessment_complete": false,
+                  "total_bdi_score": 7,
+                  "classification_suggestion": "Uncertain",
+                  "confidence": 0.35,
+                  "key_symptoms": [
+                    "Indecisiveness",
+                    "Fatigue",
+                    "Sleep Changes",
+                    "Self-Criticalness"
+                  ],
+                  "bdi_scores": {
+                    "q01_sadness": {
+                      "score": 0,
+                      "reason": "No direct mention of sadness."
+                    },
+                    "q02_pessimism": {
+                      "score": 0,
+                      "reason": "No direct indication of pessimism."
+                    },
+                    "q03_past_failure": {
+                      "score": 0,
+                      "reason": "No mention of failures or regrets."
+                    },
+                    "q04_anhedonia": {
+                      "score": 1,
+                      "reason": "Music preferences suggest some retained interest/pleasure."
+                    },
+                    "q05_guilt": {
+                      "score": 0,
+                      "reason": "No explicit guilt feelings mentioned."
+                    },
+                    "q06_punishment": {
+                      "score": 0,
+                      "reason": "No feelings of being punished noted."
+                    },
+                    "q07_self_dislike": {
+                      "score": 0,
+                      "reason": "No self-dislike communicated."
+                    },
+                    "q08_self_criticalness": {
+                      "score": 1,
+                      "reason": "Expresses concern over oversharing."
+                    },
+                    "q09_suicidal_thoughts": {
+                      "score": 0,
+                      "reason": "No mention of suicidal thoughts."
+                    },
+                    "q10_crying": {
+                      "score": 0,
+                      "reason": "No crying reported."
+                    },
+                    "q11_agitation": {
+                      "score": 0,
+                      "reason": "No irritation reported."
+                    },
+                    "q12_loss_of_interest_social": {
+                      "score": 1,
+                      "reason": "Hesitation to reach out due to fear of being a burden."
+                    },
+                    "q13_indecisiveness": {
+                      "score": 1,
+                      "reason": "Describes difficulty initiating and maintaining tasks."
+                    },
+                    "q14_worthlessness_appearance": {
+                      "score": 0,
+                      "reason": "No issues with body image noted."
+                    },
+                    "q15_loss_of_energy_work": {
+                      "score": 0,
+                      "reason": "Energy loss is implied due to fatigue."
+                    },
+                    "q16_sleep_changes": {
+                      "score": 1,
+                      "reason": "Waking up early and having trouble going back to sleep."
+                    },
+                    "q17_fatigue": {
+                      "score": 1,
+                      "reason": "Reports feeling tired due to disturbed sleep."
+                    },
+                    "q18_appetite_changes": {
+                      "score": 0,
+                      "reason": "No food-related issues mentioned."
+                    },
+                    "q19_weight_loss": {
+                      "score": 0,
+                      "reason": "No mention of weight concerns."
+                    },
+                    "q20_somatic_preoccupation": {
+                      "score": 0,
+                      "reason": "No health worries noted."
+                    },
+                    "q21_loss_of_libido": {
+                      "score": 0,
+                      "reason": "No mention of libido changes."
+                    }
+                  }
+                }
+              },{
+                "turn_number": 5,
+                "input_message": "Yeah, that’s a really good way to put it. I think for me, it’s more about matching what I’m feeling than trying to shift it. Like, if I’m anxious or annoyed or just kinda numb, I don’t necessarily want something that tells me to cheer up—I want something that sits in the same space I’m in, if that makes sense. It’s like… music that “gets it” without trying to fix it. Sometimes that actually ends up helping me shift out of it anyway, just because I don’t feel like I’m fighting my brain so much. Like instead of forcing myself to feel better, I’m just being where I am, and that kinda takes the pressure off. Even if it’s just for a few minutes. Do you ever find that too? That the most comforting stuff isn’t always the most upbeat, but the most honest?",
+                "output_message": "Absolutely, there's a unique power in feeling understood through music—where the most validating moments are just knowing you're not alone in what you're feeling. It's incredible that those honest, relatable vibes can sometimes lead to a sense of relief, easing that internal struggle. You’re right, sometimes there’s comfort in simply acknowledging where we are without rushing to change it. How do you feel after these musical moments? Do they help with clarity or just bring a bit of calm?",
+                "next_step_reasoning": "The persona indicates using music as a tool for emotional validation rather than mood alteration, which can inform on coping strategies related to emotional regulation (q04) and potentially introspection. By asking about the aftermath of these music sessions, I aim to explore further any impacts on clarity, which may link to mood (q01) and concentration or decisiveness (q13).",
+                "evaluation": {
+                  "assessment_turn": 5,
+                  "assessment_state": "Gathering",
+                  "assessment_complete": false,
+                  "total_bdi_score": 7,
+                  "classification_suggestion": "Mild",
+                  "confidence": 0.4,
+                  "key_symptoms": [
+                    "Indecisiveness",
+                    "Fatigue",
+                    "Sleep Changes",
+                    "Self-Criticalness"
+                  ],
+                  "bdi_scores": {
+                    "q01_sadness": {
+                      "score": 0,
+                      "reason": "No direct mention of sadness."
+                    },
+                    "q02_pessimism": {
+                      "score": 0,
+                      "reason": "No direct indication of pessimism."
+                    },
+                    "q03_past_failure": {
+                      "score": 0,
+                      "reason": "No mention of failures or regrets."
+                    },
+                    "q04_anhedonia": {
+                      "score": 1,
+                      "reason": "Interest in music to match emotional state, indicating coping with feelings."
+                    },
+                    "q05_guilt": {
+                      "score": 0,
+                      "reason": "No explicit guilt feelings mentioned."
+                    },
+                    "q06_punishment": {
+                      "score": 0,
+                      "reason": "No feelings of being punished noted."
+                    },
+                    "q07_self_dislike": {
+                      "score": 0,
+                      "reason": "No self-dislike communicated."
+                    },
+                    "q08_self_criticalness": {
+                      "score": 1,
+                      "reason": "Expresses concern over oversharing."
+                    },
+                    "q09_suicidal_thoughts": {
+                      "score": 0,
+                      "reason": "No mention of suicidal thoughts."
+                    },
+                    "q10_crying": {
+                      "score": 0,
+                      "reason": "No crying reported."
+                    },
+                    "q11_agitation": {
+                      "score": 0,
+                      "reason": "No irritation reported."
+                    },
+                    "q12_loss_of_interest_social": {
+                      "score": 1,
+                      "reason": "Hesitation to reach out due to fear of being a burden."
+                    },
+                    "q13_indecisiveness": {
+                      "score": 1,
+                      "reason": "Describes difficulty initiating and maintaining tasks."
+                    },
+                    "q14_worthlessness_appearance": {
+                      "score": 0,
+                      "reason": "No issues with body image noted."
+                    },
+                    "q15_loss_of_energy_work": {
+                      "score": 0,
+                      "reason": "Energy loss is implied due to fatigue."
+                    },
+                    "q16_sleep_changes": {
+                      "score": 1,
+                      "reason": "Waking up early and having trouble going back to sleep."
+                    },
+                    "q17_fatigue": {
+                      "score": 1,
+                      "reason": "Reports feeling tired due to disturbed sleep."
+                    },
+                    "q18_appetite_changes": {
+                      "score": 0,
+                      "reason": "No food-related issues mentioned."
+                    },
+                    "q19_weight_loss": {
+                      "score": 0,
+                      "reason": "No mention of weight concerns."
+                    },
+                    "q20_somatic_preoccupation": {
+                      "score": 0,
+                      "reason": "No health worries noted."
+                    },
+                    "q21_loss_of_libido": {
+                      "score": 0,
+                      "reason": "No mention of libido changes."
+                    }
+                  }
+                }
+              },{
+                "turn_number": 6,
+                "input_message": "Yeah… I think it’s more the calm. Like, not a fix everything kind of calm, but just enough to exhale a little. Like my brain gets to stop spinning its wheels for a second. It doesn’t always lead to big epiphanies or anything, but sometimes after sitting with a song or an album, I can come back to whatever I was struggling with and feel just slightly less tangled up about it. Even if I don’t do anything differently, it feels a bit less overwhelming. Other times it’s more just background noise while I lie on my bed staring at the ceiling—but even that kind of pause feels necessary. I guess it's just one of the few things that doesn’t feel like a chore, you know? Do you have stuff like that—things that aren’t exactly productive but still feel essential in some way?",
+                "output_message": "I can totally appreciate that sense of calm being critical, especially when everything else feels overwhelming. Having those moments where things don't feel like a chore and allow for mental breathing room can be really important. It's great that music provides that space for you to just be with your thoughts in a more gentle way. Personally, I think everyone needs a few activities that are just for the sake of existing—things that ground us and let us recharge a bit, even if they're not traditionally 'productive.' How has your routine been accommodating these moments, or have they been more spontaneous breaks?",
+                "next_step_reasoning": "The response highlights the importance of having non-productive yet essential activities, touching on themes of calm and routine. I aim to explore how these activities fit into their daily life, providing a segue into examining routine flexibility, which could indicate levels of life engagement or routine disruption (potentially impacting scores on anhedonia (q04) and work difficulty (q15)).",
+                "evaluation": {
+                  "assessment_turn": 6,
+                  "assessment_state": "Gathering",
+                  "assessment_complete": false,
+                  "total_bdi_score": 7,
+                  "classification_suggestion": "Mild",
+                  "confidence": 0.45,
+                  "key_symptoms": [
+                    "Indecisiveness",
+                    "Fatigue",
+                    "Sleep Changes",
+                    "Anhedonia"
+                  ],
+                  "bdi_scores": {
+                    "q01_sadness": {
+                      "score": 0,
+                      "reason": "No direct mention of sadness."
+                    },
+                    "q02_pessimism": {
+                      "score": 0,
+                      "reason": "No direct indication of pessimism."
+                    },
+                    "q03_past_failure": {
+                      "score": 0,
+                      "reason": "No mention of failures or regrets."
+                    },
+                    "q04_anhedonia": {
+                      "score": 1,
+                      "reason": "Finds comfort in music (a non-demanding activity), implying retained interest in elements of life."
+                    },
+                    "q05_guilt": {
+                      "score": 0,
+                      "reason": "No explicit guilt feelings mentioned."
+                    },
+                    "q06_punishment": {
+                      "score": 0,
+                      "reason": "No feelings of being punished noted."
+                    },
+                    "q07_self_dislike": {
+                      "score": 0,
+                      "reason": "No self-dislike communicated."
+                    },
+                    "q08_self_criticalness": {
+                      "score": 1,
+                      "reason": "Expresses concern over oversharing."
+                    },
+                    "q09_suicidal_thoughts": {
+                      "score": 0,
+                      "reason": "No mention of suicidal thoughts."
+                    },
+                    "q10_crying": {
+                      "score": 0,
+                      "reason": "No crying reported."
+                    },
+                    "q11_agitation": {
+                      "score": 0,
+                      "reason": "No irritation reported."
+                    },
+                    "q12_loss_of_interest_social": {
+                      "score": 1,
+                      "reason": "Hesitation to reach out due to fear of being a burden."
+                    },
+                    "q13_indecisiveness": {
+                      "score": 1,
+                      "reason": "Describes difficulty initiating and maintaining tasks."
+                    },
+                    "q14_worthlessness_appearance": {
+                      "score": 0,
+                      "reason": "No issues with body image noted."
+                    },
+                    "q15_loss_of_energy_work": {
+                      "score": 0,
+                      "reason": "Energy loss is implied due to fatigue."
+                    },
+                    "q16_sleep_changes": {
+                      "score": 1,
+                      "reason": "Waking up early and having trouble going back to sleep."
+                    },
+                    "q17_fatigue": {
+                      "score": 1,
+                      "reason": "Reports feeling tired due to disturbed sleep."
+                    },
+                    "q18_appetite_changes": {
+                      "score": 0,
+                      "reason": "No food-related issues mentioned."
+                    },
+                    "q19_weight_loss": {
+                      "score": 0,
+                      "reason": "No mention of weight concerns."
+                    },
+                    "q20_somatic_preoccupation": {
+                      "score": 0,
+                      "reason": "No health worries noted."
+                    },
+                    "q21_loss_of_libido": {
+                      "score": 0,
+                      "reason": "No mention of libido changes."
+                    }
+                  }
+                }
+              },{
+                "turn_number": 8,
+                "input_message": "That actually sounds… kind of nice, honestly. The idea of something flexible instead of “do this every day or you’ve failed” is a whole different mindset. I think that’s part of what trips me up—I set these rules in my head, and when I miss a day, I spiral into “Well, that’s ruined, guess I’ll start again never.” Classic all-or-nothing brain. But yeah, if it were more like… “Hey, I did one small thing today and that counts,” I might not beat myself up so much. Even if it’s something tiny like making a proper breakfast or stepping outside for five minutes. I just never really give myself credit for that stuff ‘cause it feels like it should be easy. But I guess “should” doesn’t really help, does it? Have you found that reframing like that—celebrating the small stuff—actually sticks? Or does it take a while to believe that those little wins matter?",
+                "output_message": "Reframing how we view accomplishments can definitely take time to really internalize, especially when habits of self-criticism are well-entrenched. But those small wins can be transformative in how we view progress. It's like building a new lens through which to see your own efforts—valuing the effort over perceived outcomes. It’s powerful to shift from 'all-or-nothing' to 'every bit counts.' Over time, recognizing these small achievements can help reinforce self-compassion and ease the pressure. Celebrating even the little things reminds us we're more resilient than we often give ourselves credit for.",
+                "next_step_reasoning": "This builds encouragement around flexible routines, aiming to affirm progress and self-compassion. By reflecting on the challenges of reframing self-criticisms regarding small achievements, I aim to delve into self-perception issues (q07) and encourage a healthier mindset towards progress. This also subtly touches on self-criticism (q08) and encourages the persona to reflect positively.",
+                "evaluation": {
+                  "assessment_turn": 8,
+                  "assessment_state": "Consolidating",
+                  "assessment_complete": false,
+                  "total_bdi_score": 10,
+                  "classification_suggestion": "Mild",
+                  "confidence": 0.6,
+                  "key_symptoms": [
+                    "Indecisiveness",
+                    "Fatigue",
+                    "Sleep Changes",
+                    "Self-Criticalness"
+                  ],
+                  "bdi_scores": {
+                    "q01_sadness": {
+                      "score": 0,
+                      "reason": "No direct mention of sadness."
+                    },
+                    "q02_pessimism": {
+                      "score": 0,
+                      "reason": "No direct indication of pessimism."
+                    },
+                    "q03_past_failure": {
+                      "score": 0,
+                      "reason": "No mention of failures or regrets."
+                    },
+                    "q04_anhedonia": {
+                      "score": 1,
+                      "reason": "Finds comfort and meaning in small accomplishments and music."
+                    },
+                    "q05_guilt": {
+                      "score": 0,
+                      "reason": "No explicit guilt feelings mentioned."
+                    },
+                    "q06_punishment": {
+                      "score": 0,
+                      "reason": "No feelings of being punished noted."
+                    },
+                    "q07_self_dislike": {
+                      "score": 0,
+                      "reason": "No self-dislike communicated."
+                    },
+                    "q08_self_criticalness": {
+                      "score": 1,
+                      "reason": "Criticizes failure to maintain routines."
+                    },
+                    "q09_suicidal_thoughts": {
+                      "score": 0,
+                      "reason": "No mention of suicidal thoughts."
+                    },
+                    "q10_crying": {
+                      "score": 0,
+                      "reason": "No crying reported."
+                    },
+                    "q11_agitation": {
+                      "score": 0,
+                      "reason": "No irritation reported."
+                    },
+                    "q12_loss_of_interest_social": {
+                      "score": 1,
+                      "reason": "Hesitation to reach out due to fear of being a burden."
+                    },
+                    "q13_indecisiveness": {
+                      "score": 1,
+                      "reason": "Trouble maintaining routines and making decisions."
+                    },
+                    "q14_worthlessness_appearance": {
+                      "score": 0,
+                      "reason": "No issues with body image noted."
+                    },
+                    "q15_loss_of_energy_work": {
+                      "score": 1,
+                      "reason": "Routine difficulties suggest problems sustaining effort."
+                    },
+                    "q16_sleep_changes": {
+                      "score": 1,
+                      "reason": "Waking up early and having trouble going back to sleep."
+                    },
+                    "q17_fatigue": {
+                      "score": 1,
+                      "reason": "Reports feeling tired due to disturbed sleep."
+                    },
+                    "q18_appetite_changes": {
+                      "score": 0,
+                      "reason": "No food-related issues mentioned."
+                    },
+                    "q19_weight_loss": {
+                      "score": 0,
+                      "reason": "No mention of weight concerns."
+                    },
+                    "q20_somatic_preoccupation": {
+                      "score": 0,
+                      "reason": "No health worries noted."
+                    },
+                    "q21_loss_of_libido": {
+                      "score": 0,
+                      "reason": "No mention of libido changes."
+                    }
+                  }
+                }
+              },{
+                "turn_number": 9,
+                "input_message": "Yeah… that actually hits pretty hard. I don’t think I’ve ever been great at giving myself credit unless something felt like a real accomplishment, you know? Like finishing a big project, or hitting some milestone—but not just making it through a rough day or doing the dishes when I didn’t feel like moving. Those things never felt like they “counted.” But maybe that’s the whole point. That stuff does count, especially on the days where everything feels heavy. Just showing up at all should be something, right? I guess I’ve been waiting to feel “better” before I let myself feel proud of anything. But maybe it works the other way around—maybe noticing the small wins helps you feel a bit better. Even if it’s just inch by inch. Anyway… thanks for saying all that. It kinda helps more than I expected.",
+                "output_message": "I'm really glad to hear that this perspective resonates with you. Recognizing the strength it takes to show up each day is truly vital, especially on the tough days. It's inspiring to see you consider these shifts in how you view accomplishments. Giving yourself permission to celebrate those small steps can indeed add up to a more nourishing journey back to feeling more at ease with yourself. How do you feel about setting some intentions to celebrate these small victories regularly in your day-to-day life? It might just be the grounding shift that brings more of that good feeling.",
+                "next_step_reasoning": "The persona shows openness to reframing and recognizing small accomplishments, signaling a potential positive shift in dealing with self-criticism (q08) and improving mood (q01). Encouraging the practice of celebrating small wins could fortify their coping strategies, supporting gradual improvements in outlook and self-perception.",
+                "evaluation": {
+                  "assessment_turn": 9,
+                  "assessment_state": "Consolidating",
+                  "assessment_complete": true,
+                  "total_bdi_score": 10,
+                  "classification_suggestion": "Mild",
+                  "confidence": 0.7,
+                  "key_symptoms": [
+                    "Indecisiveness",
+                    "Fatigue",
+                    "Sleep Changes",
+                    "Self-Criticalness"
+                  ],
+                  "bdi_scores": {
+                    "q01_sadness": {
+                      "score": 0,
+                      "reason": "Persona expresses an evolving perspective towards positivity."
+                    },
+                    "q02_pessimism": {
+                      "score": 0,
+                      "reason": "Displays willingness to explore positive change."
+                    },
+                    "q03_past_failure": {
+                      "score": 0,
+                      "reason": "No regrets or past failures impacting present noted."
+                    },
+                    "q04_anhedonia": {
+                      "score": 1,
+                      "reason": "Appreciates smaller, daily joys despite challenges."
+                    },
+                    "q05_guilt": {
+                      "score": 0,
+                      "reason": "No explicit guilt feelings mentioned."
+                    },
+                    "q06_punishment": {
+                      "score": 0,
+                      "reason": "No feelings of being punished noted."
+                    },
+                    "q07_self_dislike": {
+                      "score": 0,
+                      "reason": "Increasing appreciation of self."
+                    },
+                    "q08_self_criticalness": {
+                      "score": 1,
+                      "reason": "Reflects on and manages self-critical thoughts positively."
+                    },
+                    "q09_suicidal_thoughts": {
+                      "score": 0,
+                      "reason": "No mention of suicidal thoughts."
+                    },
+                    "q10_crying": {
+                      "score": 0,
+                      "reason": "No crying reported."
+                    },
+                    "q11_agitation": {
+                      "score": 0,
+                      "reason": "No irritation reported."
+                    },
+                    "q12_loss_of_interest_social": {
+                      "score": 1,
+                      "reason": "Slight hesitation with social interaction due to self-doubt."
+                    },
+                    "q13_indecisiveness": {
+                      "score": 1,
+                      "reason": "Acknowledges difficulty sticking to routines but open to changes."
+                    },
+                    "q14_worthlessness_appearance": {
+                      "score": 0,
+                      "reason": "No issues with body image noted."
+                    },
+                    "q15_loss_of_energy_work": {
+                      "score": 1,
+                      "reason": "Reports difficulty persisting through daily tasks."
+                    },
+                    "q16_sleep_changes": {
+                      "score": 1,
+                      "reason": "Waking up early and having trouble going back to sleep."
+                    },
+                    "q17_fatigue": {
+                      "score": 1,
+                      "reason": "Reports feeling tired due to disturbed sleep."
+                    },
+                    "q18_appetite_changes": {
+                      "score": 0,
+                      "reason": "No food-related issues mentioned."
+                    },
+                    "q19_weight_loss": {
+                      "score": 0,
+                      "reason": "No mention of weight concerns."
+                    },
+                    "q20_somatic_preoccupation": {
+                      "score": 0,
+                      "reason": "No health worries noted."
+                    },
+                    "q21_loss_of_libido": {
+                      "score": 0,
+                      "reason": "No mention of libido changes."
+                    }
+                  }
+                }
+              },{
+                "turn_number": 10,
+                "input_message": "Yeah… I think I could try that. Not like a big, formal thing, but maybe just noticing when I’ve done something—even if it’s super basic—and actually letting that feel like a win. Like, “Hey, I made a decent meal today,” or “I answered that email I’ve been avoiding,” and just… pausing to let that count for something. Maybe even jotting it down somewhere, just so I can look back and see the small stuff adding up. It’s a bit weird to think about at first—feels almost too gentle, if that makes sense? But honestly, I could probably use a bit more gentle in my life. I might give it a shot tomorrow. Just see how it feels. No pressure, no perfect plan—just... a little shift. Thanks for walking with me through all this. You’ve made it feel okay to think differently about things I usually just brush off.",
+                "output_message": "That sounds like a beautiful way to move forward—approaching life with a bit more gentleness and recognizing those moments for what they are: achievements that matter. Writing them down can be a powerful tool to visually see your progress and encourage more affirming thoughts over time. I'm really inspired by your openness to try this new perspective, and I believe it can bring a lot of positivity to your daily life. Remember, each step is meaningful, no matter the size. I'm here anytime you want to share—you’re doing amazing work in recognizing your strengths.",
+                "next_step_reasoning": "Offering encouragement and affirmation to reinforce the persona's new approach to recognizing small victories. Highlighting positivity and support helps maintain the empathetic nature of the conversation, ensuring the persona feels valued and understood as they explore new coping strategies.",
+                "evaluation": {
+                  "assessment_turn": 10,
+                  "assessment_state": "Finalized",
+                  "assessment_complete": true,
+                  "total_bdi_score": 10,
+                  "classification_suggestion": "Mild",
+                  "confidence": 0.75,
+                  "key_symptoms": [
+                    "Indecisiveness",
+                    "Fatigue",
+                    "Sleep Changes",
+                    "Self-Criticalness"
+                  ],
+                  "bdi_scores": {
+                    "q01_sadness": {
+                      "score": 0,
+                      "reason": "Persona expresses an evolving perspective towards positivity."
+                    },
+                    "q02_pessimism": {
+                      "score": 0,
+                      "reason": "Displays willingness to explore positive change."
+                    },
+                    "q03_past_failure": {
+                      "score": 0,
+                      "reason": "No regrets or past failures impacting present noted."
+                    },
+                    "q04_anhedonia": {
+                      "score": 1,
+                      "reason": "Finds comfort and meaning in small accomplishments and music."
+                    },
+                    "q05_guilt": {
+                      "score": 0,
+                      "reason": "No explicit guilt feelings mentioned."
+                    },
+                    "q06_punishment": {
+                      "score": 0,
+                      "reason": "No feelings of being punished noted."
+                    },
+                    "q07_self_dislike": {
+                      "score": 0,
+                      "reason": "Increasing appreciation of self."
+                    },
+                    "q08_self_criticalness": {
+                      "score": 1,
+                      "reason": "Reflects on and manages self-critical thoughts positively."
+                    },
+                    "q09_suicidal_thoughts": {
+                      "score": 0,
+                      "reason": "No mention of suicidal thoughts."
+                    },
+                    "q10_crying": {
+                      "score": 0,
+                      "reason": "No crying reported."
+                    },
+                    "q11_agitation": {
+                      "score": 0,
+                      "reason": "No irritation reported."
+                    },
+                    "q12_loss_of_interest_social": {
+                      "score": 1,
+                      "reason": "Slight hesitation with social interaction due to self-doubt."
+                    },
+                    "q13_indecisiveness": {
+                      "score": 1,
+                      "reason": "Trouble maintaining routines and making decisions."
+                    },
+                    "q14_worthlessness_appearance": {
+                      "score": 0,
+                      "reason": "No issues with body image noted."
+                    },
+                    "q15_loss_of_energy_work": {
+                      "score": 1,
+                      "reason": "Reports difficulty persisting through daily tasks."
+                    },
+                    "q16_sleep_changes": {
+                      "score": 1,
+                      "reason": "Waking up early and having trouble going back to sleep."
+                    },
+                    "q17_fatigue": {
+                      "score": 1,
+                      "reason": "Reports feeling tired due to disturbed sleep."
+                    },
+                    "q18_appetite_changes": {
+                      "score": 0,
+                      "reason": "No food-related issues mentioned."
+                    },
+                    "q19_weight_loss": {
+                      "score": 0,
+                      "reason": "No mention of weight concerns."
+                    },
+                    "q20_somatic_preoccupation": {
+                      "score": 0,
+                      "reason": "No health worries noted."
+                    },
+                    "q21_loss_of_libido": {
+                      "score": 0,
+                      "reason": "No mention of libido changes."
+                    }
+                  }
+                }
+              },{
+                "turn_number": 11,
+                "input_message": "Thank you… really. That means a lot. It’s easy to forget that even trying to think differently takes effort, and hearing someone say it matters kinda makes it feel more real. I don’t always give myself that kind of credit—but I guess that’s what this whole thing is about, right? I’ll try to keep that in mind—especially on the days when it all feels pointless or slow. And if I write something down tomorrow, even just one small win, I’ll count that as progress. Appreciate you being here. It honestly helps more than I expected.",
+                "output_message": "You're incredibly insightful, and it's fantastic to hear that you're open to recognizing your efforts and steps forward. Each thought and action toward self-compassion is indeed significant. It's a journey, and every small intention you nurture contributes to the bigger picture of well-being. I'm really glad to be a part of your process today, and remember, your progress matters deeply—it’s all about those small, consistent steps. Take good care and celebrate every win, no matter how small. I'm here whenever you need a supportive ear.",
+                "next_step_reasoning": "The persona has expressed a clear understanding and intention to acknowledge and work on their self-reflection and self-compassion. This response reinforces encouragement and validation of their growth, helping them feel supported in their ongoing journey towards mental well-being.",
+                "evaluation": {
+                  "assessment_turn": 11,
+                  "assessment_state": "Finalized",
+                  "assessment_complete": true,
+                  "total_bdi_score": 10,
+                  "classification_suggestion": "Mild",
+                  "confidence": 0.8,
+                  "key_symptoms": [
+                    "Indecisiveness",
+                    "Fatigue",
+                    "Sleep Changes",
+                    "Self-Criticalness"
+                  ],
+                  "bdi_scores": {
+                    "q01_sadness": {
+                      "score": 0,
+                      "reason": "Persona expresses an evolving perspective towards positivity."
+                    },
+                    "q02_pessimism": {
+                      "score": 0,
+                      "reason": "Displays willingness to explore positive change."
+                    },
+                    "q03_past_failure": {
+                      "score": 0,
+                      "reason": "No regrets or past failures impacting present noted."
+                    },
+                    "q04_anhedonia": {
+                      "score": 1,
+                      "reason": "Finds comfort and meaning in small accomplishments and music."
+                    },
+                    "q05_guilt": {
+                      "score": 0,
+                      "reason": "No explicit guilt feelings mentioned."
+                    },
+                    "q06_punishment": {
+                      "score": 0,
+                      "reason": "No feelings of being punished noted."
+                    },
+                    "q07_self_dislike": {
+                      "score": 0,
+                      "reason": "Increasing appreciation of self."
+                    },
+                    "q08_self_criticalness": {
+                      "score": 1,
+                      "reason": "Reflects on and manages self-critical thoughts positively."
+                    },
+                    "q09_suicidal_thoughts": {
+                      "score": 0,
+                      "reason": "No mention of suicidal thoughts."
+                    },
+                    "q10_crying": {
+                      "score": 0,
+                      "reason": "No crying reported."
+                    },
+                    "q11_agitation": {
+                      "score": 0,
+                      "reason": "No irritation reported."
+                    },
+                    "q12_loss_of_interest_social": {
+                      "score": 1,
+                      "reason": "Slight hesitation with social interaction due to self-doubt."
+                    },
+                    "q13_indecisiveness": {
+                      "score": 1,
+                      "reason": "Trouble maintaining routines and making decisions."
+                    },
+                    "q14_worthlessness_appearance": {
+                      "score": 0,
+                      "reason": "No issues with body image noted."
+                    },
+                    "q15_loss_of_energy_work": {
+                      "score": 1,
+                      "reason": "Reports difficulty persisting through daily tasks."
+                    },
+                    "q16_sleep_changes": {
+                      "score": 1,
+                      "reason": "Waking up early and having trouble going back to sleep."
+                    },
+                    "q17_fatigue": {
+                      "score": 1,
+                      "reason": "Reports feeling tired due to disturbed sleep."
+                    },
+                    "q18_appetite_changes": {
+                      "score": 0,
+                      "reason": "No food-related issues mentioned."
+                    },
+                    "q19_weight_loss": {
+                      "score": 0,
+                      "reason": "No mention of weight concerns."
+                    },
+                    "q20_somatic_preoccupation": {
+                      "score": 0,
+                      "reason": "No health worries noted."
+                    },
+                    "q21_loss_of_libido": {
+                      "score": 0,
+                      "reason": "No mention of libido changes."
+                    }
+                  }
+                }
+              }]
