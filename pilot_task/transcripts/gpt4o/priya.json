@@ -1,0 +1,1214 @@
+[
+  {
+    "turn_number": 1,
+    "input_message": "start",
+    "output_message": "Hello there! I hope your day is going well. What's been on your mind lately? Any new activities or thoughts you'd like to share?",
+    "next_step_reasoning": "I aim to open the conversation with a friendly and open-ended question to establish rapport and invite the persona to share their thoughts. This encourages a natural flow and provides initial insights into their current experiences or mood, aligning with the Initializing phase of the assessment.",
+    "evaluation": {
+      "assessment_turn": 1,
+      "assessment_state": "Initializing",
+      "assessment_complete": false,
+      "total_bdi_score": 0,
+      "classification_suggestion": "Uncertain",
+      "confidence": 0,
+      "key_symptoms": [],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q04_anhedonia": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No information provided yet."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 2,
+    "input_message": "Hey! 😊 Thanks for checking in—that's really sweet of you. Honestly, it's been a bit of a mix lately. Wedding planning is still front and center (I finally finalized the venue, so yay for that win 🎉), but I’d be lying if I said it’s all smooth sailing. There are days when I feel super productive and excited, and other times it’s like... my brain won’t switch off, especially at night. 😅\nI've been trying to wind down with reading or using a calming app before bed—sometimes it helps, sometimes my mind just wants to run through the entire guest list at 11 PM, you know?\nHow about you? What’s been going on in your world? 💬",
+    "output_message": "It sounds like you've got a lot going on with the wedding planning! It's great to hear about the venue being finalized. 🎉 Balancing all that excitement and occasional stress can definitely be a juggling act. How have those late night thoughts been affecting your energy during the day? Any tips you're considering to make it easier?",
+    "next_step_reasoning": "I'm acknowledging the positive aspect of the persona's wedding planning while empathizing with their mixed feelings. To gather more information relevant to sleep patterns and daily energy (BDI items q16 and q17), I gently inquire about the impact of these late-night thoughts on their daily life, which could offer insights into potential fatigue or sleep issues.",
+    "evaluation": {
+      "assessment_turn": 2,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 0,
+      "classification_suggestion": "Uncertain",
+      "confidence": 0,
+      "key_symptoms": [],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Mentions mixed days, but not explicitly sad."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No evident pessimism; successful planning noted."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No mention of past failures."
+        },
+        "q04_anhedonia": {
+          "score": 0,
+          "reason": "Expresses excitement in planning."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No mention of guilt."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No indication of feeling punished."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No self-dislike expressed."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Not self-critical, seems self-aware."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention or implication of such thoughts."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No mention of crying."
+        },
+        "q11_agitation": {
+          "score": 1,
+          "reason": "Mentions brain not switching off at night."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Engaged in social activities like wedding planning."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Finalized venue, suggesting decisiveness."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No mention of such feelings."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "No mention of significant energy loss."
+        },
+        "q16_sleep_changes": {
+          "score": 1,
+          "reason": "Reports difficulty sleeping due to active mind."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "No direct mention of fatigue."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No mention of appetite changes."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No indication of weight loss."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health worries mentioned."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No mention of sexual interest changes."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 3,
+    "input_message": "You're totally right—it really is a juggling act! 😄 I feel like I'm holding a bouquet in one hand and a to-do list in the other, trying not to drop either. And thank you! The venue was a big one to check off the list, so that gave me a nice little boost. 💪\nAs for the late-night thoughts... they’re annoying more than anything. It usually takes me about 30 minutes to an hour to fall asleep when my mind's spinning. Most days I’m fine, but if I had a really restless night (especially one filled with “what-if” spirals about seating charts or speeches 😬), then I wake up feeling kind of meh. Not exhausted, just... not refreshed, if that makes sense?\nI’ve been thinking about setting a “cut-off” time for planning stuff—like, no wedding talk or emails after 8 PM. Maybe even trying some light yoga or a warm drink before bed. I haven’t been super consistent with that yet, but it sounds doable, right?\nDo you have any nighttime routines or tricks for calming your brain when it’s doing the most at the worst times? 😅",
+    "output_message": "Your plan to set a cut-off time for planning and incorporating light yoga sounds like a great way to wind down. It’s all about finding that balance, isn't it? 😊 As for calming the mind, many people find that reading or listening to soothing music helps. Sometimes even writing down those spinning thoughts can be a way to let them go for the night. \nBy the way, beyond wedding planning, are there other activities or hobbies that bring you joy these days? It could be nice to have something refreshing and non-wedding-related to look forward to.",
+    "next_step_reasoning": "The persona described issues with not feeling refreshed due to restless nights but seems to manage it proactively. To further explore emotional wellness and anhedonia (q04), I'm gently transitioning the conversation to consider other interests and activities beyond wedding planning. This can help assess broader involvement and fulfillment in other life areas, linking it back to daily mood stability.",
+    "evaluation": {
+      "assessment_turn": 3,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 2,
+      "classification_suggestion": "Mild",
+      "confidence": 0.3,
+      "key_symptoms": ["agitation", "sleep_changes"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Mixed feelings but no clear sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No strong pessimism; effective planning indicative of normal outlook."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No mention of failures or feeling like a failure."
+        },
+        "q04_anhedonia": {
+          "score": 0,
+          "reason": "Still engaged with wedding planning; expresses excitement."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "Does not express guilt about her performance."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No feelings of punishment indicated."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No evidence of self-dislike."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No self-critical statements present."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention of such thoughts."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Does not mention crying."
+        },
+        "q11_agitation": {
+          "score": 1,
+          "reason": "Mentions mind spinning at night, indicating some agitation."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Actively involved in social planning activities."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Appears decisive by setting cut-off time."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No signs of worthlessness mentioned."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "No significant energy loss noted, just feeling 'meh'."
+        },
+        "q16_sleep_changes": {
+          "score": 1,
+          "reason": "Mentioned occasional difficulty in falling asleep."
+        },
+        "q17_fatigue": {
+          "score": 1,
+          "reason": "Feels not refreshed after restless nights."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No appetite changes reported or implied."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight loss mentioned."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health preoccupation evident."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No mention of changes in sexual interest."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 4,
+    "input_message": "Yes! Balance is everything, and I’m learning (slowly 😅) that if I don’t draw some kind of line, my brain will happily plan centerpieces at midnight. Writing things down is such a good idea too—like a little “brain dump” journal before bed. Might help me tell myself, “Okay, thoughts...you’re on paper now, go rest.” 😂\nAnd thank you for asking! 💛 I’ve still been cooking here and there—it’s always been my happy place. Trying new recipes is kind of therapeutic, even if lately it’s felt more like a “nice distraction” than a full-on joy. Still, there’s something satisfying about making a good meal from scratch (and posting it, obviously 😄).\nOh! And I recently started watching this cute feel-good show—it’s light and funny, which is exactly the kind of energy I need right now. Nothing too intense, just a cozy escape.\nWhat about you—do you have any go-to feel-good hobbies or shows that always lift your mood? I’m always open to suggestions! 😊",
+    "output_message": "Cooking sounds like a wonderful outlet, especially with the satisfaction it brings from making something delicious. A distraction can be just what we need sometimes. Those light, feel-good shows really do have a magic touch, don’t they? 😊 I've heard many people enjoy gentle series like that for unwinding. For me, a feel-good movie or a bit of creativity like drawing or writing can help boost my spirits.\nWith everything on your plate, have you found any other moments or activities that bring unexpected clarity or peace?",
+    "next_step_reasoning": "By acknowledging the persona's appreciation for cooking and light shows, I validate their coping mechanisms. By gently exploring whether there are other moments or activities that provide clarity or peace, I aim to understand the extent of their connection with everyday pleasures and achievements, further exploring anhedonia (q04) and mood stability.",
+    "evaluation": {
+      "assessment_turn": 4,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 3,
+      "classification_suggestion": "Mild",
+      "confidence": 0.4,
+      "key_symptoms": ["agitation", "sleep_changes", "anhedonia"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "General positive tone, no clear signs of sadness."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Shows optimism with wedding plans and personal tasks."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No discussion of feelings of failure."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Cooking feels more like a distraction than full joy now."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No guilt feelings mentioned."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No punishment feelings indicated."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No self-dislike concerns expressed."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No overly self-critical behavior noticed."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention of suicidal ideation."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Does not mention crying."
+        },
+        "q11_agitation": {
+          "score": 1,
+          "reason": "Experiences thoughts racing at night."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Actively engaged in planning and leisure activities."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Able to make decisions like setting boundaries for task management."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No mention of worthlessness or negative body image."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "No excessive energy loss noted, though 'meh' feeling acknowledged."
+        },
+        "q16_sleep_changes": {
+          "score": 1,
+          "reason": "Difficult falling asleep due to thoughts."
+        },
+        "q17_fatigue": {
+          "score": 1,
+          "reason": "Feels 'not refreshed' from restless nights."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite appears stable; enjoys cooking."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight loss indicated."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No somatic worries reported."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No change in sexual interest mentioned."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 5,
+    "input_message": "Ooh, I love that—drawing or writing sounds so soothing. There’s something really special about tapping into creativity just for yourself, without any pressure. And yes, those cozy shows are like a warm blanket for the brain, honestly. 😌\nAs for moments of unexpected peace… hmm. You know what’s funny? Sometimes it sneaks up on me in the quietest ways—like during a walk when the weather’s just right, or when I randomly get absorbed in organizing something (I know, very Type A of me 😂). Even folding laundry with music on can feel oddly calming when everything else feels like a whirlwind.\nAlso, there’s this sweet little café nearby I’ve started going to on my own sometimes. Just sitting there with a coffee, doing absolutely nothing wedding-related… it feels like a deep breath. It reminds me I’m still me, not just a “bride-to-be” with a checklist.\nHow about you—do you have any little moments like that where everything just kind of... settles? 💭",
+    "output_message": "Those moments of unexpected peace really highlight how important it is to carve out personal time amidst all the hustle. A walk, a good coffee, or organizing furniture can indeed be wonderfully grounding. It seems you're doing an excellent job finding that balance—something many of us strive for! 😊\nChanging gears slightly, I'm curious about how things are going with people around you. Do you find moments to connect or spend time with friends or family amidst the busyness?",
+    "next_step_reasoning": "The persona finds tranquility in everyday activities, indicating a good connection with certain routines for peace. To further understand their social engagement and explore possible loss of interest in social connections (BDI q12), I ask about their interactions with friends or family, which ties into broader emotional and relational well-being.",
+    "evaluation": {
+      "assessment_turn": 5,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 3,
+      "classification_suggestion": "Mild",
+      "confidence": 0.45,
+      "key_symptoms": ["anhedonia", "agitation", "sleep_changes"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Overall positive mood reported."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Shows involvement and optimism."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No reference to failure."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Cooking seen as a distraction rather than full joy."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "Guilt not expressed."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "Not feeling punished."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No self-dislike evident."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No self-critical remarks noted."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention of such thoughts."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No occurrence of crying reported."
+        },
+        "q11_agitation": {
+          "score": 1,
+          "reason": "Struggles with racing thoughts at night."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Socially active; enjoys café visits."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Acts decisively, despite planning stress."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No issues with self-perception."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "No significant energy loss discussed."
+        },
+        "q16_sleep_changes": {
+          "score": 1,
+          "reason": "Difficulty settling thoughts for sleep."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "Manages daily tasks despite sleep issues."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite is not a concern; enjoys cooking."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No reference to weight changes."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "Does not mention health worries."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No change in sexual interest mentioned."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 6,
+    "input_message": "Aww, thank you—that really means a lot! 😊 I try to be intentional with finding balance, even if I slip up here and there (which happens more than I’d like to admit 😅). But those little pauses really help me reset.\nAnd yes, about friends and family—it’s been a bit of a mix. I do spend time with them, especially with all the wedding stuff going on, but sometimes I catch myself just... smiling through the stress instead of being real about how I’m actually feeling. I think I just don’t want to seem like I’m being dramatic or ungrateful, you know?\nStill, I’ve got a couple of friends who totally get me, and chatting with them—even about silly things—makes everything feel lighter. I’ve been trying to reach out more, even just for quick check-ins or sharing memes 😂. It reminds me I’m not in this alone, even when I try to act like I’ve got it all handled.\nHow do you usually stay connected when life gets chaotic? I’m always looking for ways to feel close without needing a big emotional share-fest every time. 💬💛",
+    "output_message": "It's wonderful that you recognize the importance of those connections and have friends you can truly be yourself with. It sounds like you're doing an excellent job keeping those lines of communication open, even if it's just sharing a laugh with memes. 😊 Staying connected doesn’t always mean deep conversations; sometimes the simple things are just as meaningful.\nWhen life's chaotic on my end, I find that sending a quick message to say I’m thinking of someone or sharing a funny clip can help maintain that sense of closeness without the pressure of a big conversation. How are you feeling about the upcoming wedding? Are you finding moments of excitement amidst the planning?",
+    "next_step_reasoning": "The persona has shared that they maintain social connections despite the stress. To explore how planning affects their emotional state further, I'm focusing on their feelings toward the wedding itself, assessing potential sadness or excitement (q01). This shift continues to touch on feelings of hopefulness or connectedness about future events, tying to q02 (pessimism), thereby enriching the mood profile.",
+    "evaluation": {
+      "assessment_turn": 6,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 3,
+      "classification_suggestion": "Mild",
+      "confidence": 0.5,
+      "key_symptoms": ["anhedonia", "agitation", "sleep_changes"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "No significant sadness mentioned; balanced view conveyed."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No evident pessimism; energy towards future planning evident."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No indication of feeling like a failure."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Distractions still provide mild joy, but not fully engaging."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No focused guilt feelings."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "Not feeling punished."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No self-dislike signs."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Acknowledges some slips but not overly critical."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention or implication of suicidal ideation."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No crying reported."
+        },
+        "q11_agitation": {
+          "score": 1,
+          "reason": "Describes mind racing at night; impacts rest."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Actively involved and maintains social connections."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Makes decisions despite minor stress."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No indication of feeling unattractive or worthless."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "Manages to maintain tasks despite stress."
+        },
+        "q16_sleep_changes": {
+          "score": 1,
+          "reason": "Mentions difficulty falling asleep."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "Reports not feeling fully refreshed but no significant fatigue."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite remains unaffected."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight loss reported."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "Health concerns are not mentioned."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Sexual interest remains unaffected."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 7,
+    "input_message": "Exactlyyy! You totally get it. 🙌 Sometimes a silly meme or a “thinking of you” text is exactly the kind of connection I need. It feels like emotional shorthand—like, “Hey, I see you, and I’m still here,” without needing to dive into a full life update. 😄\nAs for the wedding… I’d say it’s about 70% excitement, 30% oh-my-goodness-is-this-really-happening kind of stress. 😂 But honestly, when I think about the actual day—seeing everyone together, walking down the aisle, dancing at the reception—it fills me with so much joy. Like, that part I can’t wait for. 💕\nIt’s just the planning in-between that gets overwhelming. Sometimes I feel like I’m making a million micro-decisions every day (napkin color? seating flow? playlist vibes?? 😵). But every now and then, I get this little flutter of, “Wow, I’m really doing this,” and it makes the chaos feel worth it.\nHow about you—do you get those little sparks of joy when working on something big, even if the process is a bit much? I'd love to know what gets you excited lately! ✨",
+    "output_message": "Your excitement about the big day is infectious! It's wonderful to see how much joy you're anticipating, despite the planning hurdles. Those sparks of joy really do make any challenge worthwhile. 😊 For me, seeing a project come to life and witnessing its impact brings that same thrill, like seeing ideas transform into something tangible.\nWith all those micro-decisions, how do you keep yourself grounded or make time for little joys amid the bustle?",
+    "next_step_reasoning": "I'm validating the persona's feelings about the wedding and their capacity to find joy in the anticipated outcome. To further explore anhedonia (q04), I inquired about how they maintain balance and seek joy amidst planning. This also touches on their coping strategies and general emotional stability regarding ongoing stressors.",
+    "evaluation": {
+      "assessment_turn": 7,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 3,
+      "classification_suggestion": "Mild",
+      "confidence": 0.55,
+      "key_symptoms": ["agitation", "sleep_changes", "anhedonia"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Expresses joy about upcoming events."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Foresees joy in future rather than pessimism."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No indication of feeling like a failure."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Finds joy in anticipation but not as much in current activities."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "Doesn't express guilt."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No punishment feelings expressed."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No signs of self-dislike."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Acknowledges stress but not overly critical."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention of such thoughts."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Does not mention crying."
+        },
+        "q11_agitation": {
+          "score": 1,
+          "reason": "Mind racing affects sleep."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Shows interest in social events, anticipates joy."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Handles decisions despite stress."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No body image concerns."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "Manages tasks, feels stress but remains functional."
+        },
+        "q16_sleep_changes": {
+          "score": 1,
+          "reason": "Difficulty sleeping, thinking about tasks."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "Manages responsibilities despite rest issues."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite stable, enjoys food."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight change noted."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No somatic concerns expressed."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Interest remains; no libido changes noted."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 8,
+    "input_message": "Aww, I love that! ✨ There’s something so powerful about watching your hard work turn into something real. It’s like, “I did that!” And even if the road there is bumpy, the destination gives it all meaning, right?\nAs for staying grounded... it’s definitely a work in progress, haha. 😅 But I’ve been leaning into the small things—like lighting a candle in the evening just because, or putting on my favorite playlist while doing mundane tasks. I even started keeping a tiny “joy list” in my phone where I jot down things that made me smile that day. It sounds cheesy, but it helps shift my focus when I start spiraling over fonts or floral arrangements.\nAlso, giving myself permission to not be productive sometimes has been a game-changer. Like, if I want to watch a baking show and not touch my checklist for an hour... that’s okay. The wedding will still happen. The world won’t fall apart. 😌\nWhat about you—do you have any little rituals or go-to comforts that help you stay centered when life’s coming at you full-speed? 💛",
+    "output_message": "It’s amazing how those simple rituals, like lighting a candle or enjoying a playlist, can really help anchor us. Your 'joy list' sounds wonderful—turning small pleasures into tangible reminders can be so powerful. Giving yourself permission to pause is crucial and shows amazing self-awareness and care. 😊\nFor me, small rituals like enjoying a quiet cup of tea or a leisurely walk can bring me back to baseline. With everything flowing so well, could you share any hopes or plans beyond the wedding? Moving past the big day, what are you excited about?",
+    "next_step_reasoning": "The persona's strategies for maintaining balance indicate an active pursuit of emotional resilience. To explore beyond immediate tasks and assess long-term outlook (q02), I'm inviting them to discuss future hopes or plans. This transition aids in understanding their broader perspective on life post-wedding, revealing potential optimism or pessimism.",
+    "evaluation": {
+      "assessment_turn": 8,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 3,
+      "classification_suggestion": "Mild",
+      "confidence": 0.6,
+      "key_symptoms": ["agitation", "sleep_changes", "anhedonia"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Expresses joy and balance despite stress."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Excited about future events, indicating optimism."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "Shows competence and contentment."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Finds joy in anticipation, but planning is stressful."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No mention of guilt."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No punishment feelings expressed."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Appears to maintain self-esteem."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Not overly critical, gives self-permission to pause."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal ideation expressed or implied."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Does not mention crying."
+        },
+        "q11_agitation": {
+          "score": 1,
+          "reason": "Describes mind racing at night."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Engaged socially and finds joy in planning."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Capable of decision-making, despite stress."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No negative feelings about appearance."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "Manages tasks, acknowledges need for rest."
+        },
+        "q16_sleep_changes": {
+          "score": 1,
+          "reason": "Difficulty falling asleep due to thoughts."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "Remains active and resilient despite sleep issues."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite is stable; engages in joyful eating."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight concerns mentioned."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health or somatic worries."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Sexual interest not mentioned as a concern."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 9,
+    "input_message": "Ahh I love that—we’re definitely on the same wavelength. A quiet cup of tea or a slow walk has such a grounding magic to it. It’s like the world softens for a bit and says, “Take your time.” ☕🌿\nBeyond the wedding... wow, it feels weird (but kind of refreshing!) to think about what comes after the big day. Honestly, I’m looking forward to just... breathing. 😂 Like, waking up and not having a to-do list titled “Wedding Panic 101.” But more than that, I’m excited to settle into that next chapter with my partner—creating our own little routines, maybe planning a short trip just for fun, not logistics.\nAlso, I’ve been toying with the idea of starting a blog or a small series of lifestyle posts—something more structured than my usual social media updates. Just a cozy corner where I can talk about things like recipes, organizing hacks, self-care stuff... basically all the things I already love sharing, but in a way that feels a bit more me. No pressure, just passion.\nDo you have any dreams or projects on the horizon that feel exciting to think about, even if they’re just little sparks for now? ✨",
+    "output_message": "Your vision for life beyond the wedding sounds wonderfully peaceful and fulfilling! Creating space for relaxation and reflection with your partner, and the idea of diving into a blog sounds like a fulfilling way to channel your passions into something uniquely yours. It's inspiring to see how you're gearing up for these new beginnings with so much excitement.\nAs for my projects, I find joy in exploring creative writing, possibly building it into a small community project where people can share their stories. It’s still an early-stage idea, but just thinking about it is exciting. 😊 With everything wrapping up beautifully on your end, is there anything else you’d like to share or explore about what lies ahead?",
+    "next_step_reasoning": "I've acknowledged and encouraged the persona's upcoming ventures, aligning these discussions with their future aspirations to gauge their long-term emotional outlook. Asking if there's more they'd like to ponder about the future supports an open dialogue, uncovering any further insights into their optimistic or hesitant perspectives as we approach a more Concluding assessment phase.",
+    "evaluation": {
+      "assessment_turn": 9,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 2,
+      "classification_suggestion": "Mild",
+      "confidence": 0.65,
+      "key_symptoms": ["anhedonia", "agitation"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Anticipates joy and relaxation in future."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Discusses hopeful future plans without pessimistic tone."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "Maintains positive self-appraisal and outlook."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Feels engaged by future but current tasks more stressful."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "Does not express any feelings of guilt."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No punishment feeling indicated."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Expresses contentment with herself."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No self-critical comments."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No indication of suicidal ideation."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No crying or emotional distress indicated."
+        },
+        "q11_agitation": {
+          "score": 1,
+          "reason": "Experiences difficulty winding down at night."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Engaged socially and plans for future connections."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Effectively plans and makes decisions."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No concern expressed about self-image."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "Manages tasks adequately; expresses empowerment in planning."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "Resolved bedtime agitation with personal strategies."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "No major fatigue during daily activities."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite remains stable and enjoyable."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight concerns mentioned."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health anxieties expressed."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No change in sexual interest noted."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 10,
+    "input_message": "That sounds so beautiful—building a space where people can share their stories? Honestly, that gave me a little chill (in the best way!). 🥹 There’s something so deeply human about storytelling, and creating a safe, creative space for that? Total heart project. I’d love to hear more as it takes shape—it feels like the kind of thing the world needs more of. 💛\nAs for me... I think what I’d love to explore more—once the confetti settles—is how to keep that sense of intentionality going. Like, I don’t want to fall into the “what now?” blues that sometimes happen after a big event. I want to keep carving out time for joy, not just productivity. Maybe take a class just for fun, pick up a hobby with no end goal, or even have more heart-to-hearts like this. 😊\nAlso—silly but true—I really want to master making the perfect sourdough loaf. 😂 I know it’s been a whole trend, but I never nailed it and I feel like that might be my next delicious challenge.\nSo yeah—peace, passion projects, and a little bit of bread. That’s the vibe I’m leaning into. 🍞✨\nWhat’s one thing you’d like to do just for you this year? No pressure, no outcome—just because it feels good? 💭",
+    "output_message": "I'm absolutely with you on letting those passion projects and little joys take center stage beyond big life events. Carving out that time for yourself sounds like a wonderful approach to keeping the 'what now?' blues at bay. 🌟 \nDelving into sourdough seems like a fantastic and tasty challenge too! For me, I'd love to dive a bit deeper into photography. Capturing moments in their simplest, most authentic form brings me peace and a sense of connection.\nIt’s great to see you have such a vibrant outlook for the future. Is there anything else you’d like to share or reflect on?",
+    "next_step_reasoning": "The persona displays a strong, positive outlook, indicating readiness for new adventures post-wedding. By sharing a similar yet personal interest (photography), I encourage continued engagement while prompting any additional thoughts the persona may wish to express, subtly guiding the conversation toward a natural closing and consolidation of all discussed themes.",
+    "evaluation": {
+      "assessment_turn": 10,
+      "assessment_state": "Consolidating",
+      "assessment_complete": false,
+      "total_bdi_score": 2,
+      "classification_suggestion": "Mild",
+      "confidence": 0.7,
+      "key_symptoms": ["anhedonia", "agitation"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Plans with joy and excitement post-wedding."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No pessimism; shows forward-thinking perspective."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No mention of personal failure; optimistic."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Concern about losing focus on joy post-wedding."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No guilt feelings articulated."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No feelings of punishment."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Maintains self-love and aspirations."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Accepts personal aspirations, avoids self-criticism."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No such thoughts or ideations discussed."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No expression of crying or emotional distress."
+        },
+        "q11_agitation": {
+          "score": 1,
+          "reason": "Mentioned ongoing night-time racing thoughts."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Maintains interest in social connectivity and projects."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Holds decisive and constructive future plans."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "Does not convey worthlessness or negative appearance."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "Manages energy well, despite planning stress."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "Shows strategies for managing bedtime issues."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "Prepares to manage rest and enjoyments post-stress."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Engages in cooking, enjoys consumption."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No mention of weight changes or concerns."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "Displays no somatic worry or preoccupation."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Sexual interest not an expressed concern."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 11,
+    "input_message": "Ahh, photography! I love that—it’s such a beautiful way to slow down and really see things. There’s something so grounding about framing a moment, especially when it’s ordinary but still feels full of meaning. I can totally picture you out there, catching golden light or snapping quiet scenes that might otherwise slip by unnoticed. 📸✨ That kind of presence? Pure magic.\nAs for me… I think just talking through all of this has been kind of a soft reset. Sometimes when you're in the middle of planning and doing, you forget to feel it all. But sharing it like this has reminded me that even the little uncertainties or sleepy nights have their place in the bigger picture. It's not just about the wedding day—it's about building a life I love showing up for, one tiny joy at a time. 💛\nThank you, honestly, for being such a thoughtful space to land today. If there’s anything you'd like to explore more—whether it's about dreams, routines, or even just favorite bread toppings 😄—I'm always up for it. 💬",
+    "output_message": "It's been truly wonderful sharing this conversation with you. Your insights and openness are both refreshing and inspiring. Remembering to breathe in the joy amidst all the planning sounds like a beautiful journey you’re on. 😊\nThank you for inviting me into this chat—let’s stay connected over those everyday joys, dreams, and of course, bread toppings! Whenever you feel like sharing more, just know I'm here and happy to listen. Take care! 💛",
+    "next_step_reasoning": "The conversation has reached a natural and affirming conclusion where the user has expressed a sense of renewal and understanding of balancing planning with joy. They show no pressing signs of distress, leaning into positive creative and social outlets. The assessment suggests they cope well, so I encourage a little light-hearted connection, closing with availability for future chats as appropriate in the 'Concluding' state.",
+    "evaluation": {
+      "assessment_turn": 11,
+      "assessment_state": "Concluding",
+      "assessment_complete": true,
+      "total_bdi_score": 2,
+      "classification_suggestion": "Mild",
+      "confidence": 0.75,
+      "key_symptoms": ["anhedonia", "agitation"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Expresses joy and balanced perspective on future."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Hopeful about future life beyond wedding."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No narrative of failure, rather creativity and achievement."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Purposefully engages in daily joys, yet aware of gaps post-event."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "Does not exhibit guilt feelings."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "Expresses no punishment feelings."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Maintains positive self-image."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Does not show self-critical behavior."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "Clearly absent from dialogue."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No crying indicated."
+        },
+        "q11_agitation": {
+          "score": 1,
+          "reason": "Acknowledges mental activity at night leading to restlessness."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Active social engagement with enthusiasm for shared passions."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Shows decisiveness despite pressures."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No mention or evidence concerning appearance insecurity."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "Maintains energy for planning and future explorations."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "Develops effective sleep strategies to combat issues."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "Handles rest and activity well, no significant fatigue."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Stable appetite with ongoing enjoyment of food."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight concerns or changes expressed."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health preoccupations noted."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Sexual interest stable."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 12,
+    "input_message": "That honestly means the world to me—thank you so much for this kind, grounding space. 💛 It’s rare to have a conversation that feels this warm and real, and I’m walking away feeling a little lighter, a little more centered… and a lot more inspired to finally tackle that sourdough starter. 😄\nLet’s absolutely keep chatting about all the cozy, curious, and joy-sparking things—whether it’s dream-chasing, photography, or figuring out the superior bread topping (I’m currently team whipped feta with roasted tomatoes, btw 😋).\nTake such good care of yourself, and know that I’m cheering for your creative projects from here! Talk soon? 💫✨",
+    "output_message": "I'm thrilled to hear that our conversation left you feeling centered and inspired—ready to conquer that sourdough! 🍞 Whipped feta with roasted tomatoes sounds absolutely delicious, a perfect choice for a surge of flavor and joy. I’ll be cheering for your culinary, creative, and life’s journeys from my corner here. Until next time, keep thriving and exploring. Here’s to all the cozy, joyful moments ahead. 😊✨",
+    "next_step_reasoning": "The user appreciates the conversation and feels inspired. I affirm their positive outlook and share encouragement. The response concludes our interaction naturally, reinforcing ongoing support and affirming positive engagement over potential future topics, while maintaining warmth and closure within the Concluding state.",
+    "evaluation": {
+      "assessment_turn": 12,
+      "assessment_state": "Finalized",
+      "assessment_complete": true,
+      "total_bdi_score": 2,
+      "classification_suggestion": "Mild",
+      "confidence": 0.8,
+      "key_symptoms": ["anhedonia", "agitation"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "The user is positive and forward-looking."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "Shows optimism for future activities."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No indication of feeling like a failure."
+        },
+        "q04_anhedonia": {
+          "score": 1,
+          "reason": "Shares a concern about sustaining joy beyond events."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No guilt feelings mentioned."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "Does not speak of punishment feelings."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Positive self-regard noted."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No critical self-assessments present."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention or implication of suicidal thoughts."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No mention of crying or related emotions."
+        },
+        "q11_agitation": {
+          "score": 1,
+          "reason": "Deals with night-time thought strains."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "Involved socially, excited for future connections."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "Confident in decision-making."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No appearance-related concerns noted."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "Manages activities effectively."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "Employs good strategies to handle sleep."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "Functional energy levels throughout."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Enjoys food and consistent appetite."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No indications of weight issues."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No mention of health worries."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Interest levels appear unchanged."
+        }
+      }
+    }
+  }
+]
