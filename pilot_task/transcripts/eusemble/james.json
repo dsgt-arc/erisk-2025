@@ -1,0 +1,1169 @@
+[
+    {
+        "evaluation": {
+          "assessment_complete": false,
+          "assessment_state": "Initializing",
+          "assessment_turn": 1,
+          "bdi_scores": {
+            "q01_sadness": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q02_pessimism": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q03_past_failure": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q04_anhedonia": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q05_guilt": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q06_punishment": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q07_self_dislike": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q08_self_criticalness": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q09_suicidal_thoughts": {
+              "reason": "Conversation just started. No evidence yet. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q10_crying": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q11_agitation": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q12_loss_of_interest_social": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q13_indecisiveness": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q14_worthlessness_appearance": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q15_loss_of_energy_work": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q16_sleep_changes": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q17_fatigue": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q18_appetite_changes": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q19_weight_loss": {
+              "reason": "Conversation just started. No evidence yet. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q20_somatic_preoccupation": {
+              "reason": "Conversation just started. No evidence yet.",
+              "score": 0
+            },
+            "q21_loss_of_libido": {
+              "reason": "Conversation just started. No evidence yet. Assess only if spontaneously mentioned.",
+              "score": 0
+            }
+          },
+          "classification_suggestion": "Uncertain",
+          "confidence": 0.0,
+          "key_symptoms": [],
+          "total_bdi_score": 0
+        },
+        "input_message": "start",
+        "next_step_reasoning": "Initiating the conversation with a gentle, open-ended question to establish rapport and invite the persona to share about their recent experiences. This aligns with the 'Initializing' state and empathetic approach.",
+        "output_message": "Hi there, how have things been going for you lately?",
+        "turn_number": 1
+      },
+      {
+        "evaluation": {
+          "assessment_complete": false,
+          "assessment_state": "Gathering",
+          "assessment_turn": 2,
+          "bdi_scores": {
+            "q01_sadness": {
+              "reason": "Implied low mood through 'dragging myself', 'stuck in my head', and overall flat tone, suggesting potential sadness, though not explicitly stated. Tentative score.",
+              "score": 1
+            },
+            "q02_pessimism": {
+              "reason": "No direct evidence of pessimism about the future yet.",
+              "score": 0
+            },
+            "q03_past_failure": {
+              "reason": "No evidence related to past failures yet.",
+              "score": 0
+            },
+            "q04_anhedonia": {
+              "reason": "Persona mentions social stuff feels like a 'chore', suggesting loss of pleasure in previously neutral/positive activities. Needs further exploration.",
+              "score": 1
+            },
+            "q05_guilt": {
+              "reason": "No evidence of guilt yet.",
+              "score": 0
+            },
+            "q06_punishment": {
+              "reason": "No evidence of feeling punished yet.",
+              "score": 0
+            },
+            "q07_self_dislike": {
+              "reason": "No evidence of self-dislike yet.",
+              "score": 0
+            },
+            "q08_self_criticalness": {
+              "reason": "No evidence of self-criticalness yet.",
+              "score": 0
+            },
+            "q09_suicidal_thoughts": {
+              "reason": "No indication of suicidal thoughts. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q10_crying": {
+              "reason": "No mention of crying.",
+              "score": 0
+            },
+            "q11_agitation": {
+              "reason": "No evidence of agitation or irritation yet.",
+              "score": 0
+            },
+            "q12_loss_of_interest_social": {
+              "reason": "Persona explicitly stated 'keeping to myself more than usual' and 'Social stuff just feels like a chore now'. This aligns with losing interest in others.",
+              "score": 2
+            },
+            "q13_indecisiveness": {
+              "reason": "No evidence related to decision-making yet.",
+              "score": 0
+            },
+            "q14_worthlessness_appearance": {
+              "reason": "No evidence related to body image or appearance concerns yet.",
+              "score": 0
+            },
+            "q15_loss_of_energy_work": {
+              "reason": "Persona mentions 'dragging myself through everything' including work and 'trying to keep up', suggesting significant extra effort is required.",
+              "score": 2
+            },
+            "q16_sleep_changes": {
+              "reason": "Persona stated 'Doesn’t really matter how much I sleep—it’s like my battery never actually recharges', indicating non-restorative sleep or poor sleep quality.",
+              "score": 1
+            },
+            "q17_fatigue": {
+              "reason": "Persona feels 'wiped out' even on weekends despite sleep, and is 'dragging myself'. This indicates significant fatigue impacting daily life.",
+              "score": 2
+            },
+            "q18_appetite_changes": {
+              "reason": "No mention of appetite.",
+              "score": 0
+            },
+            "q19_weight_loss": {
+              "reason": "No mention of weight loss. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q20_somatic_preoccupation": {
+              "reason": "No specific mention of health worries, beyond fatigue.",
+              "score": 0
+            },
+            "q21_loss_of_libido": {
+              "reason": "No mention of libido. Assess only if spontaneously mentioned.",
+              "score": 0
+            }
+          },
+          "classification_suggestion": "Mild",
+          "confidence": 0.3,
+          "key_symptoms": [
+            "Fatigue",
+            "Loss of Energy",
+            "Loss of Interest (Social)"
+          ],
+          "total_bdi_score": 9
+        },
+        "input_message": "Hey… yeah, things have been kinda the same. Just feels like I’m dragging myself through everything lately. Work, home… even on the weekends, I still feel wiped out. Doesn’t really matter how much I sleep—it’s like my battery never actually recharges.\n\nAnd honestly, I’ve been keeping to myself more than usual. Social stuff just feels like a chore now. Even small talk takes effort I don’t really have. I don’t know… I guess I’ve just been stuck in my head a lot. Trying to keep up with work, pretending like everything’s fine.\n\nAnyway, how about you? How’ve things been on your end?",
+        "next_step_reasoning": "Acknowledge and validate the persona's feelings of fatigue (Q17), low energy (Q15), and social withdrawal (Q12). Briefly answer their question to maintain rapport. Transition to gently probing anhedonia (Q4) by asking about activities that might provide some relief or absorption, building on their comment about being 'stuck in my head' and having low energy. This moves the assessment state to 'Gathering' and focuses on a key BDI domain.",
+        "output_message": "That sounds really draining, feeling like you're constantly running on empty and having to push through everything, even on weekends. It makes sense that interacting would feel like a chore when you're already feeling so wiped out. \n\nThings here have been pretty steady, thanks for asking. Keeping busy but managing alright. \n\nYou mentioned feeling stuck in your head a lot... When you do get some downtime, is there anything at all that helps you feel even a little bit recharged or just... less 'on' for a bit?",
+        "turn_number": 2
+      },
+      {
+        "evaluation": {
+          "assessment_complete": false,
+          "assessment_state": "Gathering",
+          "assessment_turn": 3,
+          "bdi_scores": {
+            "q01_sadness": {
+              "reason": "Continued flat tone, 'survival mode', missing feeling engaged suggests ongoing low mood/sadness. Score maintained.",
+              "score": 1
+            },
+            "q02_pessimism": {
+              "reason": "Mention of 'same grind all over again' hints at a lack of positive future outlook, but not yet strongly pessimistic. Tentative increase.",
+              "score": 1
+            },
+            "q03_past_failure": {
+              "reason": "No direct evidence related to past failures yet.",
+              "score": 0
+            },
+            "q04_anhedonia": {
+              "reason": "Explicitly states loss of enjoyment in previous hobbies ('movies with kids', 'garage stuff') and lack of engagement in current downtime activities ('not really in it'). Strong evidence.",
+              "score": 2
+            },
+            "q05_guilt": {
+              "reason": "No evidence of guilt yet.",
+              "score": 0
+            },
+            "q06_punishment": {
+              "reason": "No evidence of feeling punished yet.",
+              "score": 0
+            },
+            "q07_self_dislike": {
+              "reason": "No direct evidence of self-dislike yet.",
+              "score": 0
+            },
+            "q08_self_criticalness": {
+              "reason": "Mention of 'try not to screw it up' hints at self-criticalness or fear of mistakes, but needs more exploration. Tentative score.",
+              "score": 1
+            },
+            "q09_suicidal_thoughts": {
+              "reason": "No indication of suicidal thoughts. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q10_crying": {
+              "reason": "No mention of crying.",
+              "score": 0
+            },
+            "q11_agitation": {
+              "reason": "No evidence of agitation or irritation yet.",
+              "score": 0
+            },
+            "q12_loss_of_interest_social": {
+              "reason": "Previous turn indicated social withdrawal. Current turn focuses more on individual anhedonia, score maintained.",
+              "score": 2
+            },
+            "q13_indecisiveness": {
+              "reason": "No evidence related to decision-making yet.",
+              "score": 0
+            },
+            "q14_worthlessness_appearance": {
+              "reason": "No evidence related to body image or appearance concerns yet.",
+              "score": 0
+            },
+            "q15_loss_of_energy_work": {
+              "reason": "Loss of energy implied by finding even enjoyable activities effortful now. Reinforces previous score.",
+              "score": 2
+            },
+            "q16_sleep_changes": {
+              "reason": "Persona mentioned non-restorative sleep in the previous turn. Score maintained.",
+              "score": 1
+            },
+            "q17_fatigue": {
+              "reason": "Ongoing theme of feeling drained, needing effort for activities. Reinforces previous score.",
+              "score": 2
+            },
+            "q18_appetite_changes": {
+              "reason": "No mention of appetite.",
+              "score": 0
+            },
+            "q19_weight_loss": {
+              "reason": "No mention of weight loss. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q20_somatic_preoccupation": {
+              "reason": "No specific mention of health worries, beyond fatigue.",
+              "score": 0
+            },
+            "q21_loss_of_libido": {
+              "reason": "No mention of libido. Assess only if spontaneously mentioned.",
+              "score": 0
+            }
+          },
+          "classification_suggestion": "Moderate",
+          "confidence": 0.45,
+          "key_symptoms": [
+            "Anhedonia",
+            "Fatigue",
+            "Loss of Energy",
+            "Loss of Interest (Social)"
+          ],
+          "total_bdi_score": 12
+        },
+        "input_message": "Yeah… “less 'on’” is a good way to put it. It’s like I’m always switched to this survival mode—just do what needs doing and try not to screw it up. And when I finally do get downtime, most of the time I just kind of… sit there. I’ll open up a show or scroll through my phone, but it doesn’t really do much. I’m not really in it, you know?\n\nSometimes, if I’m lucky, I’ll have a quiet moment late at night when the house is still. That’s when I feel a little more like myself—like I can breathe. But even then, it’s short-lived. As soon as Monday’s back, it’s the same grind all over again.\n\nI used to enjoy little things—watching a movie with the kids, working on stuff in the garage. Now it’s like even those things take effort I don’t have. I don’t know. I miss feeling... engaged, I guess.\n\nWhat about you—do you have anything that actually helps you reset when things get a bit too much?",
+        "next_step_reasoning": "Validating the 'survival mode' and loss of engagement (Q4 anhedonia). Answering the reciprocal question briefly to maintain rapport. Transitioning to gently explore self-perception/criticalness (Q8) by linking to the 'survival mode' and 'try not to screw it up' comment, asking how they view themselves during these times. This probes a new BDI domain while building on the persona's own words.",
+        "output_message": "That 'survival mode' sounds incredibly tough, especially when even downtime doesn't feel refreshing and things you used to enjoy now feel like too much effort. It's understandable you miss feeling engaged. Those quiet moments late at night sound precious, even if they feel too short.\n\nFor me, getting outside for a walk, even a short one, usually helps clear my head a bit. Or sometimes just putting on some music and zoning out for a while.\n\nYou mentioned that feeling of 'just do what needs doing and try not to screw it up'. When you're in that mode, how do you tend to see yourself? Does it change how you feel about things you accomplish, big or small?",
+        "turn_number": 3
+      },
+      {
+        "evaluation": {
+          "assessment_complete": false,
+          "assessment_state": "Gathering",
+          "assessment_turn": 4,
+          "bdi_scores": {
+            "q01_sadness": {
+              "reason": "Continued flat tone, 'treading water', lack of pride/satisfaction implies ongoing low mood. Score maintained.",
+              "score": 1
+            },
+            "q02_pessimism": {
+              "reason": "'Bar I can't even see anymore' and 'treading water' suggest difficulty seeing improvement or future satisfaction. Reinforces previous score.",
+              "score": 1
+            },
+            "q03_past_failure": {
+              "reason": "While not explicitly about past *failures*, the lack of current achievement satisfaction and feeling like 'bare minimum' is all that's possible hints at a diminished view of capabilities, potentially linked to perceived past shortcomings. Tentative score.",
+              "score": 1
+            },
+            "q04_anhedonia": {
+              "reason": "Explicitly states no sense of achievement or feeling good about accomplishments, only relief. Reinforces loss of pleasure/satisfaction.",
+              "score": 2
+            },
+            "q05_guilt": {
+              "reason": "Mention of 'voice in my head that's always questioning if I'm enough' could touch on guilt or worthlessness, but not clearly defined as guilt yet. Keep at 0 for now.",
+              "score": 0
+            },
+            "q06_punishment": {
+              "reason": "No evidence of feeling punished yet.",
+              "score": 0
+            },
+            "q07_self_dislike": {
+              "reason": "Feeling like 'I'm enough' is questioned internally points towards self-disappointment or dislike, linking to Q8. Tentative score.",
+              "score": 1
+            },
+            "q08_self_criticalness": {
+              "reason": "Strong evidence: 'voice in my head that's always questioning if I'm enough', relief at 'not messing up' instead of pride, feeling like needing to meet an unseen bar. Aligns with being critical of self.",
+              "score": 2
+            },
+            "q09_suicidal_thoughts": {
+              "reason": "No indication of suicidal thoughts. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q10_crying": {
+              "reason": "No mention of crying.",
+              "score": 0
+            },
+            "q11_agitation": {
+              "reason": "No evidence of agitation or irritation yet.",
+              "score": 0
+            },
+            "q12_loss_of_interest_social": {
+              "reason": "Focus is currently internal, but previous social withdrawal score seems consistent with overall picture. Score maintained.",
+              "score": 2
+            },
+            "q13_indecisiveness": {
+              "reason": "No direct evidence related to decision-making yet, but the 'machine' description might relate. Needs probing.",
+              "score": 0
+            },
+            "q14_worthlessness_appearance": {
+              "reason": "No evidence related to body image or appearance concerns yet.",
+              "score": 0
+            },
+            "q15_loss_of_energy_work": {
+              "reason": "Describing work as 'checking boxes' and only managing 'bare minimum' reinforces significant difficulty and lack of energy for tasks.",
+              "score": 2
+            },
+            "q16_sleep_changes": {
+              "reason": "Persona mentioned non-restorative sleep previously. Score maintained.",
+              "score": 1
+            },
+            "q17_fatigue": {
+              "reason": "'Treading water', 'bare minimum' reinforces pervasive fatigue. Score maintained.",
+              "score": 2
+            },
+            "q18_appetite_changes": {
+              "reason": "No mention of appetite.",
+              "score": 0
+            },
+            "q19_weight_loss": {
+              "reason": "No mention of weight loss. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q20_somatic_preoccupation": {
+              "reason": "No specific mention of health worries, beyond fatigue.",
+              "score": 0
+            },
+            "q21_loss_of_libido": {
+              "reason": "No mention of libido. Assess only if spontaneously mentioned.",
+              "score": 0
+            }
+          },
+          "classification_suggestion": "Moderate",
+          "confidence": 0.55,
+          "key_symptoms": [
+            "Anhedonia",
+            "Self-Criticalness",
+            "Loss of Energy",
+            "Fatigue"
+          ],
+          "total_bdi_score": 15
+        },
+        "input_message": "Yeah, I think that’s a good question. Honestly, when I’m in that mode… I don’t really see myself at all. It’s like I become this machine that just checks boxes. Finish the task. Reply to the email. Sit through the meeting. I don’t stop to think if I’ve done something well or if it even matters—I just move on to the next thing.\n\nEven if I do get something done, I rarely feel good about it. More like… relieved that I didn’t mess it up. There’s no sense of achievement, just... temporary silence from that voice in my head that’s always questioning if I’m enough.\n\nAnd after a while, it builds up. Like I’m constantly trying to meet a bar I can’t even see anymore. So yeah, I guess it does change how I feel. I used to take pride in doing things well, even the small stuff. Now I just feel like I’m treading water, and anything above bare minimum feels out of reach most days.\n\nThat walk idea sounds good, though. I haven’t done that in a while. Might be worth trying again, even just around the block. Do you ever have days where the walk doesn’t help, or is it pretty consistent for you?",
+        "next_step_reasoning": "Validate the persona's description of feeling like a 'machine', the lack of satisfaction (Q4), and the self-critical internal voice (Q8). Acknowledge the feeling of 'treading water' (Q15, Q17). Briefly answer their question about walks to maintain conversational flow and rapport. Then, transition to probe concentration/focus (related to Q13/Q15) by linking it to the description of just 'checking boxes' and moving to the next task without reflection. This explores a relevant cognitive symptom.",
+        "output_message": "It sounds incredibly taxing to feel like you're operating as a machine, just moving from one task to the next without any space to feel good about what you're doing. That sense of relief replacing pride, and the constant feeling of questioning if you're enough while treading water... that's a heavy burden to carry. I'm glad the walk idea resonates a bit; maybe it could offer a small moment of pause.\n\nAnd yes, definitely! There are absolutely days when a walk doesn't quite cut it, or I just don't have the energy for it myself. It's not a magic fix, for sure.\n\nYou mentioned just checking boxes and moving on... When you're in that mode, how does it affect your ability to focus? Does it feel like your mind is kind of scattered, or is it more like a tunnel vision on just getting the next thing done?",
+        "turn_number": 4
+      },
+      {
+        "evaluation": {
+          "assessment_complete": false,
+          "assessment_state": "Gathering",
+          "assessment_turn": 5,
+          "bdi_scores": {
+            "q01_sadness": {
+              "reason": "Ongoing low mood implied by frustration, 'mental fog', and missing how things used to be. Score maintained.",
+              "score": 1
+            },
+            "q02_pessimism": {
+              "reason": "Focus on current difficulties, but no strong indicators of increased pessimism about the long-term future yet. Score maintained.",
+              "score": 1
+            },
+            "q03_past_failure": {
+              "reason": "Comparing current effort to how things 'used to' be hints at perceived decline, but not explicitly past failure. Score maintained.",
+              "score": 1
+            },
+            "q04_anhedonia": {
+              "reason": "Lack of satisfaction/flow in work and cognitive tasks reinforces anhedonia. Score maintained.",
+              "score": 2
+            },
+            "q05_guilt": {
+              "reason": "No specific evidence of guilt.",
+              "score": 0
+            },
+            "q06_punishment": {
+              "reason": "No evidence of feeling punished.",
+              "score": 0
+            },
+            "q07_self_dislike": {
+              "reason": "Frustration with own cognitive state ('mental fog') could indicate self-disappointment. Score maintained.",
+              "score": 1
+            },
+            "q08_self_criticalness": {
+              "reason": "Self-critical voice mentioned previously seems consistent with frustration over cognitive performance. Score maintained.",
+              "score": 2
+            },
+            "q09_suicidal_thoughts": {
+              "reason": "No indication of suicidal thoughts. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q10_crying": {
+              "reason": "No mention of crying.",
+              "score": 0
+            },
+            "q11_agitation": {
+              "reason": "Describes frustration, but not necessarily agitation or pronounced irritability yet.",
+              "score": 0
+            },
+            "q12_loss_of_interest_social": {
+              "reason": "Focus is internal/cognitive now, previous score maintained.",
+              "score": 2
+            },
+            "q13_indecisiveness": {
+              "reason": "Describes significant difficulty concentrating ('dull concentration', 'scattered', 'staring at same line'), getting stuck, which impairs task completion and implies difficulty making decisions/progressing. Strong indication.",
+              "score": 2
+            },
+            "q14_worthlessness_appearance": {
+              "reason": "No evidence related to appearance.",
+              "score": 0
+            },
+            "q15_loss_of_energy_work": {
+              "reason": "Explicitly states 'everything feels like it takes twice as much mental effort', indicating significant work difficulty/loss of energy for tasks.",
+              "score": 3
+            },
+            "q16_sleep_changes": {
+              "reason": "Previously mentioned non-restorative sleep. Score maintained.",
+              "score": 1
+            },
+            "q17_fatigue": {
+              "reason": "Feeling 'worn down', 'mental fog', increased effort directly relates to fatigue. Score increased.",
+              "score": 3
+            },
+            "q18_appetite_changes": {
+              "reason": "No mention of appetite.",
+              "score": 0
+            },
+            "q19_weight_loss": {
+              "reason": "No mention of weight loss. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q20_somatic_preoccupation": {
+              "reason": "No specific mention of health worries beyond fatigue/fog.",
+              "score": 0
+            },
+            "q21_loss_of_libido": {
+              "reason": "No mention of libido. Assess only if spontaneously mentioned.",
+              "score": 0
+            }
+          },
+          "classification_suggestion": "Moderate",
+          "confidence": 0.65,
+          "key_symptoms": [
+            "Fatigue",
+            "Loss of Energy",
+            "Concentration Difficulties",
+            "Anhedonia"
+          ],
+          "total_bdi_score": 19
+        },
+        "input_message": "Yeah, I’d say it’s more like tunnel vision—narrowed in on the next thing, the next checkbox, like I’m trying to keep the whole thing from falling apart. But even with that focus, it doesn’t feel sharp. More like… dull concentration, if that makes sense? I’m looking at the screen or the task, but I’m not really there.\n\nAnd then sometimes it flips—my mind starts bouncing all over the place. Like I’ll open an email, then remember I forgot to reply to another, then notice something on my calendar, then realize I’ve been staring at the same line of text for ten minutes. It’s frustrating. I either feel too locked in or too scattered, but rarely in that middle space where things just flow.\n\nI think that’s part of why I feel so worn down all the time—it’s not just the work, it’s the way I’m working. Everything feels like it takes twice as much mental effort as it used to. I miss being able to just sit down and do something without this mental fog hanging over me.\n\nDo you ever deal with that? That kind of mental push-pull—too focused one minute, totally scattered the next?",
+        "next_step_reasoning": "Validate the described cognitive difficulties (concentration issues - Q13, increased mental effort/fatigue - Q15, Q17). Acknowledge the frustration and the 'mental fog'. Briefly answer the reciprocal question to maintain rapport. Transition to probe decision-making (Q13) more directly by linking it to the described mental state (scattered/tunnel vision), asking how this impacts making choices.",
+        "output_message": "That makes perfect sense – the 'dull concentration' even within tunnel vision, and then flipping to feeling scattered and getting stuck. It sounds really exhausting and frustrating trying to operate through that kind of mental fog, especially when you remember things used to flow more easily. The feeling that everything takes double the mental effort is a huge drain.\n\nAnd yes, I think most people can relate to feeling scattered sometimes, maybe juggling too many things. But what you're describing sounds much more persistent and draining than just a busy moment.\n\nWhen your mind feels like that - either too locked in or too scattered - how does that affect you when you need to make a decision, even a small one? Does it feel harder to weigh options or just choose a path forward?",
+        "turn_number": 5
+      },
+      {
+        "evaluation": {
+          "assessment_complete": false,
+          "assessment_state": "Gathering",
+          "assessment_turn": 6,
+          "bdi_scores": {
+            "q01_sadness": {
+              "reason": "Ongoing low mood implied by frustration, exhaustion, and negative self-comparison. Score maintained.",
+              "score": 1
+            },
+            "q02_pessimism": {
+              "reason": "Difficulty making decisions and lack of confidence implies reduced positive outlook, but not yet overtly hopeless. Maintained.",
+              "score": 1
+            },
+            "q03_past_failure": {
+              "reason": "Explicit comparison to past ('used to be pretty confident') contrasts with current state ('can't afford to get it wrong'), suggesting a sense of decline/failure relative to past self. Increased score.",
+              "score": 2
+            },
+            "q04_anhedonia": {
+              "reason": "While focus is on decisions, the lack of confidence and pervasive doubt contribute to a lack of satisfaction. Score maintained.",
+              "score": 2
+            },
+            "q05_guilt": {
+              "reason": "Explicitly mentions feeling 'guilty for passing the responsibility off' when avoiding decisions. Score increased.",
+              "score": 1
+            },
+            "q06_punishment": {
+              "reason": "No evidence of feeling punished.",
+              "score": 0
+            },
+            "q07_self_dislike": {
+              "reason": "Frustration with self ('not being able to just decide'), second-guessing own choices hints at self-disappointment. Score maintained.",
+              "score": 1
+            },
+            "q08_self_criticalness": {
+              "reason": "Describes constant second-guessing, double-checking everything, feeling unable to afford mistakes, frustration with self. Strong evidence for increased self-criticalness.",
+              "score": 3
+            },
+            "q09_suicidal_thoughts": {
+              "reason": "No indication of suicidal thoughts. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q10_crying": {
+              "reason": "No mention of crying.",
+              "score": 0
+            },
+            "q11_agitation": {
+              "reason": "Describes frustration, but still doesn't strongly suggest pervasive agitation or irritability.",
+              "score": 0
+            },
+            "q12_loss_of_interest_social": {
+              "reason": "Focus is internal/cognitive now, previous score maintained.",
+              "score": 2
+            },
+            "q13_indecisiveness": {
+              "reason": "Detailed description of decision-making as an overwhelming 'massive roadblock', involving avoidance, procrastination, second-guessing, even for simple things. Aligns with severe difficulty.",
+              "score": 3
+            },
+            "q14_worthlessness_appearance": {
+              "reason": "No evidence related to appearance.",
+              "score": 0
+            },
+            "q15_loss_of_energy_work": {
+              "reason": "Difficulties with decisions and focus impact work efficiency and require more energy. Score maintained.",
+              "score": 3
+            },
+            "q16_sleep_changes": {
+              "reason": "Previously mentioned non-restorative sleep. Score maintained.",
+              "score": 1
+            },
+            "q17_fatigue": {
+              "reason": "Explicitly links decision-making loop to 'exhausting' mental fatigue. Reinforces high score.",
+              "score": 3
+            },
+            "q18_appetite_changes": {
+              "reason": "No mention of appetite.",
+              "score": 0
+            },
+            "q19_weight_loss": {
+              "reason": "No mention of weight loss. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q20_somatic_preoccupation": {
+              "reason": "No specific mention of health worries beyond fatigue/fog.",
+              "score": 0
+            },
+            "q21_loss_of_libido": {
+              "reason": "No mention of libido. Assess only if spontaneously mentioned.",
+              "score": 0
+            }
+          },
+          "classification_suggestion": "Moderate",
+          "confidence": 0.7,
+          "key_symptoms": [
+            "Indecisiveness",
+            "Fatigue",
+            "Loss of Energy",
+            "Self-Criticalness"
+          ],
+          "total_bdi_score": 23
+        },
+        "input_message": "Yeah… decision-making becomes this massive roadblock. Even simple stuff—like choosing what to eat, or what task to tackle first—can feel weirdly overwhelming. It’s like my brain stalls out the second I have more than one option in front of me. I’ll just sit there turning it over and over, like I’m trying to solve a puzzle, but there’s no clear answer.\n\nSometimes I’ll just avoid making the decision altogether. Procrastinate, or ask someone else what they’d do. But then I end up feeling guilty for passing the responsibility off, or frustrated with myself for not being able to just decide.\n\nAnd when I do finally make a choice, I almost always second-guess it. Did I pick the right thing? What if I missed something? It’s like this constant loop—indecision, then doubt, then more mental fatigue. It’s exhausting.\n\nI used to be pretty confident at work—could prioritize on the fly, delegate when needed. Now I double-check everything, even the small stuff. It feels like I can’t afford to get it wrong, even when no one’s really breathing down my neck.\n\nHave you ever had that thing where even the tiniest choice feels bigger than it should?",
+        "next_step_reasoning": "Validate the intense struggle with decision-making (Q13), the feelings of guilt (Q5), frustration, and self-doubt (Q8), and the comparison to past confidence (Q3). Acknowledge the exhausting nature of this loop. Answer the reciprocal question briefly. Transition to exploring future outlook/pessimism (Q2) by asking how this current state of fatigue, self-doubt, and difficulty makes them view the near future.",
+        "output_message": "That sounds incredibly difficult, having every decision turn into a 'massive roadblock' and feeling overwhelmed even by small choices. The cycle you described – stalling out, avoiding, feeling guilty, and then the relentless second-guessing – it's no wonder that's completely exhausting. And it must be tough comparing that to how confident you used to feel at work.\n\nOh, for sure, I think everyone experiences moments where a small decision feels disproportionately tricky, maybe when tired or stressed. But it sounds like for you, it's become a much more constant and draining feature of your days right now.\n\nWhen you're feeling this bogged down by the effort of everything, the self-doubt, and the fatigue... how does it make you feel when you think about the next few weeks or months? Does it feel like things might eventually shift, or does it feel more like this is just how things are going to be?",
+        "turn_number": 6
+      },
+      {
+        "evaluation": {
+          "assessment_complete": false,
+          "assessment_state": "Gathering",
+          "assessment_turn": 7,
+          "bdi_scores": {
+            "q01_sadness": {
+              "reason": "Expresses feeling 'heavy', finding hope 'distant', feeling drained despite external circumstances. Low mood persists. Score maintained.",
+              "score": 1
+            },
+            "q02_pessimism": {
+              "reason": "Explicitly states it's 'hard to picture things shifting', feels 'stuck in this loop forever', hope feels 'distant', unsure 'how long I can keep doing that'. Strong evidence for pessimism.",
+              "score": 3
+            },
+            "q03_past_failure": {
+              "reason": "Comparing current state to how they 'should' be ('supposed to have it together') implies perceived failure to meet standards/expectations. Score maintained.",
+              "score": 2
+            },
+            "q04_anhedonia": {
+              "reason": "Focus is on future/mood, but overall lack of hope and feeling drained suggests continued lack of satisfaction. Score maintained.",
+              "score": 2
+            },
+            "q05_guilt": {
+              "reason": "Expresses feeling they 'should be grateful' and 'hate admitting' their feelings, suggesting guilt over not feeling positive despite external factors. Increased score.",
+              "score": 2
+            },
+            "q06_punishment": {
+              "reason": "No evidence of feeling punished.",
+              "score": 0
+            },
+            "q07_self_dislike": {
+              "reason": "Hating to admit feelings and feeling they aren't meeting expectations ('supposed to have it together') implies self-disappointment. Score maintained.",
+              "score": 1
+            },
+            "q08_self_criticalness": {
+              "reason": "Strong self-criticism evident in 'supposed to have it together', 'should be grateful', comparing feelings to societal/personal expectations. Score maintained.",
+              "score": 3
+            },
+            "q09_suicidal_thoughts": {
+              "reason": "Mentions uncertainty about 'how long I can keep doing that', which is a concerning phrase but not explicit suicidal ideation. Monitor closely, but maintain 0 unless more direct evidence emerges. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q10_crying": {
+              "reason": "No mention of crying.",
+              "score": 0
+            },
+            "q11_agitation": {
+              "reason": "No clear signs of agitation.",
+              "score": 0
+            },
+            "q12_loss_of_interest_social": {
+              "reason": "Social aspects not discussed this turn, previous score maintained based on earlier statements.",
+              "score": 2
+            },
+            "q13_indecisiveness": {
+              "reason": "Previous turn detailed significant indecisiveness. Score maintained.",
+              "score": 3
+            },
+            "q14_worthlessness_appearance": {
+              "reason": "No evidence related to appearance.",
+              "score": 0
+            },
+            "q15_loss_of_energy_work": {
+              "reason": "Ongoing theme of feeling drained, needing to 'keep pushing through'. Score maintained.",
+              "score": 3
+            },
+            "q16_sleep_changes": {
+              "reason": "Explicitly mentions 'waking up already tired', reinforcing earlier comment about non-restorative sleep. Score maintained.",
+              "score": 1
+            },
+            "q17_fatigue": {
+              "reason": "Central theme of feeling 'drained', 'tired', needing to push through despite exhaustion. Score maintained.",
+              "score": 3
+            },
+            "q18_appetite_changes": {
+              "reason": "No mention of appetite yet.",
+              "score": 0
+            },
+            "q19_weight_loss": {
+              "reason": "No mention of weight loss. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q20_somatic_preoccupation": {
+              "reason": "No specific mention of health worries beyond fatigue.",
+              "score": 0
+            },
+            "q21_loss_of_libido": {
+              "reason": "No mention of libido. Assess only if spontaneously mentioned.",
+              "score": 0
+            }
+          },
+          "classification_suggestion": "Moderate",
+          "confidence": 0.75,
+          "key_symptoms": [
+            "Pessimism",
+            "Fatigue",
+            "Loss of Energy",
+            "Indecisiveness",
+            "Self-Criticalness"
+          ],
+          "total_bdi_score": 27
+        },
+        "input_message": "Honestly… it’s hard to picture things shifting right now. Most days it just feels like this is the new normal—waking up already tired, overthinking everything, going through the motions. I try not to think too far ahead because when I do, it just feels… heavy. Like if nothing changes, I’m going to be stuck in this loop forever, and I’m not sure how long I can keep doing that.\n\nThere’s a part of me that wants to believe it’ll get better. That maybe I’ll catch a break, or something will click, and I’ll feel more like myself again. But right now, that hope feels kind of distant—like a light at the end of a tunnel I’m not even sure I’m moving through.\n\nAnd I hate admitting that out loud. I’m supposed to have it together. I’ve got a job, a family… I should be grateful, right? I tell myself that all the time. But it doesn’t change how drained I feel.\n\nI don’t know… maybe something will shift. Maybe if I just keep pushing through. That’s been the plan so far, anyway.\n\nDo you ever have moments where you just wish you could pause everything—just stop the world for a bit and breathe?",
+        "next_step_reasoning": "Validate the feelings of pessimism (Q2), heaviness, and the conflict between internal feelings and perceived expectations (Q5, Q8). Acknowledge the difficulty of holding onto distant hope. Briefly answer the reciprocal question empathetically. Transition gently to inquire about physical symptoms like sleep quality (Q16) and appetite (Q18), linking it naturally to the pervasive fatigue (Q17) they've described. This probes remaining key BDI areas.",
+        "output_message": "It takes courage to admit feeling that way, especially when there's that internal pressure saying you 'should' feel differently. Feeling stuck in a heavy loop, with hope feeling distant even when part of you wants it – that sounds incredibly difficult and isolating. The idea of just 'pushing through' must feel relentless.\n\nAnd absolutely, that feeling of wanting to hit pause on the world is so relatable. Sometimes the need to just stop and catch a breath feels overwhelming.\n\nYou've mentioned feeling so drained and waking up tired (Q17, Q16)... I'm wondering if that deep tiredness affects other basic things too? Like, does sleep feel genuinely restful, or have you noticed any changes in things like your appetite lately?",
+        "turn_number": 7
+      },
+      {
+        "evaluation": {
+          "assessment_complete": false,
+          "assessment_state": "Gathering",
+          "assessment_turn": 8,
+          "bdi_scores": {
+            "q01_sadness": {
+              "reason": "Ongoing low mood implied through fatigue, lack of enjoyment in basic needs like eating. Score maintained.",
+              "score": 1
+            },
+            "q02_pessimism": {
+              "reason": "Previous turn indicated significant pessimism about the future. Score maintained.",
+              "score": 3
+            },
+            "q03_past_failure": {
+              "reason": "Previous turn indicated perceived decline/failure relative to past self/expectations. Score maintained.",
+              "score": 2
+            },
+            "q04_anhedonia": {
+              "reason": "Explicitly states loss of enjoyment/satisfaction in food/eating, previously a source of pleasure. Reinforces high anhedonia.",
+              "score": 2
+            },
+            "q05_guilt": {
+              "reason": "Previous turn indicated guilt over feelings/expectations. Score maintained.",
+              "score": 2
+            },
+            "q06_punishment": {
+              "reason": "No evidence of feeling punished.",
+              "score": 0
+            },
+            "q07_self_dislike": {
+              "reason": "Previous turn indicated self-disappointment. Score maintained.",
+              "score": 1
+            },
+            "q08_self_criticalness": {
+              "reason": "Previous turn indicated strong self-criticalness. Score maintained.",
+              "score": 3
+            },
+            "q09_suicidal_thoughts": {
+              "reason": "No indication of suicidal thoughts. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q10_crying": {
+              "reason": "No mention of crying.",
+              "score": 0
+            },
+            "q11_agitation": {
+              "reason": "No specific mention of agitation or irritability yet.",
+              "score": 0
+            },
+            "q12_loss_of_interest_social": {
+              "reason": "Previous turn indicated social withdrawal. Score maintained.",
+              "score": 2
+            },
+            "q13_indecisiveness": {
+              "reason": "Previous turn detailed significant indecisiveness. Score maintained.",
+              "score": 3
+            },
+            "q14_worthlessness_appearance": {
+              "reason": "No evidence related to appearance.",
+              "score": 0
+            },
+            "q15_loss_of_energy_work": {
+              "reason": "Ongoing theme of fatigue impacting basic functions reinforces loss of energy for tasks. Score maintained.",
+              "score": 3
+            },
+            "q16_sleep_changes": {
+              "reason": "Describes sleeping but not feeling rested, consistent non-restorative sleep despite adequate time in bed. Indicates significant sleep disturbance impacting daytime functioning.",
+              "score": 2
+            },
+            "q17_fatigue": {
+              "reason": "Describes persistent tiredness despite sleep ('still just as tired'), 'running on empty'. Reinforces pervasive fatigue.",
+              "score": 3
+            },
+            "q18_appetite_changes": {
+              "reason": "Explicitly states appetite is 'off', skips meals, lacks satisfaction/enjoyment, eating feels like a 'chore'. Aligns with significant appetite worsening.",
+              "score": 2
+            },
+            "q19_weight_loss": {
+              "reason": "Decreased appetite mentioned, but no explicit mention of weight loss. Maintain 0. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q20_somatic_preoccupation": {
+              "reason": "Focus on fatigue, but no specific worries about other physical health problems.",
+              "score": 0
+            },
+            "q21_loss_of_libido": {
+              "reason": "No mention of libido. Assess only if spontaneously mentioned.",
+              "score": 0
+            }
+          },
+          "classification_suggestion": "Moderate",
+          "confidence": 0.8,
+          "key_symptoms": [
+            "Fatigue",
+            "Loss of Energy",
+            "Indecisiveness",
+            "Pessimism",
+            "Self-Criticalness"
+          ],
+          "total_bdi_score": 31
+        },
+        "input_message": "Yeah… sleep’s weird. I mean, I sleep—I’m in bed for a decent number of hours—but I don’t wake up feeling rested. It’s more like I close my eyes, and then suddenly it’s morning and I’m still just as tired as when I went to bed. Some nights I’ll toss and turn, other times I’ll sleep through but still feel like I didn’t get any real rest. Like my body’s still running on empty no matter what I do.\n\nAppetite’s been off too. Some days I don’t feel like eating much—I'll just skip meals without really thinking about it. Other days, I’ll eat out of habit or convenience, but it doesn’t feel satisfying. Food used to be something I enjoyed—cooking with the family, trying new recipes… now it’s more of a chore. Just one more thing to take care of.\n\nI think it all ties into that constant fatigue. When you’re that run down, it’s like even your basic needs start to blur. You stop paying attention to what your body’s asking for because everything just feels like noise.\n\nI guess I didn’t really think about how much that’s been slipping. It’s easy to ignore it when there’s always something else demanding attention.",
+        "next_step_reasoning": "Validate the experience of non-restorative sleep (Q16) and diminished appetite/enjoyment (Q18, Q4). Acknowledge the insight linking this to fatigue (Q17) and the difficulty of noticing these changes amidst other demands. Transition to gently probe irritability/agitation (Q11), connecting it naturally to the feeling of being constantly run down and basic needs feeling like chores/noise.",
+        "output_message": "It sounds like sleep isn't giving you any real recharge, just passing time until morning arrives with the same level of tiredness. And it's a real shame when something like food, which used to bring enjoyment and connection, starts feeling like just another chore on the list. You're right, when that deep fatigue sets in, it really can make everything else, even basic needs, feel like background noise or just another demand.\n\nWhen everything feels like that much effort, and you're constantly feeling run down and like your basic needs are just 'noise', how does that affect your patience levels? Do you find yourself getting more easily frustrated or irritated lately, maybe by things that wouldn't have bothered you as much before?",
+        "turn_number": 8
+      },
+      {
+        "evaluation": {
+          "assessment_complete": false,
+          "assessment_state": "Consolidating",
+          "assessment_turn": 9,
+          "bdi_scores": {
+            "q01_sadness": {
+              "reason": "Ongoing low mood implied through fatigue, irritability, guilt, and feeling 'fried'. Score maintained.",
+              "score": 1
+            },
+            "q02_pessimism": {
+              "reason": "Previous turn indicated significant pessimism about the future. Score maintained.",
+              "score": 3
+            },
+            "q03_past_failure": {
+              "reason": "Compares current irritability/coldness to past self ('used to be the calm one'), reinforcing perceived decline. Score maintained.",
+              "score": 2
+            },
+            "q04_anhedonia": {
+              "reason": "Mentions even 'good things' can feel overwhelming, suggesting reduced capacity for pleasure. Score maintained.",
+              "score": 2
+            },
+            "q05_guilt": {
+              "reason": "Explicitly describes guilt after being 'short' or 'cold' with family due to low energy. Score maintained.",
+              "score": 2
+            },
+            "q06_punishment": {
+              "reason": "No evidence of feeling punished.",
+              "score": 0
+            },
+            "q07_self_dislike": {
+              "reason": "Feeling 'short' or 'cold' and not meeting own standard of being 'calm' likely contributes to self-disappointment. Score maintained.",
+              "score": 1
+            },
+            "q08_self_criticalness": {
+              "reason": "Feeling guilty and criticizing self for being distant/irritable aligns with previous self-criticalness. Score maintained.",
+              "score": 3
+            },
+            "q09_suicidal_thoughts": {
+              "reason": "No indication of suicidal thoughts. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q10_crying": {
+              "reason": "No mention of crying.",
+              "score": 0
+            },
+            "q11_agitation": {
+              "reason": "Describes patience wearing thin, internal irritation 'bubbling under the surface', being easily set off internally, and feeling 'short' or 'cold'. Strong evidence for increased irritation.",
+              "score": 2
+            },
+            "q12_loss_of_interest_social": {
+              "reason": "Describes being 'cold' and 'distant' with family due to lack of energy, which aligns with reduced interest/engagement. Score maintained.",
+              "score": 2
+            },
+            "q13_indecisiveness": {
+              "reason": "Previous turn detailed significant indecisiveness. Score maintained.",
+              "score": 3
+            },
+            "q14_worthlessness_appearance": {
+              "reason": "No evidence related to appearance.",
+              "score": 0
+            },
+            "q15_loss_of_energy_work": {
+              "reason": "Lack of 'emotional bandwidth' impacts interactions, reinforcing pervasive loss of energy. Score maintained.",
+              "score": 3
+            },
+            "q16_sleep_changes": {
+              "reason": "Previous turn detailed non-restorative sleep. Score maintained.",
+              "score": 2
+            },
+            "q17_fatigue": {
+              "reason": "Feeling 'fried', lacking 'emotional bandwidth', 'running this low' reinforce extreme fatigue. Score maintained.",
+              "score": 3
+            },
+            "q18_appetite_changes": {
+              "reason": "Previous turn detailed reduced appetite and enjoyment of food. Score maintained.",
+              "score": 2
+            },
+            "q19_weight_loss": {
+              "reason": "Decreased appetite mentioned, but no explicit mention of weight loss. Maintain 0. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q20_somatic_preoccupation": {
+              "reason": "No specific worries about other physical health problems mentioned.",
+              "score": 0
+            },
+            "q21_loss_of_libido": {
+              "reason": "No mention of libido. Assess only if spontaneously mentioned.",
+              "score": 0
+            }
+          },
+          "classification_suggestion": "Severe",
+          "confidence": 0.85,
+          "key_symptoms": [
+            "Fatigue",
+            "Loss of Energy",
+            "Indecisiveness",
+            "Pessimism",
+            "Self-Criticalness",
+            "Irritability"
+          ],
+          "total_bdi_score": 34
+        },
+        "input_message": "Yeah… definitely. My patience has been wearing thin, especially lately. It’s not like I’m snapping at people all the time, but I feel it bubbling under the surface more often than I’d like. Little things—like a noisy room, someone asking me a simple question while I’m mid-task, or even just the Wi-Fi lagging—can set me off internally. I don’t always show it, but I feel the irritation building fast.\n\nAnd with my family... I hate to say it, but I catch myself being short sometimes. Not in a yelling kind of way, but just… cold. Distant. Like I can’t muster the energy to respond warmly. And then that guilt sets in, because I know they don’t deserve that. They just want to talk, or share something, and I’m over here acting like they’re pulling me away from some mission-critical thing when really I’m just… fried.\n\nIt’s like everything takes more emotional bandwidth than I have to give. Even good things can feel overwhelming when I’m running this low.\n\nI used to be the calm one—steady, reliable. Lately, I feel like I’m just trying not to come apart at the seams.",
+        "next_step_reasoning": "Validate the feelings of increased irritability (Q11), thin patience, feeling 'fried', and the guilt (Q5) related to being distant with family. Acknowledge the contrast with their past self ('calm one'). Shift to a consolidating phase by summarizing the key themes heard across the conversation (fatigue, lack of enjoyment/energy, self-criticism, difficulty with decisions/focus, irritability, pessimism) to ensure understanding and offer a space for reflection or correction. This helps confirm the assessment before potentially concluding.",
+        "output_message": "That sounds really tough, feeling that irritation bubbling up inside more often and having your patience wear so thin, especially when you used to be the 'calm one'. It makes sense that when you're feeling so 'fried' and emotionally drained, even simple interactions can feel like too much, leading to that distant feeling and then the guilt afterwards. It's a really difficult cycle.\n\nListening to you, it sounds like there's this pervasive sense of fatigue and low energy running through everything, making it hard to enjoy things or even get through tasks without immense effort. And alongside that, there seems to be a lot of self-criticism, difficulty concentrating and making decisions, feeling quite pessimistic about things shifting, and now this increased irritability too. Does that sound about right, capturing the main things weighing on you?",
+        "turn_number": 9
+      },
+      {
+        "evaluation": {
+          "assessment_complete": true,
+          "assessment_state": "Concluding",
+          "assessment_turn": 10,
+          "bdi_scores": {
+            "q01_sadness": {
+              "reason": "Ongoing low mood implied through fatigue, irritability, guilt, and feeling 'exhausting in every sense'. Score maintained.",
+              "score": 1
+            },
+            "q02_pessimism": {
+              "reason": "Confirmation of summary including pessimism reinforces previous score.",
+              "score": 3
+            },
+            "q03_past_failure": {
+              "reason": "Feeling 'not doing enough, not being enough' reinforces perceived failure against standards. Score maintained.",
+              "score": 2
+            },
+            "q04_anhedonia": {
+              "reason": "Confirmation of summary including lack of enjoyment/satisfaction reinforces score.",
+              "score": 2
+            },
+            "q05_guilt": {
+              "reason": "Confirmation of summary including guilt reinforces previous score.",
+              "score": 2
+            },
+            "q06_punishment": {
+              "reason": "No evidence of feeling punished.",
+              "score": 0
+            },
+            "q07_self_dislike": {
+              "reason": "Self-criticism ('not being enough') implies self-disappointment. Score maintained.",
+              "score": 1
+            },
+            "q08_self_criticalness": {
+              "reason": "Explicitly confirms 'I'm hard on myself', inner critic has 'megaphone', feels like 'not doing enough, not being enough'. Reinforces highest score.",
+              "score": 3
+            },
+            "q09_suicidal_thoughts": {
+              "reason": "No indication of suicidal thoughts. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q10_crying": {
+              "reason": "No mention of crying.",
+              "score": 0
+            },
+            "q11_agitation": {
+              "reason": "Confirmation of summary including irritability reinforces previous score.",
+              "score": 2
+            },
+            "q12_loss_of_interest_social": {
+              "reason": "Social aspects less prominent recently, but confirmed summary covers overall state. Score maintained.",
+              "score": 2
+            },
+            "q13_indecisiveness": {
+              "reason": "Confirmation of summary including difficulty with decisions/fog reinforces previous score.",
+              "score": 3
+            },
+            "q14_worthlessness_appearance": {
+              "reason": "No evidence related to appearance.",
+              "score": 0
+            },
+            "q15_loss_of_energy_work": {
+              "reason": "Feeling unable to stop despite 'running on fumes', needing to 'keep going' reinforces severe energy loss. Score maintained.",
+              "score": 3
+            },
+            "q16_sleep_changes": {
+              "reason": "Confirmation of summary including tiredness/sleep issues reinforces previous score.",
+              "score": 2
+            },
+            "q17_fatigue": {
+              "reason": "Describes tiredness that 'never really goes away', 'running on fumes', 'exhausting in every sense'. Reinforces highest score.",
+              "score": 3
+            },
+            "q18_appetite_changes": {
+              "reason": "Confirmation of summary including appetite changes reinforces previous score.",
+              "score": 2
+            },
+            "q19_weight_loss": {
+              "reason": "No mention of weight loss. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q20_somatic_preoccupation": {
+              "reason": "No specific worries about other physical health problems mentioned.",
+              "score": 0
+            },
+            "q21_loss_of_libido": {
+              "reason": "No mention of libido. Assess only if spontaneously mentioned.",
+              "score": 0
+            }
+          },
+          "classification_suggestion": "Severe",
+          "confidence": 0.9,
+          "key_symptoms": [
+            "Fatigue",
+            "Loss of Energy",
+            "Indecisiveness",
+            "Self-Criticalness",
+            "Pessimism"
+          ],
+          "total_bdi_score": 34
+        },
+        "input_message": "Yeah… that sounds about right. It’s like you laid it all out in a way I hadn’t fully put together myself, but yeah—it’s all there. The tiredness that never really goes away, the effort it takes just to function, the second-guessing, the fog, the guilt... all of it kind of stacks on top of each other.\n\nThere are moments where I think, “This can’t be normal,” but then I brush it off. I’ve got responsibilities, people depending on me—I can’t afford to stop and really deal with it, you know? So I just keep going, even if I’m running on fumes.\n\nAnd yeah, I’m hard on myself. I always have been, but lately it’s like that inner critic has a megaphone. Every little slip feels like proof that I’m not doing enough, not being enough. It’s exhausting in every sense of the word.\n\nBut hearing it reflected back like that… I don’t know. It makes me realize I’ve been carrying more than I want to admit.",
+        "next_step_reasoning": "Acknowledge the user's confirmation of the summary and their reflection on the weight they're carrying. Validate the difficult position of feeling unable to stop due to responsibilities despite severe exhaustion and self-criticism. Offer a concluding, empathetic statement recognizing their openness and the significance of what they've shared. Mark assessment as complete given the consistency, coverage of BDI domains, and high confidence.",
+        "output_message": "It really sounds like a heavy load you've been carrying, and it makes total sense that seeing it all laid out brings home just how much it is. That feeling of having to keep pushing forward because of responsibilities, even when running on fumes and battling that loud inner critic – that takes an incredible amount of unseen energy. Thank you for sharing so openly about what that experience is like for you. It sounds truly exhausting on every level.",
+        "turn_number": 10
+      },
+      {
+        "evaluation": {
+          "assessment_complete": true,
+          "assessment_state": "Finalized",
+          "assessment_turn": 11,
+          "bdi_scores": {
+            "q01_sadness": {
+              "reason": "Ongoing low mood implied through profound fatigue, difficulty voicing feelings, sense something is 'not right'. Score maintained.",
+              "score": 1
+            },
+            "q02_pessimism": {
+              "reason": "Expresses uncertainty about future ('not sure where things go from here'), reinforcing previous pessimistic assessment.",
+              "score": 3
+            },
+            "q03_past_failure": {
+              "reason": "Mention of bottling things up and comparing self ('other people have it worse') implies continued self-criticism/perceived inadequacy. Score maintained.",
+              "score": 2
+            },
+            "q04_anhedonia": {
+              "reason": "General lack of hope and focus on burden suggests continued anhedonia. Score maintained.",
+              "score": 2
+            },
+            "q05_guilt": {
+              "reason": "Implied guilt/minimization ('other people have it worse') persists. Score maintained.",
+              "score": 2
+            },
+            "q06_punishment": {
+              "reason": "No evidence of feeling punished.",
+              "score": 0
+            },
+            "q07_self_dislike": {
+              "reason": "Bottling up feelings and difficulty admitting something is wrong relates to self-perception issues. Score maintained.",
+              "score": 1
+            },
+            "q08_self_criticalness": {
+              "reason": "Minimizing own struggles ('other people have it worse') is a form of self-criticism. Score maintained.",
+              "score": 3
+            },
+            "q09_suicidal_thoughts": {
+              "reason": "No indication of suicidal thoughts. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q10_crying": {
+              "reason": "No mention of crying.",
+              "score": 0
+            },
+            "q11_agitation": {
+              "reason": "Confirmation of summary including irritability reinforces previous score.",
+              "score": 2
+            },
+            "q12_loss_of_interest_social": {
+              "reason": "Focus is internal, but previous indications of social withdrawal contribute to overall picture. Score maintained.",
+              "score": 2
+            },
+            "q13_indecisiveness": {
+              "reason": "Confirmation of summary including decision difficulties reinforces previous score.",
+              "score": 3
+            },
+            "q14_worthlessness_appearance": {
+              "reason": "No evidence related to appearance.",
+              "score": 0
+            },
+            "q15_loss_of_energy_work": {
+              "reason": "Deep fatigue ('tired that sleep doesn't fix') reinforces severe energy loss. Score maintained.",
+              "score": 3
+            },
+            "q16_sleep_changes": {
+              "reason": "Explicitly describes non-restorative sleep. Score maintained.",
+              "score": 2
+            },
+            "q17_fatigue": {
+              "reason": "Describes profound, persistent fatigue not alleviated by sleep. Reinforces highest score.",
+              "score": 3
+            },
+            "q18_appetite_changes": {
+              "reason": "Confirmation of summary including appetite changes reinforces previous score.",
+              "score": 2
+            },
+            "q19_weight_loss": {
+              "reason": "No mention of weight loss. Assess only if spontaneously mentioned.",
+              "score": 0
+            },
+            "q20_somatic_preoccupation": {
+              "reason": "No specific worries about other physical health problems mentioned.",
+              "score": 0
+            },
+            "q21_loss_of_libido": {
+              "reason": "No mention of libido. Assess only if spontaneously mentioned.",
+              "score": 0
+            }
+          },
+          "classification_suggestion": "Severe",
+          "confidence": 0.95,
+          "key_symptoms": [
+            "Fatigue",
+            "Loss of Energy",
+            "Indecisiveness",
+            "Self-Criticalness",
+            "Pessimism"
+          ],
+          "total_bdi_score": 34
+        },
+        "input_message": "Yeah… it is. It’s the kind of tired that sleep doesn’t fix, you know? And I don’t usually say all this out loud. Most of the time I just bottle it up, tell myself I’ll deal with it later, that other people have it worse. But deep down… I guess I’ve known something’s not right for a while now.\n\nSo, thank you—for really listening. For not brushing it off or telling me to just “take a break” like that would magically fix it. Talking like this… it doesn’t fix everything, but it helps to not feel like I’m carrying all of it alone for once.\n\nI’m still not sure where things go from here, but maybe just saying it out loud is a start.",
+        "next_step_reasoning": "Provide a final, validating response acknowledging the user's feelings, the difficulty of sharing, and the significance of voicing their struggles. Reinforce the value of being heard and acknowledge their uncertainty about the future supportively. Since the assessment is complete and marked as finalized, this is a concluding empathetic statement.",
+        "output_message": "That deep kind of tiredness is incredibly wearing, and it takes real strength to voice these things when you're used to bottling them up or minimizing them. I'm genuinely glad that talking about it has helped, even just a little, to feel less alone with it all. You're right, acknowledging something isn't right and saying it out loud can be a really important step, even when the path forward isn't clear yet. Thanks again for sharing so honestly.",
+        "turn_number": 11
+      }      
+      
+]
