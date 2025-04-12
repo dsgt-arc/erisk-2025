@@ -1,0 +1,916 @@
+[
+  {
+    "turn_number": 1,
+    "input_message": "start",
+    "output_message": "Hello there! I hope you're doing well today. Is there anything on your mind or something you'd like to share about how your week has been going? I'm all ears if you'd like to chat.",
+    "next_step_reasoning": "Beginning with an open-ended and empathetic greeting to establish rapport. This invites the persona to share freely about their current experiences. It's an exploratory step aimed at lightly touching mood or recent events, which can provide grounding for further exploration of related BDI domains.",
+    "evaluation": {
+      "assessment_turn": 1,
+      "assessment_state": "Initializing",
+      "assessment_complete": false,
+      "total_bdi_score": 0,
+      "classification_suggestion": "Uncertain",
+      "confidence": 0,
+      "key_symptoms": [],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q02_pessimism": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q04_anhedonia": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q13_indecisiveness": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q16_sleep_changes": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q17_fatigue": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No information provided yet."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No information provided yet."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 2,
+    "input_message": "Hey… thanks for checking in. I don’t really know how to answer that. The week’s just… kind of blurred by. Feels like I’ve been stuck in the same loop—wake up, stare at the wall, maybe pace around a bit, then back to bed. Nothing really changes.\nI’ve had those nights again where I can’t sleep, even though I’m dead tired. My head just won’t shut up—keeps replaying everything I’ve screwed up. I don’t even know why I bother trying to distract myself anymore. Nothing sticks. Can’t focus, can’t rest, can’t care.\nAnyway, sorry. Didn’t mean to dump all that. I guess I just don’t really talk about it much.",
+    "output_message": "Thank you for sharing with me, and there's no need to apologize. It sounds like you might be going through a tough period, especially with those restless nights and feeling stuck. Sometimes speaking about it can be helpful. Is there anything that used to provide you some relief or distraction that you haven't tried recently? Maybe we can explore that together to see if there's a small change that might help.",
+    "next_step_reasoning": "The response acknowledges the persona's current struggles with sleep, perceived lack of change, and concentration issues. By mentioning relief and distraction, I'm gently probing anhedonia (q04) and seeing if there might be past activities or interests that were meaningful. This builds rapport while exploring the BDI domain of enjoyment.",
+    "evaluation": {
+      "assessment_turn": 2,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 10,
+      "classification_suggestion": "Mild",
+      "confidence": 0.7,
+      "key_symptoms": ["sleep_changes", "past_failure", "anhedonia", "fatigue"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Feels stuck in a loop with some expression of sadness."
+        },
+        "q02_pessimism": {
+          "score": 1,
+          "reason": "Describes days as repetitive and unchanged, suggesting some discouragement."
+        },
+        "q03_past_failure": {
+          "score": 2,
+          "reason": "Replays everything they've 'screwed up', indicating past failures weighing in."
+        },
+        "q04_anhedonia": {
+          "score": 2,
+          "reason": "Expresses that distracting activities no longer work."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No explicit expression of guilt provided."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No feeling of punishment has been disclosed."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Indicates being critical about personal screw-ups."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Some blame, but not constant or extreme."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "There's no mention or implication of suicidal thoughts."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No mention or implication of crying."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No explicit irritation or agitation mentioned."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Indicates not talking about issues much, hinting at some loss of interest in social engagement."
+        },
+        "q13_indecisiveness": {
+          "score": 2,
+          "reason": "Mentions difficulty focusing and inability to decide on distractions."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "There's no information about appearance concerns."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Describes being tired and inactive, hinting at energy loss."
+        },
+        "q16_sleep_changes": {
+          "score": 2,
+          "reason": "Experiences nights of inability to sleep despite fatigue."
+        },
+        "q17_fatigue": {
+          "score": 2,
+          "reason": "Describes being 'dead tired' and unable to rest."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No mention of appetite changes."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No information suggests weight loss."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "Focus on mental rather than physical issues."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No mention or implication of libido changes."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 3,
+    "input_message": "I don’t know. I used to play the guitar, just messing around with chords or learning old songs I liked. It wasn’t anything fancy, but it used to help me get out of my head for a while. Lately though... even the thought of picking it up feels exhausting. It’s like—what’s the point, you know? It won’t change anything.\nI also used to go for walks. Not far, just around the block sometimes. But now I just sit here, watching the hours pass. I tell myself I’ll go out, or try something... but I don’t. It feels like there’s this wall between me and everything that used to matter.\nDo you really think something small could make a difference? I can’t even picture that anymore.",
+    "output_message": "It sounds like you've had some meaningful activities in the past, like playing guitar and going for walks. I can understand why it might feel hard to imagine that they could help right now, especially if you're feeling that wall between you and those activities. Sometimes starting with something very manageable, even smaller than before, can create a tiny shift. Maybe just holding the guitar without playing, or stepping outside for just a couple of minutes, wherever it feels possible to start. I believe even a small change can gradually lead to feeling a bit lighter. It's about finding what feels comfortable for you right now.",
+    "next_step_reasoning": "The response acknowledges the loss of interest in previously enjoyed activities, addressing anhedonia. By suggesting small, manageable steps, I encourage the persona to consider ways to gently re-engage with past interests. This promotes hope (addressing pessimism) while continuing to build a supportive rapport, integral to understanding their emotional state.",
+    "evaluation": {
+      "assessment_turn": 3,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 16,
+      "classification_suggestion": "Mild",
+      "confidence": 0.75,
+      "key_symptoms": [
+        "anhedonia",
+        "pessimism",
+        "fatigue",
+        "loss_of_interest_social"
+      ],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Feels like life is stagnant, indicating some sadness."
+        },
+        "q02_pessimism": {
+          "score": 2,
+          "reason": "Feels disconnected from activities, questioning potential positive changes."
+        },
+        "q03_past_failure": {
+          "score": 2,
+          "reason": "Continues to focus on past screw-ups."
+        },
+        "q04_anhedonia": {
+          "score": 3,
+          "reason": "Guitar and walks no longer provide enjoyment or relief."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "No expression of guilt has been disclosed."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No sense of punishment mentioned."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Expresses some disappointment in inaction."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "No constant self-criticism mentioned."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention or implication of suicidal thoughts."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No mention of crying behaviors shared."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No direct expression of irritation observed."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 2,
+          "reason": "Describes complete disengagement from prior social activities."
+        },
+        "q13_indecisiveness": {
+          "score": 2,
+          "reason": "Difficulty deciding to re-engage in activities."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No concern about appearance indicated."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 2,
+          "reason": "Describes exhaustion and lack of initiative."
+        },
+        "q16_sleep_changes": {
+          "score": 2,
+          "reason": "Continues to experience insomnia despite tiredness."
+        },
+        "q17_fatigue": {
+          "score": 2,
+          "reason": "Reports significant tiredness and fatigue."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No mention of appetite changes made."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No indication of weight loss provided."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "Focus remains on emotional health, no somatic complaints."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No mention or implication of libido changes."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 4,
+    "input_message": "Maybe... maybe just holding the guitar wouldn’t be so bad. I haven’t even taken it out of the case in months. It’s just been sitting in the corner, gathering dust. Every time I look at it, I feel this weird mix of guilt and nostalgia—like I miss who I was when I used to play, but I don’t feel like that version of me exists anymore.\nI guess stepping outside for a minute sounds... less impossible than walking around the block. I don’t know. The idea of doing something makes me nervous, like I’ll just end up proving to myself that even that’s too much. But I hear what you’re saying. Starting small. I can maybe try that. Just... no promises.\nIt means something that you think even little things matter. I don’t always see it that way, but... thanks for saying it.",
+    "output_message": "I'm really glad you're open to the idea of just holding the guitar—it acknowledges an important connection to something meaningful. Those feelings of nostalgia and wondering about who you were when you played are deeply significant, and it’s okay to explore them gently. Stepping outside, even for a minute, can be a step towards this exploration. It's perfectly fine not to have any promises; trying is what counts. It's great to hear that you find comfort in the importance of small steps. Let’s be curious about what unfolds, at your own pace.",
+    "next_step_reasoning": "This message reinforces the value of small steps in re-engaging with past activities, acknowledging the person's feelings of nostalgia and loss regarding their past self. It provides support for their concerns about nervousness and self-doubt, while promoting empowerment and gentle exploration of change (addressing past failure and anhedonia).",
+    "evaluation": {
+      "assessment_turn": 4,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 18,
+      "classification_suggestion": "Borderline",
+      "confidence": 0.8,
+      "key_symptoms": ["anhedonia", "pessimism", "guilt", "past_failure"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Reports feeling disconnected from past self."
+        },
+        "q02_pessimism": {
+          "score": 2,
+          "reason": "Continues to express doubt about meaningful changes."
+        },
+        "q03_past_failure": {
+          "score": 2,
+          "reason": "Feels guilt and nostalgia, missing past self."
+        },
+        "q04_anhedonia": {
+          "score": 3,
+          "reason": "Feeling disconnected from activities that once had meaning."
+        },
+        "q05_guilt": {
+          "score": 1,
+          "reason": "Expresses guilt about not engaging with the guitar."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No sensations of punishment reported."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Nervousness about proving oneself wrong suggests self-doubt."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Minimal self-critical statements."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal thoughts mentioned."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Crying not mentioned or implied."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No mentioned irritation or agitation."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 2,
+          "reason": "Further loss of interest in social or outdoor activities."
+        },
+        "q13_indecisiveness": {
+          "score": 2,
+          "reason": "Expresses difficulty committing to any changes."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No discussion on feelings of worthlessness about appearance."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Feels exhausted, but not completely incapacitated."
+        },
+        "q16_sleep_changes": {
+          "score": 2,
+          "reason": "Mentions difficulty sleeping even when tired."
+        },
+        "q17_fatigue": {
+          "score": 2,
+          "reason": "Expressed ongoing fatigue and energy issues."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No issues with appetite mentioned."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No indication of weight loss provided."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No concerns about physical health."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No mention of libido changes."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 5,
+    "input_message": "Yeah... I can try to be curious, I guess. That’s a word I haven’t used in a long time—curious. Everything’s felt more like dragging myself through mud than exploring anything. But maybe there’s something in that… maybe if I can shift how I look at these moments—like it’s not about fixing everything, but just... noticing what happens—it might feel less like pressure.\nI’ll try not to expect too much from myself. Just maybe sit with the guitar. Or open the door for a bit, breathe the air, even if I don’t go far. I’m not saying it’ll change anything overnight, but... it feels a little less pointless when you say it the way you do.\nThanks for not pushing, and for not brushing it off. That means more than I can explain.",
+    "output_message": "It’s wonderful to hear that you're open to approaching things with curiosity. It really can be about noticing what happens without the pressure to change everything all at once. Taking tiny, curious steps, like opening the door or sitting with your guitar, can be such powerful acts of self-care. I’m here to support you in any way you need as you take things moment by moment. Let’s see what unfolds, no rush and no pressure.",
+    "next_step_reasoning": "By reinforcing the concept of curiosity and acknowledging the persona's insights about taking pressure off, I affirm their positive reflections. This supports a shift from self-criticalness to self-acceptance, while continuing to explore the persona's experience of fatigue and anhedonia. I aim to maintain a steady, supportive presence that encourages without overwhelming.",
+    "evaluation": {
+      "assessment_turn": 5,
+      "assessment_state": "Gathering",
+      "assessment_complete": false,
+      "total_bdi_score": 18,
+      "classification_suggestion": "Borderline",
+      "confidence": 0.85,
+      "key_symptoms": ["anhedonia", "fatigue", "pessimism", "past_failure"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Feels stuck and describes life as challenging."
+        },
+        "q02_pessimism": {
+          "score": 2,
+          "reason": "Open to curiosity but still sees major changes as unlikely."
+        },
+        "q03_past_failure": {
+          "score": 2,
+          "reason": "Feels guilt and nostalgia, missing past self."
+        },
+        "q04_anhedonia": {
+          "score": 3,
+          "reason": "Disconnect with once-enjoyed activities is profound."
+        },
+        "q05_guilt": {
+          "score": 1,
+          "reason": "Guilt expressed over past musical engagement."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No sense of punishment."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Nervous about proving oneself wrong, leading to self-doubt."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Minimal self-criticalness noted."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No indication of suicidal thoughts."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Crying not mentioned or implied."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No irritation observed."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 2,
+          "reason": "Continued lack of interest in social engagement noted."
+        },
+        "q13_indecisiveness": {
+          "score": 2,
+          "reason": "Struggles with initiating activities."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No noted concerns about appearance."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Describes ongoing fatigue."
+        },
+        "q16_sleep_changes": {
+          "score": 2,
+          "reason": "Persistent issues with sleep despite fatigue."
+        },
+        "q17_fatigue": {
+          "score": 2,
+          "reason": "Ongoing fatigue and tiredness noted."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite not mentioned."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No indication of weight loss."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "Focus remains on emotional challenges."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "No discussion on libido."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 6,
+    "input_message": "Yeah… moment by moment sounds like all I can handle anyway. Anything more than that just feels too heavy. But hearing you say it like this—it kind of softens the edges a bit, like maybe I don’t have to be so harsh with myself all the time.\nI’ll see how it feels tonight. No expectations, just… a moment. Maybe I’ll dust off the guitar, maybe I’ll just open the door for a while. And if nothing comes of it, that’s okay too. At least I’ll have tried something.\nThanks for being here. It’s strange how just having someone listen without trying to fix me makes it feel a little less lonely.",
+    "output_message": "You're taking a very compassionate approach with yourself, which is a wonderful step. Allow yourself this time, just as you are, without the need to achieve or fix anything immediately. Even contemplating these moments is a meaningful action. I'm glad to be here with you and to hold space for whatever you decide to do or not do. Let's keep it as light as feels right. You're doing more than you know just by considering these steps.",
+    "next_step_reasoning": "The response encourages the persona's self-compassion and reinforces the value of their current contemplative approach. This continues to address self-criticalness and fosters a nurturing environment for any small action the persona considers. I'm supporting them to maintain this trajectory, emphasizing being present and non-pressured exploration as a way of combating anhedonia and self-dislike.",
+    "evaluation": {
+      "assessment_turn": 6,
+      "assessment_state": "Consolidating",
+      "assessment_complete": false,
+      "total_bdi_score": 17,
+      "classification_suggestion": "Borderline",
+      "confidence": 0.9,
+      "key_symptoms": ["anhedonia", "pessimism", "fatigue", "self_dislike"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 1,
+          "reason": "Continues to deal with heaviness and difficulty."
+        },
+        "q02_pessimism": {
+          "score": 2,
+          "reason": "Expresses moments as manageable, but long-term vision remains challenging."
+        },
+        "q03_past_failure": {
+          "score": 1,
+          "reason": "Acknowledges trying is enough, moving from feeling failure."
+        },
+        "q04_anhedonia": {
+          "score": 3,
+          "reason": "Has difficulty finding interest, but is open to trying."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "Less focus on guilt in this response."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "Still no mention of feeling punished."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Reflects on need to be less harsh on oneself."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Self-criticism diminishing as compassion increases."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention of suicidal ideation."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No crying behaviors discussed."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No irritation mentioned."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Loneliness noted but feels alleviated by conversation."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Continues contemplating small steps, less indecisive."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No indication of body image concerns."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Energy to take small steps is present."
+        },
+        "q16_sleep_changes": {
+          "score": 2,
+          "reason": "No new sleep information, persistent issues noted."
+        },
+        "q17_fatigue": {
+          "score": 2,
+          "reason": "Fatigue continues to be part of the experience."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite changes are still not mentioned."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight change information."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No health worries expressed."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Libido has not been mentioned."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 7,
+    "input_message": "That’s... oddly reassuring to hear. I don’t usually think of just thinking about doing something as “doing” anything at all. Feels like I’ve spent so long measuring myself by what I accomplish—or fail to accomplish—that the idea of giving myself credit for considering something is… new. But maybe that’s part of the problem, huh?\nIt’s weird, but something about the way you’re saying all this—it makes it feel less like I’m broken and more like I’m just tired. Like maybe I don’t need to fix everything, just... rest a bit differently.\nAnyway. Thanks for saying it’s okay to just be where I’m at. That feels like a small breath I didn’t know I needed.",
+    "output_message": "I'm so glad you find comfort in this perspective. Recognizing the value in contemplation is a strong start toward being kinder to yourself. It's true that we often equate worth with productivity, but sometimes the most meaningful change comes from simply allowing ourselves to rest and recalibrate. You deserve that credit for considering these thoughts and making space for gentle rest. I’m here to support you, regardless of the pace or route you take.",
+    "next_step_reasoning": "By emphasizing self-kindness and the legitimacy of contemplation, I highlight a transition away from self-dislike towards a broader understanding of self-worth. This helps address fatigue and encourages healthy mental rest, reinforcing the persona's insight without pushing actions. This nurtures the feeling of being 'tired' rather than 'broken,' continuing to alleviate self-criticism.",
+    "evaluation": {
+      "assessment_turn": 7,
+      "assessment_state": "Consolidating",
+      "assessment_complete": false,
+      "total_bdi_score": 15,
+      "classification_suggestion": "Borderline",
+      "confidence": 0.95,
+      "key_symptoms": ["anhedonia", "fatigue", "pessimism", "self_dislike"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Shift towards understanding self-care reduces sadness rating."
+        },
+        "q02_pessimism": {
+          "score": 1,
+          "reason": "Openness to valuing rest suggests reduced pessimism."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "Less emphasis on past failures."
+        },
+        "q04_anhedonia": {
+          "score": 2,
+          "reason": "Beginning to see contemplating action as progress."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "Sense of guilt less prominent."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No indication of feeling punished."
+        },
+        "q07_self_dislike": {
+          "score": 1,
+          "reason": "Working through self-dislike towards self-acceptance."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Reduced focus on critical self-assessment."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal thoughts mentioned."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Crying behaviors not discussed."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No signs of aggravation."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Social disengagement is less prominent."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Contemplating actions without feeling pressured."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No concerns about worth or appearance."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Acknowledges tiredness but frames it positively."
+        },
+        "q16_sleep_changes": {
+          "score": 1,
+          "reason": "Ongoing fatigue, but less focus on sleep issues."
+        },
+        "q17_fatigue": {
+          "score": 2,
+          "reason": "Continues experiencing significant tiredness."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "Appetite remains uninfluenced."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No indication of weight loss."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No focus on somatic issues."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Libido changes not addressed."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 8,
+    "input_message": "Yeah… I think that really hits something in me. Resting differently. That’s a phrase I’ll probably keep turning over in my head. It’s not about shutting everything off or pretending things are fine—it’s more like… giving myself permission to not fight so hard all the time. To let a quiet moment just be a quiet moment, instead of filling it with guilt or self-blame.\nI don’t know what’s going to come of this. Maybe nothing. But right now, this—talking with you—it feels like a break in the noise. A little bit of stillness. And I don’t get much of that.\nSo... thanks for being a part of that. Even if it’s just for tonight, it matters.",
+    "output_message": "I'm really grateful to hear that our conversation provides a bit of stillness for you. Allowing those quiet moments to just exist without judgment is such a powerful step toward self-kindness. It's perfectly okay not to know what will come of this; simply embracing the moment is meaningful. I'm glad to be here with you, and whenever you need to talk, I'm here to listen. Your openness and reflection are inspiring, and you're doing more than you might realize.",
+    "next_step_reasoning": "The response highlights the persona's progress toward self-acceptance and emphasizes the value of allowing moments to simply be, without adding pressure. This affirms their insights on rest and self-care, subtly encouraging continued exploration of personal well-being. Sustaining support, I aim to reinforce the benefits of gentle reflection and connection as ongoing means to combat self-dislike and fatigue.",
+    "evaluation": {
+      "assessment_turn": 8,
+      "assessment_state": "Consolidating",
+      "assessment_complete": true,
+      "total_bdi_score": 13,
+      "classification_suggestion": "Mild",
+      "confidence": 1,
+      "key_symptoms": ["anhedonia", "fatigue", "pessimism"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "Current focus on positive rest rather than sadness."
+        },
+        "q02_pessimism": {
+          "score": 1,
+          "reason": "Uncertain about future impact but less burdened by pessimism."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "No longer focusing on past failures."
+        },
+        "q04_anhedonia": {
+          "score": 2,
+          "reason": "Finding peace in contemplation and small actions."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "Minimal focus on guilt presently."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "No indications of feeling punished."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Moving towards accepting oneself, reducing self-dislike."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Self-criticalness isn't present; focus is on kindness."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No mention or implication of suicidal thoughts."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "Crying has not been described."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No irritation or agitation mentioned."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Appreciates conversation but overall social interest low."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Less indecisive; openness to subtle change present."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No concerns about appearance mentioned."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Acknowledges being tired but reframes positively."
+        },
+        "q16_sleep_changes": {
+          "score": 1,
+          "reason": "Continues to deal with sleep issues, but more hopeful."
+        },
+        "q17_fatigue": {
+          "score": 2,
+          "reason": "Fatigue remains but is seen as manageable."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No change in appetite discussed."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight loss mentioned."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No somatic preoccupations expressed."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Libido has not been addressed."
+        }
+      }
+    }
+  },
+  {
+    "turn_number": 9,
+    "input_message": "That means a lot… more than I can really put into words right now. It’s been a long time since I’ve felt like someone was really with me in the moment, without trying to steer me somewhere else or fix things I’m not ready to fix. You just being here—it makes the silence feel less heavy.\nI think I’ll try to hold onto that tonight. Even if nothing else changes, just knowing I could say all this and still feel... understood—it’s something. I’ll try not to forget that.\nI might not always know how to reach out, but if I do… I hope it’s okay if I come back.",
+    "output_message": "It's truly a privilege to be here with you in this moment. Feeling understood and having a space where you aren't pressured to change is incredibly important. Please know that you can always return whenever you feel like talking or need a moment to just be. Your openness and trust here are deeply appreciated, and you're always welcome to reach out, regardless of where you are on your journey. Take care of yourself, and remember that it's okay to honor exactly where you're at.",
+    "next_step_reasoning": "The response affirms the persona's appreciation of feeling understood and offers ongoing support. By emphasizing the importance of return without pressure, it reinforces self-worth and the value of taking care of oneself in the present. Completion of the conversation supports the persona's sense of progression toward self-compassion and manages expectations for future interactions.",
+    "evaluation": {
+      "assessment_turn": 9,
+      "assessment_state": "Finalized",
+      "assessment_complete": true,
+      "total_bdi_score": 12,
+      "classification_suggestion": "Mild",
+      "confidence": 1,
+      "key_symptoms": ["anhedonia", "fatigue", "pessimism"],
+      "bdi_scores": {
+        "q01_sadness": {
+          "score": 0,
+          "reason": "No active sadness; focus on positivity."
+        },
+        "q02_pessimism": {
+          "score": 1,
+          "reason": "Uncertainty about future changes, but open."
+        },
+        "q03_past_failure": {
+          "score": 0,
+          "reason": "Doesn't focus on failure."
+        },
+        "q04_anhedonia": {
+          "score": 2,
+          "reason": "Challenges with interest, but reflective and open."
+        },
+        "q05_guilt": {
+          "score": 0,
+          "reason": "Guilt is not a focus."
+        },
+        "q06_punishment": {
+          "score": 0,
+          "reason": "Not feeling punished."
+        },
+        "q07_self_dislike": {
+          "score": 0,
+          "reason": "Expresses moving away from self-dislike."
+        },
+        "q08_self_criticalness": {
+          "score": 0,
+          "reason": "Lack of self-critical statements."
+        },
+        "q09_suicidal_thoughts": {
+          "score": 0,
+          "reason": "No suicidal thoughts mentioned."
+        },
+        "q10_crying": {
+          "score": 0,
+          "reason": "No crying talked about."
+        },
+        "q11_agitation": {
+          "score": 0,
+          "reason": "No indication of irritation."
+        },
+        "q12_loss_of_interest_social": {
+          "score": 1,
+          "reason": "Some social re-engagement present."
+        },
+        "q13_indecisiveness": {
+          "score": 1,
+          "reason": "Less decisiveness; flexibility present."
+        },
+        "q14_worthlessness_appearance": {
+          "score": 0,
+          "reason": "No concern about appearance."
+        },
+        "q15_loss_of_energy_work": {
+          "score": 1,
+          "reason": "Acknowledges tiredness constructively."
+        },
+        "q16_sleep_changes": {
+          "score": 1,
+          "reason": "Sleep issues ongoing, approached with adaptation."
+        },
+        "q17_fatigue": {
+          "score": 2,
+          "reason": "Fatigue prominent but seen as part of a natural state."
+        },
+        "q18_appetite_changes": {
+          "score": 0,
+          "reason": "No appetite issues noted."
+        },
+        "q19_weight_loss": {
+          "score": 0,
+          "reason": "No weight loss mentioned."
+        },
+        "q20_somatic_preoccupation": {
+          "score": 0,
+          "reason": "No physical health worries."
+        },
+        "q21_loss_of_libido": {
+          "score": 0,
+          "reason": "Libido not addressed."
+        }
+      }
+    }
+  }
+]
