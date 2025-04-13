@@ -1,10 +1,11 @@
 @echo off
 REM -----------------------------------------------------------------
 REM generate_submission.bat
-REM No args needed. Processes 3 hard‑coded folders and produces:
+REM No args needed. Processes 4 hard‑coded folders and produces:
 REM   interactions_run1.json, results_run1.json
 REM   interactions_run2.json, results_run2.json
 REM   interactions_run3.json, results_run3.json
+REM   interactions_run4.json, results_run4.json
 REM -----------------------------------------------------------------
 
 setlocal EnableDelayedExpansion
@@ -15,6 +16,7 @@ for %%F in (
   "D:\SRC\DS@GT\eRisk25\erisk-2025\pilot_task\transcripts\Claude-3.7-sonnet"
   "D:\SRC\DS@GT\eRisk25\erisk-2025\pilot_task\transcripts\gemini-2.5-pro-exp-03-25"
   "D:\SRC\DS@GT\eRisk25\erisk-2025\pilot_task\transcripts\gemini-2.0-flash"
+  "D:\SRC\DS@GT\eRisk25\erisk-2025\pilot_task\transcripts\gpt4o"
 ) do (
   echo --------------------------------------------------------
   echo Run !count!: Processing %%~F
