@@ -11,7 +11,11 @@ pyarrow
 luigi
 lxml
 torch
-sentence_transformers
+bertopic
+sentence-transformers
+textblob
+scipy
+seaborn
 
 # developer tools
 jupyterlab
