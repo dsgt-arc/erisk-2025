@@ -1,11 +1,42 @@
 [project]
 name = "erisk-2025"
 version = "0.1.1"
-authors = [{ name = "David Guecha", email = "dahumada3@gatech.edu" }]
+authors = [
+    { name = "David Guecha", email = "dahumada3@gatech.edu" },
+    { name = "Anthony Miyaguchi", email = "acmiyaguchi@gatech.edu" }
+]
 description = "eRisk 2025 DS@GT Project"
 readme = "README.md"
 requires-python = ">=3.8"
-dynamic = ["dependencies"]
+dependencies = [
+    "numpy",
+    "pandas",
+    "nltk",
+    "spacy==3.8.4",
+    "matplotlib",
+    "scikit-learn",
+    "tqdm",
+    "pyspark>=3.4.0",
+    "pyarrow",
+    "luigi",
+    "lxml",
+    "torch",
+    "bertopic",
+    "sentence-transformers",
+    "textblob",
+    "scipy",
+    "seaborn"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pip",
+    "jupyterlab",
+    "ipykernel",
+    "ruff",
+    "pre-commit",
+    "pytest",
+]
 
 [project.urls]
 Homepage = "https://github.com/dsgt-kaggle-clef/erisk-2025"
@@ -14,9 +45,6 @@ Issues = "https://github.com/dsgt-kaggle-clef/erisk-2025/issues"
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
-
-[tool.setuptools.dynamic]
-dependencies = { file = "requirements.txt" }
 
 [tool.setuptools.packages.find]
 where = ["."]
