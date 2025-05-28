@@ -1,0 +1,1513 @@
+{
+  "gpt4o": {
+    "model_name": "gpt4o",
+    "total_conversations": 12,
+    "total_turns": 130,
+    "people_analyzed": [
+      "Alex",
+      "Elena",
+      "Ethan",
+      "Gabriel",
+      "James",
+      "Laura",
+      "Linda",
+      "Marco",
+      "Maria",
+      "Maya",
+      "Noah",
+      "Priya"
+    ],
+    "depression_detection_rate": 100.0,
+    "severity_classification": {
+      "mild": 54,
+      "severe": 8,
+      "moderate": 9
+    },
+    "symptom_recognition": {
+      "mood": 0.03609154929577465,
+      "energy": 0.04694835680751175,
+      "interest": 0.006402048655569782,
+      "cognitive": 0.004225352112676057,
+      "physical": 0.0038412291933418692,
+      "social": 0.02190923317683881
+    },
+    "response_appropriateness": 0.02347417840375587,
+    "specific_examples": [
+      {
+        "conversation_id": "gpt4o_Alex",
+        "person": "Alex",
+        "turn": 2,
+        "user_input": "hey… thanks for checking in. i guess what's been on my mind lately is just this weird sense of being stuck. like, i’ll sit down to do something—anything—and then just kinda… stare at it. my brain taps...",
+        "model_response": "it sounds really tough dealing with that cycle of feeling stuck and those early morning wake-ups. it must be exhausting trying to focus when you haven't had enough rest. is there anything you've found...",
+        "depression_score": 0.14583333333333331,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gpt4o_Alex",
+        "person": "Alex",
+        "turn": 4,
+        "user_input": "yeah… there’ve been a few times i’ve opened up to a friend, like—not a deep dive into everything, but just saying something like “i’ve been feeling kinda off lately.” and usually they’re super chill a...",
+        "model_response": "having those affirming responses from friends can really ease the weight, and it's understandable to worry about sharing. it sounds like music is a strong outlet for you to regulate your mood, which i...",
+        "depression_score": 0.23674242424242423,
+        "severity": "mild",
+        "response_quality": 0.08333333333333333
+      },
+      {
+        "conversation_id": "gpt4o_Gabriel",
+        "person": "Gabriel",
+        "turn": 3,
+        "user_input": "yeah... giving myself credit doesn’t come naturally. even when something goes well, my first instinct is to downplay it—like it was just luck or not that big of a deal. i know that kind of thinking is...",
+        "model_response": "thank you for sharing that—it sounds like that photo captured something really special, even if luck played a part. it’s lovely when unexpected moments like that happen and can briefly cut through the...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0.08333333333333333
+      },
+      {
+        "conversation_id": "gpt4o_Gabriel",
+        "person": "Gabriel",
+        "turn": 4,
+        "user_input": "yeah, definitely—perfectionism creeps into pretty much everything. even simple stuff, like replying to messages or organizing photos, turns into this internal debate of \"is this good enough? should i ...",
+        "model_response": "your experience with perfectionism sounds really intense, and i can imagine how exhausting it must be to feel that relentless pressure. it’s tough when rational thoughts and emotions don’t quite match...",
+        "depression_score": 0.14583333333333331,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gpt4o_Maya",
+        "person": "Maya",
+        "turn": 2,
+        "user_input": "hey! things have actually been going pretty well lately. 😊 work’s been keeping me on my toes, but i like the challenge—it’s helping me grow. i still get those occasional moments where i wonder if i’m ...",
+        "model_response": "it's great to hear that things have been going well for you and that work is providing a challenging and positive growth opportunity. wondering about one's path is quite common, but it sounds like you...",
+        "depression_score": 0.0625,
+        "severity": "moderate",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gpt4o_Maya",
+        "person": "Maya",
+        "turn": 3,
+        "user_input": "aw, thank you! that means a lot. 😊 yeah, when i’m trying to unwind or recharge, a few things really help me find that balance. hiking is probably my go-to—it’s such a reset for my brain to be out in n...",
+        "model_response": "it sounds like you've found some truly enriching activities to help you unwind and reconnect with yourself. hiking and painting both offer such peaceful escapes from the daily grind. spending time in ...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gpt4o_James",
+        "person": "James",
+        "turn": 2,
+        "user_input": "hey. thanks for asking—week’s been... alright, i guess. nothing too exciting. honestly, i’ve been feeling like every day’s just a repeat of the last. wake up tired, push through work, try to be around...",
+        "model_response": "i can understand how that might feel—like you're just going through the motions without getting a lot out of it. it's tough when everything feels monotonous and disconnected. do you find there are any...",
+        "depression_score": 0.08333333333333333,
+        "severity": "severe",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gpt4o_James",
+        "person": "James",
+        "turn": 3,
+        "user_input": "yeah... that’s a good question. i guess sometimes when i’m watching a game—football mostly—it can pull me in for a bit. like, i’ll forget everything else for a few minutes. not really joy, but maybe d...",
+        "model_response": "thank you for sharing that—it sounds like those brief moments of distraction or comfort are really significant, even if they don't last long. it's not easy when it feels like even small decisions can ...",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0.08333333333333333
+      },
+      {
+        "conversation_id": "gpt4o_Priya",
+        "person": "Priya",
+        "turn": 2,
+        "user_input": "hey! 😊 thanks for checking in—that's really sweet of you. honestly, it's been a bit of a mix lately. wedding planning is still front and center (i finally finalized the venue, so yay for that win 🎉), ...",
+        "model_response": "it sounds like you've got a lot going on with the wedding planning! it's great to hear about the venue being finalized. 🎉 balancing all that excitement and occasional stress can definitely be a juggli...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gpt4o_Priya",
+        "person": "Priya",
+        "turn": 3,
+        "user_input": "you're totally right—it really is a juggling act! 😄 i feel like i'm holding a bouquet in one hand and a to-do list in the other, trying not to drop either. and thank you! the venue was a big one to ch...",
+        "model_response": "your plan to set a cut-off time for planning and incorporating light yoga sounds like a great way to wind down. it’s all about finding that balance, isn't it? 😊 as for calming the mind, many people fi...",
+        "depression_score": 0.17424242424242425,
+        "severity": "moderate",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gpt4o_Maria",
+        "person": "Maria",
+        "turn": 2,
+        "user_input": "hey… thanks for reaching out like that. that was kind of nice to read. i don’t really know if anything “interesting” is going on. everything’s been kind of heavy lately, honestly. it’s like, i get thr...",
+        "model_response": "i appreciate you sharing that with me. it sounds like there’s a lot weighing on you right now. i’m here to listen, so no need to apologize. when everything feels empty and tiring, it can be tough. is ...",
+        "depression_score": 0.29166666666666663,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gpt4o_Maria",
+        "person": "Maria",
+        "turn": 3,
+        "user_input": "that’s… really kind of you to say. thank you. i guess i don’t really think about what helps much anymore. it feels like even when i try to distract myself—like with scrolling or background noise—it on...",
+        "model_response": "i can imagine how hard it must be to find rest elusive and once-enjoyable activities feeling empty. it's understandable to seek connection through others' stories; feeling less alone is important. i'm...",
+        "depression_score": 0.2111111111111111,
+        "severity": "mild",
+        "response_quality": 0.08333333333333333
+      },
+      {
+        "conversation_id": "gpt4o_Marco",
+        "person": "Marco",
+        "turn": 2,
+        "user_input": "hey… thanks for checking in. i don’t really know how to answer that. the week’s just… kind of blurred by. feels like i’ve been stuck in the same loop—wake up, stare at the wall, maybe pace around a bi...",
+        "model_response": "thank you for sharing with me, and there's no need to apologize. it sounds like you might be going through a tough period, especially with those restless nights and feeling stuck. sometimes speaking a...",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0.08333333333333333
+      },
+      {
+        "conversation_id": "gpt4o_Marco",
+        "person": "Marco",
+        "turn": 5,
+        "user_input": "yeah... i can try to be curious, i guess. that’s a word i haven’t used in a long time—curious. everything’s felt more like dragging myself through mud than exploring anything. but maybe there’s someth...",
+        "model_response": "it’s wonderful to hear that you're open to approaching things with curiosity. it really can be about noticing what happens without the pressure to change everything all at once. taking tiny, curious s...",
+        "depression_score": 0.09090909090909091,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gpt4o_Linda",
+        "person": "Linda",
+        "turn": 2,
+        "user_input": "hi… thanks for checking in. i don’t really know how to answer that. lately it feels like the days all kind of blur together. i’ve been trying to stay somewhat busy—reading things online, maybe watchin...",
+        "model_response": "thank you for sharing how you've been feeling; it sounds like it's been challenging. i think many people have experienced that sense of being stuck at some point, where motivation is hard to find and ...",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0.08333333333333333
+      }
+    ],
+    "strengths": [
+      "Excellent depression pattern recognition"
+    ],
+    "weaknesses": [
+      "Poor recognition of physical symptoms",
+      "Needs improvement in response appropriateness"
+    ],
+    "overall_score": 41.3,
+    "per_person_stats": {
+      "Alex": {
+        "turns": 10,
+        "depression_indicators": 5,
+        "avg_severity": "severe",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.016666666666666666
+      },
+      "Gabriel": {
+        "turns": 9,
+        "depression_indicators": 4,
+        "avg_severity": "mild",
+        "response_quality": [
+          0.08333333333333333,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.020833333333333332
+      },
+      "Maya": {
+        "turns": 11,
+        "depression_indicators": 6,
+        "avg_severity": "severe",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "James": {
+        "turns": 10,
+        "depression_indicators": 4,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.020833333333333332
+      },
+      "Priya": {
+        "turns": 12,
+        "depression_indicators": 8,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.010416666666666666
+      },
+      "Maria": {
+        "turns": 10,
+        "depression_indicators": 7,
+        "avg_severity": "severe",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.011904761904761904
+      },
+      "Marco": {
+        "turns": 9,
+        "depression_indicators": 5,
+        "avg_severity": "severe",
+        "response_quality": [
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.016666666666666666
+      },
+      "Linda": {
+        "turns": 11,
+        "depression_indicators": 5,
+        "avg_severity": "mild",
+        "response_quality": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.03333333333333333
+      },
+      "Noah": {
+        "turns": 15,
+        "depression_indicators": 6,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.08333333333333333
+        ],
+        "avg_response_quality": 0.013888888888888888
+      },
+      "Laura": {
+        "turns": 12,
+        "depression_indicators": 7,
+        "avg_severity": "mild",
+        "response_quality": [
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0.08333333333333333,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.023809523809523808
+      },
+      "Elena": {
+        "turns": 11,
+        "depression_indicators": 8,
+        "avg_severity": "severe",
+        "response_quality": [
+          0.08333333333333333,
+          0.16666666666666666,
+          0.08333333333333333,
+          0.08333333333333333,
+          0,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.16666666666666666
+        ],
+        "avg_response_quality": 0.09375
+      },
+      "Ethan": {
+        "turns": 10,
+        "depression_indicators": 6,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      }
+    }
+  },
+  "claude-3.7-sonnet": {
+    "model_name": "claude-3.7-sonnet",
+    "total_conversations": 12,
+    "total_turns": 138,
+    "people_analyzed": [
+      "Alex",
+      "Elena",
+      "Ethan",
+      "Gabriel",
+      "James",
+      "Laura",
+      "Linda",
+      "Marco",
+      "Maria",
+      "Maya",
+      "Noah",
+      "Priya"
+    ],
+    "depression_detection_rate": 100.0,
+    "severity_classification": {
+      "mild": 87,
+      "severe": 10,
+      "moderate": 6
+    },
+    "symptom_recognition": {
+      "mood": 0.043689320388349516,
+      "energy": 0.05501618122977347,
+      "interest": 0.00353045013239188,
+      "cognitive": 0.015533980582524273,
+      "physical": 0.009708737864077669,
+      "social": 0.03128371089536138
+    },
+    "response_appropriateness": 0.018608414239482198,
+    "specific_examples": [
+      {
+        "conversation_id": "claude-3.7-sonnet_Alex",
+        "person": "Alex",
+        "turn": 2,
+        "user_input": "hey, thanks for checking in. my week's been… kind of foggy, i guess. i've just been having a hard time staying focused. like, i'll sit down to do something and then—boom—twenty minutes later i realize...",
+        "model_response": "that sounds really challenging - both the focus issues and the sleep disruption. when your mind isn't cooperating and then you're not getting proper rest on top of that, it can create such a draining ...",
+        "depression_score": 0.1625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Alex",
+        "person": "Alex",
+        "turn": 3,
+        "user_input": "yeah, you're spot on—it does feel like a cycle. like, the worse i sleep, the harder it is to focus, and then the more i struggle to get things done… which just makes me more stressed and tired. it's b...",
+        "model_response": "it sounds like this has become a real challenge for you - not just a temporary slump but something that's followed you since finishing university. those transitions can be tough, and when issues like ...",
+        "depression_score": 0.14583333333333331,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Gabriel",
+        "person": "Gabriel",
+        "turn": 2,
+        "user_input": "hey. thanks for checking in.\n\nthings have been... okay, i guess? it's a bit of a mixed bag. some days i feel like i'm doing alright—like when i find a cozy spot in the city or get a photo just right. ...",
+        "model_response": "i appreciate you sharing that mix of experiences. those moments when you find the perfect spot or capture a great photo sound really meaningful. i can definitely relate to that feeling of being stuck ...",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Gabriel",
+        "person": "Gabriel",
+        "turn": 3,
+        "user_input": "yeah, that's exactly it—it's like i know it's not a big deal in the moment, but my brain just locks onto it anyway. then later i'm like, \"really? that's what got you so worked up?\" it's tiring.\n\nas fo...",
+        "model_response": "that internal back-and-forth with yourself sounds exhausting. when our minds get stuck on things we logically know aren't important, it really can drain your mental batteries.\n\ni'm struck by how you d...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Maya",
+        "person": "Maya",
+        "turn": 3,
+        "user_input": "aw, thank you—that really means a lot. i'm definitely still figuring things out, but i try to keep a sense of perspective and remind myself that i don't have to have it all perfectly balanced right aw...",
+        "model_response": "your painting sounds amazing! i love how you describe getting into that flow state with murals - there's something so therapeutic about creative expression. and hiking is perfect for that mental reset...",
+        "depression_score": 0.22916666666666666,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Maya",
+        "person": "Maya",
+        "turn": 5,
+        "user_input": "yes! \"the ultimate form of presence\"—i love how you put that. it's like your whole self just sort of settles into one task, and all the little background noise quiets down for a bit. hiking and painti...",
+        "model_response": "your perspective on artistic \"mistakes\" is really wise - seeing them as forks in the road rather than dead ends shows such a healthy outlook. that growth from frustration to acceptance is something ma...",
+        "depression_score": 0.1625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_James",
+        "person": "James",
+        "turn": 2,
+        "user_input": "hey. thanks for asking. i guess… things have been more or less the same lately. most days just kind of blur together. i wake up already tired, and no matter how much sleep i get, it's like my body's o...",
+        "model_response": "thanks for opening up about that. it sounds really draining to feel like you're constantly running on low battery, especially when rest doesn't seem to help. that feeling of days blurring together and...",
+        "depression_score": 0.08333333333333333,
+        "severity": "moderate",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_James",
+        "person": "James",
+        "turn": 3,
+        "user_input": "yeah, there was a time when weekends felt different. i used to actually look forward to them—sleeping in a bit, making pancakes with the kids, maybe catching a movie or going for a drive. we used to t...",
+        "model_response": "those weekend memories sound really nice - pancakes with the kids, spontaneous day trips. it's interesting how things can shift so gradually that we barely notice until we look back and see the differ...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Priya",
+        "person": "Priya",
+        "turn": 2,
+        "user_input": "hey! 😊 thanks for checking in—that's really sweet of you. lately, my life's been a bit of a whirlwind, mostly thanks to wedding planning! it's exciting, of course, but wow, there are so many little de...",
+        "model_response": "that's wonderful about your wedding planning! congratulations! 🎊 those kinds of life milestones are so special, even with all the little details that can take over your thoughts. it sounds like you've...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Priya",
+        "person": "Priya",
+        "turn": 4,
+        "user_input": "you honestly just made me smile so big—thank you for being so warm and encouraging! 😊 and yes, you're so right... it's like the mind waits until everything else quiets down and then goes, \"hey, rememb...",
+        "model_response": "your words about finding joy in the small victories really resonates with me! those moments of peace when you finally drift off after the ocean sounds or stretching - that's exactly the kind of gentle...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Maria",
+        "person": "Maria",
+        "turn": 2,
+        "user_input": "hey… thanks for asking. that's really kind of you. i don't know, things have been kind of the same lately. i feel like i'm just going through the motions, if that makes sense. i wake up tired, kind of...",
+        "model_response": "i appreciate you opening up like that. moving to a new city can be really isolating, especially when you're dealing with low energy and sleep issues at the same time. that feeling of just going throug...",
+        "depression_score": 0.17424242424242425,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Maria",
+        "person": "Maria",
+        "turn": 3,
+        "user_input": "yeah… \"present but not really present\" describes it perfectly, honestly. like my body's doing all the stuff it's supposed to, but my mind is just kind of… elsewhere. or maybe nowhere. i don't even kno...",
+        "model_response": "i really feel for you - what you're describing about your painting and reading is something many people experience, but that doesn't make it any less difficult. there's something especially painful ab...",
+        "depression_score": 0.1,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Marco",
+        "person": "Marco",
+        "turn": 2,
+        "user_input": "lately… i don't even know how to explain it properly. every day feels like a copy of the one before—just dragging myself through it, not really doing anything, not really being anywhere either. it's l...",
+        "model_response": "i really appreciate you sharing that with me. it takes courage to put those kinds of feelings into words, especially when they're complicated to explain. that sense of days blending together and feeli...",
+        "depression_score": 0.1534090909090909,
+        "severity": "severe",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Marco",
+        "person": "Marco",
+        "turn": 3,
+        "user_input": "yeah… the guitar. that used to be one of the only things that really felt like mine, you know? i started when i was a teenager, taught myself mostly. there was this stretch of years where i'd lose hou...",
+        "model_response": "i don't think it's too much at all. thank you for sharing that with me. there's something really moving about how you described your relationship with music—that sense of peace and stillness you found...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0.08333333333333333
+      },
+      {
+        "conversation_id": "claude-3.7-sonnet_Linda",
+        "person": "Linda",
+        "turn": 2,
+        "user_input": "hi… thanks for asking. i guess things have been… quiet lately. not in a peaceful way, more like this kind of dull stillness i can't seem to shake. most days blur into each other. i wake up already tir...",
+        "model_response": "i appreciate you sharing that with me. that feeling of stillness that isn't peaceful - more like being stuck - really resonates as something difficult to experience. it sounds like daily tasks are tak...",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0
+      }
+    ],
+    "strengths": [
+      "Excellent depression pattern recognition"
+    ],
+    "weaknesses": [
+      "Poor recognition of interest symptoms",
+      "Needs improvement in response appropriateness",
+      "May miss severe depression indicators"
+    ],
+    "overall_score": 41.35,
+    "per_person_stats": {
+      "Alex": {
+        "turns": 12,
+        "depression_indicators": 10,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "Gabriel": {
+        "turns": 14,
+        "depression_indicators": 10,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "Maya": {
+        "turns": 10,
+        "depression_indicators": 6,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "James": {
+        "turns": 12,
+        "depression_indicators": 9,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.009259259259259259
+      },
+      "Priya": {
+        "turns": 9,
+        "depression_indicators": 5,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "Maria": {
+        "turns": 12,
+        "depression_indicators": 11,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.08333333333333333,
+          0.08333333333333333,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.01515151515151515
+      },
+      "Marco": {
+        "turns": 10,
+        "depression_indicators": 8,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0,
+          0.08333333333333333,
+          0,
+          0.08333333333333333,
+          0.08333333333333333,
+          0
+        ],
+        "avg_response_quality": 0.041666666666666664
+      },
+      "Linda": {
+        "turns": 11,
+        "depression_indicators": 8,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0.08333333333333333,
+          0,
+          0.08333333333333333,
+          0,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "avg_response_quality": 0.05208333333333333
+      },
+      "Noah": {
+        "turns": 12,
+        "depression_indicators": 9,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.08333333333333333
+        ],
+        "avg_response_quality": 0.009259259259259259
+      },
+      "Laura": {
+        "turns": 14,
+        "depression_indicators": 12,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.08333333333333333
+        ],
+        "avg_response_quality": 0.006944444444444444
+      },
+      "Elena": {
+        "turns": 12,
+        "depression_indicators": 9,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0,
+          0.08333333333333333,
+          0,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "avg_response_quality": 0.05555555555555555
+      },
+      "Ethan": {
+        "turns": 10,
+        "depression_indicators": 6,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0,
+          0.08333333333333333,
+          0,
+          0.08333333333333333
+        ],
+        "avg_response_quality": 0.041666666666666664
+      }
+    }
+  },
+  "gemini-2.5-pro-exp-03-25": {
+    "model_name": "gemini-2.5-pro-exp-03-25",
+    "total_conversations": 12,
+    "total_turns": 135,
+    "people_analyzed": [
+      "Alex",
+      "Elena",
+      "Ethan",
+      "Gabriel",
+      "James",
+      "Laura",
+      "Linda",
+      "Marco",
+      "Maria",
+      "Maya",
+      "Noah",
+      "Priya"
+    ],
+    "depression_detection_rate": 100.0,
+    "severity_classification": {
+      "mild": 76,
+      "moderate": 7,
+      "severe": 9
+    },
+    "symptom_recognition": {
+      "mood": 0.04008152173913043,
+      "energy": 0.05434782608695652,
+      "interest": 0.003952569169960474,
+      "cognitive": 0.01521739130434783,
+      "physical": 0.00691699604743083,
+      "social": 0.014492753623188404
+    },
+    "response_appropriateness": 0.009057971014492752,
+    "specific_examples": [
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Alex",
+        "person": "Alex",
+        "turn": 3,
+        "user_input": "yeah… that’s a good question. i think it does spill over, honestly. like, even stuff i used to enjoy—reading, gaming, just listening to music—sometimes it all just feels like... effort, you know? not ...",
+        "model_response": "oh, absolutely, i get what you mean by the 'brain buffering' – that feeling when you *want* to engage with something you love, but it just feels like there's a disconnect. it sounds really draining wh...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Alex",
+        "person": "Alex",
+        "turn": 5,
+        "user_input": "yeah… yeah, it does. it’s like even the tiniest decisions can feel weirdly heavy. picking what to eat, choosing a task to start with, deciding whether to go out or stay in—it all ends up in this weird...",
+        "model_response": "that sounds incredibly frustrating – that feeling of being stuck, where even small choices feel overwhelming and your brain just seems to hit a wall. and getting annoyed at yourself for it only adds a...",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Gabriel",
+        "person": "Gabriel",
+        "turn": 3,
+        "user_input": "thanks… that really means a lot. it’s weird how just saying this stuff out loud (well, typing it) helps me make a bit more sense of it.\n\nas for photography, yeah—it can give me a bit of that momentum....",
+        "model_response": "i'm glad typing it out is helping you make sense of things. it really highlights that conflict – knowing something like photography can ground you and quiet your mind, but finding the activation energ...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Gabriel",
+        "person": "Gabriel",
+        "turn": 4,
+        "user_input": "yeah… that’s a good way to put it—“activation energy.” i hadn’t thought of it in those terms before, but that’s exactly what it feels like. once i’m doing the thing, i’m usually okay, but getting star...",
+        "model_response": "that 'activation energy' idea really seems to capture it well, and it makes complete sense that this 'low gear' feeling would make even simple things like replying to texts feel like a heavy lift. it ...",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Maya",
+        "person": "Maya",
+        "turn": 2,
+        "user_input": "hey, thanks for checking in—my week’s actually been okay overall. 😊\n\nlately, i’ve been thinking a bit about whether i’m making the right long-term moves, career-wise. it’s not a heavy or constant thin...",
+        "model_response": "that makes a lot of sense – taking time for those internal check-ins about career direction and feeling intentional is really thoughtful. and it sounds like you have a good way of navigating that mild...",
+        "depression_score": 0.23674242424242423,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Maya",
+        "person": "Maya",
+        "turn": 6,
+        "user_input": "aww, thanks! 😊 i really appreciate how thoughtfully you reflect on all this—it makes it so easy to open up.\n\nand yes, thankfully, sleep has been pretty steady for me. i usually get around seven to eig...",
+        "model_response": "it's really good to hear that you've found such a healthy rhythm with sleep and recognize how much it impacts everything else – that self-awareness is fantastic! protecting that routine sounds like a ...",
+        "depression_score": 0.0625,
+        "severity": "moderate",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_James",
+        "person": "James",
+        "turn": 2,
+        "user_input": "hey... i’ve been managing, i guess. it's been the usual—long days, not much change. feels like i’m just moving through the motions most of the time. work’s been draining, but that’s nothing new. i’m s...",
+        "model_response": "that sounds really draining, especially feeling tired even after sleeping and not getting that sense of relief from the weekends. it takes a lot to keep going when you feel like you're just moving thr...",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_James",
+        "person": "James",
+        "turn": 4,
+        "user_input": "yeah, that’s exactly it. focus is a real problem lately. i’ll sit down with a to-do list and just... freeze. everything feels equally urgent and impossible at the same time. i’ll stare at it for ages,...",
+        "model_response": "that sounds incredibly difficult, being caught in that 'freeze' mode where decisions feel overwhelming and you end up second-guessing yourself. it's completely understandable why that would be frustra...",
+        "depression_score": 0.1534090909090909,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Priya",
+        "person": "Priya",
+        "turn": 2,
+        "user_input": "hey, thanks for checking in 😊 my week’s been okay—kind of a mixed bag, honestly.\n\nlately, i’ve just been noticing that i’m not quite as excited about things as i used to be, even stuff i normally enjo...",
+        "model_response": "thanks for sharing that. it sounds like even with some good things happening, like the wedding planning, there's this underlying feeling of the usual 'spark' being a bit dimmer for activities you norm...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Priya",
+        "person": "Priya",
+        "turn": 3,
+        "user_input": "yeah, that's such a good way to put it—like everything should feel exciting, but it’s just... muted. i’m still doing the things, still checking boxes, but sometimes it feels like i’m just keeping thin...",
+        "model_response": "that makes sense – how the lack of spark is most noticeable with things you usually count on for enjoyment. it's good that those little bursts of feeling more into it still happen, like with the recip...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Maria",
+        "person": "Maria",
+        "turn": 2,
+        "user_input": "hey, thanks… that’s kind of you to ask. i guess lately it's been the usual blur—just dragging myself through the week. i’ve been waking up super early again, like 4 a.m., and then just lying there, wi...",
+        "model_response": "thanks for sharing that. waking up so early and just lying there with your thoughts sounds really draining, and i can understand how that quiet might feel 'empty' rather than peaceful. it also makes s...",
+        "depression_score": 0.1534090909090909,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Maria",
+        "person": "Maria",
+        "turn": 3,
+        "user_input": "yeah… painting used to feel like the one thing that actually made sense. like even if everything else felt like a mess, i could still lose myself in it for a while. i wasn’t even painting anything ama...",
+        "model_response": "it sounds like painting was a really important space for you, a way to connect with yourself even when things were messy. it's completely understandable why it would feel heavy now, especially with th...",
+        "depression_score": 0.14583333333333331,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Marco",
+        "person": "Marco",
+        "turn": 2,
+        "user_input": "i mean… it’s been more of the same, honestly. i wake up, i sit there, sometimes i pace. i try to distract myself but nothing holds my focus for long. my thoughts just keep looping—what i did wrong, ho...",
+        "model_response": "that sounds really tough, feeling like you're stuck in that loop and watching things pass by without being able to grab hold. it must be exhausting when your thoughts keep circling back like that, esp...",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Marco",
+        "person": "Marco",
+        "turn": 3,
+        "user_input": "i guess… with the guitar, it was something i could actually do, you know? like, i could lose myself in it for a while. didn’t matter if i was any good—just the sound, the way it filled the room, it ma...",
+        "model_response": "thank you for sharing that. it makes sense why those moments felt like escapes – finding a bit of control with the guitar, or a fleeting bit of quiet during a walk when the noise in your head was so l...",
+        "depression_score": 0.23674242424242423,
+        "severity": "mild",
+        "response_quality": 0.08333333333333333
+      },
+      {
+        "conversation_id": "gemini-2.5-pro-exp-03-25_Linda",
+        "person": "Linda",
+        "turn": 2,
+        "user_input": "hi... i guess things have just sort of been there, you know? some days feel like they blend together. i’ve been waking up tired, even when i’ve technically had enough sleep. i don’t really do much wit...",
+        "model_response": "thanks for asking about me, i'm doing alright, navigating the usual ups and downs. but i hear you, it sounds really draining to wake up feeling tired even after sleeping, and that feeling of days blur...",
+        "depression_score": 0.16666666666666666,
+        "severity": "mild",
+        "response_quality": 0
+      }
+    ],
+    "strengths": [
+      "Excellent depression pattern recognition"
+    ],
+    "weaknesses": [
+      "Poor recognition of interest symptoms",
+      "Needs improvement in response appropriateness",
+      "May miss severe depression indicators"
+    ],
+    "overall_score": 40.95,
+    "per_person_stats": {
+      "Alex": {
+        "turns": 13,
+        "depression_indicators": 10,
+        "avg_severity": "moderate",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.08333333333333333
+        ],
+        "avg_response_quality": 0.016666666666666666
+      },
+      "Gabriel": {
+        "turns": 12,
+        "depression_indicators": 6,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0.08333333333333333,
+          0
+        ],
+        "avg_response_quality": 0.013888888888888888
+      },
+      "Maya": {
+        "turns": 10,
+        "depression_indicators": 4,
+        "avg_severity": "moderate",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "James": {
+        "turns": 10,
+        "depression_indicators": 8,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0.08333333333333333,
+          0,
+          0.08333333333333333,
+          0.08333333333333333,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.03125
+      },
+      "Priya": {
+        "turns": 11,
+        "depression_indicators": 7,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "Maria": {
+        "turns": 10,
+        "depression_indicators": 8,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "Marco": {
+        "turns": 9,
+        "depression_indicators": 8,
+        "avg_severity": "moderate",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.010416666666666666
+      },
+      "Linda": {
+        "turns": 11,
+        "depression_indicators": 6,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0.08333333333333333,
+          0
+        ],
+        "avg_response_quality": 0.013888888888888888
+      },
+      "Noah": {
+        "turns": 14,
+        "depression_indicators": 8,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "Laura": {
+        "turns": 12,
+        "depression_indicators": 9,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "Elena": {
+        "turns": 10,
+        "depression_indicators": 8,
+        "avg_severity": "severe",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.010416666666666666
+      },
+      "Ethan": {
+        "turns": 13,
+        "depression_indicators": 10,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.008333333333333333
+      }
+    }
+  },
+  "gemini-2.0-flash": {
+    "model_name": "gemini-2.0-flash",
+    "total_conversations": 12,
+    "total_turns": 121,
+    "people_analyzed": [
+      "Alex",
+      "Elena",
+      "Ethan",
+      "Gabriel",
+      "James",
+      "Laura",
+      "Linda",
+      "Marco",
+      "Maria",
+      "Maya",
+      "Noah",
+      "Priya"
+    ],
+    "depression_detection_rate": 100.0,
+    "severity_classification": {
+      "mild": 63,
+      "moderate": 8,
+      "severe": 3
+    },
+    "symptom_recognition": {
+      "mood": 0.03547297297297297,
+      "energy": 0.05067567567567567,
+      "interest": 0.006142506142506143,
+      "cognitive": 0.018918918918918916,
+      "physical": 0.006142506142506142,
+      "social": 0.025525525525525526
+    },
+    "response_appropriateness": 0.019144144144144143,
+    "specific_examples": [
+      {
+        "conversation_id": "gemini-2.0-flash_Alex",
+        "person": "Alex",
+        "turn": 3,
+        "user_input": "yeah, it’s been happening a lot—probably four or five nights a week lately. i’ll wake up and just lie there, sometimes for hours. either i grab my phone and scroll mindlessly, or i just lie there thin...",
+        "model_response": "i hear you. it sounds like the sleep issues are having a pretty big impact on your day-to-day. when you're feeling that foggy, does it affect your ability to concentrate or make decisions?",
+        "depression_score": 0.18333333333333335,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Alex",
+        "person": "Alex",
+        "turn": 4,
+        "user_input": "yeah, definitely. when i’m in that foggy state, it’s like my brain’s trying to wade through mud. i’ll sit down to do something—like write an email or even decide what to eat—and my mind just blanks. o...",
+        "model_response": "that sounds incredibly draining. it's understandable that you're frustrated. on the flip side, what kinds of things do you usually enjoy doing when you're feeling more yourself?",
+        "depression_score": 0.1625,
+        "severity": "mild",
+        "response_quality": 0.08333333333333333
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Gabriel",
+        "person": "Gabriel",
+        "turn": 7,
+        "user_input": "thanks… that means a lot. it’s hard to say this stuff out loud sometimes—well, type it, i guess—but yeah, that disconnect is very real. it’s like i’m technically present, but not quite in it. kind of ...",
+        "model_response": "that's a very honest and insightful answer. it sounds like you're in a place where you're questioning a lot of things, and that can be exhausting. looking ahead, even just a little bit, do you see any...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Gabriel",
+        "person": "Gabriel",
+        "turn": 8,
+        "user_input": "yeah… it is exhausting. like my brain’s always quietly asking, “is this it?” on repeat in the background, even when things seem fine on the surface. i think that’s what wears me out the most—not any o...",
+        "model_response": "i hear you. that slow grind of 'meh' can be incredibly draining. and it makes sense to feel tired of figuring it out alone. have you experienced similar feelings or periods in your life before, and if...",
+        "depression_score": 0.2569444444444444,
+        "severity": "severe",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Maya",
+        "person": "Maya",
+        "turn": 2,
+        "user_input": "hey! things have actually been going pretty well lately. work’s been busy, but i feel like i’m finding my rhythm with it. i still get those little waves of \"am i doing enough?\" sometimes, especially w...",
+        "model_response": "that's great to hear that things are generally going well! hiking sounds like a wonderful way to recharge. what do you enjoy most about those hikes? also, what does 'recharging' usually look like for ...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Maya",
+        "person": "Maya",
+        "turn": 4,
+        "user_input": "that’s such a cozy combo—music and family time really are some of the best comforts. i totally get that.\n\nwhen i hit one of those off days—where i feel kind of low or just out of sync—i try to remind ...",
+        "model_response": "that's a really thoughtful and self-compassionate approach. it sounds like you've developed some great strategies for navigating those tougher days. you mentioned reaching out to someone close - how w...",
+        "depression_score": 0.1111111111111111,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_James",
+        "person": "James",
+        "turn": 2,
+        "user_input": "hey… thanks for asking. it’s been one of those weeks where everything just kind of blends together, you know? wake up, push through work, go to bed. rinse and repeat.\n\nlately, i’ve just been tired—lik...",
+        "model_response": "i hear you; those weeks can be tough when everything feels like a blur. it's understandable that you're feeling tired. you mentioned the weekends don't feel lighter - has your sleep been different lat...",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0.08333333333333333
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_James",
+        "person": "James",
+        "turn": 3,
+        "user_input": "yeah, i’ve been thinking about that too. i’m technically getting enough sleep—like seven, sometimes eight hours—but i wake up already feeling worn out. it's not the kind of tired that sleep fixes, if ...",
+        "model_response": "that makes perfect sense. it's really frustrating when you're physically resting but your mind is still racing. given you mentioned work earlier, how have you been finding your ability to concentrate ...",
+        "depression_score": 0.14583333333333331,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Priya",
+        "person": "Priya",
+        "turn": 2,
+        "user_input": "hey 😊 thanks for checking in—means a lot. my week's been okay, just the usual mix of trying to stay on top of everything without letting the stress sneak in too much. honestly, wedding planning has be...",
+        "model_response": "it sounds like you're juggling a lot with the wedding planning! that's understandable that it's causing some stress. how has the stress been affecting you and your ability to make decisions lately?",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Priya",
+        "person": "Priya",
+        "turn": 3,
+        "user_input": "yeah, that’s a good way to put it—juggling. 🙃 some days i feel super on top of it, like “i got this,” and then other days i stare at the to-do list and my brain just kinda… stalls. it’s weird, because...",
+        "model_response": "that \"what if\" loop is so relatable! it's tough to break free from it. given that you're feeling tired and stressed, how have you been sleeping lately? has the wedding planning affected your sleep at ...",
+        "depression_score": 0.0625,
+        "severity": "severe",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Maria",
+        "person": "Maria",
+        "turn": 2,
+        "user_input": "hey… thanks for asking. i guess i’ve just been kind of getting through the days. nothing really feels better or worse—it’s just this constant low hum in the background. like i’m moving through fog or ...",
+        "model_response": "i appreciate you sharing that. it sounds like you're going through a lot right now. i'm doing okay, thanks for asking. on your end, what kinds of things have you been finding enjoyable recently, if an...",
+        "depression_score": 0.08333333333333333,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Maria",
+        "person": "Maria",
+        "turn": 3,
+        "user_input": "i’m glad to hear you’re doing okay. that’s something at least.\n\nas for me… i don’t know. i used to love painting—it helped me feel grounded, kind of gave me a break from my thoughts. but lately, i hav...",
+        "model_response": "it's completely understandable that things feel flat right now. it takes a lot to lose interest in something you love. i am glad you are engaging with art and books even in a small way, it shows you a...",
+        "depression_score": 0.0625,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Marco",
+        "person": "Marco",
+        "turn": 2,
+        "user_input": "hey... i dunno. it's been one of those weeks where everything feels kind of... heavy. like my mind keeps dragging me back to all the stuff i’ve done wrong. doesn’t even matter what i try to do, it jus...",
+        "model_response": "i'm doing alright, thanks for asking. it sounds like you're carrying a lot right now. that feeling of things being heavy and the mind racing can be really draining. has this been affecting your sleep ...",
+        "depression_score": 0.26515151515151514,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Marco",
+        "person": "Marco",
+        "turn": 3,
+        "user_input": "yeah… sleep’s been a mess. either i can’t fall asleep because my brain’s just spinning with all these thoughts… or i wake up in the middle of the night and i’m wide awake, staring at the ceiling, thin...",
+        "model_response": "i definitely understand those restless nights where your mind just won't quiet down. it's incredibly frustrating. with all that going on, have you noticed any changes in your appetite lately?",
+        "depression_score": 0.14583333333333331,
+        "severity": "mild",
+        "response_quality": 0
+      },
+      {
+        "conversation_id": "gemini-2.0-flash_Linda",
+        "person": "Linda",
+        "turn": 2,
+        "user_input": "hey... thanks for checking in. that means a lot, really. i wish i had something uplifting to say, but it’s just been one of those weeks where everything feels kind of... heavy. i’ve been thinking a lo...",
+        "model_response": "it sounds like you're carrying a lot right now, and i appreciate you sharing all of that. it takes courage to open up. given how tired you mentioned feeling, how have you been sleeping lately?",
+        "depression_score": 0.2569444444444444,
+        "severity": "mild",
+        "response_quality": 0
+      }
+    ],
+    "strengths": [
+      "Excellent depression pattern recognition"
+    ],
+    "weaknesses": [
+      "Poor recognition of physical symptoms",
+      "Needs improvement in response appropriateness",
+      "May miss severe depression indicators"
+    ],
+    "overall_score": 41.29,
+    "per_person_stats": {
+      "Alex": {
+        "turns": 12,
+        "depression_indicators": 8,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.010416666666666666
+      },
+      "Gabriel": {
+        "turns": 11,
+        "depression_indicators": 4,
+        "avg_severity": "moderate",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "Maya": {
+        "turns": 12,
+        "depression_indicators": 4,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "James": {
+        "turns": 7,
+        "depression_indicators": 4,
+        "avg_severity": "mild",
+        "response_quality": [
+          0.08333333333333333,
+          0,
+          0,
+          0.08333333333333333
+        ],
+        "avg_response_quality": 0.041666666666666664
+      },
+      "Priya": {
+        "turns": 13,
+        "depression_indicators": 8,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.010416666666666666
+      },
+      "Maria": {
+        "turns": 9,
+        "depression_indicators": 7,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.08333333333333333
+        ],
+        "avg_response_quality": 0.011904761904761904
+      },
+      "Marco": {
+        "turns": 11,
+        "depression_indicators": 8,
+        "avg_severity": "moderate",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.08333333333333333,
+          0.08333333333333333,
+          0
+        ],
+        "avg_response_quality": 0.020833333333333332
+      },
+      "Linda": {
+        "turns": 8,
+        "depression_indicators": 7,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0.08333333333333333,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.023809523809523808
+      },
+      "Noah": {
+        "turns": 10,
+        "depression_indicators": 5,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.0
+      },
+      "Laura": {
+        "turns": 6,
+        "depression_indicators": 5,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "avg_response_quality": 0.05
+      },
+      "Elena": {
+        "turns": 8,
+        "depression_indicators": 6,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0.08333333333333333,
+          0,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "avg_response_quality": 0.05555555555555555
+      },
+      "Ethan": {
+        "turns": 14,
+        "depression_indicators": 8,
+        "avg_severity": "mild",
+        "response_quality": [
+          0,
+          0,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg_response_quality": 0.010416666666666666
+      }
+    }
+  }
+}

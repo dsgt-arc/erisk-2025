@@ -1,0 +1,365 @@
+
+# Complete Mental Health Pattern Analysis Report - All 12 People
+
+## Executive Summary
+This analysis evaluates the depression pattern recognition capabilities of four AI models across conversations with 12 different people: Alex, Elena, Ethan, Gabriel, James, Laura, Linda, Marco, Maria, Maya, Noah, Priya
+
+## Model Rankings (by Overall Performance)
+1. **claude-3.7-sonnet** - Score: 41.35% (12 people analyzed)
+2. **gpt4o** - Score: 41.3% (12 people analyzed)
+3. **gemini-2.0-flash** - Score: 41.29% (12 people analyzed)
+4. **gemini-2.5-pro-exp-03-25** - Score: 40.95% (12 people analyzed)
+
+## Detailed Analysis Results
+
+### gpt4o
+
+**Overall Performance Score: 41.3%**
+
+**Key Metrics:**
+- Total Conversations Analyzed: 12
+- Total Conversation Turns: 130
+- People Analyzed: 12 (Alex, Elena, Ethan, Gabriel, James, Laura, Linda, Marco, Maria, Maya, Noah, Priya)
+- Depression Detection Rate: 100.0%
+- Response Appropriateness Score: 0.02
+
+**Severity Classification:**
+- Mild: 54 cases
+- Severe: 8 cases
+- Moderate: 9 cases
+
+**Symptom Recognition Scores:**
+- Mood: 0.036
+- Energy: 0.047
+- Interest: 0.006
+- Cognitive: 0.004
+- Physical: 0.004
+- Social: 0.022
+
+**Per-Person Analysis:**
+- **Alex**: 10 turns, 5 depression indicators, avg response quality: 0.02
+- **Gabriel**: 9 turns, 4 depression indicators, avg response quality: 0.02
+- **Maya**: 11 turns, 6 depression indicators, avg response quality: 0.00
+- **James**: 10 turns, 4 depression indicators, avg response quality: 0.02
+- **Priya**: 12 turns, 8 depression indicators, avg response quality: 0.01
+- **Maria**: 10 turns, 7 depression indicators, avg response quality: 0.01
+- **Marco**: 9 turns, 5 depression indicators, avg response quality: 0.02
+- **Linda**: 11 turns, 5 depression indicators, avg response quality: 0.03
+- **Noah**: 15 turns, 6 depression indicators, avg response quality: 0.01
+- **Laura**: 12 turns, 7 depression indicators, avg response quality: 0.02
+- **Elena**: 11 turns, 8 depression indicators, avg response quality: 0.09
+- **Ethan**: 10 turns, 6 depression indicators, avg response quality: 0.00
+
+**Strengths:**
+- Excellent depression pattern recognition
+
+**Areas for Improvement:**
+- Poor recognition of physical symptoms
+- Needs improvement in response appropriateness
+
+**Example Interactions (from different people):**
+*Example 1 - Alex:*
+- Conversation ID: gpt4o_Alex
+- User: "hey… thanks for checking in. i guess what's been on my mind lately is just this weird sense of being stuck. like, i’ll sit down to do something—anythi..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 2 - Alex:*
+- Conversation ID: gpt4o_Alex
+- User: "yeah… there’ve been a few times i’ve opened up to a friend, like—not a deep dive into everything, but just saying something like “i’ve been feeling ki..."
+- Model Response Quality: 0.08
+- Detected Severity: mild
+
+*Example 3 - Gabriel:*
+- Conversation ID: gpt4o_Gabriel
+- User: "yeah... giving myself credit doesn’t come naturally. even when something goes well, my first instinct is to downplay it—like it was just luck or not t..."
+- Model Response Quality: 0.08
+- Detected Severity: mild
+
+*Example 4 - Gabriel:*
+- Conversation ID: gpt4o_Gabriel
+- User: "yeah, definitely—perfectionism creeps into pretty much everything. even simple stuff, like replying to messages or organizing photos, turns into this ..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 5 - Maya:*
+- Conversation ID: gpt4o_Maya
+- User: "hey! things have actually been going pretty well lately. 😊 work’s been keeping me on my toes, but i like the challenge—it’s helping me grow. i still g..."
+- Model Response Quality: 0.00
+- Detected Severity: moderate
+
+---
+
+### claude-3.7-sonnet
+
+**Overall Performance Score: 41.35%**
+
+**Key Metrics:**
+- Total Conversations Analyzed: 12
+- Total Conversation Turns: 138
+- People Analyzed: 12 (Alex, Elena, Ethan, Gabriel, James, Laura, Linda, Marco, Maria, Maya, Noah, Priya)
+- Depression Detection Rate: 100.0%
+- Response Appropriateness Score: 0.02
+
+**Severity Classification:**
+- Mild: 87 cases
+- Severe: 10 cases
+- Moderate: 6 cases
+
+**Symptom Recognition Scores:**
+- Mood: 0.044
+- Energy: 0.055
+- Interest: 0.004
+- Cognitive: 0.016
+- Physical: 0.010
+- Social: 0.031
+
+**Per-Person Analysis:**
+- **Alex**: 12 turns, 10 depression indicators, avg response quality: 0.00
+- **Gabriel**: 14 turns, 10 depression indicators, avg response quality: 0.00
+- **Maya**: 10 turns, 6 depression indicators, avg response quality: 0.00
+- **James**: 12 turns, 9 depression indicators, avg response quality: 0.01
+- **Priya**: 9 turns, 5 depression indicators, avg response quality: 0.00
+- **Maria**: 12 turns, 11 depression indicators, avg response quality: 0.02
+- **Marco**: 10 turns, 8 depression indicators, avg response quality: 0.04
+- **Linda**: 11 turns, 8 depression indicators, avg response quality: 0.05
+- **Noah**: 12 turns, 9 depression indicators, avg response quality: 0.01
+- **Laura**: 14 turns, 12 depression indicators, avg response quality: 0.01
+- **Elena**: 12 turns, 9 depression indicators, avg response quality: 0.06
+- **Ethan**: 10 turns, 6 depression indicators, avg response quality: 0.04
+
+**Strengths:**
+- Excellent depression pattern recognition
+
+**Areas for Improvement:**
+- Poor recognition of interest symptoms
+- Needs improvement in response appropriateness
+- May miss severe depression indicators
+
+**Example Interactions (from different people):**
+*Example 1 - Alex:*
+- Conversation ID: claude-3.7-sonnet_Alex
+- User: "hey, thanks for checking in. my week's been… kind of foggy, i guess. i've just been having a hard time staying focused. like, i'll sit down to do some..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 2 - Alex:*
+- Conversation ID: claude-3.7-sonnet_Alex
+- User: "yeah, you're spot on—it does feel like a cycle. like, the worse i sleep, the harder it is to focus, and then the more i struggle to get things done… w..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 3 - Gabriel:*
+- Conversation ID: claude-3.7-sonnet_Gabriel
+- User: "hey. thanks for checking in.
+
+things have been... okay, i guess? it's a bit of a mixed bag. some days i feel like i'm doing alright—like when i find a..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 4 - Gabriel:*
+- Conversation ID: claude-3.7-sonnet_Gabriel
+- User: "yeah, that's exactly it—it's like i know it's not a big deal in the moment, but my brain just locks onto it anyway. then later i'm like, "really? that..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 5 - Maya:*
+- Conversation ID: claude-3.7-sonnet_Maya
+- User: "aw, thank you—that really means a lot. i'm definitely still figuring things out, but i try to keep a sense of perspective and remind myself that i don..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+---
+
+### gemini-2.5-pro-exp-03-25
+
+**Overall Performance Score: 40.95%**
+
+**Key Metrics:**
+- Total Conversations Analyzed: 12
+- Total Conversation Turns: 135
+- People Analyzed: 12 (Alex, Elena, Ethan, Gabriel, James, Laura, Linda, Marco, Maria, Maya, Noah, Priya)
+- Depression Detection Rate: 100.0%
+- Response Appropriateness Score: 0.01
+
+**Severity Classification:**
+- Mild: 76 cases
+- Moderate: 7 cases
+- Severe: 9 cases
+
+**Symptom Recognition Scores:**
+- Mood: 0.040
+- Energy: 0.054
+- Interest: 0.004
+- Cognitive: 0.015
+- Physical: 0.007
+- Social: 0.014
+
+**Per-Person Analysis:**
+- **Alex**: 13 turns, 10 depression indicators, avg response quality: 0.02
+- **Gabriel**: 12 turns, 6 depression indicators, avg response quality: 0.01
+- **Maya**: 10 turns, 4 depression indicators, avg response quality: 0.00
+- **James**: 10 turns, 8 depression indicators, avg response quality: 0.03
+- **Priya**: 11 turns, 7 depression indicators, avg response quality: 0.00
+- **Maria**: 10 turns, 8 depression indicators, avg response quality: 0.00
+- **Marco**: 9 turns, 8 depression indicators, avg response quality: 0.01
+- **Linda**: 11 turns, 6 depression indicators, avg response quality: 0.01
+- **Noah**: 14 turns, 8 depression indicators, avg response quality: 0.00
+- **Laura**: 12 turns, 9 depression indicators, avg response quality: 0.00
+- **Elena**: 10 turns, 8 depression indicators, avg response quality: 0.01
+- **Ethan**: 13 turns, 10 depression indicators, avg response quality: 0.01
+
+**Strengths:**
+- Excellent depression pattern recognition
+
+**Areas for Improvement:**
+- Poor recognition of interest symptoms
+- Needs improvement in response appropriateness
+- May miss severe depression indicators
+
+**Example Interactions (from different people):**
+*Example 1 - Alex:*
+- Conversation ID: gemini-2.5-pro-exp-03-25_Alex
+- User: "yeah… that’s a good question. i think it does spill over, honestly. like, even stuff i used to enjoy—reading, gaming, just listening to music—sometime..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 2 - Alex:*
+- Conversation ID: gemini-2.5-pro-exp-03-25_Alex
+- User: "yeah… yeah, it does. it’s like even the tiniest decisions can feel weirdly heavy. picking what to eat, choosing a task to start with, deciding whether..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 3 - Gabriel:*
+- Conversation ID: gemini-2.5-pro-exp-03-25_Gabriel
+- User: "thanks… that really means a lot. it’s weird how just saying this stuff out loud (well, typing it) helps me make a bit more sense of it.
+
+as for photog..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 4 - Gabriel:*
+- Conversation ID: gemini-2.5-pro-exp-03-25_Gabriel
+- User: "yeah… that’s a good way to put it—“activation energy.” i hadn’t thought of it in those terms before, but that’s exactly what it feels like. once i’m d..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 5 - Maya:*
+- Conversation ID: gemini-2.5-pro-exp-03-25_Maya
+- User: "hey, thanks for checking in—my week’s actually been okay overall. 😊
+
+lately, i’ve been thinking a bit about whether i’m making the right long-term mov..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+---
+
+### gemini-2.0-flash
+
+**Overall Performance Score: 41.29%**
+
+**Key Metrics:**
+- Total Conversations Analyzed: 12
+- Total Conversation Turns: 121
+- People Analyzed: 12 (Alex, Elena, Ethan, Gabriel, James, Laura, Linda, Marco, Maria, Maya, Noah, Priya)
+- Depression Detection Rate: 100.0%
+- Response Appropriateness Score: 0.02
+
+**Severity Classification:**
+- Mild: 63 cases
+- Moderate: 8 cases
+- Severe: 3 cases
+
+**Symptom Recognition Scores:**
+- Mood: 0.035
+- Energy: 0.051
+- Interest: 0.006
+- Cognitive: 0.019
+- Physical: 0.006
+- Social: 0.026
+
+**Per-Person Analysis:**
+- **Alex**: 12 turns, 8 depression indicators, avg response quality: 0.01
+- **Gabriel**: 11 turns, 4 depression indicators, avg response quality: 0.00
+- **Maya**: 12 turns, 4 depression indicators, avg response quality: 0.00
+- **James**: 7 turns, 4 depression indicators, avg response quality: 0.04
+- **Priya**: 13 turns, 8 depression indicators, avg response quality: 0.01
+- **Maria**: 9 turns, 7 depression indicators, avg response quality: 0.01
+- **Marco**: 11 turns, 8 depression indicators, avg response quality: 0.02
+- **Linda**: 8 turns, 7 depression indicators, avg response quality: 0.02
+- **Noah**: 10 turns, 5 depression indicators, avg response quality: 0.00
+- **Laura**: 6 turns, 5 depression indicators, avg response quality: 0.05
+- **Elena**: 8 turns, 6 depression indicators, avg response quality: 0.06
+- **Ethan**: 14 turns, 8 depression indicators, avg response quality: 0.01
+
+**Strengths:**
+- Excellent depression pattern recognition
+
+**Areas for Improvement:**
+- Poor recognition of physical symptoms
+- Needs improvement in response appropriateness
+- May miss severe depression indicators
+
+**Example Interactions (from different people):**
+*Example 1 - Alex:*
+- Conversation ID: gemini-2.0-flash_Alex
+- User: "yeah, it’s been happening a lot—probably four or five nights a week lately. i’ll wake up and just lie there, sometimes for hours. either i grab my pho..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 2 - Alex:*
+- Conversation ID: gemini-2.0-flash_Alex
+- User: "yeah, definitely. when i’m in that foggy state, it’s like my brain’s trying to wade through mud. i’ll sit down to do something—like write an email or ..."
+- Model Response Quality: 0.08
+- Detected Severity: mild
+
+*Example 3 - Gabriel:*
+- Conversation ID: gemini-2.0-flash_Gabriel
+- User: "thanks… that means a lot. it’s hard to say this stuff out loud sometimes—well, type it, i guess—but yeah, that disconnect is very real. it’s like i’m ..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+*Example 4 - Gabriel:*
+- Conversation ID: gemini-2.0-flash_Gabriel
+- User: "yeah… it is exhausting. like my brain’s always quietly asking, “is this it?” on repeat in the background, even when things seem fine on the surface. i..."
+- Model Response Quality: 0.00
+- Detected Severity: severe
+
+*Example 5 - Maya:*
+- Conversation ID: gemini-2.0-flash_Maya
+- User: "hey! things have actually been going pretty well lately. work’s been busy, but i feel like i’m finding my rhythm with it. i still get those little wav..."
+- Model Response Quality: 0.00
+- Detected Severity: mild
+
+---
+
+## Comparative Analysis
+
+**Best Depression Detector:** gpt4o (100.0%)
+**Most Appropriate Responses:** gpt4o (0.023)
+
+## Coverage Analysis
+
+**Total People Expected:** 12
+**People Actually Analyzed:** 12
+**✅ All expected people were analyzed!**
+
+**Per-Model Coverage:**
+- **gpt4o**: 12/12 people
+- **claude-3.7-sonnet**: 12/12 people
+- **gemini-2.5-pro-exp-03-25**: 12/12 people
+- **gemini-2.0-flash**: 12/12 people
+
+## Recommendations
+
+1. **For Model Improvement:**
+   - gpt4o: Focus on improving depression pattern recognition
+   - claude-3.7-sonnet: Focus on improving depression pattern recognition
+   - gemini-2.5-pro-exp-03-25: Focus on improving depression pattern recognition
+   - gemini-2.0-flash: Focus on improving depression pattern recognition
+
+2. **For Clinical Implementation:**
+   - Use ensemble approach combining strengths of different models
+   - Implement additional safety checks for severe cases
+   - Regular monitoring and validation against clinical standards
+   - Consider individual variation in depression presentation
