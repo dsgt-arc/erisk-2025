@@ -25,7 +25,8 @@ dependencies = [
     "sentence-transformers",
     "textblob",
     "scipy",
-    "seaborn"
+    "seaborn",
+    "umap-learn"
 ]
 
 [project.optional-dependencies]
