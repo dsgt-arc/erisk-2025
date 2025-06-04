@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 import re
+import numpy as np
 
 def load_model_predictions():
     """Load predictions from all model directories"""
@@ -83,11 +84,6 @@ def analyze_symptom_agreement():
     final_assessments = df.sort_values('assessment_turn').groupby(['model', 'agent']).last().reset_index()
     print(f"\nFound {len(final_assessments)} final assessments")
     
-    # Print unique agents and their counts
-    agent_counts = final_assessments['agent'].value_counts()
-    print("\nNumber of assessments per agent:")
-    print(agent_counts)
-    
     # Create a dictionary to store results for each agent and question
     agent_question_results = defaultdict(lambda: defaultdict(list))
     
@@ -98,9 +94,6 @@ def analyze_symptom_agreement():
     # For each agent, collect scores from all models for each question
     for agent in all_agents:
         agent_scores = final_assessments[final_assessments['agent'] == agent]
-        print(f"\nAgent {agent}:")
-        print(f"Number of models with predictions: {len(agent_scores)}")
-        print("Models:", agent_scores['model'].tolist())
         
         # Only analyze if we have predictions from all four models
         if len(agent_scores) == 4:
@@ -127,11 +120,9 @@ def analyze_symptom_agreement():
                 model_scores.sort(key=lambda x: x[0])
                 scores = [score for _, score in model_scores]
                 
-                # Calculate agreement level
-                # High agreement: max difference between any two scores is ≤ 1
-                # Low agreement: max difference > 1
-                max_diff = max(scores) - min(scores)
-                agreement_level = "High" if max_diff <= 1 else "Low"
+                # Calculate standard deviation of scores
+                std_dev = np.std(scores)
+                mean_score = np.mean(scores)
                 
                 # Add to table data
                 table_data.append({
@@ -140,54 +131,101 @@ def analyze_symptom_agreement():
                     'gpt4o': scores[1],
                     'gemini-2.0-flash': scores[2],
                     'gemini-2.5-pro-exp-03-25': scores[3],
-                    'Agreement': agreement_level
+                    'Mean': f"{mean_score:.2f}",
+                    'Std Dev': f"{std_dev:.2f}"
                 })
         
         # Create and display DataFrame
         df_agent = pd.DataFrame(table_data)
         print(df_agent.to_string(index=False))
-        
-        # Calculate and print agreement statistics
-        total_questions = len(table_data)
-        high_agreement_questions = sum(1 for row in table_data if row['Agreement'] == "High")
-        agreement_rate = (high_agreement_questions / total_questions * 100) if total_questions > 0 else 0
-        
-        print(f"\nAgreement Statistics for {agent}:")
-        print(f"Total Questions: {total_questions}")
-        print(f"Questions with High Agreement: {high_agreement_questions}")
-        print(f"High Agreement Rate: {agreement_rate:.1f}%")
     
     # Create overall agreement summary
     print("\n\nOverall Agreement Summary Across All Agents")
     print("=" * 80)
     
-    # Calculate agreement rates for each question across all agents
-    question_agreement = defaultdict(lambda: {"total": 0, "high_agreement": 0})
+    # Calculate statistics for each question across all agents
+    question_stats = defaultdict(lambda: {"scores": [], "std_devs": []})
     
     for agent, questions in agent_question_results.items():
         for question, model_scores in questions.items():
             if len(model_scores) == 4:
                 scores = [score for _, score in sorted(model_scores, key=lambda x: x[0])]
-                max_diff = max(scores) - min(scores)
-                question_agreement[question]["total"] += 1
-                if max_diff <= 1:
-                    question_agreement[question]["high_agreement"] += 1
+                std_dev = np.std(scores)
+                question_stats[question]["scores"].extend(scores)
+                question_stats[question]["std_devs"].append(std_dev)
     
     # Prepare summary table
     summary_data = []
-    for question, stats in sorted(question_agreement.items()):
-        if stats["total"] > 0:
-            agreement_rate = (stats["high_agreement"] / stats["total"] * 100)
+    for question, stats in sorted(question_stats.items()):
+        if stats["scores"]:
+            mean_std_dev = np.mean(stats["std_devs"])
+            total_cases = len(stats["std_devs"])
             summary_data.append({
                 'Question': question,
-                'High Agreement Cases': stats["high_agreement"],
-                'Total Cases': stats["total"],
-                'High Agreement Rate': f"{agreement_rate:.1f}%"
+                'Total Cases': total_cases,
+                'Mean Std Dev': f"{mean_std_dev:.2f}",
+                'Min Std Dev': f"{min(stats['std_devs']):.2f}",
+                'Max Std Dev': f"{max(stats['std_devs']):.2f}"
             })
     
     # Create and display summary DataFrame
     df_summary = pd.DataFrame(summary_data)
     print(df_summary.to_string(index=False))
+
+    # Create visualization of standard deviation rates
+    plt.figure(figsize=(12, 6))
+    
+    # Convert Mean Std Dev to float for plotting
+    df_summary['Mean Std Dev Float'] = df_summary['Mean Std Dev'].astype(float)
+    
+    # Sort by Mean Std Dev for better visualization
+    df_summary_sorted = df_summary.sort_values('Mean Std Dev Float')
+    
+    # Create bar plot
+    plt.bar(df_summary_sorted['Question'], df_summary_sorted['Mean Std Dev Float'])
+    plt.xticks(rotation=45, ha='right')
+    plt.title('Model Agreement Rates Across Symptoms (Lower Std Dev = Higher Agreement)')
+    plt.ylabel('Mean Standard Deviation')
+    plt.xlabel('Symptoms')
+    
+    # Add a horizontal line at std dev = 0.5 to show a reference point
+    plt.axhline(y=0.5, color='r', linestyle='--', alpha=0.3, label='Reference Line (Std Dev = 0.5)')
+    
+    # Adjust layout to prevent label cutoff
+    plt.tight_layout()
+    
+    # Save the plot
+    plt.savefig('model_agreement_rates.png')
+    plt.close()
+    
+    # Also create a heatmap of standard deviations
+    plt.figure(figsize=(15, 8))
+    
+    # Create a pivot table for the heatmap
+    heatmap_data = []
+    for agent, questions in agent_question_results.items():
+        for question, model_scores in questions.items():
+            if len(model_scores) == 4:
+                scores = [score for _, score in sorted(model_scores, key=lambda x: x[0])]
+                std_dev = np.std(scores)
+                heatmap_data.append({
+                    'Agent': agent,
+                    'Question': question,
+                    'Std Dev': std_dev
+                })
+    
+    df_heatmap = pd.DataFrame(heatmap_data)
+    pivot_table = df_heatmap.pivot(index='Agent', columns='Question', values='Std Dev')
+    
+    # Create heatmap
+    sns.heatmap(pivot_table, cmap='YlOrRd', annot=True, fmt='.2f', cbar_kws={'label': 'Standard Deviation'})
+    plt.title('Model Agreement Heatmap Across Agents and Symptoms')
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    
+    # Save the heatmap
+    plt.savefig('model_agreement_heatmap.png')
+    plt.close()
 
 if __name__ == "__main__":
     analyze_symptom_agreement()
